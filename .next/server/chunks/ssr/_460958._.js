@@ -4,11 +4,36 @@ module.exports = {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-const e = new Error(`Could not parse module '[project]/src/components/landing/Sectiion7.tsx'
-
-JSX attributes must only be assigned a non-empty expression`);
-e.code = 'MODULE_UNPARSEABLE';
-throw e;}}),
+// import { Box, Card, Container, Grid, Typography } from '@mui/material'
+// import Image from 'next/image'
+// import React from 'react'
+// import keyWord from '../../app/Assets/Imges/copy.svg'
+// import seo from '../../app/Assets/Imges/seo.svg'
+// import blog from '../../app/Assets/Imges/blog.svg'
+// import 
+// const Section7 = () => {
+//   return (
+//     <>
+//       <Box sx={{padding:{sm:"40px 0px",xs:"20px 0px"}}}>
+//         <Container maxWidth='lg'>
+//         <Typography sx={{textAlign:"center",fontSize:{md:"50px",sm:"40px",xs:"22px"},fontWeight:"400",fontStyle:"Montserrat",lineHeight:{sm:"60px",xs:"35px"},color:"#000000",paddingBottom:"40px"}}>
+//         Join the <span style={{fontWeight:"700"}}>Creating Content</span>  and <br /> Elevate Your <span style={{fontWeight:"700"}}>Work</span>
+//         </Typography>
+//         <Grid container>
+//           <Grid>
+//             <Box>
+//               <Card>
+//               </Card>
+//             </Box>
+//           </Grid>
+//         </Grid>
+//         </Container>
+//       </Box>
+//     </>
+//   )
+// }
+// export default Section7
+}}),
 "[project]/src/app/Assets/Imges/star.svg [app-rsc] (static)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
