@@ -1,0 +1,25 @@
+
+    @media screen and (max-width:376px){
+        .stars{
+            font-size: 12px!important;
+            line-height: 21px!important;
+        }
+        .starsBackground{
+            padding-right: 5px!important;
+        }
+        .break{
+              display: none;
+        }
+        .laptopImage{
+            height:"0px!important"
+        }
+    }
+
+    @media  (min-width:376px) and (max-width:426px) {
+        .break{
+            display: none;
+      }
+      .starsBackground{
+        padding-right: 0px!important;
+    }
+    }

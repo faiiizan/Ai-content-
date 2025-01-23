@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Montserrat-Regular', Helvetica;
+}
+
+/* Apply background image to the main section */
+.bg-main-pattern {
+  background-image: url('/images/bg.png');
+  /* Path to your image */
+  background-repeat: repeat;
+  /* Ensures the image repeats both horizontally and vertically */
+  background-position: top left;
+  /* Optional, aligns the image to the top left */
+  background-size: auto;
+  /* Ensures the image stays its original size */
+}
+
+/* globals.css */
+@layer utilities {
+  .bg-custom-gradient-text {
+    background: linear-gradient(90deg, rgb(245, 130, 68) 0%, rgb(199, 91, 133) 31%, rgb(60, 49, 116) 62.5%, rgb(92.46, 241.19, 208.33) 100%);
+    background-clip: text;
+  }
+}
+
+
+/* Define the default button class */
+.custom-button {
+  @apply bg-[#D7F200] text-black text-[16px] font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2;
+  outline: 2px solid white;
+  /* Default outline is white */
+  outline-offset: 2px;
+  /* Slight offset for better visual effect */
+  transition: outline-color 0.3s ease;
+  /* Smooth transition for outline color */
+}
+
+/* Hover effect for outline */
+.custom-button:hover {
+  outline-color: #D7F200;
+  /* Change outline to custom yellow on hover */
+}
+
+.custom-button:focus {
+  @apply outline-none ring-4 ring-[#D7F200];
+}
+
+.custom-button:focus.dark {
+  @apply ring-[#B8D400];
+}
+
