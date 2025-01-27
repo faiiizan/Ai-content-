@@ -1560,7 +1560,7 @@ const Login = ()=>{
                                             fontWeight: "400"
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "",
+                                            href: "#",
                                             style: {
                                                 textDecoration: "none",
                                                 color: "#2E95FB"
@@ -1587,7 +1587,7 @@ const Login = ()=>{
                                         children: [
                                             "Didn't have account? ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "",
+                                                href: "#",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#2E95FB"
