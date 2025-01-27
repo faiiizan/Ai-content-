@@ -94,7 +94,7 @@ const Section5 = () => {
       </Box>
       <CustomTabPanel value={value} index={0}>
         <Grid container spacing={1} sx={{display:"flex",justifyContent:"space-between"}} >
-          <Grid xs={12} sm={3} item >
+          <Grid xs={12} sm={3} item sx={{marginBottom:"10px"}} >
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
@@ -119,7 +119,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Basic
@@ -144,7 +144,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px",border:"1px solid #3C31744D",position:"relative"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Standard
@@ -175,7 +175,7 @@ const Section5 = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
@@ -204,7 +204,7 @@ const Section5 = () => {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
       <Grid container spacing={1} sx={{display:"flex",justifyContent:"space-between"}} >
-          <Grid xs={12} sm={3} item >
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}} >
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
@@ -229,7 +229,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Basic
@@ -254,7 +254,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px",border:"1px solid #3C31744D",position:"relative"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Standard
@@ -285,7 +285,7 @@ const Section5 = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
@@ -314,7 +314,7 @@ const Section5 = () => {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
       <Grid container spacing={1} sx={{display:"flex",justifyContent:"space-between"}} >
-          <Grid xs={12} sm={3} item >
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}} >
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
@@ -339,7 +339,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Basic
@@ -364,7 +364,7 @@ const Section5 = () => {
               </ul>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px",border:"1px solid #3C31744D",position:"relative"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
             Standard
@@ -395,7 +395,7 @@ const Section5 = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid xs={12} sm={3} item>
+          <Grid xs={12} sm={3} item  sx={{marginBottom:"10px"}}>
             <Box sx={{padding:"20px 20px",backgroundColor:"#FFFFFF",borderRadius:"16px"}}>
             <Box sx={{ opacity: 0.4, position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} /> <Typography sx={{ opacity: 1,fontFamily:"Montserrat",fontSize:"18px",color:"#212529",lineHeight:"50px",fontWeight:"600"}}>
                 Free
