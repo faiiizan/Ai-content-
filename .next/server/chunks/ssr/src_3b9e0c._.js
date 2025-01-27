@@ -90,7 +90,7 @@ function a11yProps(index) {
         'aria-controls': `simple-tabpanel-${index}`
     };
 }
-const section5 = ()=>{
+const Section5 = ()=>{
     const [value, setValue] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].useState(0);
     const handleChange = (event, newValue)=>{
         setValue(newValue);
@@ -4296,7 +4296,7 @@ const section5 = ()=>{
         }, this)
     }, void 0, false);
 };
-const __TURBOPACK__default__export__ = section5;
+const __TURBOPACK__default__export__ = Section5;
 }}),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules ssr)": ((__turbopack_context__) => {
 

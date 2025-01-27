@@ -1,6 +1,6 @@
 "use client"
 import { Box, Button, Container, Grid, Tab, Tabs, Typography } from '@mui/material'
-import React from 'react'
+import React  from 'react'
 import bgImage from '../../app/Assets/Imges/16359108_v904-nunny-026 1.png'
 import Hero from '../landing/section5.module.css'
 import DoneIcon from '@mui/icons-material/Done';
@@ -34,7 +34,7 @@ function a11yProps(index: number) {
   };
 }
 
-const section5 = () => {
+const Section5 = () => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -430,4 +430,4 @@ const section5 = () => {
   )
 }
 
-export default section5;
+export default Section5;
