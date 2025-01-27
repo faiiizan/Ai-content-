@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { ReactNode } from 'react';
 
 interface AuthLayoutProps {
@@ -39,7 +40,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children, showTerms }) => {
                                 type="button"
                                 className="w-full py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 flex items-center justify-center"
                             >
-                                <img src="/images/svg/google.svg" alt="Google Icon" className="mr-2 w-5 h-5" />
+                                <Image src="/images/svg/google.svg" alt="Google Icon" className="mr-2 w-5 h-5" />
                                 Continue with Google
                             </button>
 
@@ -47,7 +48,7 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({ children, showTerms }) => {
                                 type="button"
                                 className="w-full text-white bg-[#4267B2] hover:bg-[#365899] focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-[#4267B2] dark:hover:bg-[#365899] dark:focus:ring-blue-800 flex items-center justify-center"
                             >
-                                <img src="/images/svg/facebook.svg" alt="Facebook Icon" className="mr-2 w-5 h-5" />
+                                <Image src="/images/svg/facebook.svg" alt="Facebook Icon" className="mr-2 w-5 h-5" />
                                 Continue with Facebook
                             </button>
                         </div>
