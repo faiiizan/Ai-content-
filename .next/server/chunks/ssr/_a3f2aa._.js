@@ -1565,13 +1565,13 @@ const section3 = ()=>{
                                         children: " Works?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/section3.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 15,
                                         columnNumber: 12
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                lineNumber: 16,
+                                lineNumber: 14,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1591,13 +1591,13 @@ const section3 = ()=>{
                                 children: "Use these step to generate high-quality content."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                lineNumber: 19,
+                                lineNumber: 17,
                                 columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/section3.tsx",
-                        lineNumber: 15,
+                        lineNumber: 13,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1627,12 +1627,12 @@ const section3 = ()=>{
                                                 alt: "leftside"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                                lineNumber: 27,
+                                                lineNumber: 25,
                                                 columnNumber: 10
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 26,
+                                            lineNumber: 24,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1661,7 +1661,7 @@ const section3 = ()=>{
                                                     children: "01"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 30,
+                                                    lineNumber: 28,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1676,7 +1676,7 @@ const section3 = ()=>{
                                                     children: "Select use-case"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 31,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1693,24 +1693,24 @@ const section3 = ()=>{
                                                     children: "Our content creation template library offers a variety of use case for all your needs."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 36,
+                                                    lineNumber: 34,
                                                     columnNumber: 12
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 29,
+                                            lineNumber: 27,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 23,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                lineNumber: 24,
+                                lineNumber: 22,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1740,12 +1740,12 @@ const section3 = ()=>{
                                                 alt: "righsidegirl"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                                lineNumber: 45,
+                                                lineNumber: 43,
                                                 columnNumber: 10
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 42,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1774,7 +1774,7 @@ const section3 = ()=>{
                                                     children: "02"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 48,
+                                                    lineNumber: 46,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1789,7 +1789,7 @@ const section3 = ()=>{
                                                     children: "Input some context"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 49,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1806,24 +1806,24 @@ const section3 = ()=>{
                                                     children: "Guidance to the AI by inputting relevant information to generate text based on the given context."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 52,
                                                     columnNumber: 12
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 47,
+                                            lineNumber: 45,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 41,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                lineNumber: 42,
+                                lineNumber: 40,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1850,12 +1850,12 @@ const section3 = ()=>{
                                                 alt: "rightsideboy"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 61,
                                                 columnNumber: 10
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 60,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1884,7 +1884,7 @@ const section3 = ()=>{
                                                     children: "03"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 64,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1899,7 +1899,7 @@ const section3 = ()=>{
                                                     children: "Generate results"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 67,
                                                     columnNumber: 12
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1916,41 +1916,41 @@ const section3 = ()=>{
                                                     children: "Get plagiarism-free high-quality content that tailored to your needs and can be used on any platform"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 70,
                                                     columnNumber: 12
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/section3.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 63,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/section3.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 59,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/section3.tsx",
-                                lineNumber: 60,
+                                lineNumber: 58,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/section3.tsx",
-                        lineNumber: 23,
+                        lineNumber: 21,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/landing/section3.tsx",
-                lineNumber: 14,
+                lineNumber: 12,
                 columnNumber: 5
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/landing/section3.tsx",
-            lineNumber: 13,
+            lineNumber: 11,
             columnNumber: 4
         }, this)
     }, void 0, false);

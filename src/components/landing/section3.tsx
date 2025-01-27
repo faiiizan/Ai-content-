@@ -1,8 +1,6 @@
 import { Box, Card, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
-import CardMedia from '@mui/material/CardMedia';
 import leftsidegirl from '../../app/Assets/Imges/use-case.svg'
-import righsidegirl from '../../app/Assets/Imges/input-context.svg'
 import rightsideboy from '../../app/Assets/Imges/generate-result.svg'
 import Image from 'next/image';
 import '../landing/section3.module.css'
