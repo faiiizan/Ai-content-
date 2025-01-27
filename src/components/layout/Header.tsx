@@ -19,7 +19,7 @@ import logo from '../../app/Assets/Imges/logo.svg'
 import Image from 'next/image';
 const drawerWidth = 240;
 const navItems = ['User Caeses', 'Pricing', 'FAQ','Blog','Support','Log In','Sign Up'];
-import '../../components/layout/Header.module.css'
+import styles from '../../components/layout/Header.module.css'
 import Link from 'next/link';
 export default function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -63,6 +63,7 @@ export default function Header() {
       <AppBar component="nav" sx={{backgroundColor:"transparent",boxShadow:"none",paddingBottom:"40px",textAlign:"center",position:"static"}}>
         <Container maxWidth='lg'>
           <Toolbar>
+            
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -71,7 +72,11 @@ export default function Header() {
               sx={{ mr: 2, display: { sm: 'none' } , color:"#000"}}
             >
               <MenuIcon />
+
+              
+          
             </IconButton>
+            
             <Typography
               variant="h6"
               component="div"
@@ -80,13 +85,13 @@ export default function Header() {
               <Image src={logo} alt='logo' style={{width:"197px",height:"81px"}}/>
             </Typography>
             <Box sx={{ display: { xs: 'none', md: 'flex',justifyTracks:"space-between",alignItems:"center",sm:"none" },color:"#000",paddingTop:"12px" }}>
-              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>User Caeses</Link>
-              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>Pricing</Link>
-              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>FAQ</Link>
-              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>Blog</Link>
-              <Link href='' style={{color:"#000",padding:"0px 20px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>Support</Link>
-              <Link href='#faq' style={{color:"#000",padding:"8px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",border:"1px solid #000",borderRadius:"100px",marginRight:"15px",lineHeight:"19.5px"}}>Log In</Link>
-              <Link href='' style={{color:"#000",padding:"10px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",borderRadius:"100px",backgroundColor:"#D7F200",lineHeight:"19.5px"}}>Sign Up</Link>
+              <Link href='/' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>User Caeses</Link>
+              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Pricing</Link>
+              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>FAQ</Link>
+              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Blog</Link>
+              <Link href='' style={{color:"#000",padding:"0px 20px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Support</Link>
+              <Link href='/login' style={{color:"#000",padding:"8px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",border:"1px solid #000",borderRadius:"100px",marginRight:"15px",lineHeight:"19.5px",textDecorationLine:"none"}} className={styles.loginLink}>Log In</Link>
+              <Link href='' style={{color:"#000",padding:"10px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",borderRadius:"100px",backgroundColor:"#D7F200",lineHeight:"19.5px",textDecorationLine:"none"}} className={styles.signUpLink}>Sign Up</Link>
             </Box>
           </Toolbar>
         </Container>

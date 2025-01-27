@@ -2,24 +2,25 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 import logo from '../../app/Assets/Imges/logo.svg';
 import Image from 'next/image';
-import '../layout/Footer.module.css';
+import Hero from '../layout/Footer.module.css';
 
 const Footer = () => {
   return (
     <Box sx={{ padding: "40px 0 10px", backgroundColor: "#F7F1EE" }}>
       <Container maxWidth="lg">
-        <Grid container spacing={4} justifyContent="center">
+        <Grid container spacing={0} justifyContent="flex-start">
           {/* Logo Section */}
-          <Grid item xs={12} sm={6} md={5}>
-            <Image src={logo} alt="logo" />
+          <Grid item xs={12} sm={6} md={6} sx={{paddingLeft:"0px!important",width:"100%"}}>
+            <Image src={logo} alt="logo" style={{marginLeft:"-30px"}} className={Hero.Image} />
             <Typography
               sx={{
                 paddingTop: "30px",
-                fontSize: "16px",
+                fontSize: {sm:"16px",xs:"14px"},
                 fontWeight: 400,
                 lineHeight: "30px",
                 color: "#4F4F4F",
                 fontFamily: "Inter",
+                textAlign:{xs:"center",sm:"left"}
               }}
             >
               AI Writing Tool is a website that provides
@@ -29,10 +30,10 @@ const Footer = () => {
           </Grid>
 
           {/* Follow Us Section */}
-          <Grid item xs={12} sm={6} md={2}>
+          <Grid item xs={6} sm={6} md={2}>
             <Typography
               sx={{
-                fontSize: "22px",
+                fontSize:{sm: "22px",xs:"18px"},
                 fontWeight: 600,
                 lineHeight: "30px",
                 fontFamily: "Inter",
@@ -82,10 +83,10 @@ const Footer = () => {
           </Grid>
 
           {/* Support Section */}
-          <Grid item xs={12} sm={6} md={2}>
+          <Grid item xs={6} sm={6} md={2}>
             <Typography
               sx={{
-                fontSize: "22px",
+                fontSize:{sm: "22px",xs:"18px"},
                 fontWeight: 600,
                 lineHeight: "30px",
                 fontFamily: "Inter",
@@ -138,7 +139,7 @@ const Footer = () => {
           <Grid item xs={12} sm={6} md={2}>
             <Typography
               sx={{
-                fontSize: "22px",
+                fontSize:{sm: "22px",xs:"18px"},
                 fontWeight: 600,
                 lineHeight: "30px",
                 fontFamily: "Inter",

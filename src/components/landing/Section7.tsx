@@ -13,12 +13,12 @@ const Section7 = () => {
   return (
    <>
    
-   <Box sx={{padding:{sm:"40px 0px",xs:"20px 0px"}}}>
+   <Box sx={{padding:{sm:"40px 0px",xs:"20px 0px 0px 0px"}}}>
         <Container maxWidth='lg'>
         <Typography sx={{textAlign:"center",fontSize:{md:"50px",sm:"40px",xs:"22px"},fontWeight:"400",fontStyle:"Montserrat",lineHeight:{sm:"60px",xs:"35px"},color:"#000000",paddingBottom:"40px"}}>
         Join the <span style={{fontWeight:"700"}}>Creating Content</span>  and <br /> Elevate Your <span style={{fontWeight:"700"}}>Work</span>
         </Typography>
-        <Grid container sx={{display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+        <Grid container sx={{display:"flex",justifyContent:{sm:"flex-start",xs:"center"},alignItems:"center"}}>
           <Grid xs={6} sm={4} md={1.6}>
             <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",paddingBottom:"20px"}}>
               <Card sx={{padding:"10px",maxWidth:"80px",fontFamily:"Montserrat",fontSize:"20px",fontWeight:"400",lineHeight:"30px",color:"#000"}}>

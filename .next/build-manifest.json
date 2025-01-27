@@ -1,6 +1,27 @@
 {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/node_modules_next_74a9e5._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_00aeec._.js",
+      "static/chunks/node_modules_@mui_system_esm_81abf6._.js",
+      "static/chunks/node_modules_0d58cf._.js",
+      "static/chunks/[root of the server]__9a54ec._.js",
+      "static/chunks/src_components_layout_d6c89f._.css",
+      "static/chunks/src_pages__app_5771e1._.js",
+      "static/chunks/src_pages__app_e0af6d._.js"
+    ],
+    "/login": [
+      "static/chunks/node_modules_next_abeec6._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_5e8695._.js",
+      "static/chunks/node_modules_@mui_system_esm_fc26b6._.js",
+      "static/chunks/node_modules_047571._.js",
+      "static/chunks/[root of the server]__7b99d9._.js",
+      "static/chunks/src_pages_login_module_93eac9.css",
+      "static/chunks/src_pages_login_5771e1._.js",
+      "static/chunks/src_pages_login_d92071._.js"
+    ]
   },
   "devFiles": [],
   "ampDevFiles": [],

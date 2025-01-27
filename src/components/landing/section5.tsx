@@ -44,7 +44,7 @@ const Section5 = () => {
     <>
       <Box 
         sx={{
-          padding: { sm: '50px 0', xs: '20px 0' },
+          padding: { sm: '50px 0!important', xs: '10px 0!important' },
           backgroundImage: `url(${bgImage})`,  // Set background image
           backgroundSize: 'cover',             // Make the image cover the whole box
           backgroundPosition: 'center',        // Center the background image
@@ -56,7 +56,7 @@ const Section5 = () => {
         <Box className = {Hero.background}>
 
         </Box>
-        <Box sx={{ paddingBottom: '60px' }}>
+        <Box sx={{ paddingBottom: {sm:'60px',xs:"25px"} }}>
           <Typography
             sx={{
               fontSize: { sm: '50px', xs: '25px' },
@@ -86,7 +86,7 @@ const Section5 = () => {
            <Grid container>
            <Box sx={{ width: '100%' }}>
       <Box sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{paddingBottom:"50px"}}>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{paddingBottom:{sm:"50px",xs:"15px"}}}>
           <Tab label="Monthly" {...a11yProps(0)} sx={{fontFamily:"Montserrat",fontWeight:"600",fontSize:{sm:"16px",xs:"14px"},lineHeight:"19.5px",color:"#000",letterSpacing:"8%"}} />
           <Tab label="Yearly" {...a11yProps(1)} sx={{fontFamily:"Montserrat",fontWeight:"600",fontSize:{sm:"16px",xs:"14px"},lineHeight:"19.5px",color:"#000",letterSpacing:"8%"}} />
           <Tab label="Prepaid" {...a11yProps(2)} sx={{fontFamily:"Montserrat",fontWeight:"600",fontSize:{sm:"16px",xs:"14px"},lineHeight:"19.5px",color:"#000",letterSpacing:"8%"}} />
