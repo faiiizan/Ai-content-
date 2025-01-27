@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section1.module.css"],"sourcesContent":["\n    @media screen and (max-width:376px){\n        .stars{\n            font-size: 12px!important;\n            line-height: 21px!important;\n        }\n        .starsBackground{\n            padding-right: 5px!important;\n        }\n        .break{\n              display: none;\n        }\n        .laptopImage{\n            height:\"0px!important\"\n        }\n    }\n\n    @media  (min-width:376px) and (max-width:426px) {\n        .break{\n            display: none;\n      }\n      .starsBackground{\n        padding-right: 0px!important;\n    }\n    }\n"],"names":[],"mappings":"AACI;EACI;;;;;EAIA;;;;EAGA;;;;EAGA;;;;;AAKJ;EACI;;;;EAGF"}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section3.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');"],"names":[],"mappings":""}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section5.module.css"],"sourcesContent":[".ParentDiv{\n    position: relative;\n    padding: 50px 0px!important;\n}\n\n.background{\n    position: absolute; /* Position the background image absolutely */\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-image: url('../../app/Assets/Imges/16359108_v904-nunny-026 1.png');\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    opacity: 0.6; /* Apply opacity to the background image only */\n    z-index: -1; /* Make sure it stays behind the content */\n    padding: 50px 0px!important;\n}"],"names":[],"mappings":"AAAA;;;;;AAKA"}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section6.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');"],"names":[],"mappings":""}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

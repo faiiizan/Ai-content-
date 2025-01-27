@@ -45,7 +45,7 @@ body {
 
 /* Define the default button class */
 .custom-button {
-  @apply bg-[#D7F200] text-black text-[16px] font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2;
+ 
   outline: 2px solid white;
   /* Default outline is white */
   outline-offset: 2px;
