@@ -48,7 +48,7 @@ const section1 = () => {
                   </Box>
             </Grid>
             <Grid xs={12} sm={12} md={6}>
-              <Box sx={{width:{sm:"650px",xs:"360px"},height:{sm:"450px",xs:"250px"},display:{xs:"flex",sm:"block"},visibility:{xs:"block"},alignItems:"flex-start",paddingTop:{xs:"50px",sm:"0px"},overflow:"hidden"}}>
+              <Box sx={{width:{sm:"650px",xs:"315px"},height:{sm:"450px",xs:"250px"},display:{xs:"flex",sm:"block"},visibility:{xs:"block"},alignItems:"flex-start",paddingTop:{xs:"50px",sm:"0px"},overflow:"hidden"}}>
                 <Image src={laptop} alt='laptop picture' style={{}} className={Section1css.laptopImage}/>
               </Box>
             </Grid>

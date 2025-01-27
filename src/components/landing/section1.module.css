@@ -11,7 +11,7 @@
               display: none;
         }
         .laptopImage{
-            height:"0px!important"
+            width: 315px!important;
         }
     }
 

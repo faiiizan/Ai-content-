@@ -1046,7 +1046,7 @@ const section1 = ()=>{
                                 sx: {
                                     width: {
                                         sm: "650px",
-                                        xs: "360px"
+                                        xs: "315px"
                                     },
                                     height: {
                                         sm: "450px",
