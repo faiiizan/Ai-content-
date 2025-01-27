@@ -86,7 +86,7 @@ export default function Header() {
               <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>FAQ</Link>
               <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>Blog</Link>
               <Link href='' style={{color:"#000",padding:"0px 20px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px"}}>Support</Link>
-              <Link href='' style={{color:"#000",padding:"8px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",border:"1px solid #000",borderRadius:"100px",marginRight:"15px",lineHeight:"19.5px"}}>Log In</Link>
+              <Link href='#faq' style={{color:"#000",padding:"8px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",border:"1px solid #000",borderRadius:"100px",marginRight:"15px",lineHeight:"19.5px"}}>Log In</Link>
               <Link href='' style={{color:"#000",padding:"10px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",borderRadius:"100px",backgroundColor:"#D7F200",lineHeight:"19.5px"}}>Sign Up</Link>
             </Box>
           </Toolbar>

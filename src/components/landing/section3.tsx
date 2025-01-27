@@ -1,80 +1,86 @@
-import React from 'react';
-import Image from "next/image";
+import { Box, Card, Container, Grid, Typography } from '@mui/material'
+import React from 'react'
+import CardMedia from '@mui/material/CardMedia';
+import leftsidegirl from '../../app/Assets/Imges/use-case.svg'
+import righsidegirl from '../../app/Assets/Imges/input-context.svg'
+import rightsideboy from '../../app/Assets/Imges/generate-result.svg'
+import Image from 'next/image';
+import '../landing/section3.module.css'
 
-const Section3 = () => {
-    return (
-        <section className="mt-20 text-center">
-            <div className="px-6 lg:px-12 flex flex-col items-center justify-center h-full">
+const section3 = () => {
+  return (
+   <>
+   <Box sx={{padding:{sm:"40px 0px",xs:"20px 0px"}}}>
+    <Container maxWidth='lg'>
+      <Box sx={{paddingBottom:"10px"}}>
+    <Typography sx={{fontSize:{sm:"50px",xs:"25px"},lineHeight:"60px",fontWeight:"400",fontFamily:"Montserrat",textAlign:"center",color:"#000"}}>
+    How It <span style={{fontWeight:"700"}}> Works?</span>
+    </Typography>
+    <Typography sx={{paddingTop:"10px",textAlign:"center",fontFamily:"Montserrat",fontSize:{sm:"16px",xs:"14px"},lineHeight:{sm:"30px",xs:"20px"}}}>
+    Use these step to generate high-quality content.
+    </Typography>
+    </Box>
+    <Grid container>
+        <Grid xs={12} sm={6} md={4}>
+        <Card sx={{ maxWidth: 315,boxShadow:"none",background:"transparent",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column" }}>
+        <Box sx={{paddingBottom:"0px"}}>
+         <Image src={leftsidegirl} alt='leftside'/>
+        </Box>
+        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+           <Box sx={{width:"44px",height:"44px",borderRadius:"50%",backgroundColor:"#D7F200",color:"#000",display:"flex",justifyContent:"center",alignItems:"center",fontFamily:"Inter",fontWeight:"600",fontSize:"16px",lineHeight:"30px"}}>
+           01
+           </Box>
+           <Typography sx={{paddingTop:"15px",fontSize:"21px",fontFamily:"Montserrat",fontWeight:"700",lineHeight:"20px",color:"#000"}}>
+           Select use-case
+           </Typography>
+           <Typography sx={{paddingTop:"15px",textAlign:"center",maxWidth:"270px",fontFamily:"Montserrat",fontSize:"16px",lineHeight:"30px",color:"#000",fontWeight:"400"}}>
+           Our content creation template library offers a variety of use case for all your needs.
+           </Typography>
+        </Box>
+      </Card>
+        </Grid>
+        <Grid xs={12} sm={6} md={4}>
+        <Card sx={{ maxWidth: 315,boxShadow:"none",background:"transparent",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column" }}>
+        <Box sx={{paddingBottom:"0px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+         <Image src={leftsidegirl} alt='righsidegirl'/>
+        </Box>
+        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+           <Box sx={{width:"44px",height:"44px",borderRadius:"50%",backgroundColor:"#D7F200",color:"#000",display:"flex",justifyContent:"center",alignItems:"center",fontFamily:"Inter",fontWeight:"600",fontSize:"16px",lineHeight:"30px"}}>
+           02
+           </Box>
+           <Typography sx={{paddingTop:"15px",fontSize:"21px",fontFamily:"Montserrat",fontWeight:"700",lineHeight:"20px",color:"#000"}}>
+           Input some context
+           </Typography>
+           <Typography sx={{paddingTop:"15px",textAlign:"center",maxWidth:"270px",fontFamily:"Montserrat",fontSize:"16px",lineHeight:"30px",color:"#000",fontWeight:"400"}}>
+           Guidance to the AI by inputting relevant information to generate text based on the given context.
+           </Typography>
+        </Box>
+      </Card>
+        </Grid>
+        <Grid xs={12} sm={6} md={4}>
+        <Card sx={{ maxWidth: 315,boxShadow:"none",background:"transparent",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column" }}>
+        <Box sx={{paddingBottom:"10px"}}>
+         <Image src={rightsideboy} alt='rightsideboy'/>
+        </Box>
+        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+           <Box sx={{width:"44px",height:"44px",borderRadius:"50%",backgroundColor:"#D7F200",color:"#000",display:"flex",justifyContent:"center",alignItems:"center",fontFamily:"Inter",fontWeight:"600",fontSize:"16px",lineHeight:"30px"}}>
+           03
+           </Box>
+           <Typography sx={{paddingTop:"15px",fontSize:"21px",fontFamily:"Montserrat",fontWeight:"700",lineHeight:"20px",color:"#000"}}>
+           Generate results
+           </Typography>
+           <Typography sx={{paddingTop:"15px",textAlign:"center",maxWidth:"300px",fontFamily:"Montserrat",fontSize:"16px",lineHeight:"30px",color:"#000",fontWeight:"400"}}>
+           Get plagiarism-free high-quality content that tailored to your needs and can be used on any platform
+           </Typography>
+        </Box>
+      </Card>
+        </Grid>
+    </Grid>
+     
+    </Container>
+    </Box>
+   </>
+  )
+}
 
-                {/* Main Heading */}
-                <div className="font-thin relative text-5xl w-full sm:w-3/4 md:w-1/2 mb-6">
-                    How It <span className="font-bold">Works?</span>
-                </div>
-
-                <div className="text-sm leading-[30px] font-normal max-w-xl mb-8">
-                    Use these steps to generate high-quality content.
-                </div>
-
-                {/* Flexbox Layout for images */}
-                <div className="flex justify-between items-center w-full mb-8">
-                    {/* Image 1 */}
-                    <div className="flex flex-col items-center justify-center">
-                        <Image
-                            src="/images/svg/landing/use-case.svg" // Path to the SVG file
-                            alt="Use Case"
-                            width={243}  // Default width
-                            height={243}  // Default height
-                            className="w-full h-auto" // Ensures responsiveness
-                        />
-                        <div className="mt-2 w-8 h-8 flex items-center justify-center bg-[#D7F200] text-black rounded-full font-semibold">
-                            1
-                        </div>
-                        <div className="mt-2 font-bold">Select use-case</div>
-                        <p className="text-sm mt-2 max-w-xs mx-auto text-center">
-                            Our content creation template library offers a variety of use case for all your needs.
-                        </p>
-                    </div>
-
-                    {/* Image 2 */}
-                    <div className="flex flex-col items-center justify-center">
-                        <Image
-                            src="/images/svg/landing/input-context.svg" // Path to the SVG file
-                            alt="Input Context"
-                            width={243}  // Default width
-                            height={243}  // Default height
-                            className="w-full h-auto" // Ensures responsiveness
-                        />
-                        <div className="mt-2 w-8 h-8 flex items-center justify-center bg-[#D7F200] text-black rounded-full font-semibold">
-                            2
-                        </div>
-                        <div className="mt-2 font-bold">Input some context</div>
-                        <p className="text-sm mt-2 max-w-xs mx-auto text-center">
-                            Guidance to the AI by inputting relevant information to generate text based on the given context.
-                        </p>
-                    </div>
-
-                    {/* Image 3 */}
-                    <div className="flex flex-col items-center justify-center">
-                        <Image
-                            src="/images/svg/landing/generate-result.svg" // Path to the SVG file
-                            alt="Generate Result"
-                            width={243}  // Default width
-                            height={243}  // Default height
-                            className="w-full h-auto" // Ensures responsiveness
-                        />
-                        <div className="mt-2 w-8 h-8 flex items-center justify-center bg-[#D7F200] text-black rounded-full font-semibold">
-                            3
-                        </div>
-                        <div className="mt-2 font-bold">Generate results</div>
-                        <p className="text-sm mt-2 max-w-xs mx-auto text-center">
-                            Get plagiarism-free high-quality content that tailored to your needs and can be used on any platform
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    );
-};
-
-export default Section3;
+export default section3
