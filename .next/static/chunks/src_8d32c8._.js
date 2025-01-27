@@ -167,7 +167,7 @@ const Section5 = ()=>{
                                 fontFamily: 'Montserrat',
                                 fontSize: {
                                     sm: '16px',
-                                    xs: '14px'
+                                    xs: '16px'
                                 },
                                 lineHeight: {
                                     sm: '30px',

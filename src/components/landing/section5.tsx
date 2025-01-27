@@ -74,7 +74,7 @@ const Section5 = () => {
               paddingTop: '10px',
               textAlign: 'center',
               fontFamily: 'Montserrat',
-              fontSize: { sm: '16px', xs: '14px' },
+              fontSize: { sm: '16px', xs: '16px' },
               lineHeight: { sm: '30px', xs: '20px' },
             }}
           >
