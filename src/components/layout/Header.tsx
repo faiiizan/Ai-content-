@@ -43,8 +43,8 @@ export default function Header() {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <Link href={item.path}>
-          <ListItem key={item.element} disablePadding>
+          <Link href={item.path} key={item.path}>
+          <ListItem key={item.path} disablePadding>
             <ListItemButton sx={{ textAlign: 'center',textDecoration:"none",color:"#000" }}>
               <ListItemText primary={item.element} />
             </ListItemButton>

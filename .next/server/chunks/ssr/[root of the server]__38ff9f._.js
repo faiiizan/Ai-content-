@@ -293,12 +293,12 @@ function Header() {
                                 lineNumber: 48,
                                 columnNumber: 13
                             }, this)
-                        }, item.element, false, {
+                        }, item.path, false, {
                             fileName: "[project]/src/components/layout/Header.tsx",
                             lineNumber: 47,
                             columnNumber: 11
                         }, this)
-                    }, void 0, false, {
+                    }, item.path, false, {
                         fileName: "[project]/src/components/layout/Header.tsx",
                         lineNumber: 46,
                         columnNumber: 11
