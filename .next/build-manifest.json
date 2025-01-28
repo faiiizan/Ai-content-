@@ -32,6 +32,25 @@
       "static/chunks/src_pages_175bda._.css",
       "static/chunks/src_pages_signup_5771e1._.js",
       "static/chunks/src_pages_signup_eefdec._.js"
+    ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_f1b02b._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/[root of the server]__2f8866._.js",
+      "static/chunks/src_pages__error_5771e1._.js",
+      "static/chunks/src_pages__error_f63f92._.js"
+    ],
+    "/blogs": [
+      "static/chunks/node_modules_next_dist_b8496e._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_06810b._.js",
+      "static/chunks/node_modules_@mui_system_esm_6a862e._.js",
+      "static/chunks/node_modules_612bfa._.js",
+      "static/chunks/[root of the server]__84b5d9._.js",
+      "static/chunks/src_pages_blogs_module_ea2dee.css",
+      "static/chunks/src_pages_blogs_5771e1._.js",
+      "static/chunks/src_pages_blogs_ec98e8._.js"
     ]
   },
   "devFiles": [],

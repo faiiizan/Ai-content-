@@ -18,7 +18,7 @@ import { Container } from '@mui/material';
 import logo from '../../app/Assets/Imges/logo.svg'
 import Image from 'next/image';
 const drawerWidth = 240;
-const navItems = [{element:'User Caeses',path:"/"}, {element:'Pricing',path:"/"},{element: 'FAQ',path:"/"},{element:'Blog',path:"/"},{element:'Support',path:"/"},{element:'Log In',path:"/login"},{element:'Sign Up',path:"/signup"}];
+const navItems = [{element:'User Caeses',path:"/"}, {element:'Pricing',path:"/"},{element: 'FAQ',path:"/"},{element:'/blogs',path:"/"},{element:'Support',path:"/"},{element:'Log In',path:"/login"},{element:'Sign Up',path:"/signup"}];
 import styles from '../../components/layout/Header.module.css'
 import Link from 'next/link';
 
@@ -91,7 +91,7 @@ export default function Header() {
               <Link href='/' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>User Caeses</Link>
               <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Pricing</Link>
               <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>FAQ</Link>
-              <Link href='' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Blog</Link>
+              <Link href='/blogs' style={{color:"#000",padding:"0px 15px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Blog</Link>
               <Link href='' style={{color:"#000",padding:"0px 20px",fontFamily:"Montserrat",fontWeight:"400",fontSize:"16px",lineHeight:"19.5px",textDecorationLine:"none"}}>Support</Link>
               <Link href='/login' style={{color:"#000",padding:"8px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",border:"1px solid #000",borderRadius:"100px",marginRight:"15px",lineHeight:"19.5px",textDecorationLine:"none"}} className={styles.loginLink}>Log In</Link>
               <Link href='/signup' style={{color:"#000",padding:"10px 20px",fontFamily:"Montserrat",fontWeight:"600",fontSize:"16px",borderRadius:"100px",backgroundColor:"#D7F200",lineHeight:"19.5px",textDecorationLine:"none"}} className={styles.signUpLink}>Sign Up</Link>
