@@ -18,9 +18,10 @@ import { Container } from '@mui/material';
 import logo from '../../app/Assets/Imges/logo.svg'
 import Image from 'next/image';
 const drawerWidth = 240;
-const navItems = ['User Caeses', 'Pricing', 'FAQ','Blog','Support','Log In','Sign Up'];
+const navItems = [{element:'User Caeses',path:"/"}, {element:'Pricing',path:"/"},{element: 'FAQ',path:"/"},{element:'Blog',path:"/"},{element:'Support',path:"/"},{element:'Log In',path:"/login"},{element:'Sign Up',path:"/signup"}];
 import styles from '../../components/layout/Header.module.css'
 import Link from 'next/link';
+import path from 'path';
 export default function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isClient, setIsClient] = React.useState(false);
@@ -42,11 +43,13 @@ export default function Header() {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+          <Link href={item.path}>
+          <ListItem key={item.path} disablePadding>
+            <ListItemButton sx={{ textAlign: 'center',textDecoration:"none",color:"#000" }}>
+              <ListItemText primary={item.element} />
             </ListItemButton>
           </ListItem>
+          </Link>
         ))}
       </List>
     </Box>
