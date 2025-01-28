@@ -6,6 +6,6 @@
     {"offset": {"line": 3, "column": 704}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/layout/Footer.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');\n\n\n@media screen and (max-width:476px) {\n    .Image{\n        margin: auto!important;\n    }\n}"],"names":[],"mappings":"AAGA,iCACI"}},
     {"offset": {"line": 6, "column": 86}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/pages/login.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');"],"names":[],"mappings":""}},
-    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/pages/login.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');\n\n\n.background{\n    background-image: url('../app/Assets/Imges/bg.png');\n}"],"names":[],"mappings":"AAGA"}},
+    {"offset": {"line": 9, "column": 92}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
 }

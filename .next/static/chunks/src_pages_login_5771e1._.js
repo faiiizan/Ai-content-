@@ -9,7 +9,7 @@
     "static/chunks/node_modules_react-dom_82bb97._.js",
     "static/chunks/node_modules_@mui_material_5e8695._.js",
     "static/chunks/node_modules_@mui_system_esm_fc26b6._.js",
-    "static/chunks/node_modules_047571._.js",
+    "static/chunks/node_modules_0596b7._.js",
     "static/chunks/[root of the server]__7b99d9._.js",
     "static/chunks/src_pages_login_module_93eac9.css"
   ],

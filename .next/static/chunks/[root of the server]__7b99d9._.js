@@ -635,6 +635,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
 __turbopack_export_value__({
+  "background": "login-module__d3sSWq__background",
 });
 }}),
 "[project]/src/pages/login.tsx [client] (ecmascript)": ((__turbopack_context__) => {
@@ -652,6 +653,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imge
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/bg.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/bg.png [client] (static)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$login$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/pages/login.module.css [client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-hook-form/dist/index.esm.mjs [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [client] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [client] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Grid/Grid.js [client] (ecmascript) <export default as Grid>");
@@ -661,6 +663,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Card/Card.js [client] (ecmascript) <export default as Card>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/TextField/TextField.js [client] (ecmascript) <export default as TextField>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Checkbox$2f$Checkbox$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Checkbox/Checkbox.js [client] (ecmascript) <export default as Checkbox>");
+;
+var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
@@ -676,6 +680,13 @@ const label = {
     }
 };
 const Login = ()=>{
+    _s();
+    const { register, handleSubmit, formState: { errors } } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useForm"])();
+    const onHandleSubmit = (data)=>{
+        let formdata = new FormData();
+        formdata.append('user_name', data.user_name);
+        formdata.append('password', data.password);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
             sx: {
@@ -685,6 +696,7 @@ const Login = ()=>{
                     backgroundImage: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"]}`
                 }
             },
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$login$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].background,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
                 maxWidth: "lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -697,18 +709,37 @@ const Login = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
                             xs: 12,
                             md: 6,
+                            sx: {
+                                paddingBottom: {
+                                    xs: "20px",
+                                    md: "0px"
+                                }
+                            },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                 sx: {
-                                    paddingLeft: "43px"
+                                    paddingLeft: {
+                                        sm: "43px",
+                                        xs: "0px"
+                                    }
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                         sx: {
-                                            fontSize: "50.75px",
+                                            fontSize: {
+                                                sm: "50.75px",
+                                                xs: "24px"
+                                            },
                                             fontFamily: "Inter",
                                             fontWeight: "600",
-                                            lineHeight: "63.51px",
-                                            letterSpacing: "-1.72px"
+                                            lineHeight: {
+                                                sm: "63.51px",
+                                                xs: "28px"
+                                            },
+                                            letterSpacing: "-1.72px",
+                                            textAlign: {
+                                                xs: "center",
+                                                sm: "left"
+                                            }
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -720,25 +751,28 @@ const Login = ()=>{
                                                 children: "Welcome"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 21,
+                                                lineNumber: 31,
                                                 columnNumber: 16
                                             }, this),
                                             "  ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 21,
+                                                lineNumber: 31,
                                                 columnNumber: 160
                                             }, this),
                                             "Back to Verbilab"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 20,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                         sx: {
-                                            paddingTop: "20px",
+                                            paddingTop: {
+                                                sm: "20px",
+                                                xs: "12px"
+                                            },
                                             display: "flex",
                                             justifyContent: "flex-start",
                                             alignItems: "flex-start",
@@ -747,7 +781,17 @@ const Login = ()=>{
                                             lineHeight: "24.14px",
                                             fontSize: "15.7px",
                                             letterSpacing: "-0.17px",
-                                            fontWeight: "500"
+                                            fontWeight: "500",
+                                            textAlign: "center",
+                                            paddingLeft: {
+                                                xs: "20px",
+                                                md: "0px",
+                                                sm: "200px"
+                                            },
+                                            textAlignLast: {
+                                                xs: "center",
+                                                md: "left"
+                                            }
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -757,25 +801,30 @@ const Login = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 25,
+                                                lineNumber: 35,
                                                 columnNumber: 17
                                             }, this),
                                             " Login to your account with your ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 25,
+                                                lineNumber: 35,
                                                 columnNumber: 110
                                             }, this),
                                             " details."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 24,
+                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                         sx: {
-                                            paddingTop: "20px"
+                                            paddingTop: "20px",
+                                            paddingLeft: {
+                                                xs: "20px",
+                                                md: "0px",
+                                                sm: "160px"
+                                            }
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
                                             variant: "contained",
@@ -785,9 +834,18 @@ const Login = ()=>{
                                                 boxShadow: "none",
                                                 border: "1px solid #CBC8C8",
                                                 borderRadius: "128px",
-                                                padding: "10px 32px",
-                                                fontSize: "20px",
-                                                lineHeight: "21.18px",
+                                                padding: {
+                                                    sm: "10px 32px",
+                                                    xs: "10px 24px"
+                                                },
+                                                fontSize: {
+                                                    sm: "20px",
+                                                    xs: "16px"
+                                                },
+                                                lineHeight: {
+                                                    sm: "21.18px",
+                                                    xs: "18px"
+                                                },
                                                 fontWeight: "400",
                                                 fontFamily: "Inter"
                                             },
@@ -800,24 +858,29 @@ const Login = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/login.tsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 39,
                                                     columnNumber: 21
                                                 }, this),
                                                 "  Continue with Google"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/login.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 38,
                                             columnNumber: 18
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 37,
                                         columnNumber: 16
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                         sx: {
-                                            paddingTop: "20px"
+                                            padding: "20px 0px 25px 0px",
+                                            paddingLeft: {
+                                                xs: "18px",
+                                                md: "0px",
+                                                sm: "160px"
+                                            }
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
                                             variant: "contained",
@@ -827,9 +890,19 @@ const Login = ()=>{
                                                 boxShadow: "none",
                                                 border: "1px solid #CBC8C8",
                                                 borderRadius: "128px",
-                                                padding: "10px 20px",
-                                                fontSize: "20px",
-                                                lineHeight: "21.18px",
+                                                padding: {
+                                                    md: "10px 24px",
+                                                    xs: "10px 16px",
+                                                    sm: "10px 20px"
+                                                },
+                                                fontSize: {
+                                                    sm: "20px",
+                                                    xs: "16px"
+                                                },
+                                                lineHeight: {
+                                                    sm: "21.18px",
+                                                    xs: "18px"
+                                                },
                                                 fontWeight: "400",
                                                 fontFamily: "Inter"
                                             },
@@ -842,30 +915,30 @@ const Login = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/login.tsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 44,
                                                     columnNumber: 21
                                                 }, this),
                                                 "  Continue with Facebook"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/login.tsx",
-                                            lineNumber: 33,
+                                            lineNumber: 43,
                                             columnNumber: 18
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 42,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/login.tsx",
-                                lineNumber: 19,
+                                lineNumber: 29,
                                 columnNumber: 14
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/login.tsx",
-                            lineNumber: 18,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -873,16 +946,28 @@ const Login = ()=>{
                             md: 6,
                             sx: {
                                 display: "flex",
-                                justifyContent: "flex-end"
+                                justifyContent: {
+                                    md: "flex-end",
+                                    xs: "center"
+                                }
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
                                 sx: {
-                                    minWidth: "470px",
+                                    minWidth: {
+                                        sm: "470px",
+                                        xs: "335px"
+                                    },
                                     padding: "40px 20px",
                                     border: "1.72px solid #DBD9FB",
                                     borderRadius: "17.24px",
-                                    marginRight: "10px"
+                                    marginRight: "10px",
+                                    marginLeft: {
+                                        xs: "15px",
+                                        sm: "0px"
+                                    }
                                 },
+                                component: "form",
+                                onSubmit: handleSubmit(onHandleSubmit),
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                         sx: {
@@ -902,7 +987,7 @@ const Login = ()=>{
                                                 children: "User Name"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
@@ -925,16 +1010,35 @@ const Login = ()=>{
                                                     "& .MuiInputBase-input": {
                                                         outline: "none"
                                                     }
-                                                }
+                                                },
+                                                type: "text",
+                                                ...register("user_name", {
+                                                    required: true
+                                                })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 53,
                                                 columnNumber: 17
+                                            }, this),
+                                            errors?.user_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                style: {
+                                                    fontFamily: "Inter",
+                                                    fontWeight: "400",
+                                                    color: "#F32013",
+                                                    paddingLeft: "15px",
+                                                    paddingTop: "12px",
+                                                    fontSize: "14px"
+                                                },
+                                                children: "This Field is Required*"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/login.tsx",
+                                                lineNumber: 77,
+                                                columnNumber: 39
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -955,7 +1059,7 @@ const Login = ()=>{
                                                 children: "Password"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 80,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
@@ -978,16 +1082,35 @@ const Login = ()=>{
                                                     "& .MuiInputBase-input": {
                                                         outline: "none"
                                                     }
-                                                }
+                                                },
+                                                type: "password",
+                                                ...register("password", {
+                                                    required: true
+                                                })
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 81,
                                                 columnNumber: 17
+                                            }, this),
+                                            errors?.password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                style: {
+                                                    fontSize: "14px",
+                                                    fontFamily: "Inter",
+                                                    fontWeight: "400",
+                                                    color: "#F32013",
+                                                    paddingLeft: "15px",
+                                                    paddingTop: "12px"
+                                                },
+                                                children: "This Field is Required*"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/login.tsx",
+                                                lineNumber: 105,
+                                                columnNumber: 38
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1003,14 +1126,14 @@ const Login = ()=>{
                                                 defaultChecked: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 108,
                                                 columnNumber: 15
                                             }, this),
                                             " Keep me signed in"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 107,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1027,15 +1150,16 @@ const Login = ()=>{
                                                 color: "#000",
                                                 boxShadow: "none"
                                             },
+                                            type: "submit",
                                             children: "Continue"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/login.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 111,
                                             columnNumber: 16
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1055,12 +1179,12 @@ const Login = ()=>{
                                             children: "Forgot Password?"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/login.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 116,
                                             columnNumber: 14
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 115,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1074,7 +1198,7 @@ const Login = ()=>{
                                         children: [
                                             "Didnt have account? ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "#",
+                                                href: "signup",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#2E95FB"
@@ -1082,44 +1206,49 @@ const Login = ()=>{
                                                 children: "Sign Up"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/login.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 119,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/login.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 118,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/login.tsx",
-                                lineNumber: 40,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/login.tsx",
-                            lineNumber: 39,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/login.tsx",
-                    lineNumber: 17,
+                    lineNumber: 27,
                     columnNumber: 8
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/login.tsx",
-                lineNumber: 16,
+                lineNumber: 26,
                 columnNumber: 6
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/login.tsx",
-            lineNumber: 15,
+            lineNumber: 25,
             columnNumber: 6
         }, this)
     }, void 0, false);
 };
+_s(Login, "NVcpnIvQRy9p7yIdKI9DkNzxmqg=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useForm"]
+    ];
+});
 _c = Login;
 const __TURBOPACK__default__export__ = Login;
 var _c;
