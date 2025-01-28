@@ -19,7 +19,7 @@ import HistoryIcon from '@mui/icons-material/History';
 // Define the NAVIGATION with Reports as a dropdown section
    
 interface DashboardProps {
-  window: boolean;
+  window: Window;
 }
    
 const NAVIGATION: Navigation = [
