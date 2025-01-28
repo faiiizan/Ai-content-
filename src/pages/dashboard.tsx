@@ -18,7 +18,9 @@ import PersonIcon from '@mui/icons-material/Person';
 import HistoryIcon from '@mui/icons-material/History';
 // Define the NAVIGATION with Reports as a dropdown section
    
-
+interface DashboardProps {
+  window: boolean;
+}
    
 const NAVIGATION: Navigation = [
   
@@ -148,13 +150,13 @@ const Skeleton = styled('div')<{ height: number }>(({ theme, height }) => ({
   content: '" "',
 }));
 
-export default function Dashboard(props: any) {
+export default function Dashboard(props:DashboardProps) {
   const { window } = props;
 
   const router = useDemoRouter('/dashboard');
 
   // Add state for the menu dropdown
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl] = React.useState<null | HTMLElement>(null);
   const [open, setOpen] = React.useState(false);
 
   
