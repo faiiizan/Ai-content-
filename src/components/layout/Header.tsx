@@ -21,7 +21,7 @@ const drawerWidth = 240;
 const navItems = [{element:'User Caeses',path:"/"}, {element:'Pricing',path:"/"},{element: 'FAQ',path:"/"},{element:'Blog',path:"/"},{element:'Support',path:"/"},{element:'Log In',path:"/login"},{element:'Sign Up',path:"/signup"}];
 import styles from '../../components/layout/Header.module.css'
 import Link from 'next/link';
-import path from 'path';
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isClient, setIsClient] = React.useState(false);
@@ -42,9 +42,9 @@ export default function Header() {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
+        {navItems.map((item,key) => (
           <Link href={item.path}>
-          <ListItem key={item.path} disablePadding>
+          <ListItem key={item.key} disablePadding>
             <ListItemButton sx={{ textAlign: 'center',textDecoration:"none",color:"#000" }}>
               <ListItemText primary={item.element} />
             </ListItemButton>

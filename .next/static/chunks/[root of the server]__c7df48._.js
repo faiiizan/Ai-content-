@@ -693,7 +693,7 @@ const Signup = ()=>{
     _s();
     const { register, handleSubmit, formState: { errors } } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["useForm"])();
     const onHandleSubmit = (data)=>{
-        let formdata = new FormData();
+        const formdata = new FormData();
         formdata.append('user_name', data.user_name);
         formdata.append('Email_Address', data.Email_Address);
         formdata.append('password', data.password);

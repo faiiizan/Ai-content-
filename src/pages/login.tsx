@@ -14,10 +14,10 @@ const Login = () => {
    
    const {register,handleSubmit,formState:{errors}} = useForm()
 
-    const onHandleSubmit = (data:any)=>{
-       let formdata =  new FormData()
-       formdata.append('user_name',data.user_name);
-       formdata.append('password',data.password)
+    const onHandleSubmit = ()=>{
+      //  const formdata =  new FormData()
+      //  formdata.append('user_name',data.user_name);
+      //  formdata.append('password',data.password)
     }
    
   return (

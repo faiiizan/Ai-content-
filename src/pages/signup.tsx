@@ -16,7 +16,7 @@ const Signup = () => {
    const {register,handleSubmit,formState:{errors}} = useForm()
 
     const onHandleSubmit = (data:any)=>{
-       let formdata =  new FormData()
+       const formdata =  new FormData()
        formdata.append('user_name',data.user_name);
        formdata.append('Email_Address',data.Email_Address)
        formdata.append('password',data.password);
