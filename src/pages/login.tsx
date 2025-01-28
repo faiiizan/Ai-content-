@@ -113,7 +113,7 @@ const Login = () => {
                </Button>
               </Box>
               <Typography sx={{paddingTop:"18px",textAlign:"center",fontFamily:"Inter",fontSize:"13.79px",fontWeight:"400"}}>
-             <Link href='#' style={{textDecoration:"none",color:"#2E95FB"}}>Forgot Password?</Link>
+             <Link href='/forgetpass' style={{textDecoration:"none",color:"#2E95FB"}}>Forgot Password?</Link>
               </Typography>
               <Typography sx={{paddingTop:"18px",textAlign:"center",fontFamily:"Inter",fontSize:"13.79px",fontWeight:"400"}}>
                Didnt have account? <Link href='signup' style={{textDecoration:"none",color:"#2E95FB"}}>Sign Up</Link>

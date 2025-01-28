@@ -52,6 +52,7 @@ const Section5 = () => {
                             
         }}
         className ={Hero.ParentDiv}
+        id='section5'
       >
         <Box className = {Hero.background}>
 

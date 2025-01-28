@@ -3,6 +3,7 @@ import React from 'react';
 import logo from '../../app/Assets/Imges/logo.svg';
 import Image from 'next/image';
 import Hero from '../layout/Footer.module.css';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -118,7 +119,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                About Us
+               <Link href='/aboutus'> About Us </Link>
               </li>
               <li
                 style={{

@@ -6,12 +6,12 @@
   font-family: Montserrat;
   font-weight: 600;
   font-size: 16px;
-  border: 1px solid #000;
   border-radius: 100px;
   margin-right: 15px;
   line-height: 19.5px;
   text-decoration-line: none;
   transition: all .5s ease-in-out !important;
+  border: none !important;
 }
 
 .Header-module__lnUIdW__loginLink:hover {
@@ -34,7 +34,6 @@
 }
 
 .Header-module__lnUIdW__signUpLink:hover {
-  border: 1px solid #000;
   background-color: #0000 !important;
   color: #000 !important;
 }

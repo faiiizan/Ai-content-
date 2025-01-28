@@ -1,7 +1,7 @@
 const CHUNK_PUBLIC_PATH = "server/pages/signup.js";
 const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__53a4be._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_5f6623._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__a5b22a._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_4cf5d1._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@mui_material_56891a._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@mui_system_esm_3ff81f._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_22b34e._.js");

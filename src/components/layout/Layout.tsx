@@ -5,14 +5,15 @@ import Footer from './Footer';
 
 interface LayoutProps {
   children: ReactNode;
+  hide?: boolean
 }
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ children, hide }) => {
   return (
     <div>
-      <Header />
+      {hide ? null : <Header />}
       <main>{children}</main>
-      <Footer />
+      {hide ? null :<Footer />}
     </div>
   );
 };

@@ -105,8 +105,8 @@ export default function Header() {
             {/* Desktop navigation links */}
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', color: '#000', paddingTop: '12px' }}>
               <Link href="/" style={linkStyles}>User Caeses</Link>
-              <Link href="" style={linkStyles}>Pricing</Link>
-              <Link href="" style={linkStyles}>FAQ</Link>
+              <Link href="/#section5" style={linkStyles}>Pricing</Link>
+              <Link href="/faq" style={linkStyles}>FAQ</Link>
               <Link href="/blogs" style={linkStyles}>Blog</Link>
               <Link href="" style={linkStyles}>Support</Link>
               <Link href="/login" style={loginLinkStyles} className={styles.loginLink}>Log In</Link>

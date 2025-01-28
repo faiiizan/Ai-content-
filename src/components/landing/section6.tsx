@@ -10,7 +10,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const section6 = () => {
   return (
-    <>
+    <div id='section6'>
      <Box sx={{ padding: { sm: '50px 0', xs: '20px 0 50px 0px' } }}>
        <Container maxWidth='lg'>
           <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"20px",fontWeight:"700",color:"#000000",lineHeight:"30px",paddingBottom:"30px"}}>
@@ -128,7 +128,7 @@ const section6 = () => {
           </Grid>
        </Container>
      </Box>
-    </>
+    </div>
   )
 }
 
