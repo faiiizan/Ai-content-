@@ -198,39 +198,46 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 ;
 ;
 ;
+;
+;
 const drawerWidth = 240;
 const navItems = [
     {
+        id: 1,
         element: 'User Caeses',
         path: "/"
     },
     {
+        id: 2,
         element: 'Pricing',
-        path: "/"
+        path: "/pricing"
     },
     {
+        id: 3,
         element: 'FAQ',
-        path: "/"
+        path: "/faq"
     },
     {
+        id: 4,
         element: '/blogs',
-        path: "/"
+        path: "/blogs"
     },
     {
+        id: 5,
         element: 'Support',
-        path: "/"
+        path: "/support"
     },
     {
+        id: 6,
         element: 'Log In',
         path: "/login"
     },
     {
+        id: 7,
         element: 'Sign Up',
         path: "/signup"
     }
 ];
-;
-;
 function Header() {
     const [mobileOpen, setMobileOpen] = __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__.useState(false);
     const [isClient, setIsClient] = __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__.useState(false);
@@ -293,7 +300,7 @@ function Header() {
                                 lineNumber: 48,
                                 columnNumber: 13
                             }, this)
-                        }, item.path, false, {
+                        }, item.id, false, {
                             fileName: "[project]/src/components/layout/Header.tsx",
                             lineNumber: 47,
                             columnNumber: 11
@@ -705,6 +712,12 @@ const Footer = ()=>{
                             xs: 6,
                             sm: 6,
                             md: 2,
+                            sx: {
+                                paddingTop: {
+                                    xs: "15px",
+                                    sm: "0px"
+                                }
+                            },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {
@@ -717,7 +730,7 @@ const Footer = ()=>{
                                         fontFamily: "Inter",
                                         paddingTop: {
                                             sm: "30px",
-                                            xs: "0px"
+                                            xs: "-10px"
                                         }
                                     },
                                     children: "Follow Us"
@@ -795,6 +808,12 @@ const Footer = ()=>{
                             xs: 6,
                             sm: 6,
                             md: 2,
+                            sx: {
+                                paddingTop: {
+                                    xs: "15px",
+                                    sm: "0px"
+                                }
+                            },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {
@@ -885,6 +904,12 @@ const Footer = ()=>{
                             xs: 12,
                             sm: 6,
                             md: 2,
+                            sx: {
+                                paddingTop: {
+                                    xs: "15px",
+                                    sm: "0px"
+                                }
+                            },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {

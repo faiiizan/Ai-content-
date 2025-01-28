@@ -30,14 +30,14 @@ const Footer = () => {
           </Grid>
 
           {/* Follow Us Section */}
-          <Grid item xs={6} sm={6} md={2}>
+          <Grid item xs={6} sm={6} md={2} sx={{paddingTop:{xs:"15px",sm:"0px"}}}>
             <Typography
               sx={{
                 fontSize:{sm: "22px",xs:"18px"},
                 fontWeight: 600,
                 lineHeight: "30px",
                 fontFamily: "Inter",
-                paddingTop: { sm: "30px", xs: "0px" }, // Adjust padding for sm and above
+                paddingTop: { sm: "30px", xs: "-10px" }, // Adjust padding for sm and above
               }}
             >
               Follow Us
@@ -83,7 +83,7 @@ const Footer = () => {
           </Grid>
 
           {/* Support Section */}
-          <Grid item xs={6} sm={6} md={2}>
+          <Grid item xs={6} sm={6} md={2} sx={{paddingTop:{xs:"15px",sm:"0px"}}}>
             <Typography
               sx={{
                 fontSize:{sm: "22px",xs:"18px"},
@@ -136,7 +136,7 @@ const Footer = () => {
           </Grid>
 
           {/* Policy Section */}
-          <Grid item xs={12} sm={6} md={2}>
+          <Grid item xs={12} sm={6} md={2} sx={{paddingTop:{xs:"15px",sm:"0px"}}}>
             <Typography
               sx={{
                 fontSize:{sm: "22px",xs:"18px"},
