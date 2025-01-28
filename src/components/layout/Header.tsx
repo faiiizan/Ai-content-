@@ -42,9 +42,9 @@ export default function Header() {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item,key) => (
+        {navItems.map((item) => (
           <Link href={item.path}>
-          <ListItem key={item.key} disablePadding>
+          <ListItem key={item.element} disablePadding>
             <ListItemButton sx={{ textAlign: 'center',textDecoration:"none",color:"#000" }}>
               <ListItemText primary={item.element} />
             </ListItemButton>
