@@ -3,15 +3,13 @@
 import * as React from 'react';
 import { extendTheme, styled } from '@mui/material/styles';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import DescriptionIcon from '@mui/icons-material/Description';
-import LayersIcon from '@mui/icons-material/Layers';
 import { AppProvider, Navigation, Router } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { PageContainer } from '@toolpad/core/PageContainer';
 import Grid from '@mui/material/Grid2';
-import { Menu, MenuItem, IconButton } from '@mui/material';
+import { Menu, MenuItem } from '@mui/material';
 import ArticleIcon from '@mui/icons-material/Article';
 import ImageIcon from '@mui/icons-material/Image';
 import SourceIcon from '@mui/icons-material/Source';
@@ -20,17 +18,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import HistoryIcon from '@mui/icons-material/History';
 // Define the NAVIGATION with Reports as a dropdown section
    
-interface NavigationItem {
-  segment: string;
-  title: string;
-  icon: React.ReactNode;
-  kind?: 'divider' | 'page' | 'header' | 'border' | undefined;  // Extended to include 'border'
-  children?: NavigationItem[];
-  borderStyle?: string;
-  borderColor?: string;
-  borderWidth?: string;
-  margin?: string;
-}
+
    
 const NAVIGATION: Navigation = [
   
@@ -169,10 +157,7 @@ export default function Dashboard(props: any) {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const [open, setOpen] = React.useState(false);
 
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
-    setOpen(true);
-  };
+  
 
   const handleClose = () => {
     setOpen(false);
