@@ -1,4 +1,4 @@
-import { Accordion, AccordionActions, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import google from '../../app/Assets/Imges/image 41.png'
 import yandex from '../../app/Assets/Imges/image 43.png'
@@ -118,10 +118,7 @@ const section6 = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           malesuada lacus ex, sit amet blandit leo lobortis eget.
         </AccordionDetails>
-        <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
-        </AccordionActions>
+        
       </Accordion>
     </div>
            </Grid>
