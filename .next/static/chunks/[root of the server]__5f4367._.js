@@ -582,7 +582,7 @@ const aboutus = ()=>{
                                 xs: '25px'
                             },
                             lineHeight: '60px',
-                            fontWeight: '400',
+                            fontWeight: '600',
                             fontFamily: 'Montserrat',
                             textAlign: 'center',
                             color: '#000',
@@ -599,7 +599,10 @@ const aboutus = ()=>{
                             "About  ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    fontWeight: '700'
+                                    fontWeight: '600',
+                                    backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                                    WebkitBackgroundClip: 'text',
+                                    color: 'transparent'
                                 },
                                 children: "Us"
                             }, void 0, false, {
@@ -611,13 +614,20 @@ const aboutus = ()=>{
                     }, void 0, true, {
                         fileName: "[project]/src/pages/aboutus.tsx",
                         lineNumber: 9,
-                        columnNumber: 12
+                        columnNumber: 14
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: "18px"
+                        },
                         children: "AI Writing Tool is a website that provides users with a powerful and efficient tool for automatically creating unique content. The tool is powered by advanced AI technology that can quickly and accurately generate high-quality written content. With AI Writing Tool, users can quickly create content for a variety of purposes, including blog posts, website content, white papers, and more."
                     }, void 0, false, {
                         fileName: "[project]/src/pages/aboutus.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 21
                     }, this)
                 ]

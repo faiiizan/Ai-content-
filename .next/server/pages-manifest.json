@@ -2,8 +2,11 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/faq": "pages/faq.js",
-  "/dashboard": "pages/dashboard.js",
   "/blogs": "pages/blogs.js",
+  "/login": "pages/login.js",
+  "/signup": "pages/signup.js",
+  "/forgetpass": "pages/forgetpass.js",
   "/aboutus": "pages/aboutus.js",
-  "/_error": "pages/_error.js"
+  "/terms": "pages/terms.js",
+  "/dashboard": "pages/dashboard.js"
 }

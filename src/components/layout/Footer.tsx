@@ -54,7 +54,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Facebook
+               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}}> Facebook </Link>
               </li>
               <li
                 style={{
@@ -66,7 +66,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Twitter
+               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} > Twitter </Link>
               </li>
               <li
                 style={{
@@ -78,7 +78,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Instagram
+               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} >Instagram </Link> 
               </li>
             </ul>
           </Grid>
@@ -94,7 +94,7 @@ const Footer = () => {
                 paddingTop: { sm: "30px", xs: "0px" }, // Adjust padding for sm and above
               }}
             >
-              Support
+              Support 
             </Typography>
             <ul style={{ padding: "0", margin: "0", paddingTop: "20px" }}>
               <li
@@ -107,7 +107,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                FAQ
+               <Link href='/faq' style={{textDecoration:"none",color:"#4F4F4F"}}>FAQ </Link> 
               </li>
               <li
                 style={{
@@ -119,7 +119,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-               <Link href='/aboutus'> About Us </Link>
+               <Link href='/aboutus' style={{textDecoration:"none",color:"#4F4F4F"}}> About Us </Link>
               </li>
               <li
                 style={{
@@ -131,7 +131,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Contact Us
+               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} > Contact Us </Link>
               </li>
             </ul>
           </Grid>
@@ -160,7 +160,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Terms of Use
+               <Link href='/terms' style={{textDecoration:"none",color:"#4F4F4F"}} >Terms of Use </Link> 
               </li>
               <li
                 style={{
@@ -172,7 +172,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Privacy Policy
+              <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} >  Privacy Policy </Link>
               </li>
               <li
                 style={{
@@ -184,7 +184,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-                Refund Policy
+               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} > Refund Policy </Link>
               </li>
             </ul>
           </Grid>

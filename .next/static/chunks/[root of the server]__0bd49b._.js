@@ -549,220 +549,477 @@ function triggerUpdate(msg) {
     }
 }
 }}),
-"[project]/src/pages/dashboard.tsx [client] (ecmascript)": (function(__turbopack_context__) {
+"[project]/src/pages/dashboard.tsx [client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
-// 'use client'
-// import * as React from 'react';
-// import { extendTheme, styled } from '@mui/material/styles';
-// import DashboardIcon from '@mui/icons-material/Dashboard';
-// import BarChartIcon from '@mui/icons-material/BarChart';
-// import DescriptionIcon from '@mui/icons-material/Description';
-// import { AppProvider, Navigation, Router } from '@toolpad/core/AppProvider';
-// import { DashboardLayout } from '@toolpad/core/DashboardLayout';
-// import { PageContainer } from '@toolpad/core/PageContainer';
-// import Grid from '@mui/material/Grid2';
-// import { Menu, MenuItem } from '@mui/material';
-// import ArticleIcon from '@mui/icons-material/Article';
-// import ImageIcon from '@mui/icons-material/Image';
-// import SourceIcon from '@mui/icons-material/Source';
-// import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
-// import PersonIcon from '@mui/icons-material/Person';
-// import HistoryIcon from '@mui/icons-material/History';
-// // Define the navigation structure
-// const NAVIGATION: Navigation = [
-//   {
-//     segment: 'dashboard',
-//     title: 'Dashboard',
-//     icon: <DashboardIcon />,
-//     children: [
-//       {
-//         segment: 'Dashboard',
-//         title: 'Dashboard',
-//         icon: <DashboardIcon />,
-//       },
-//       {
-//         segment: 'Templates',
-//         title: 'Templates',
-//         icon: <DashboardIcon />,
-//       },
-//       {
-//         segment: 'Assistant',
-//         title: 'Assistant',
-//         icon: <DescriptionIcon />,
-//       },
-//     ],
-//   },
-//   {
-//     kind: 'divider',
-//   },
-//   {
-//     segment: 'Workflows',
-//     title: 'Workflows',
-//     icon: <BarChartIcon />,
-//     children: [
-//       {
-//         segment: 'Data Analyst',
-//         title: 'Data Analyst',
-//         icon: <DescriptionIcon />,
-//       },
-//       {
-//         segment: 'Article Generator',
-//         title: 'Article Generator',
-//         icon: <ArticleIcon />,
-//       },
-//       {
-//         segment: 'Image Generator',
-//         title: 'Image Generator',
-//         icon: <ImageIcon />,
-//       },
-//       {
-//         segment: 'Content Rewriter',
-//         title: 'Content Rewriter ',
-//         icon: <SourceIcon />,
-//       },
-//       {
-//         segment: 'Documents',
-//         title: 'Documents',
-//         icon: <DocumentScannerIcon />,
-//       },
-//     ],
-//   },
-//   {
-//     kind: 'divider',
-//   },
-//   {
-//     segment: 'Accounts',
-//     title: 'Accounts',
-//     icon: <PersonIcon />,
-//     children: [
-//       {
-//         segment: 'My History',
-//         title: 'My History',
-//         icon: <HistoryIcon />,
-//       },
-//       {
-//         segment: 'Usage History ',
-//         title: 'Usage History ',
-//         icon: <ImageIcon />,
-//       },
-//       {
-//         segment: 'Plans and Billing',
-//         title: 'Plans and Billing ',
-//         icon: <SourceIcon />,
-//       },
-//       {
-//         segment: 'Profile Details',
-//         title: 'Profile Details',
-//         icon: <PersonIcon />,
-//       },
-//     ],
-//   },
-// ];
-// const demoTheme = extendTheme({
-//   colorSchemes: { light: true, dark: true },
-//   colorSchemeSelector: 'class',
-//   breakpoints: {
-//     values: {
-//       xs: 0,
-//       sm: 600,
-//       md: 600,
-//       lg: 1200,
-//       xl: 1536,
-//     },
-//   },
-// });
-// function useDemoRouter(initialPath: string): Router {
-//   const [pathname, setPathname] = React.useState(initialPath);
-//   const router = React.useMemo(() => {
-//     return {
-//       pathname,
-//       searchParams: new URLSearchParams(),
-//       navigate: (path: string | URL) => setPathname(String(path)),
-//     };
-//   }, [pathname]);
-//   return router;
-// }
-// const Skeleton = styled('div')<{ height: number }>(({ theme, height }) => ({
-//   backgroundColor: theme.palette.action.hover,
-//   borderRadius: theme.shape.borderRadius,
-//   height,
-//   content: '" "',
-// }));
-// interface DashboardProps {
-//   window: Window; // Typing the window prop correctly
-// }
-// export default function Dashboard(props: DashboardProps) {
-//   const { window } = props;
-//   const router = useDemoRouter('/dashboard');
-//   // Add state for the menu dropdown
-//   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-//   const [open, setOpen] = React.useState(false);
-//   const handleClose = () => {
-//     setOpen(false);
-//   };
-//   // Use window directly (not callable)
-//   const demoWindow = window ? window : undefined;
-//   return (
-//     <AppProvider
-//       navigation={NAVIGATION}
-//       router={router}
-//       theme={demoTheme}
-//       window={demoWindow} // Pass the window prop correctly
-//     >
-//       <DashboardLayout>
-//         <PageContainer>
-//           <Grid container spacing={1}>
-//             <Grid size={5} />
-//             <Grid size={12}>
-//               <Skeleton height={14} />
-//             </Grid>
-//             <Grid size={12}>
-//               <Skeleton height={14} />
-//             </Grid>
-//             <Grid size={4}>
-//               <Skeleton height={100} />
-//             </Grid>
-//             <Grid size={8}>
-//               <Skeleton height={100} />
-//             </Grid>
-//             <Grid size={12}>
-//               <Skeleton height={150} />
-//             </Grid>
-//             <Grid size={12}>
-//               <Skeleton height={14} />
-//             </Grid>
-//             <Grid size={3}>
-//               <Skeleton height={100} />
-//             </Grid>
-//             <Grid size={3}>
-//               <Skeleton height={100} />
-//             </Grid>
-//             <Grid size={3}>
-//               <Skeleton height={100} />
-//             </Grid>
-//             <Grid size={3}>
-//               <Skeleton height={100} />
-//             </Grid>
-//           </Grid>
-//         </PageContainer>
-//       </DashboardLayout>
-//       {/* Dropdown Menu for Reports */}
-//       <Menu
-//         anchorEl={anchorEl}
-//         open={open}
-//         onClose={handleClose}
-//         MenuListProps={{
-//           'aria-labelledby': 'basic-button',
-//         }}
-//       >
-//         <MenuItem onClick={handleClose}>Sales</MenuItem>
-//         <MenuItem onClick={handleClose}>Traffic</MenuItem>
-//       </Menu>
-//     </AppProvider>
-//   );
-// }
+__turbopack_esm__({
+    "default": (()=>Dashboard)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$styles$2f$styled$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/styles/styled.js [client] (ecmascript) <locals> <export default as styled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$AppProvider$2f$AppProvider$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@toolpad/core/AppProvider/AppProvider.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$DashboardLayout$2f$DashboardLayout$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@toolpad/core/DashboardLayout/DashboardLayout.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$PageContainer$2f$PageContainer$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@toolpad/core/PageContainer/PageContainer.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/material/Grid2/Grid2.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Menu$2f$Menu$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Menu/Menu.js [client] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/MenuItem/MenuItem.js [client] (ecmascript) <export default as MenuItem>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Dashboard.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Description$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Description.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BarChart$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/BarChart.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Article$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Article.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Source$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Source.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DocumentScanner$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/DocumentScanner.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/Person.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$History$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/History.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$styles$2f$createThemeWithVars$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__extendTheme$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/styles/createThemeWithVars.js [client] (ecmascript) <export default as extendTheme>");
+;
+var _s = __turbopack_refresh__.signature(), _s1 = __turbopack_refresh__.signature();
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+// Define the navigation structure
+const NAVIGATION = [
+    {
+        segment: 'dashboard',
+        title: 'Dashboard',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/pages/dashboard.tsx",
+            lineNumber: 25,
+            columnNumber: 11
+        }, this),
+        children: [
+            {
+                segment: 'Dashboard',
+                title: 'Dashboard',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 30,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Templates',
+                title: 'Templates',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 35,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Assistant',
+                title: 'Assistant',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Description$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 40,
+                    columnNumber: 15
+                }, this)
+            }
+        ]
+    },
+    {
+        kind: 'divider'
+    },
+    {
+        segment: 'Workflows',
+        title: 'Workflows',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BarChart$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/pages/dashboard.tsx",
+            lineNumber: 52,
+            columnNumber: 11
+        }, this),
+        children: [
+            {
+                segment: 'Data Analyst',
+                title: 'Data Analyst',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Description$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 57,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Article Generator',
+                title: 'Article Generator',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Article$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 62,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Image Generator',
+                title: 'Image Generator',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 67,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Content Rewriter',
+                title: 'Content Rewriter ',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Source$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 72,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Documents',
+                title: 'Documents',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DocumentScanner$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 77,
+                    columnNumber: 15
+                }, this)
+            }
+        ]
+    },
+    {
+        kind: 'divider'
+    },
+    {
+        segment: 'Accounts',
+        title: 'Accounts',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/pages/dashboard.tsx",
+            lineNumber: 89,
+            columnNumber: 11
+        }, this),
+        children: [
+            {
+                segment: 'My History',
+                title: 'My History',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$History$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 94,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Usage History ',
+                title: 'Usage History ',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 99,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Plans and Billing',
+                title: 'Plans and Billing ',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Source$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 104,
+                    columnNumber: 15
+                }, this)
+            },
+            {
+                segment: 'Profile Details',
+                title: 'Profile Details',
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 109,
+                    columnNumber: 15
+                }, this)
+            }
+        ]
+    }
+];
+const demoTheme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$styles$2f$createThemeWithVars$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__extendTheme$3e$__["extendTheme"])({
+    colorSchemes: {
+        light: true,
+        dark: true
+    },
+    colorSchemeSelector: 'class',
+    breakpoints: {
+        values: {
+            xs: 0,
+            sm: 600,
+            md: 600,
+            lg: 1200,
+            xl: 1536
+        }
+    }
+});
+function useDemoRouter(initialPath) {
+    _s();
+    const [pathname, setPathname] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(initialPath);
+    const router = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useMemo({
+        "useDemoRouter.useMemo[router]": ()=>{
+            return {
+                pathname,
+                searchParams: new URLSearchParams(),
+                navigate: ({
+                    "useDemoRouter.useMemo[router]": (path)=>setPathname(String(path))
+                })["useDemoRouter.useMemo[router]"]
+            };
+        }
+    }["useDemoRouter.useMemo[router]"], [
+        pathname
+    ]);
+    return router;
+}
+_s(useDemoRouter, "hYiWpq9qQCs00lh2alNvAukGxSY=");
+const Skeleton = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$styles$2f$styled$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__styled$3e$__["styled"])('div')(({ theme, height })=>({
+        backgroundColor: theme.palette.action.hover,
+        borderRadius: theme.shape.borderRadius,
+        height,
+        content: '" "'
+    }));
+_c = Skeleton;
+function Dashboard(props) {
+    _s1();
+    const { window } = props;
+    const router = useDemoRouter('/dashboard');
+    // Add state for the menu dropdown
+    const [anchorEl, setAnchorEl] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(null);
+    const [open, setOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(false);
+    const handleClose = ()=>{
+        setOpen(false);
+    };
+    // Use window directly (not callable)
+    const demoWindow = window ? window : undefined;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$AppProvider$2f$AppProvider$2e$js__$5b$client$5d$__$28$ecmascript$29$__["AppProvider"], {
+        navigation: NAVIGATION,
+        router: router,
+        theme: demoTheme,
+        window: demoWindow,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$DashboardLayout$2f$DashboardLayout$2e$js__$5b$client$5d$__$28$ecmascript$29$__["DashboardLayout"], {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$toolpad$2f$core$2f$PageContainer$2f$PageContainer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["PageContainer"], {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                        container: true,
+                        spacing: 1,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 5
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 180,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 12,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 14
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 182,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 181,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 12,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 14
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 185,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 184,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 4,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 188,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 187,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 8,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 191,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 190,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 12,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 150
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 195,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 194,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 12,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 14
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 198,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 197,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 3,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 202,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 201,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 3,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 204,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 3,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 208,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 207,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid2$2f$Grid2$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                size: 3,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {
+                                    height: 100
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard.tsx",
+                                    lineNumber: 211,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard.tsx",
+                                lineNumber: 210,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/pages/dashboard.tsx",
+                        lineNumber: 179,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard.tsx",
+                    lineNumber: 178,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/dashboard.tsx",
+                lineNumber: 177,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Menu$2f$Menu$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
+                anchorEl: anchorEl,
+                open: open,
+                onClose: handleClose,
+                MenuListProps: {
+                    'aria-labelledby': 'basic-button'
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                        onClick: handleClose,
+                        children: "Sales"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/dashboard.tsx",
+                        lineNumber: 226,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                        onClick: handleClose,
+                        children: "Traffic"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/dashboard.tsx",
+                        lineNumber: 227,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/pages/dashboard.tsx",
+                lineNumber: 218,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/pages/dashboard.tsx",
+        lineNumber: 171,
+        columnNumber: 5
+    }, this);
+}
+_s1(Dashboard, "VNiQlGK5AtKPGB7Ss2N92cR4eS8=", false, function() {
+    return [
+        useDemoRouter
+    ];
+});
+_c1 = Dashboard;
+var _c, _c1;
+__turbopack_refresh__.register(_c, "Skeleton");
+__turbopack_refresh__.register(_c1, "Dashboard");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }

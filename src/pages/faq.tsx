@@ -13,60 +13,15 @@ const section6 = () => {
     <div id='section6'>
      <Box sx={{ padding: { sm: '50px 0', xs: '20px 0 50px 0px' } }}>
        <Container maxWidth='lg'>
-          <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"20px",fontWeight:"700",color:"#000000",lineHeight:"30px",paddingBottom:"30px"}}>
-          The top rated All-In-One optimization tool
+          <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"60px",fontWeight:"700",lineHeight:"55px",paddingBottom:{xs:"50px",sm:"70px"},backgroundImage: 'linear-gradient(to right, #603BFC  , #FF6835  )',
+                WebkitBackgroundClip: 'text',
+                color: 'transparent',}}>
+           FAQ
           </Typography>
-          <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",paddingBottom:"50px"}}>
-            <Grid container sx={{display:"flex",justifyContent:"center"}}>
-            <Grid xs={12} sm={1.8} sx={{padding:"0px 0px"}}>
-            <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-              <Image src={google} alt='google' style={{width:"75px",height:"25px"}}/>
-              <Box sx={{paddingTop:"5px"}}>
-                <StarIcon sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-              </Box>
-              <Typography sx={{fontSize:"10px",fontWeight:"400",lineHeight:"30px",paddingTop:"5px",fontFamily:"Roboto"}}>
-              4.3 (6 M+)
-              </Typography>
-            </Box>
-            </Grid>
-            <Grid xs={12} sm={1.8}>
-            <Box sx={{display:"flex",justifyContent:"center",alignItems:"flex-start"}}>
-                <Image src={first_plce} alt='first_plce' style={{width:"94px",height:"85px"}}/>
-            </Box>
-            </Grid>
-            <Grid xs={12} sm={1.8} sx={{padding:"0px 0px"}}>
-            <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
-              <Image src={yandex} alt='yandex' style={{width:"75px",height:"25px"}}/>
-              <Box sx={{paddingTop:"5px"}}>
-                <StarIcon sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-                <StarIcon  sx={{color:"#FFD700"}}/>
-              </Box>
-              <Typography sx={{fontSize:"10px",fontWeight:"400",lineHeight:"30px",paddingTop:"5px",fontFamily:"Roboto"}}>
-              4.8 (8 M+)
-              </Typography>
-            </Box>
-            </Grid>
-            </Grid>
-          </Box>
+          
           <Grid container>
-           <Grid md={5} sx={{paddingBottom:{xs:"30px"}}}>
-            <Typography sx={{fontSize:{sm:"60px",xs:"25px"},fontWeight:"400",fontFamily:"Montserrat",lineHeight:{sm:"70px",xs:"30px",textAlign:{xs:"center",sm:"none"}}}}>
-            Frequently Asked <span style={{fontWeight:"700",color:"#212529"}}>Questions</span> 
-            </Typography>
-            <Box sx={{paddingTop:{sm:"30px",xs:"15px"}}}>
-                <Button variant='contained' sx={{backgroundColor:"#D7F200",borderRadius:"70px",color:"#000",boxShadow:"none",fontSize:{sm:"16px",xs:"14px"},fontWeight:"600",fontFamily:"Montserrat",lineHeight:"19.5px",padding:{sm:"15px 35px",xs:"10px 25px"}}}>
-                View ALL
-                </Button>
-            </Box>
-           </Grid>
-           <Grid md={7}>
+           
+           <Grid md={12}>
            <div>
       <Accordion >
         <AccordionSummary
@@ -118,10 +73,7 @@ const section6 = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           malesuada lacus ex, sit amet blandit leo lobortis eget.
         </AccordionDetails>
-        <AccordionActions>
-          <Button>Cancel</Button>
-          <Button>Agree</Button>
-        </AccordionActions>
+       
       </Accordion>
     </div>
            </Grid>

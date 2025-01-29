@@ -1267,7 +1267,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Facebook"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: " Facebook "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 57,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 47,
@@ -1282,7 +1293,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Twitter"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: " Twitter "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 69,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 59,
@@ -1297,7 +1319,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Instagram"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: "Instagram "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 81,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 71,
@@ -1363,7 +1396,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "FAQ"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/faq",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: "FAQ "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 110,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 100,
@@ -1380,6 +1424,10 @@ const Footer = ()=>{
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/aboutus",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
                                                 children: " About Us "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Footer.tsx",
@@ -1400,7 +1448,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Contact Us"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: " Contact Us "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 134,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 124,
@@ -1466,7 +1525,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Terms of Use"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/terms",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: "Terms of Use "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 163,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 153,
@@ -1481,7 +1551,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Privacy Policy"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: "  Privacy Policy "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 175,
+                                                columnNumber: 15
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 165,
@@ -1496,7 +1577,18 @@ const Footer = ()=>{
                                                 fontWeight: 400,
                                                 fontFamily: "Inter"
                                             },
-                                            children: "Refund Policy"
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "",
+                                                style: {
+                                                    textDecoration: "none",
+                                                    color: "#4F4F4F"
+                                                },
+                                                children: " Refund Policy "
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 187,
+                                                columnNumber: 16
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 177,
