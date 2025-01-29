@@ -4,5 +4,6 @@
   "/blogs": "pages/blogs.js",
   "/blogdetails": "pages/blogdetails.js",
   "/faq": "pages/faq.js",
-  "/contact": "pages/contact.js"
+  "/contact": "pages/contact.js",
+  "/dashboard": "pages/dashboard.js"
 }
