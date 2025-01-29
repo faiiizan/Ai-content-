@@ -1,4 +1,4 @@
-import { Box, Button, Card, Checkbox, Container, Grid, TextField, Typography } from '@mui/material'
+import { Box, Button, Card,  Container, Grid, TextField, Typography } from '@mui/material'
 import React from 'react'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import googlePic from '../app/Assets/Imges/image 3.png'
@@ -9,7 +9,7 @@ import hero from '../pages/login.module.css'
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 
-const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+
 const Login = () => {
    
    const {register,handleSubmit,formState:{errors}} = useForm()

@@ -8,7 +8,6 @@ import Image from 'next/image'
 import StarIcon from '@mui/icons-material/Star';
 import '../landing/section6.module.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 const section6 = () => {
