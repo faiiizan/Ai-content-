@@ -792,7 +792,7 @@ function Dashboard(props) {
     const { window } = props;
     const router = useDemoRouter('/dashboard');
     // Add state for the menu dropdown
-    const [anchorEl, setAnchorEl] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(null);
+    const [anchorEl] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(null);
     const [open, setOpen] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__.useState(false);
     const handleClose = ()=>{
         setOpen(false);
@@ -1011,7 +1011,7 @@ function Dashboard(props) {
         columnNumber: 5
     }, this);
 }
-_s1(Dashboard, "VNiQlGK5AtKPGB7Ss2N92cR4eS8=", false, function() {
+_s1(Dashboard, "TfTrQ9yvvs7RBmh3gwAmtvmhK0o=", false, function() {
     return [
         useDemoRouter
     ];

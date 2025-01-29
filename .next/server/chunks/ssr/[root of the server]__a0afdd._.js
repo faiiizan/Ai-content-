@@ -1496,7 +1496,7 @@ function Dashboard(props) {
     const { window } = props;
     const router = useDemoRouter('/dashboard');
     // Add state for the menu dropdown
-    const [anchorEl, setAnchorEl] = __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__.useState(null);
+    const [anchorEl] = __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__.useState(null);
     const [open, setOpen] = __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__.useState(false);
     const handleClose = ()=>{
         setOpen(false);

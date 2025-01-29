@@ -157,7 +157,7 @@ export default function Dashboard(props: DashboardProps) {
   const router = useDemoRouter('/dashboard');
 
   // Add state for the menu dropdown
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl] = React.useState<null | HTMLElement>(null);
   const [open, setOpen] = React.useState(false);
 
   const handleClose = () => {

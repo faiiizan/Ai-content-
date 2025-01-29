@@ -1,10 +1,6 @@
-import { Accordion, AccordionActions, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
-import google from '../app/Assets/Imges/image 41.png'
-import yandex from '../app/Assets/Imges/image 43.png'
-import first_plce from '../app/Assets/Imges/image_45-removebg-preview (2) 1.png'
-import Image from 'next/image'
-import StarIcon from '@mui/icons-material/Star';
+
 import '../pages/faq.module.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
