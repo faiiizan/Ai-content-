@@ -14,7 +14,7 @@ const Terms = () => {
                         fontFamily: 'Montserrat',
                         textAlign: 'center',
                         color: '#000',
-                        paddingBottom: {sm:'120px',xs:"25px"} ,
+                        paddingBottom: {sm:'80px',xs:"25px"} ,
                         paddingLeft:{xs:"0px",sm:"0px"},
                         paddingTop:{sm:"60px",xs:"0px"}
                       }}

@@ -9,7 +9,7 @@ import { AppProvider, Navigation, Router } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { PageContainer } from '@toolpad/core/PageContainer';
 import Grid from '@mui/material/Grid2';
-import { Menu, MenuItem } from '@mui/material';
+import { Menu, MenuItem, Typography } from '@mui/material';
 import ArticleIcon from '@mui/icons-material/Article';
 import ImageIcon from '@mui/icons-material/Image';
 import SourceIcon from '@mui/icons-material/Source';
@@ -179,7 +179,11 @@ export default function Dashboard(props: DashboardProps) {
           <Grid container spacing={1}>
             <Grid size={5} />
             <Grid size={12}>
-              <Skeleton height={14} />
+              <Typography sx={{fontSize:"32px"}}>
+                
+                 Hello surya!
+                </Typography> 
+              
             </Grid>
             <Grid size={12}>
               <Skeleton height={14} />

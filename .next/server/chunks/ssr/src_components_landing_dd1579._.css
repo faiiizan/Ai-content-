@@ -1,0 +1,28 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
+/* [project]/src/components/landing/section5.module.css [app-client] (css) */
+.section5-module__X8gzIW__ParentDiv {
+  position: relative;
+  padding: 50px 0 !important;
+}
+
+.section5-module__X8gzIW__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/_next/static/media/16359108_v904-nunny-026 1.a1523ec1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .6;
+  z-index: -1;
+  padding: 50px 0 !important;
+}
+
+
+/* [project]/src/components/landing/section6.module.css [app-client] (css) */
+
+
+
+/*# sourceMappingURL=src_components_landing_dd1579._.css.map*/

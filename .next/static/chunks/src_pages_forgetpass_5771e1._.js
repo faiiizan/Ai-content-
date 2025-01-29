@@ -7,7 +7,7 @@
   "chunks": [
     "static/chunks/node_modules_next_74a9e5._.js",
     "static/chunks/node_modules_react-dom_82bb97._.js",
-    "static/chunks/node_modules_@mui_material_5e8695._.js",
+    "static/chunks/node_modules_@mui_material_340e08._.js",
     "static/chunks/node_modules_@mui_system_esm_fc26b6._.js",
     "static/chunks/node_modules_0596b7._.js",
     "static/chunks/[root of the server]__14835b._.js",

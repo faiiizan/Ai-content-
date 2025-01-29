@@ -8,5 +8,9 @@
   "/forgetpass": "pages/forgetpass.js",
   "/aboutus": "pages/aboutus.js",
   "/terms": "pages/terms.js",
-  "/dashboard": "pages/dashboard.js"
+  "/dashboard": "pages/dashboard.js",
+  "/_error": "pages/_error.js",
+  "/privacypolicy": "pages/privacypolicy.js",
+  "/refundpolicy": "pages/refundpolicy.js",
+  "/verifypass": "pages/verifypass.js"
 }

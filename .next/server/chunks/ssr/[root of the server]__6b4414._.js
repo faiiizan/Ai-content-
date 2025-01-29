@@ -1042,7 +1042,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "",
+                                                href: "privacypolicy",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
@@ -1068,7 +1068,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "",
+                                                href: "/refundpolicy",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
@@ -1246,17 +1246,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 23,
+                lineNumber: 25,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 22,
+            lineNumber: 24,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 };
@@ -1312,7 +1312,7 @@ const section6 = ()=>{
                             fontWeight: "700",
                             lineHeight: "55px",
                             paddingBottom: {
-                                xs: "50px",
+                                xs: "90px",
                                 sm: "70px"
                             },
                             backgroundImage: 'linear-gradient(to right, #603BFC  , #FF6835  )',
@@ -1322,7 +1322,7 @@ const section6 = ()=>{
                         children: "FAQ"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/faq.tsx",
-                        lineNumber: 16,
+                        lineNumber: 12,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1336,7 +1336,7 @@ const section6 = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionSummary$2f$AccordionSummary$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionSummary$3e$__["AccordionSummary"], {
                                                 expandIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ExpandMore$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 28,
+                                                    lineNumber: 24,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 "aria-controls": "panel1-content",
@@ -1358,25 +1358,25 @@ const section6 = ()=>{
                                                     children: "Can I change my subscription plan later?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 28,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 27,
+                                                lineNumber: 23,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionDetails$2f$AccordionDetails$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionDetails$3e$__["AccordionDetails"], {
                                                 children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 30,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/faq.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 22,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Accordion$2f$Accordion$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Accordion$3e$__["Accordion"], {
@@ -1385,7 +1385,7 @@ const section6 = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionSummary$2f$AccordionSummary$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionSummary$3e$__["AccordionSummary"], {
                                                 expandIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ExpandMore$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 41,
+                                                    lineNumber: 37,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 "aria-controls": "panel2-content",
@@ -1407,25 +1407,25 @@ const section6 = ()=>{
                                                     children: "Can I cancel my subscription anytime?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 41,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 40,
+                                                lineNumber: 36,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionDetails$2f$AccordionDetails$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionDetails$3e$__["AccordionDetails"], {
                                                 children: "Yes, our subscription pricing plans allow you to cancel your subscription at any time without any penalty."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 43,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/faq.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 35,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Accordion$2f$Accordion$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Accordion$3e$__["Accordion"], {
@@ -1433,7 +1433,7 @@ const section6 = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionSummary$2f$AccordionSummary$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionSummary$3e$__["AccordionSummary"], {
                                                 expandIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ExpandMore$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 49,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 "aria-controls": "panel2-content",
@@ -1455,25 +1455,25 @@ const section6 = ()=>{
                                                     children: "What happens if I miss a payment?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 53,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 48,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionDetails$2f$AccordionDetails$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionDetails$3e$__["AccordionDetails"], {
                                                 children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 55,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/faq.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 47,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Accordion$2f$Accordion$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Accordion$3e$__["Accordion"], {
@@ -1481,7 +1481,7 @@ const section6 = ()=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionSummary$2f$AccordionSummary$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionSummary$3e$__["AccordionSummary"], {
                                                 expandIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ExpandMore$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 62,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 "aria-controls": "panel3-content",
@@ -1503,57 +1503,57 @@ const section6 = ()=>{
                                                     children: "Is there any hidden fees with subscription plans?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/faq.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 66,
                                                     columnNumber: 11
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 61,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$AccordionDetails$2f$AccordionDetails$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AccordionDetails$3e$__["AccordionDetails"], {
                                                 children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/faq.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 68,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/faq.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 60,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/faq.tsx",
-                                lineNumber: 25,
+                                lineNumber: 21,
                                 columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/faq.tsx",
-                            lineNumber: 24,
+                            lineNumber: 20,
                             columnNumber: 12
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/faq.tsx",
-                        lineNumber: 22,
+                        lineNumber: 18,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/faq.tsx",
-                lineNumber: 15,
+                lineNumber: 11,
                 columnNumber: 8
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/faq.tsx",
-            lineNumber: 14,
+            lineNumber: 10,
             columnNumber: 6
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/faq.tsx",
-        lineNumber: 13,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 };

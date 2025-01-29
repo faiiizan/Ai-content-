@@ -2,7 +2,7 @@ const CHUNK_PUBLIC_PATH = "server/pages/forgetpass.js";
 const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
 runtime.loadChunk("server/chunks/ssr/[root of the server]__2cb1ca._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_60549e._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@mui_material_56891a._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_@mui_material_9065d9._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@mui_system_esm_3ff81f._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_22b34e._.js");
 runtime.loadChunk("server/chunks/ssr/src_839852._.css");

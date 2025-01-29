@@ -13,12 +13,13 @@
   text-decoration-line: none;
   transition: all .5s ease-in-out !important;
   border: none !important;
+  border: 1px solid #000 !important;
 }
 
 .Header-module__lnUIdW__loginLink:hover {
   background-color: #d7f200;
   color: #000;
-  border: none !important;
+  border: 1px solid #d7f200 !important;
 }
 
 .Header-module__lnUIdW__signUpLink {

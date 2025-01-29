@@ -78,9 +78,7 @@ const Login = () => {
                 {errors?.email && <span style={{fontFamily:"Inter",fontWeight:"400",color:"#F32013",paddingLeft:"15px",paddingTop:"12px",fontSize:"14px"}}>This Field is Required*</span>}
               </Box>
               
-              <Box sx={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",lineHeight:"24px"}}>
-              <Checkbox {...label} defaultChecked /> Keep me signed in
-              </Box>
+              
               <Box sx={{paddingTop:"15px"}} >
                <Button variant='contained' fullWidth  sx={{borderRadius:"100px",padding:"12px 140px",backgroundColor:"#D7F200",color:"#000",boxShadow:"none"}} type='submit'>
                  Continue

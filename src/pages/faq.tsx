@@ -9,7 +9,7 @@ const section6 = () => {
     <div id='section6'>
      <Box sx={{ padding: { sm: '50px 0', xs: '20px 0 50px 0px' } }}>
        <Container maxWidth='lg'>
-          <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"60px",fontWeight:"700",lineHeight:"55px",paddingBottom:{xs:"50px",sm:"70px"},backgroundImage: 'linear-gradient(to right, #603BFC  , #FF6835  )',
+          <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"60px",fontWeight:"700",lineHeight:"55px",paddingBottom:{xs:"90px",sm:"70px"},backgroundImage: 'linear-gradient(to right, #603BFC  , #FF6835  )',
                 WebkitBackgroundClip: 'text',
                 color: 'transparent',}}>
            FAQ

@@ -172,7 +172,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-              <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} >  Privacy Policy </Link>
+              <Link href='privacypolicy' style={{textDecoration:"none",color:"#4F4F4F"}} >  Privacy Policy </Link>
               </li>
               <li
                 style={{
@@ -184,7 +184,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} > Refund Policy </Link>
+               <Link href='/refundpolicy' style={{textDecoration:"none",color:"#4F4F4F"}} > Refund Policy </Link>
               </li>
             </ul>
           </Grid>

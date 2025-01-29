@@ -1,3 +1,4 @@
+"use client"
 import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import google from '../../app/Assets/Imges/image 41.png'
@@ -7,8 +8,13 @@ import Image from 'next/image'
 import StarIcon from '@mui/icons-material/Star';
 import '../landing/section6.module.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const section6 = () => {
+   
+  
+
   return (
     <div id='section6'>
      <Box sx={{ padding: { sm: '50px 0', xs: '20px 0 50px 0px' } }}>
@@ -61,8 +67,8 @@ const section6 = () => {
             Frequently Asked <span style={{fontWeight:"700",color:"#212529"}}>Questions</span> 
             </Typography>
             <Box sx={{paddingTop:{sm:"30px",xs:"15px"}}}>
-                <Button variant='contained' sx={{backgroundColor:"#D7F200",borderRadius:"70px",color:"#000",boxShadow:"none",fontSize:{sm:"16px",xs:"14px"},fontWeight:"600",fontFamily:"Montserrat",lineHeight:"19.5px",padding:{sm:"15px 35px",xs:"10px 25px"}}}>
-                View ALL
+                <Button variant='contained' sx={{backgroundColor:"#D7F200",borderRadius:"70px",color:"#000",boxShadow:"none",fontSize:{sm:"16px",xs:"14px"},fontWeight:"600",fontFamily:"Montserrat",lineHeight:"19.5px",padding:{sm:"15px 35px",xs:"10px 25px"}}} >
+                  <Link href='/faq'>View ALL</Link>
                 </Button>
             </Box>
            </Grid>
@@ -81,7 +87,7 @@ const section6 = () => {
           malesuada lacus ex, sit amet blandit leo lobortis eget.
         </AccordionDetails>
       </Accordion>
-      <Accordion  defaultExpanded>
+      <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
