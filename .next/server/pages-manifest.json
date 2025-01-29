@@ -1,16 +1,8 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/faq": "pages/faq.js",
   "/blogs": "pages/blogs.js",
-  "/login": "pages/login.js",
-  "/signup": "pages/signup.js",
-  "/forgetpass": "pages/forgetpass.js",
-  "/aboutus": "pages/aboutus.js",
-  "/terms": "pages/terms.js",
-  "/dashboard": "pages/dashboard.js",
-  "/_error": "pages/_error.js",
-  "/privacypolicy": "pages/privacypolicy.js",
-  "/refundpolicy": "pages/refundpolicy.js",
-  "/verifypass": "pages/verifypass.js"
+  "/blogdetails": "pages/blogdetails.js",
+  "/faq": "pages/faq.js",
+  "/contact": "pages/contact.js"
 }

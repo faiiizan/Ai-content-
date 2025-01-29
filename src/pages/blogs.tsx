@@ -1,3 +1,4 @@
+"use client"
 import { Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import Hero from '../pages/blogs.module.css';
@@ -5,6 +6,7 @@ import img1 from '../app/Assets/Imges/blog1.png';
 import img2 from '../app/Assets/Imges/blog2.png';
 import img3 from '../app/Assets/Imges/blog3.png';
 import EastIcon from '@mui/icons-material/East';
+import Link from 'next/link';
 
 // Sample blog data (can be dynamic in a real app)
 const blogData = [
@@ -94,20 +96,24 @@ const Blogs = () => {
                       {blog.title}
                     </Typography>
                   </CardContent>
-                  <CardActions sx={{ padding: '5px 0px' }}>
+                  <CardActions sx={{ padding: '5px 0px',display:"flex",justifyContent:"center" }}>
                     <Button
                       size="small"
                       sx={{
-                        color: '#375DD2',
+                        color: '#D7F200',
                         fontSize: '12.33px',
                         lineHeight: '21.58px',
                         textDecoration: 'underline',
                         textTransform: 'capitalize',
                         fontWeight: '500',
                         fontFamily: 'Poppins',
+                        
+                    
                       }}
                     >
-                      Learn More <EastIcon sx={{ fontSize: '14px', marginLeft: '8px' }} />
+                    
+                    <Link href='/blogdetails'> Learn More <EastIcon sx={{ fontSize: '14px', marginLeft: '8px',marginBottom:"-2px" }} /> </Link>
+                  
                     </Button>
                   </CardActions>
                 </Card>

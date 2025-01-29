@@ -131,7 +131,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-               <Link href='' style={{textDecoration:"none",color:"#4F4F4F"}} > Contact Us </Link>
+               <Link href='/contact' style={{textDecoration:"none",color:"#4F4F4F"}} > Contact Us </Link>
               </li>
             </ul>
           </Grid>
@@ -172,7 +172,7 @@ const Footer = () => {
                   fontFamily: "Inter",
                 }}
               >
-              <Link href='privacypolicy' style={{textDecoration:"none",color:"#4F4F4F"}} >  Privacy Policy </Link>
+              <Link href='/privacypolicy' style={{textDecoration:"none",color:"#4F4F4F"}} >  Privacy Policy </Link>
               </li>
               <li
                 style={{

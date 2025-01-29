@@ -652,6 +652,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$blogs$2e$mod
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog1$2e$png__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/blog1.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/blog1.png [client] (static)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog2$2e$png__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/blog2.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/blog2.png [client] (static)" } [client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog3$2e$png__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/blog3.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/blog3.png [client] (static)" } [client] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [client] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [client] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Typography/Typography.js [client] (ecmascript) <export default as Typography>");
@@ -664,6 +665,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/East.js [client] (ecmascript)");
 ;
 var _s = __turbopack_refresh__.signature();
+"use client";
+;
 ;
 ;
 ;
@@ -761,13 +764,13 @@ const Blogs = ()=>{
                                 children: "Blogs"
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/blogs.tsx",
-                                lineNumber: 58,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 45,
+                        lineNumber: 47,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -794,7 +797,7 @@ const Blogs = ()=>{
                                             title: blog.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 76,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardContent$2f$CardContent$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
@@ -817,22 +820,24 @@ const Blogs = ()=>{
                                                 children: blog.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/blogs.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 82,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 81,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardActions$2f$CardActions$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardActions$3e$__["CardActions"], {
                                             sx: {
-                                                padding: '5px 0px'
+                                                padding: '5px 0px',
+                                                display: "flex",
+                                                justifyContent: "center"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
                                                 size: "small",
                                                 sx: {
-                                                    color: '#375DD2',
+                                                    color: '#D7F200',
                                                     fontSize: '12.33px',
                                                     lineHeight: '21.58px',
                                                     textDecoration: 'underline',
@@ -840,43 +845,52 @@ const Blogs = ()=>{
                                                     fontWeight: '500',
                                                     fontFamily: 'Poppins'
                                                 },
-                                                children: [
-                                                    "Learn More ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            fontSize: '14px',
-                                                            marginLeft: '8px'
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/blogs.tsx",
-                                                        lineNumber: 110,
-                                                        columnNumber: 34
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/blogdetails",
+                                                    children: [
+                                                        " Learn More ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            sx: {
+                                                                fontSize: '14px',
+                                                                marginLeft: '8px',
+                                                                marginBottom: "-2px"
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/pages/blogs.tsx",
+                                                            lineNumber: 115,
+                                                            columnNumber: 59
+                                                        }, this),
+                                                        " "
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/pages/blogs.tsx",
+                                                    lineNumber: 115,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/pages/blogs.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 100,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 99,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/blogs.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 75,
                                     columnNumber: 17
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/src/pages/blogs.tsx",
-                                lineNumber: 72,
+                                lineNumber: 74,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 70,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -909,23 +923,23 @@ const Blogs = ()=>{
                             children: hasMoreBlogs ? 'View More' : isShowingMoreThanInitial ? 'View Less' : ''
                         }, void 0, false, {
                             fileName: "[project]/src/pages/blogs.tsx",
-                            lineNumber: 120,
+                            lineNumber: 126,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 119,
+                        lineNumber: 125,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/blogs.tsx",
-                lineNumber: 44,
+                lineNumber: 46,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/blogs.tsx",
-            lineNumber: 43,
+            lineNumber: 45,
             columnNumber: 7
         }, this)
     }, void 0, false);

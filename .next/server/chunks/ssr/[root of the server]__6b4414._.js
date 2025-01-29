@@ -939,7 +939,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "",
+                                                href: "/contact",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
@@ -1042,7 +1042,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "privacypolicy",
+                                                href: "/privacypolicy",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
