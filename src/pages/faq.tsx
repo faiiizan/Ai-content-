@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Box, Button, Container, Grid, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Box,  Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 
 import '../pages/faq.module.css'
