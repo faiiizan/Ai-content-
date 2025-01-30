@@ -11,60 +11,35 @@
       "static/chunks/src_pages__app_5771e1._.js",
       "static/chunks/src_pages__app_0a6413._.js"
     ],
-    "/blogs": [
-      "static/chunks/node_modules_next_755291._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_06810b._.js",
-      "static/chunks/node_modules_@mui_system_esm_6a862e._.js",
-      "static/chunks/node_modules_612bfa._.js",
-      "static/chunks/[root of the server]__84b5d9._.js",
-      "static/chunks/src_pages_blogs_module_ea2dee.css",
-      "static/chunks/src_pages_blogs_5771e1._.js",
-      "static/chunks/src_pages_blogs_f4b154._.js"
-    ],
-    "/blogdetails": [
-      "static/chunks/node_modules_next_dist_b8496e._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_885956._.js",
-      "static/chunks/node_modules_@mui_system_esm_f60502._.js",
-      "static/chunks/node_modules_f89bca._.js",
-      "static/chunks/[root of the server]__ccd0df._.js",
-      "static/chunks/src_pages_aboutus_module_e2b4d9.css",
-      "static/chunks/src_pages_blogdetails_5771e1._.js",
-      "static/chunks/src_pages_blogdetails_bc725d._.js"
-    ],
-    "/faq": [
-      "static/chunks/node_modules_next_dist_b8496e._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_fd118a._.js",
-      "static/chunks/node_modules_@mui_system_esm_6a862e._.js",
-      "static/chunks/node_modules_ffd086._.js",
-      "static/chunks/[root of the server]__5f2a0a._.js",
-      "static/chunks/src_pages_faq_module_4e0ad6.css",
-      "static/chunks/src_pages_faq_5771e1._.js",
-      "static/chunks/src_pages_faq_699775._.js"
-    ],
-    "/contact": [
-      "static/chunks/node_modules_next_dist_b8496e._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_885956._.js",
-      "static/chunks/node_modules_@mui_system_esm_f60502._.js",
-      "static/chunks/node_modules_f89bca._.js",
-      "static/chunks/[root of the server]__f967e9._.js",
-      "static/chunks/src_pages_aboutus_module_e2b4d9.css",
-      "static/chunks/src_pages_contact_5771e1._.js",
-      "static/chunks/src_pages_contact_16311b._.js"
-    ],
     "/dashboard": [
       "static/chunks/[root of the server]__dcebf3._.js",
       "static/chunks/node_modules_next_abeec6._.js",
       "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_48c470._.js",
-      "static/chunks/node_modules_@mui_system_esm_fb5a52._.js",
-      "static/chunks/node_modules_b1fcb5._.js",
+      "static/chunks/node_modules_@mui_material_ebae2a._.js",
+      "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
+      "static/chunks/node_modules_2b799f._.js",
       "static/chunks/src_pages_dashboard_module_7fa464.css",
       "static/chunks/src_pages_dashboard_5771e1._.js",
-      "static/chunks/src_pages_dashboard_c6403a._.js"
+      "static/chunks/src_pages_dashboard_20023e._.js"
+    ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_f1b02b._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/[root of the server]__2f8866._.js",
+      "static/chunks/src_pages__error_5771e1._.js",
+      "static/chunks/src_pages__error_f63f92._.js"
+    ],
+    "/login": [
+      "static/chunks/node_modules_next_74a9e5._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_5e8695._.js",
+      "static/chunks/node_modules_@mui_system_esm_fc26b6._.js",
+      "static/chunks/node_modules_0596b7._.js",
+      "static/chunks/[root of the server]__7b99d9._.js",
+      "static/chunks/src_pages_login_module_93eac9.css",
+      "static/chunks/src_pages_login_5771e1._.js",
+      "static/chunks/src_pages_login_1aac8a._.js"
     ]
   },
   "devFiles": [],

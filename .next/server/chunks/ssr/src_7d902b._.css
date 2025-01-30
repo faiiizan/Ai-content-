@@ -8,6 +8,6 @@
 @media screen and (width<=476px){.Footer-module__3hUVsW__Image{margin:auto!important}}
 
 /* [project]/src/pages/dashboard.module.css [ssr] (css) */
-
+@media screen and (width<=476px){.dashboard-module__JsKwpa__LogoImage{height:52px!important;padding-left:100px!important}.dashboard-module__JsKwpa__break{display:none!important}}
 
 /*# sourceMappingURL=src_7d902b._.css.map*/

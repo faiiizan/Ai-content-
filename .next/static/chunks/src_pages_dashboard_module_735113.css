@@ -1,4 +1,13 @@
 /* [project]/src/pages/dashboard.module.css [client] (css) */
+@media screen and (width <= 476px) {
+  .dashboard-module__JsKwpa__LogoImage {
+    height: 52px !important;
+    padding-left: 100px !important;
+  }
 
+  .dashboard-module__JsKwpa__break {
+    display: none !important;
+  }
+}
 
 /*# sourceMappingURL=src_pages_dashboard_module_735113.css.map*/
