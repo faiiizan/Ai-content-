@@ -35,7 +35,7 @@ const Templates = () => {
   
   const router = useRouter();
 
-  const getLinkStyle = (path:any) => {
+  const getLinkStyle = (path:string) => {
     return router.pathname === path
       ? { color:"red"} // active style
       : {};
