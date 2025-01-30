@@ -19,10 +19,11 @@ import FileCopyIcon from '@mui/icons-material/FileCopy';
 import UpdateIcon from '@mui/icons-material/Update';
 import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
 const dashboard = () => {
+
   const [open, setOpen] = useState(false); // State to control drawer visibility
 
   // Function to toggle the drawer open/close
-  const toggleDrawer = (openState:any) => {
+  const toggleDrawer = () => {
     setOpen(prevState => !prevState);
   };
 
