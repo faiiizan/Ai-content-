@@ -18,7 +18,7 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import UpdateIcon from '@mui/icons-material/Update';
 import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
-const dashboard = () => {
+const Dashboard = () => {
 
   const [open, setOpen] = useState(false); // State to control drawer visibility
 
@@ -487,4 +487,4 @@ const dashboard = () => {
   )
 }
 
-export default dashboard
+export default Dashboard

@@ -1352,7 +1352,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$ico
 ;
 ;
 ;
-const dashboard = ()=>{
+const Dashboard = ()=>{
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false); // State to control drawer visibility
     // Function to toggle the drawer open/close
     const toggleDrawer = ()=>{
@@ -4458,7 +4458,7 @@ const dashboard = ()=>{
         }, this)
     }, void 0, false);
 };
-const __TURBOPACK__default__export__ = dashboard;
+const __TURBOPACK__default__export__ = Dashboard;
 }}),
 
 };

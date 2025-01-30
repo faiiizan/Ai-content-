@@ -670,7 +670,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-const dashboard = ()=>{
+const Dashboard = ()=>{
     _s();
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false); // State to control drawer visibility
     // Function to toggle the drawer open/close
@@ -3777,8 +3777,11 @@ const dashboard = ()=>{
         }, this)
     }, void 0, false);
 };
-_s(dashboard, "xG1TONbKtDWtdOTrXaTAsNhPg/Q=");
-const __TURBOPACK__default__export__ = dashboard;
+_s(Dashboard, "xG1TONbKtDWtdOTrXaTAsNhPg/Q=");
+_c = Dashboard;
+const __TURBOPACK__default__export__ = Dashboard;
+var _c;
+__turbopack_refresh__.register(_c, "Dashboard");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
