@@ -1,30 +1,44 @@
 "use Client"
 import { Box, Button, Container, Drawer, Grid, IconButton, Typography } from '@mui/material'
 import React, { useState } from 'react'
-import logoImage from '../app/Assets/Imges/logo.svg'
+import logoImage from '../../../app/Assets/Imges/logo.svg'
 import Image from 'next/image'
-import Hero from '../pages/dashboard.module.css'
+import Hero from '../../../pages/dashboard.module.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import dashboardman from '../app/Assets/Imges/dasboardman.png'
+import dashboardman from '../../../app/Assets/Imges/dasboardman.png'
 import TextSnippetIcon from '@mui/icons-material/TextSnippet';
 import CollectionsIcon from '@mui/icons-material/Collections';
 import JoinLeftIcon from '@mui/icons-material/JoinLeft';
 import ListIcon from '@mui/icons-material/List';
 import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import FileCopyIcon from '@mui/icons-material/FileCopy';
 import UpdateIcon from '@mui/icons-material/Update';
 import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
-const Dashboard = () => {
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+import image16 from '../../../app/Assets/Imges/Group 16.png'
+import image17 from '../../../app/Assets/Imges/Group 17.png'
+import CommitIcon from '@mui/icons-material/Commit';
+import worlmapImage from '../../../app/Assets/Imges/world 1.png'
+import chartBar from '../../../app/Assets/Imges/bar.png'
+import LocalMallIcon from '@mui/icons-material/LocalMall';
+
+const Templates = () => {
 
   const [open, setOpen] = useState(false); // State to control drawer visibility
 
   // Function to toggle the drawer open/close
   const toggleDrawer = () => {
     setOpen(prevState => !prevState);
+  };
+  
+  const router = useRouter();
+
+  const getLinkStyle = (path:any) => {
+    return router.pathname === path
+      ? { color:"red"} // active style
+      : {};
   };
 
   const menuItems = (
@@ -150,7 +164,7 @@ const Dashboard = () => {
           </Drawer>
           </Box>
           {/* hamburger part end */}
-          <Box>
+                    <Box sx={{display:"flex",justifyContent:"flex-start",marginRight:{md:"50px",xs:"0px"}}}>
                  <Image src={logoImage} alt='logo image' className={Hero.LogoImage}/>
                  </Box>
               </Grid>
@@ -213,65 +227,99 @@ const Dashboard = () => {
                   </Typography>
                 </Box>
                 {/* start dashboard part */}
-                <Box sx={{height:"100px",width:"100%",border:'1px solid #0000001A',borderRadius:"30px",padding:"40px 0px 10px 0px",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",position:"relative"}}>
-                    <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791"}}>
+                <Box sx={{height:"100px",width:"90%",border:'1px solid #0000001A',borderRadius:"30px",padding:"25px 0px 40px 20px",display:"flex",flexDirection:"column",justifyContent:"flex-start",alignItems:"flex-start",position:"relative"}}>
+                    <ul style={{margin:"0px",padding:"0px"}}>
+                      <li style={{listStyle:"none"}}>
+                        <Link href='/dashboard' style={{textDecoration:"none"}} passHref> <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",...getLinkStyle('/dashboard')}}>
+                         <DashboardIcon sx={{marginRight:"20px"}}/>Dashoard
+
+                        </Typography>
+                        </Link>
+                        </li>
+                    
+                    <li style={{listStyle:"none"}}>
+                    <Link href='/dashboard/templates' style={{textDecoration:"none"}} passHref> <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",...getLinkStyle('/dashboard/templates')}}>
                        <DashboardIcon sx={{marginRight:"20px"}}/>   Templates
-                    </Typography>
+                    </Typography></Link> 
+                    </li>
+                     <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"32px"}}/>   Assistant
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Assistant
                     </Typography>
-                    <Box sx={{position:"absolute",top:"-16px",left:"40px",}}>
-                         <Button variant='contained' sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Dashoard</Button>
-                    </Box>
+                    </li>
+                    </ul>
                 </Box>
                 {/* end dashboard part */}
                 {/* start workflows */}
-                <Box sx={{minHeight:"100px",width:"100%",border:'1px solid #0000001A',borderRadius:"30px",padding:"50px 0px 20px 0px",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",position:"relative",marginTop:"40px"}}>
-                    <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791"}}>
-                       <DashboardIcon sx={{marginRight:"56px"}}/>   Data Analyst
+                <Box sx={{minHeight:"100px",width:"90%",border:'1px solid #0000001A',borderRadius:"30px",padding:"50px 0px 20px 20px",display:"flex",flexDirection:"column",justifyContent:"flex-start",alignItems:"flex-start",position:"relative",marginTop:"40px"}}>
+                  <ul style={{margin:"0px",padding:"0px"}}>
+                    
+                    <li style={{listStyle:"none"}}>
+                      <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791"}}>
+                       <DashboardIcon sx={{marginRight:"20px"}}/>   Data Analyst
                     </Typography>
+                    </li>
+                   <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"22px"}}/>   Article Generator
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Article Generator
                     </Typography>
+                    </li>
+                    <li style={{listStyle:"none"}}>
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Image Generator
+                    </Typography>
+                    </li>
+                     <li style={{listStyle:"none"}}> 
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Content Rewriter
+                    </Typography> 
+                    </li>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"22px"}}/>   Image Generator
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Documents
                     </Typography>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"30px"}}/>   Content Rewriter
-                    </Typography>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"72px"}}/>   Documents
-                    </Typography>
-                    <Box sx={{position:"absolute",top:"-16px",left:"40px",}}>
-                         <Button variant='contained' sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Button>
+                    </ul>
+                    <Box sx={{position:"absolute",top:"-16px",left:"35px",}}>
+                         <Typography  sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Typography>
                     </Box>
                 </Box>
                 {/* end wokflows */}
                 {/* start account parts */}
                 <Box sx={{minHeight:"100px",width:"100%",border:'1px solid #0000001A',borderRadius:"30px",padding:"50px 0px 20px 0px",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",position:"relative",marginTop:"40px"}}>
+                  <ul style={{margin:"0px",padding:"0px"}}>
+                    <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791"}}>
-                       <DashboardIcon sx={{marginRight:"56px"}}/>   My History
+                       <DashboardIcon sx={{marginRight:"20px"}}/>   My History
                     </Typography>
+                    </li>
+                    <li style={{listStyle:"none"}}>
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Usage History
+                    </Typography>
+                    </li>
+                    <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"22px"}}/>   Usage History
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Image Generator
                     </Typography>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"22px"}}/>   Image Generator
+                    </li>
+                    <li style={{listStyle:"none"}}>
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Plans and Billing
                     </Typography>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"30px"}}/>   Plans and Billing
+                    </li>
+                    <li style={{listStyle:"none"}}>
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Profile Details
                     </Typography>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"72px"}}/>   Profile Details
-                    </Typography>
+                    </li>
+                    </ul>
                     <Box sx={{position:"absolute",top:"-16px",left:"40px",}}>
-                         <Button variant='contained' sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Button>
+                         <Typography  sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Accounts</Typography>
                     </Box>
                 </Box>
               </Grid>
               
-              {/* end hamburger part  */}
-              <Grid xs={12} md={6} sx={{backgroundColor:"#F8F9FA",padding:{xs:"20px",sm:"0px"}}}>
+             
+              <Grid xs={12} md={6} sx={{backgroundColor:"#fff",padding:{xs:"20px",sm:"20px"}}}>
                 <Box sx={{backgroundColor:"#fff",padding:"20px",borderRadius:"20px"}}>
                 <Typography sx={{fontFamily:"Poppins",fontSize:"32px",color:"#05004E",lineHeight:"32px",fontWeight:"500",paddingBottom:"35px"}}>
                 Hello, Surya
@@ -411,71 +459,78 @@ const Dashboard = () => {
               </Grid>
               {/* enn main part */}
               {/* start popular part  */}
-              <Grid xs={12} md={3.5} sx={{padding:"25px 0px",backgroundColor:"#F8F9FA"}}>
-                <Typography sx={{fontSize:{xs:"18px",sm:"32px"},fontFamily:"Poppins",color:"#05004E",lineHeight:"32px",fontWeight:"500",paddingBottom:"20px",paddingLeft:{xs:"20px",sm:"0px"}}}>
-                Most Popular
-                </Typography>
-                <Grid container sx={{display:"flex",justifyContent:"center"}}>
-                  <Grid xs={10} sm={10}>
-                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
-                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",borderBottom:"1px solid #D4E1E9",paddingBottom:{xs:"12px",sm:"20px"}}}>
-                         <Typography sx={{fontSize:{xs:"16px",sm:"18px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
-                         Question Generator
+
+              <Grid xs={12} md={3.5} sx={{padding:"25px 0px",backgroundColor:"#fff"}}>
+                
+                <Grid container sx={{display:"flex",justifyContent:"flex-start"}}>
+                  <Grid xs={10} sm={12} sx={{display:"flex",justifyContent:"center",position:"relative"}}>
+                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"100%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA",boxShadow:"0px 4px 20px #EEEEEE80"}}>
+                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:{xs:"12px",sm:"20px"}}}>
+                         <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
+                         Customer Satisfaction
                          </Typography>
-                         <Box sx={{height:{xs:"25px",sm:"23px"},width:{sm:"29px",xs:"23px"},borderRadius:"8px",border:"2px solid #1C274C",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                          <QuestionMarkIcon/>
                          </Box>
+                        <Box sx={{overflow:"hidden",borderBottom:"1px solid #EDF2F6",paddingBottom:"0px"}}>
+                          <Box sx={{position:"",top:"10px",left:"0px"}}>
+                            <Image src={image17} alt='image17' style={{width:"100%"}}/>
+                          </Box>
+                          <Box sx={{position:"absolute",top:"43%",left:"20px"}}>
+                           <Image src={image16} alt='image16' style={{width:"95%"}}/>
+                           </Box>
                         </Box>
-                        <Typography sx={{padding:{sm:"20px 12px 0px 12px",xs:"10px 12px 0px 12px"},fontSize:{sm:"16px",xs:"14px"},fontFamily:"Poppins",fontWeight:"400",lineHeight:{sm:"23px",xs:"20px"},color:"#444444"}}>
-                        AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document.
-                        </Typography>
+                        <Box sx={{display:"flex",justifyContent:"center"}}> 
+                          <Typography sx={{fontSize:"16px",fontFamily:"Poppins",color:"#96A5B8",lineHeight:"25px",display:"flex",justifyContent:"center",alignItems:"flex-start",width:"150px",borderRight:"1px solid #BDC9D3",margin:"10px 0px"}}>
+                               <CommitIcon sx={{color:"#0080DA",marginRight:"10px"}}/> Last Month <br /> 
+                              
+                               $3,004
+                               
+                          </Typography>
+                          <Typography sx={{fontSize:"16px",fontFamily:"Poppins",color:"#96A5B8",lineHeight:"25px",display:"flex",justifyContent:"center",alignItems:"flex-start",width:"150px",margin:"10px 0px"}}>
+                               <CommitIcon sx={{color:"#05C283",marginRight:"10px"}}/>  This Month <br /> 
+                               $4,504
+                               
+                          </Typography>
+                        </Box>
                      </Box>
                   </Grid>
-                  <Grid xs={10} sm={10} sx={{marginTop:"10px"}}>
-                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
-                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",borderBottom:"1px solid #D4E1E9",paddingBottom:{xs:"12px",sm:"20px"}}}>
-                         <Typography sx={{fontSize:{xs:"16px",sm:"18px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
-                         Keyword Generator
+                  <Grid xs={10} sm={11} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
+                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px 18px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA",boxShadow:"0px 4px 20px #EEEEEE80"}}>
+                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:{xs:"12px",sm:"20px"}}}>
+                         <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E",paddingBottom:"30px"}}>
+                         Sales Mapping by Country
                          </Typography>
-                         <Box sx={{height:{xs:"25px",sm:"23px"},width:{sm:"29px",xs:"23px"},borderRadius:"8px",border:"2px solid #1C274C",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                          <ListIcon/>
-                         </Box>
+                         
                         </Box>
-                        <Typography sx={{padding:"20px 12px 0px 12px",fontSize:{sm:"16px",xs:"14px"},fontFamily:"Poppins",fontWeight:"400",lineHeight:{sm:"23px",xs:"20px"},color:"#444444"}}>
-                        AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document.
-                        </Typography>
+                       <Box sx={{width:"90%",}}>
+                        <Image src={worlmapImage} alt='worldimage' style={{width:"380px",height:"230px"}}/>
+                       </Box>
                      </Box>
                   </Grid>
-                  <Grid xs={10} sm={10} sx={{marginTop:"10px"}}>
-                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
-                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",borderBottom:"1px solid #D4E1E9",paddingBottom:"20px"}}>
-                         <Typography sx={{fontSize:{xs:"16px",sm:"18px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
-                         Upwork Profile Descript
+                  <Grid xs={10} sm={12} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
+                     <Box sx={{backgroundColor:"#fff",padding:{sm:"25px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
+                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:"20px"}}>
+                         <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
+                         Target vs Reality
                          </Typography>
-                         <Box sx={{height:{xs:"25px",sm:"23px"},width:{sm:"29px",xs:"23px"},borderRadius:"8px",border:"2px solid #1C274C",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                          <PermIdentityIcon/>
-                         </Box>
+                        
                         </Box>
-                        <Typography sx={{padding:"20px 12px 0px 12px",fontSize:{sm:"16px",xs:"14px"},fontFamily:"Poppins",fontWeight:"400",lineHeight:{sm:"23px",xs:"20px"},color:"#444444"}}>
-                        AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document.
+                        <Box sx={{width:"90%",}}>
+                        <Image src={chartBar} alt='worldimage' style={{width:"334px",height:"157px"}}/>
+                       </Box>
+                       <Box sx={{paddingTop:"20px",display:"flex",justifyContent:"space-around",alignItems:"flex-start"}}>
+                        <Typography sx={{display:"flex",alignItems:"flex-start",fontSize:"12px",color:"#151D48",lineHeight:"16px",fontWeight:"600",fontFamily:"Poppins"}}>
+                          <Box sx={{width:"36px",height:"36px",backgroundColor:"#4AB58E",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"8px",marginRight:"15px"}}>
+                            < LocalMallIcon sx={{color:"#fff",}}/> 
+                          </Box>
+                          Reality Sales
                         </Typography>
+                        <Typography sx={{fontSize:"14px",lineHeight:"20px",fontFamily:"Poppins",color:"#27AE60",fontWeight:"500"}}>
+                        8.823
+                        </Typography>
+                       </Box>
                      </Box>
                   </Grid>
-                  <Grid xs={10} sm={10} sx={{marginTop:"10px"}}>
-                     <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
-                        <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",borderBottom:"1px solid #D4E1E9",paddingBottom:"20px"}}>
-                         <Typography sx={{fontSize:{xs:"16px",sm:"18px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
-                         Plagiarism Checker
-                         </Typography>
-                         <Box sx={{height:{xs:"25px",sm:"23px"},width:{sm:"29px",xs:"23px"},borderRadius:"8px",border:"2px solid #1C274C",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                          <FileCopyIcon/>
-                         </Box>
-                        </Box>
-                        <Typography sx={{padding:"20px 12px 0px 12px",fontSize:{sm:"16px",xs:"14px"},fontFamily:"Poppins",fontWeight:"400",lineHeight:{sm:"23px",xs:"20px"},color:"#444444"}}>
-                        AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document.
-                        </Typography>
-                     </Box>
-                  </Grid>
+                 
                 </Grid>
               </Grid>
             </Grid>
@@ -487,4 +542,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default Templates

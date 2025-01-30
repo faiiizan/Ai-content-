@@ -11,7 +11,7 @@ const router = useRouter();
 
 const checkRoutes = () => {
   let hide = false;
-  if(router.pathname === "/dashboard"){
+  if(router.pathname === "/dashboard" || "/dashoard/templates"){
     hide = true;
   }
 

@@ -12,15 +12,26 @@
       "static/chunks/src_pages__app_0a6413._.js"
     ],
     "/dashboard": [
-      "static/chunks/[root of the server]__dcebf3._.js",
-      "static/chunks/node_modules_next_abeec6._.js",
+      "static/chunks/[root of the server]__81d204._.js",
+      "static/chunks/node_modules_next_619abf._.js",
       "static/chunks/node_modules_react-dom_82bb97._.js",
       "static/chunks/node_modules_@mui_material_ebae2a._.js",
       "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
       "static/chunks/node_modules_2b799f._.js",
       "static/chunks/src_pages_dashboard_module_7fa464.css",
-      "static/chunks/src_pages_dashboard_5771e1._.js",
-      "static/chunks/src_pages_dashboard_20023e._.js"
+      "static/chunks/src_pages_dashboard_index_tsx_5771e1._.js",
+      "static/chunks/src_pages_dashboard_index_tsx_877c1d._.js"
+    ],
+    "/dashboard/templates": [
+      "static/chunks/[root of the server]__49549f._.js",
+      "static/chunks/node_modules_next_619abf._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_ebae2a._.js",
+      "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
+      "static/chunks/node_modules_124d05._.js",
+      "static/chunks/src_pages_dashboard_module_7fa464.css",
+      "static/chunks/src_pages_dashboard_templates_index_tsx_5771e1._.js",
+      "static/chunks/src_pages_dashboard_templates_index_tsx_5e3fd7._.js"
     ],
     "/_error": [
       "static/chunks/node_modules_next_dist_f1b02b._.js",
@@ -29,17 +40,6 @@
       "static/chunks/[root of the server]__2f8866._.js",
       "static/chunks/src_pages__error_5771e1._.js",
       "static/chunks/src_pages__error_f63f92._.js"
-    ],
-    "/login": [
-      "static/chunks/node_modules_next_74a9e5._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_@mui_material_5e8695._.js",
-      "static/chunks/node_modules_@mui_system_esm_fc26b6._.js",
-      "static/chunks/node_modules_0596b7._.js",
-      "static/chunks/[root of the server]__7b99d9._.js",
-      "static/chunks/src_pages_login_module_93eac9.css",
-      "static/chunks/src_pages_login_5771e1._.js",
-      "static/chunks/src_pages_login_1aac8a._.js"
     ]
   },
   "devFiles": [],
