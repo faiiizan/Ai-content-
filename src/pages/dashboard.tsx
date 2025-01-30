@@ -136,7 +136,7 @@ const Dashboard = () => {
             <Grid container>
                 
                 <Grid item xs={12} sm={0} sx={{ display: { xs: 'block', sm: 'none' } }}>
-                <IconButton onClick={() => toggleDrawer(true)}>
+                <IconButton onClick={() => toggleDrawer()}>
                   <MenuIcon sx={{ color: '#737791', fontSize: '30px' }} />
                 </IconButton>
               </Grid>
@@ -144,7 +144,7 @@ const Dashboard = () => {
             <Drawer
             anchor="left"
             open={open}
-            onClose={() => toggleDrawer(false)}
+            onClose={() => toggleDrawer()}
           >
             {menuItems} {/* Drawer content */}
           </Drawer>
