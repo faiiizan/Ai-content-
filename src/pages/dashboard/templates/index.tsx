@@ -24,6 +24,13 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import MotionPhotosAutoIcon from '@mui/icons-material/MotionPhotosAuto';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
+import FeedIcon from '@mui/icons-material/Feed';
+import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import HistoryIcon from '@mui/icons-material/History';
+import ReceiptIcon from '@mui/icons-material/Receipt';
+import PersonIcon from '@mui/icons-material/Person';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -195,9 +202,9 @@ const Templates = () => {
   return (
     <>
      <Box>
-       <Container maxWidth='xl'>
+       <Container maxWidth='xl' sx={{paddingLeft:"0px",paddingRight:"0px"}}>
           <Box sx={{height:"70px",width:"100%"}}>
-            <Grid container>
+            <Grid container sx={{paddingLeft:"0px",paddingRight:"0px"}}>
                
               <Grid xs={12} sm={2.5} sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                 {/* hambburger part start */}
@@ -324,7 +331,7 @@ const Templates = () => {
           {/* top header completed */}
           {/* body part started */}
           <Box sx={{paddingTop:"15px"}}>
-            <Grid container>
+            <Grid container sx={{paddingLeft:"0px",paddingRight:"0px"}}>
             <Grid xs={12} md={2.5} sx={{padding:"20px",display:{xs:"none",md:"block",sm:"none"}}}>
                 <Box sx={{display:{sm:"flex"},justifyContent:"space-between",borderBottom:"4px solid #4AB58E",borderRadius:"2px",marginBottom:"40px"}}>
                   <Typography sx={{fontFamily:"Poppins",fontSize:"15px",lineHeight:"22.5px",fontWeight:"400"}}>
@@ -372,24 +379,24 @@ const Templates = () => {
                     </li>
                    <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Article Generator
+                       <FeedIcon sx={{paddingRight:"20px"}}/>   Article Generator
                     </Typography>
                     </li>
                     <li style={{listStyle:"none"}}>
                       <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Image Generator
+                       <InsertPhotoIcon sx={{paddingRight:"20px"}}/>   Image Generator
                     </Typography>
                     </li>
                      <li style={{listStyle:"none"}}> 
                       <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Content Rewriter
+                       <ContentCopyIcon sx={{paddingRight:"20px"}}/>   Content Rewriter
                     </Typography> 
                     </li>
                     <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Documents
+                       <DocumentScannerIcon sx={{paddingRight:"20px"}}/>   Documents
                     </Typography>
                     </ul>
-                    <Box sx={{position:"absolute",top:"-20px",left:"60px",}}>
+                    <Box sx={{position:"absolute",top:"-20px",left:"55px",}}>
                          <Typography  sx={{background:"#fff",borderRadius:"16px",color:"#403F3F",padding:"8px 25px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Typography>
                     </Box>
                 </Box>
@@ -399,7 +406,7 @@ const Templates = () => {
                   <ul style={{margin:"0px",padding:"0px"}}>
                     <li style={{listStyle:"none"}}>
                     <Typography sx={{display:"flex",alignItems:"center",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791"}}>
-                       <DashboardIcon sx={{marginRight:"20px"}}/>   My History
+                       <HistoryIcon sx={{marginRight:"20px"}}/>   My History
                     </Typography>
                     </li>
                     <li style={{listStyle:"none"}}>
@@ -407,19 +414,15 @@ const Templates = () => {
                        <DashboardIcon sx={{paddingRight:"20px"}}/>   Usage History
                     </Typography>
                     </li>
+                   
                     <li style={{listStyle:"none"}}>
-                    <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Image Generator
+                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
+                       <ReceiptIcon sx={{paddingRight:"20px"}}/>   Plans and Billing
                     </Typography>
                     </li>
                     <li style={{listStyle:"none"}}>
                       <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Plans and Billing
-                    </Typography>
-                    </li>
-                    <li style={{listStyle:"none"}}>
-                      <Typography sx={{display:"flex",alignItems:"flex-start",fontFamily:"Poppins",fontSize:"18px",lineHeight:"27px",fontWeight:"400",color:"#737791",paddingTop:"20px",textAlign:"left",}}>
-                       <DashboardIcon sx={{paddingRight:"20px"}}/>   Profile Details
+                       < PersonIcon sx={{paddingRight:"20px"}}/>   Profile Details
                     </Typography>
                     </li>
                     </ul>
@@ -451,7 +454,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Article Generator
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#789FFE",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -467,7 +470,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Blog Conclusion
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#95CF29",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -483,7 +486,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Blog Idea & Outline
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#D59AED",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -499,7 +502,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Blog Intros
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#FE9C78",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -515,7 +518,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Blog Section
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#61DFED",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -531,7 +534,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Blog Title
 
                    </Typography>
@@ -548,7 +551,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Content Generator
 
                    </Typography>
@@ -565,7 +568,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Content Rewriter
 
                    </Typography>
@@ -582,7 +585,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Copy Ad Variants
 
                    </Typography>
@@ -599,7 +602,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Email and Message
 
                    </Typography>
@@ -616,7 +619,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     FAQ Generator
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#789FFE",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -632,7 +635,7 @@ const Templates = () => {
            <Grid xs={12} sm={6} item>
                <Box sx={{border:"1px solid #E4E4E4",padding:"20px",borderRadius:"16px"}}>
                   <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-                    <Typography sx={{fontSize:"24px",lineHeight:"32px",fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
+                    <Typography sx={{fontSize:{xs:"20px",md:"24px"},lineHeight:{xs:"28px",md:"32px"},fontFamily:"Poppins",fontWeight:"600",color:"#151D48"}}>
                     Meta Title
                     </Typography>
                     <Box sx={{width:"40px",height:"40px",backgroundColor:"#789FFE",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -658,10 +661,10 @@ const Templates = () => {
               {/* enn main part */}
               {/* start popular part  */}
 
-              <Grid xs={12} md={4} sx={{padding:"0px 20px",backgroundColor:""}}>
+              <Grid xs={12} md={4} sx={{padding:{md:"0px 20px",xs:"0px"},backgroundColor:""}}>
                 
-                <Grid container sx={{display:"flex",justifyContent:{xs:"center",md:"flex-start"}}}>
-                  <Grid xs={10} sm={12} sx={{display:"flex",justifyContent:"center",position:"relative"}}>
+                <Grid container sx={{display:"flex",justifyContent:{xs:"center",md:"flex-start"},}}>
+                  <Grid xs={12} md={12} sx={{display:"flex",justifyContent:"center",position:"relative"}}>
                      <Box sx={{backgroundColor:"#fff",padding:{sm:"20px",xs:"15px"},width:{xs:"100%",sm:"100%"},borderRadius:"20px 20px 20px 20px",border:"1px solid #F8F9FA",boxShadow:"0px 4px 20px #EEEEEE80"}}>
                         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:{xs:"12px",sm:"20px"}}}>
                          <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
@@ -691,7 +694,7 @@ const Templates = () => {
                         </Box>
                      </Box>
                   </Grid>
-                  <Grid xs={10} sm={11} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
+                  <Grid xs={12} md={11} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
                      <Box sx={{backgroundColor:"#fff",padding:{sm:"20px 18px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA",boxShadow:"0px 4px 20px #EEEEEE80"}}>
                         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:{xs:"12px",sm:"20px"}}}>
                          <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E",paddingBottom:"30px"}}>
@@ -700,11 +703,11 @@ const Templates = () => {
                          
                         </Box>
                        <Box sx={{width:"90%",}}>
-                        <Image src={worlmapImage} alt='worldimage' style={{width:"380px",height:"230px"}} className={Hero.worldmapImage}/>
+                        <Image src={worlmapImage} alt='worldimage' style={{width:"310px",height:"230px"}} className={Hero.worldmapImage}/>
                        </Box>
                      </Box>
                   </Grid>
-                  <Grid xs={10} md={12} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
+                  <Grid xs={12} md={11} sx={{marginTop:"10px",display:"flex",justifyContent:"flex-start"}}>
                      <Box sx={{backgroundColor:"#fff",padding:{sm:"25px",xs:"15px"},width:{xs:"95%",sm:"100%"},borderRadius:"20px",border:"1px solid #F8F9FA"}}>
                         <Box sx={{display:"flex",justifyContent:"space-between",alignItems:"center",paddingBottom:"20px"}}>
                          <Typography sx={{fontSize:{xs:"16px",sm:"20px"},fontFamily:"Poppins",fontWeight:"600",lineHeight:{sm:"32px",xs:"22px"},color:"#05004E"}}>
@@ -713,7 +716,7 @@ const Templates = () => {
                         
                         </Box>
                         <Box sx={{width:"90%",}}>
-                        <Image src={chartBar} alt='worldimage' style={{width:"334px",height:"157px"}} className={Hero.barchart}/>
+                        <Image src={chartBar} alt='worldimage' style={{width:"290px",height:"157px"}} className={Hero.barchart}/>
                        </Box>
                        <Box sx={{paddingTop:"20px",display:"flex",justifyContent:"space-around",alignItems:"flex-start"}}>
                         <Typography sx={{display:"flex",alignItems:"flex-start",fontSize:"12px",color:"#151D48",lineHeight:"16px",fontWeight:"600",fontFamily:"Poppins"}} component='div'>
