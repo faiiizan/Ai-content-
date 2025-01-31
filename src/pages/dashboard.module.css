@@ -6,7 +6,9 @@
 @media screen and (max-width:476px) {
     .LogoImage{
         height: 52px!important;
-        padding-left: 10px!important;
+        padding-left: 30px!important;
+        width: 120px!important;
+        margin-bottom: 10px;
     }
     .break{
         display: none!important;
@@ -16,6 +18,10 @@
     }
     .barchart{
         width: 265px!important;
+    }
+    .css-hhdjsd-MuiContainer-root{
+        padding-left: 0px!important;
+        padding-right:0px!important;
     }
 }
 @media  (min-width:477px) and (max-width:769px) {

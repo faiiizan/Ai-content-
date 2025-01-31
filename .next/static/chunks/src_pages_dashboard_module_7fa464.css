@@ -4,8 +4,10 @@
 /* [project]/src/pages/dashboard.module.css [client] (css) */
 @media screen and (width <= 476px) {
   .dashboard-module__JsKwpa__LogoImage {
+    margin-bottom: 10px;
     height: 52px !important;
-    padding-left: 10px !important;
+    padding-left: 30px !important;
+    width: 120px !important;
   }
 
   .dashboard-module__JsKwpa__break {
@@ -18,6 +20,11 @@
 
   .dashboard-module__JsKwpa__barchart {
     width: 265px !important;
+  }
+
+  .dashboard-module__JsKwpa__css-hhdjsd-MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
