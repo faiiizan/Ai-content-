@@ -1,5 +1,5 @@
 "use Client"
-import { Box, Button, Container, Drawer, Grid, IconButton, Typography } from '@mui/material'
+import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider } from '@mui/material'
 import React, { useState } from 'react'
 import logoImage from '../../../app/Assets/Imges/logo.svg'
 import Image from 'next/image'
@@ -19,6 +19,11 @@ import LocalMallIcon from '@mui/icons-material/LocalMall';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import MotionPhotosAutoIcon from '@mui/icons-material/MotionPhotosAuto';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import LogoutIcon from '@mui/icons-material/Logout';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -168,12 +173,30 @@ const Templates = () => {
         </Box>
       </Box>
     );
+      const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
+    
+      const handleClick = (event:React.MouseEvent<HTMLElement>) => {
+        setAnchorEl(event.currentTarget);
+      };
+    
+      const handleClose = () => {
+        setAnchorEl(null);
+      };
+      const [anchorEll, setAnchorEll] = useState<HTMLElement | null>(null);
+    
+      const handleClickk = (event:React.MouseEvent<HTMLElement>) => {
+        setAnchorEll(event.currentTarget);
+      };
+    
+      const handleClosee = () => {
+        setAnchorEll(null);
+      };
    
   return (
     <>
      <Box>
        <Container maxWidth='xl'>
-          <Box sx={{height:"100px",width:"100%"}}>
+          <Box sx={{height:"70px",width:"100%"}}>
             <Grid container>
                
               <Grid xs={12} sm={2.5} sx={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
@@ -206,46 +229,93 @@ const Templates = () => {
                  <Image src={logoImage} alt='logo image' className={Hero.LogoImage}/>
                  </Box>
               </Grid>
-              <Grid xs={0} sm={8.5} sx={{display:{xs:"none",md:"flex"},justifyContent:"flex-start",alignItems:"center"}}>
-                <Box sx={{display:"flex"}} >
-                  <Typography sx={{fontSize:"30px",fontFamily:"Poppins",fontWeight:"600",lineHeight:"42px",color:"#151D48",paddingRight:"60px"}}>
+              <Grid xs={0} sm={9.5} sx={{ display: { xs: "none", md: "flex" }, justifyContent: "flex-end", alignItems: "center" }}>
+                <Box sx={{ display: "flex",justifyContent:"flex-end" }} >
+                  {/* <Typography sx={{ fontSize: "30px", fontFamily: "Poppins", fontWeight: "600", lineHeight: "42px", color: "#151D48", paddingRight: "60px" }}>
                     Dashboard
-                  </Typography>
-                  <Box>
-                  <input type="text" style={{padding:"10px 0px",borderRadius:"16px",backgroundColor:"#F9FAFB",border:"none",outline:"none",fontFamily:"Poppins",fontSize:"14px",fontWeight:"400",lineHeight:"27px",paddingLeft:"30px"}} placeholder='What do you want to write?...'  />
-                  </Box>
-                  <Box sx={{paddingLeft:"15px",paddingTop:"10px"}}>
-                    <Typography sx={{paddingLeft:"20px",display:"flex",justifyContent:"center",alignItems:"center",color:"#374557",fontSize:"18px",fontWeight:"600",lineHeight:"27px",fontFamily:"Poppins",cursor:"pointer"}}>
-                      Mode <KeyboardArrowDownIcon/>
+                  </Typography> */}
+                  {/* <Box>
+                    <input type="text" style={{ padding: "10px 0px", borderRadius: "16px", backgroundColor: "#F9FAFB", border: "none", outline: "none", fontFamily: "Poppins", fontSize: "14px", fontWeight: "400", lineHeight: "27px", paddingLeft: "30px" }} placeholder='What do you want to write?...' />
+                  </Box> */}
+                  <Box sx={{ paddingLeft: "15px", paddingTop: "10px" }}>
+                    <Typography sx={{ paddingLeft: "20px", display: "flex", justifyContent: "center", alignItems: "center", color: "#374557", fontSize: "18px", fontWeight: "600", lineHeight: "27px", fontFamily: "Poppins", cursor: "pointer" }}
+                      onClick={handleClick}
+                    >
+                      Mode <KeyboardArrowDownIcon />
                     </Typography>
-                    
+                    <Menu
+                      anchorEl={anchorEl}
+                      open={Boolean(anchorEl)}
+                      onClose={handleClose}
+                      PaperProps={{
+                        style: {
+                          padding: "10px 10px",// You can adjust this width
+                          fontFamily: "Poppins",
+                          border: "1px solid #0000002B"
+                        },
+                      }}
+                    >
+                      <MenuItem onClick={handleClose} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px" }} ><WbSunnyIcon sx={{ marginRight: "10px" }} />Light</MenuItem>
+                      <MenuItem onClick={handleClose} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px" }} ><DarkModeIcon sx={{ marginRight: "10px" }} />Dark</MenuItem>
+                      <MenuItem onClick={handleClose} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px" }} ><MotionPhotosAutoIcon sx={{ marginRight: "10px" }} />Auto</MenuItem>
+                    </Menu>
+
                   </Box>
-                  <Box sx={{paddingLeft:"15px",paddingTop:"10px"}}>
-                   
-                    <Typography sx={{paddingLeft:"10px",display:"flex",justifyContent:"center",alignItems:"center",color:"#374557",fontSize:"18px",fontWeight:"600",lineHeight:"27px",fontFamily:"Poppins",cursor:"pointer"}}>
+                  <Box sx={{ paddingLeft: "15px", paddingTop: "10px" }}>
+
+                    <Typography sx={{ paddingLeft: "10px", display: "flex", justifyContent: "center", alignItems: "center", color: "#374557", fontSize: "18px", fontWeight: "600", lineHeight: "27px", fontFamily: "Poppins", cursor: "pointer" }}>
                       Chat
                     </Typography>
                   </Box>
-                  <Box sx={{padding:"0px 25px",width:"150px"}}>
-                    <Button variant='contained' sx={{width:"100%",fontSize:"14px",fontWeight:"600",fontFamily:"Poppins",textTransform:"capitalize",padding:"12px",boxShadow:"none",backgroundColor:"#D7F200",color:"#000000",borderRadius:"12px"}}>
+                  <Box sx={{ padding: "0px 25px", width: "150px" }}>
+                    <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "12px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
                       create content
                     </Button>
                   </Box>
-                  <Box sx={{height:"48px",width:"48px",backgroundColor:"#FFFAF1",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"8px",color:"#FFA412",cursor:"pointer",marginLeft:"5px"}}>
-                    <NotificationsIcon/>
+                  <Box sx={{ height: "48px", width: "48px", backgroundColor: "#FFFAF1", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "8px", color: "#FFA412", cursor: "pointer", marginLeft: "5px" }}>
+                    <NotificationsIcon />
                   </Box>
-                  <Box sx={{paddingLeft:"20px",display:"flex"}}>
-                    <Image src={dashboardman} alt='dashboardman' style={{width:"60px",height:"60px"}}/>
-                    <Box sx={{display:"flex",justifyContent:"flex-start",alignItems:"space-between",flexDirection:"column",height:"60px"}}>
-                    <Typography sx={{paddingLeft:"5px",fontSize:"16px",fontFamily:"Poppins",color:"#151D48",lineHeight:"24px",fontWeight:"500"}}>
-                      surya 
-                       
-                    </Typography>
-                    <Typography sx={{paddingLeft:"12px",fontSize:"14px",color:"#737791",lineHeight:"20px",fontWeight:"400",fontFamily:"Poppins",paddingTop:"10px",display:"flex",alignItems:"center"}}>
-                    Admin  <KeyboardArrowDownIcon sx={{color:"#151D48"}}/>
-                    </Typography>
+                  <Box sx={{ paddingLeft: "20px", display: "flex", cursor: "pointer" }}>
+                    <Image src={dashboardman} alt='dashboardman' style={{ width: "60px", height: "60px" }} />
+                    <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px" }}>
+                      <Typography sx={{ paddingLeft: "12px", fontSize: "18px", fontFamily: "Poppins", color: "#374557", lineHeight: "24px", fontWeight: "600" }}>
+                        surya
+
+                      </Typography>
+                      <Typography sx={{ paddingLeft: "12px", fontSize: "16px", color: "#374557", lineHeight: "20px", fontWeight: "600", fontFamily: "Poppins", paddingTop: "10px", display: "flex", alignItems: "center" }} onClick={handleClickk}>
+                        Admin  <KeyboardArrowDownIcon sx={{ color: "#151D48" }} />
+                      </Typography>
+                      <Menu
+                        anchorEl={anchorEll}
+                        open={Boolean(anchorEll)}
+                        onClose={handleClosee}
+                        PaperProps={{
+                          style: {
+                            width:"220px",// You can adjust this width
+                            fontFamily: "Poppins",
+                            border: "1px solid #0000002B",
+                            padding:"10px"
+                          },
+                        }}
+                      >
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px",display:"flex",alignItems:"flex-start" }} ><AccountBoxIcon sx={{ marginRight: "10px",fontSize:"40px" }} /> User1 <br />
+                        faizan@gmail
+                        </MenuItem>
+                        <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px",display:"flex",alignItems:"flex-start",paddingLeft:"15px" }} ><DarkModeIcon sx={{ marginRight: "25px",paddingLeft:"15px" }} />Dark
+                        </MenuItem>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px",display:"flex",alignItems:"flex-start",paddingLeft:"15px" }} ><MotionPhotosAutoIcon sx={{ marginRight: "25px",paddingLeft:"15px" }} />Auto
+                        </MenuItem>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px",display:"flex",alignItems:"flex-start",paddingLeft:"15px" }} ><DarkModeIcon sx={{ marginRight: "25px",paddingLeft:"15px" }} />Dark
+                        </MenuItem>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px",display:"flex",alignItems:"flex-start",paddingLeft:"15px" }} ><MotionPhotosAutoIcon sx={{ marginRight: "25px",paddingLeft:"15px" }} />Auto
+                        </MenuItem>
+                        <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px",display:"flex",alignItems:"flex-start" }} ><LogoutIcon sx={{ marginRight: "25px",paddingLeft:"15px" }} />Log Out
+                        </MenuItem>
+                      </Menu>
                     </Box>
-                   
+
                   </Box>
                 </Box>
               </Grid>
