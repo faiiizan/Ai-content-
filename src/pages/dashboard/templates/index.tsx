@@ -389,8 +389,8 @@ const Templates = () => {
                        <DashboardIcon sx={{paddingRight:"20px"}}/>   Documents
                     </Typography>
                     </ul>
-                    <Box sx={{position:"absolute",top:"-16px",left:"35px",}}>
-                         <Typography  sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Typography>
+                    <Box sx={{position:"absolute",top:"-20px",left:"60px",}}>
+                         <Typography  sx={{background:"#fff",borderRadius:"16px",color:"#403F3F",padding:"8px 25px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Workflows</Typography>
                     </Box>
                 </Box>
                 {/* end wokflows */}
@@ -423,8 +423,10 @@ const Templates = () => {
                     </Typography>
                     </li>
                     </ul>
-                    <Box sx={{position:"absolute",top:"-16px",left:"40px",}}>
-                         <Typography  sx={{background:"#D7F200",borderRadius:"16px",color:"#000",padding:"8px 35px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Accounts</Typography>
+                    <Box sx={{position:"absolute",top:"-20px",left:"60px",}}>
+                         <Typography  sx={{background:"#fff",borderRadius:"16px",color:"#403F3F",padding:"8px 25px",boxShadow:"none",textTransform:"capitalize",fontSize:"18px",fontFamily:"Poppins",fontWeight:"600"}}>Accounts
+
+                         </Typography>
                     </Box>
                 </Box>
               </Grid>
