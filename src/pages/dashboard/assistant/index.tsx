@@ -28,9 +28,7 @@ import { useRouter } from 'next/router'
 
 const Templates = () => {
   
-
-
-  const [open, setOpen] = useState(false); // State to control drawer visibility
+ const [open, setOpen] = useState(false); // State to control drawer visibility
 
   // Function to toggle the drawer open/close
   const toggleDrawer = () => {
