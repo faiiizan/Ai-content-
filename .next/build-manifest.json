@@ -23,15 +23,26 @@
       "static/chunks/src_pages_dashboard_index_tsx_877c1d._.js"
     ],
     "/dashboard/templates": [
-      "static/chunks/[root of the server]__49549f._.js",
+      "static/chunks/[root of the server]__aa1802._.js",
+      "static/chunks/node_modules_next_619abf._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_@mui_material_c01dd9._.js",
+      "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
+      "static/chunks/node_modules_5636d6._.js",
+      "static/chunks/src_pages_dashboard_module_7fa464.css",
+      "static/chunks/src_pages_dashboard_templates_index_tsx_5771e1._.js",
+      "static/chunks/src_pages_dashboard_templates_index_tsx_1be94e._.js"
+    ],
+    "/dashboard/assistant": [
+      "static/chunks/[root of the server]__2b775a._.js",
       "static/chunks/node_modules_next_619abf._.js",
       "static/chunks/node_modules_react-dom_82bb97._.js",
       "static/chunks/node_modules_@mui_material_ebae2a._.js",
       "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
-      "static/chunks/node_modules_124d05._.js",
+      "static/chunks/node_modules_f81f05._.js",
       "static/chunks/src_pages_dashboard_module_7fa464.css",
-      "static/chunks/src_pages_dashboard_templates_index_tsx_5771e1._.js",
-      "static/chunks/src_pages_dashboard_templates_index_tsx_5e3fd7._.js"
+      "static/chunks/src_pages_dashboard_assistant_index_tsx_5771e1._.js",
+      "static/chunks/src_pages_dashboard_assistant_index_tsx_11f7b8._.js"
     ],
     "/_error": [
       "static/chunks/node_modules_next_dist_f1b02b._.js",

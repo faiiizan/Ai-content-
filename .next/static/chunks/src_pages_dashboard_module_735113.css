@@ -8,6 +8,37 @@
   .dashboard-module__JsKwpa__break {
     display: none !important;
   }
+
+  .dashboard-module__JsKwpa__worldmapImage {
+    width: 285px !important;
+  }
+
+  .dashboard-module__JsKwpa__barchart {
+    width: 265px !important;
+  }
+}
+
+@media (width >= 477px) and (width <= 769px) {
+  .dashboard-module__JsKwpa__LogoImage {
+    height: 62px !important;
+    padding-left: 500px !important;
+  }
+
+  .dashboard-module__JsKwpa__break {
+    display: none !important;
+  }
+
+  .dashboard-module__JsKwpa__css-uitvrg {
+    padding-top: 0;
+  }
+
+  .dashboard-module__JsKwpa__worldmapImage {
+    width: 100% !important;
+  }
+
+  .dashboard-module__JsKwpa__barchart {
+    width: 265px !important;
+  }
 }
 
 /*# sourceMappingURL=src_pages_dashboard_module_735113.css.map*/
