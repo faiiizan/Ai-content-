@@ -1,5 +1,5 @@
 "use Client"
-import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink, TextField, } from '@mui/material'
+import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink,  } from '@mui/material'
 import React, { useState } from 'react'
 import logoImage from '../../../app/Assets/Imges/logo.svg'
 import Image from 'next/image'
@@ -29,41 +29,13 @@ import image3 from '../../../app/Assets/Imges/pdf3.png'
 import { MdOutlineFileUpload } from "react-icons/md";
 
 
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
-}
 
-function CustomTabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
 
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
-    </div>
-  );
-}
 
-function a11yProps(index: number) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
 
-const analyst = () => {
-  const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
-  };
+const Analyst = () => {
+  
 
 
   const [open, setOpen] = useState(false); // State to control drawer visibility
@@ -177,15 +149,9 @@ const analyst = () => {
       </Box>
     </Box>
   );
-  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
+ 
 
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+ 
   const [anchorEll, setAnchorEll] = useState<HTMLElement | null>(null);
 
   const handleClickk = (event: React.MouseEvent<HTMLElement>) => {
@@ -464,4 +430,4 @@ const analyst = () => {
   )
 }
 
-export default analyst
+export default Analyst
