@@ -360,6 +360,10 @@ img, video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;

@@ -4,5 +4,8 @@
   "/dashboard": "pages/dashboard.js",
   "/dashboard/templates": "pages/dashboard/templates.js",
   "/dashboard/assistant": "pages/dashboard/assistant.js",
-  "/_error": "pages/_error.js"
+  "/dashboard/analyst": "pages/dashboard/analyst.js",
+  "/dashboard/article": "pages/dashboard/article.js",
+  "/dashboard/image": "pages/dashboard/image.js",
+  "/dashboard/contentwriter": "pages/dashboard/contentwriter.js"
 }

@@ -23,6 +23,17 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  .dashboard-module__JsKwpa__Input {
+    width: 85% !important;
+    padding: 10px 0 10px 35px !important;
+    font-size: 14px !important;
+  }
+
+  .dashboard-module__JsKwpa__clipIcon {
+    left: 13px !important;
+    font-size: 16px !important;
+  }
 }
 
 @media (width >= 477px) and (width <= 769px) {
@@ -45,6 +56,34 @@
 
   .dashboard-module__JsKwpa__barchart {
     width: 100% !important;
+  }
+
+  .dashboard-module__JsKwpa__Input {
+    width: 95% !important;
+    padding: 15px 0 15px 35px !important;
+    font-size: 14px !important;
+  }
+
+  .dashboard-module__JsKwpa__clipIcon {
+    left: 13px !important;
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (width <= 321px) {
+  .dashboard-module__JsKwpa__templateCardGrid {
+    padding: 10px !important;
+  }
+
+  .dashboard-module__JsKwpa__Input {
+    width: 90% !important;
+    padding: 10px 0 10px 35px !important;
+    font-size: 14px !important;
+  }
+
+  .dashboard-module__JsKwpa__clipIcon {
+    left: 13px !important;
+    font-size: 16px !important;
   }
 }
 
