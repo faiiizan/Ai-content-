@@ -33,11 +33,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 
 const Article = () => {
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
-  };
+ 
 
 
   const [open, setOpen] = useState(false); // State to control drawer visibility
