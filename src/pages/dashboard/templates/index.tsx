@@ -173,15 +173,8 @@ const Templates = () => {
       </Box>
     </Box>
   );
-  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
 
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
   const [anchorEll, setAnchorEll] = useState<HTMLElement | null>(null);
 
   const handleClickk = (event: React.MouseEvent<HTMLElement>) => {
