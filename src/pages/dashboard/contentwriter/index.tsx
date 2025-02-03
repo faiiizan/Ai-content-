@@ -29,7 +29,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 
 const Content = () => {
-   
+
 
 
     const [open, setOpen] = useState(false); // State to control drawer visibility
@@ -338,14 +338,16 @@ const Content = () => {
                                     </li>
                                     <li style={{ listStyle: "none" }}>
                                         <Link href='/dashboard/content' passHref style={{ textDecoration: "none" }}>
-                                        <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                                            <ContentCopyIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
-                                        </Typography>
+                                            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
+                                                <ContentCopyIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
+                                            </Typography>
                                         </Link>
                                     </li>
+                                    <Link href='/dashboard/document' passHref style={{ textDecoration: "none" }}>
                                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                                         <DocumentScannerIcon sx={{ paddingRight: "20px" }} />   Documents
                                     </Typography>
+                                    </Link>
                                 </ul>
                                 <Box sx={{ position: "absolute", top: "-20px", left: "55px", }}>
                                     <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#403F3F", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Workflows</Typography>
@@ -402,71 +404,27 @@ const Content = () => {
 
                             <Box sx={{ background: "#fff", padding: "20px", minHeight: "100vh" }}>
 
-                                <Typography sx={{ textAlign: "left", fontFamily: "Quicksand", fontSize: { xs: "32px", sm: "52.1px" }, lineHeight: { sm: "65.13px", xs: "30px" }, fontWeight: "600", color: "#000000" }}>
-                                    Generate Your Best Image
+                                <Typography sx={{ textAlign: "center", fontFamily: "Quicksand", fontSize: { xs: "32px", sm: "44px" }, lineHeight: { sm: "65.13px", xs: "30px" }, fontWeight: "600", color: "#000000" }}>
+                                    Rewriter Your Content Over Here
+                                </Typography>
+                                <Typography sx={{ textAlign: "center", fontFamily: "Quicksand", fontSize: { sm: "19.62px", xs: "18px" }, lineHeight: "28px", fontWeight: "400", color: "#000000", paddingTop: "10px" }}>
+                                    AI to rewrite the current content and generate fresh, captivating content that stands out.
                                 </Typography>
                                 <Box sx={{ paddingTop: "50px" }}>
-                                    <Typography sx={{ fontSize: "22.95px", fontFamily: "Quicksand", fontWeight: "600", lineHeight: "28.69px", color: "#515151" }}>
-                                        Write image description here...
-                                    </Typography>
-                                    <Grid container sx={{display:"flex",justifyContent:"center",alignItems:"center"}} spacing={2}>
-                                    <Grid md={10} sm={12} xs={12} item>
 
-                                        <Box sx={{ padding: "10px 0px" }}>
-                                            <TextField
-                                                id="outlined-select-currency"
-                                              
 
-                                                fullWidth
-                                                sx={{
-                                                    '& .MuiInputBase-root': {
-                                                        fontFamily: 'Quicksand', // Apply fontFamily to the input text
-                                                        fontWeight: "600",
-                                                        fontSize: "19px",
-                                                        lineHeight: "23px",
-                                                        color: "#222222",
-                                                        borderRadius: "10px"
-                                                    },
-                                                    '& .MuiSelect-root': {
-                                                        fontFamily: 'Quicksand', // Apply fontFamily to the select options
-                                                        fontWeight: "600",
-                                                        fontSize: "19px",
-                                                        lineHeight: "23px",
-                                                        color: "#222222"
-                                                    },
-                                                    '& .MuiInputLabel-root': {
-                                                        fontFamily: 'Quicksand', // Apply fontFamily to the label
-                                                        fontWeight: "600",
-                                                        fontSize: "19px",
-                                                        lineHeight: "23px",
-                                                        color: "#222222"
-                                                    },
-                                                }}
-                                            >
-                                                
-                                            </TextField>
-                                        </Box>
-                                    </Grid>
-                                    <Grid md={2} item>
-                                    <Box sx={{ paddingTop: "0px", display: "flex", justifyContent: "center" }}>
-                                    <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000000", fontWeight: "700", fontFamily: "Quicksand", fontSize: { sm: "23.16px", xs: "20px" }, lineHeight: "28.95px", textTransform: "capitalize", padding: "15px 20px", borderRadius: "14px", boxShadow: "none", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    Generate <ArrowRightAltIcon sx={{ marginLeft: "10px", fontSize: "28px" }} />
-                                    </Button>
-                                </Box>
-                                </Grid>
-                                </Grid>
                                 </Box>
 
-                                <Box sx={{ paddingTop: "30px" }}>
-                                    <Grid container sx={{ display: "flex", justifyContent: "center", alignItems: "center" }} spacing={1}>
-                                        <Grid md={3} sm={12} xs={12} item>
+                                <Box sx={{ paddingTop: "20px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    <Grid container sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                        <Grid md={10} sm={10}>
 
                                             <Box sx={{ padding: "10px 0px" }}>
                                                 <TextField
                                                     id="outlined-select-currency"
                                                     select
-                                                    label="Style"
-
+                                                    label="select your Language"
+                                                    placeholder='select your Language'
                                                     fullWidth
                                                     sx={{
                                                         '& .MuiInputBase-root': {
@@ -500,14 +458,12 @@ const Content = () => {
                                                     ))}
                                                 </TextField>
                                             </Box>
-                                        </Grid>
-                                        <Grid md={3} sm={12} xs={12} item>
                                             <Box sx={{ padding: "10px 0px" }}>
                                                 <TextField
                                                     id="outlined-select-currency"
                                                     select
-                                                    label="Lighting"
-
+                                                    label="Industry Specific"
+                                                    placeholder='Industry Specific'
                                                     fullWidth
                                                     sx={{
                                                         fontFamily: "Quicksand",
@@ -542,14 +498,11 @@ const Content = () => {
                                                     ))}
                                                 </TextField>
                                             </Box>
-                                        </Grid>
-                                        <Grid md={3} sm={12} xs={12} item>
                                             <Box sx={{ padding: "10px 0px" }}>
                                                 <TextField
-                                                    id="outlined-select-currency"
-                                                    select
-                                                    label="Medium"
+                                                    id="outlined-required"
 
+                                                    label="Focus keywords separated with a comma (optional)"
                                                     fullWidth
                                                     sx={{
                                                         fontFamily: "Quicksand",
@@ -577,22 +530,16 @@ const Content = () => {
                                                         },
                                                     }}
                                                 >
-                                                    {currencies.map((option) => (
-                                                        <MenuItem key={option.value} value={option.value}>
-                                                            {option.label}
-                                                        </MenuItem>
-                                                    ))}
+
                                                 </TextField>
                                             </Box>
-                                        </Grid>
-                                        <Grid md={3} sm={12} xs={12} item>
                                             <Box sx={{ padding: "10px 0px" }}>
+                                                <label htmlFor="" style={{ fontFamily: "Quicksand", fontSize: "19.18px", lineHeight: "23px", fontWeight: "600", color: "#515151", padding: "20px 10px", paddingBottom: "10px!important" }}>What would you like to rewrite? (Paste the content here)</label>
                                                 <TextField
-                                                    id="outlined-select-currency"
-                                                    select
-                                                    label="Mode"
-
+                                                    id="outlined-multiline-static"
+                                                    multiline
                                                     fullWidth
+                                                    rows={5}
                                                     sx={{
                                                         fontFamily: "Quicksand",
                                                         '& .MuiInputBase-root': {
@@ -601,7 +548,8 @@ const Content = () => {
                                                             fontSize: "19px",
                                                             lineHeight: "23px",
                                                             color: "#222222",
-                                                            borderRadius: "10px"
+                                                            borderRadius: "10px",
+                                                            marginTop: "10px"
                                                         },
                                                         '& .MuiSelect-root': {
                                                             fontFamily: 'Quicksand', // Apply fontFamily to the select options
@@ -619,11 +567,7 @@ const Content = () => {
                                                         },
                                                     }}
                                                 >
-                                                    {currencies.map((option) => (
-                                                        <MenuItem key={option.value} value={option.value}>
-                                                            {option.label}
-                                                        </MenuItem>
-                                                    ))}
+
                                                 </TextField>
                                             </Box>
                                         </Grid>
@@ -631,7 +575,7 @@ const Content = () => {
 
 
                                 </Box>
-                                
+
 
                             </Box>
                             {/* enn main part */}

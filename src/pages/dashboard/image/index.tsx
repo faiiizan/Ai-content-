@@ -456,8 +456,8 @@ const Imagegenertor = () => {
                                     </Grid>
                                     <Grid md={2} item>
                                     <Box sx={{ paddingTop: "0px", display: "flex", justifyContent: "center" }}>
-                                    <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000000", fontWeight: "700", fontFamily: "Quicksand", fontSize: { sm: "23.16px", xs: "20px" }, lineHeight: "28.95px", textTransform: "capitalize", padding: "15px 20px", borderRadius: "14px", boxShadow: "none", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    Generate <ArrowRightAltIcon sx={{ marginLeft: "10px", fontSize: "28px" }} />
+                                    <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000000", fontWeight: "700", fontFamily: "Poppins", fontSize: { sm: "16px", xs: "14px" }, lineHeight: "28.95px", textTransform: "capitalize", padding: "15px 20px", borderRadius: "14px", boxShadow: "none", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                    Generate <ArrowRightAltIcon sx={{ marginLeft: "10px", fontSize: "18px" }} />
                                     </Button>
                                 </Box>
                                 </Grid>

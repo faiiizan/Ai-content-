@@ -339,7 +339,7 @@ const Article = () => {
                     </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link href='/dashboard/image' >
+                    <Link href='/dashboard/image'  passHref style={{ textDecoration: "none" }} >
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <InsertPhotoIcon sx={{ paddingRight: "20px" }} />   Image Generator
                     </Typography>
@@ -574,8 +574,8 @@ const Article = () => {
                   </Grid>
 
                 </Box>
-                <Box sx={{ paddingTop: "40px", display: "flex", justifyContent: "center" }}>
-                  <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000000", fontWeight: "700", fontFamily: "Quicksand", fontSize: { sm: "23.16px", xs: "20px" }, lineHeight: "28.95px", textTransform: "capitalize", padding: "10px 30px", borderRadius: "15px", boxShadow: "none", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                <Box sx={{ paddingTop: "40px", display: "flex", justifyContent: "center",paddingBottom:"15px" }}>
+                  <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000000", fontWeight: "700", fontFamily: "Poppins", fontSize: { sm: "16px", xs: "16px" }, lineHeight: "28.95px", textTransform: "capitalize", padding: "10px 30px", borderRadius: "15px", boxShadow: "none", display: "flex", justifyContent: "center", alignItems: "center" }}>
                     Write Article <ArrowRightAltIcon sx={{ marginLeft: "10px", fontSize: "28px" }} />
                   </Button>
                 </Box>

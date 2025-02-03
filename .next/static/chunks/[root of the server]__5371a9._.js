@@ -665,11 +665,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$ico
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Breadcrumbs$2f$Breadcrumbs$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Breadcrumbs$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Breadcrumbs/Breadcrumbs.js [client] (ecmascript) <export default as Breadcrumbs>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Link/Link.js [client] (ecmascript) <export default as Link>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/TextField/TextField.js [client] (ecmascript) <export default as TextField>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowRightAlt$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/ArrowRightAlt.js [client] (ecmascript)");
 ;
 var _s = __turbopack_refresh__.signature();
 "use Client";
-;
 ;
 ;
 ;
@@ -2519,14 +2517,14 @@ const Content = ()=>{
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
                                                                         lineNumber: 342,
-                                                                        columnNumber: 45
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     "   Content Rewriter"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
                                                                 lineNumber: 341,
-                                                                columnNumber: 41
+                                                                columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
@@ -2538,31 +2536,42 @@ const Content = ()=>{
                                                         lineNumber: 339,
                                                         columnNumber: 37
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        sx: {
-                                                            display: "flex",
-                                                            alignItems: "flex-start",
-                                                            fontFamily: "Poppins",
-                                                            fontSize: "18px",
-                                                            lineHeight: "27px",
-                                                            fontWeight: "400",
-                                                            color: "#737791",
-                                                            paddingTop: "20px",
-                                                            textAlign: "left"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/dashboard/document",
+                                                        passHref: true,
+                                                        style: {
+                                                            textDecoration: "none"
                                                         },
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DocumentScanner$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                sx: {
-                                                                    paddingRight: "20px"
-                                                                }
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 347,
-                                                                columnNumber: 41
-                                                            }, this),
-                                                            "   Documents"
-                                                        ]
-                                                    }, void 0, true, {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                            sx: {
+                                                                display: "flex",
+                                                                alignItems: "flex-start",
+                                                                fontFamily: "Poppins",
+                                                                fontSize: "18px",
+                                                                lineHeight: "27px",
+                                                                fontWeight: "400",
+                                                                color: "#737791",
+                                                                paddingTop: "20px",
+                                                                textAlign: "left"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DocumentScanner$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        paddingRight: "20px"
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                    lineNumber: 348,
+                                                                    columnNumber: 41
+                                                                }, this),
+                                                                "   Documents"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                            lineNumber: 347,
+                                                            columnNumber: 37
+                                                        }, this)
+                                                    }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
                                                         lineNumber: 346,
                                                         columnNumber: 37
@@ -2594,12 +2603,12 @@ const Content = ()=>{
                                                     children: "Workflows"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                    lineNumber: 351,
+                                                    lineNumber: 353,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 352,
                                                 columnNumber: 33
                                             }, this)
                                         ]
@@ -2650,19 +2659,19 @@ const Content = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 360,
+                                                                    lineNumber: 362,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 "   My History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 359,
+                                                            lineNumber: 361,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 358,
+                                                        lineNumber: 360,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2688,19 +2697,19 @@ const Content = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 365,
+                                                                    lineNumber: 367,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 "   Usage History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 364,
+                                                            lineNumber: 366,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 363,
+                                                        lineNumber: 365,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2726,19 +2735,19 @@ const Content = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 371,
+                                                                    lineNumber: 373,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 "   Plans and Billing"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 370,
+                                                            lineNumber: 372,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 369,
+                                                        lineNumber: 371,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2764,25 +2773,25 @@ const Content = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 376,
+                                                                    lineNumber: 378,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 "   Profile Details"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 375,
+                                                            lineNumber: 377,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 376,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 357,
+                                                lineNumber: 359,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2806,18 +2815,18 @@ const Content = ()=>{
                                                     children: "Accounts"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                    lineNumber: 381,
+                                                    lineNumber: 383,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 380,
+                                                lineNumber: 382,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                        lineNumber: 356,
+                                        lineNumber: 358,
                                         columnNumber: 29
                                     }, this)
                                 ]
@@ -2866,7 +2875,7 @@ const Content = ()=>{
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                    lineNumber: 391,
+                                                    lineNumber: 393,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__["Link"], {
@@ -2885,18 +2894,18 @@ const Content = ()=>{
                                                     children: "Image Generator"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                    lineNumber: 395,
+                                                    lineNumber: 397,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 392,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                        lineNumber: 389,
+                                        lineNumber: 391,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2908,11 +2917,11 @@ const Content = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                                 sx: {
-                                                    textAlign: "left",
+                                                    textAlign: "center",
                                                     fontFamily: "Quicksand",
                                                     fontSize: {
                                                         xs: "32px",
-                                                        sm: "52.1px"
+                                                        sm: "44px"
                                                     },
                                                     lineHeight: {
                                                         sm: "65.13px",
@@ -2921,60 +2930,243 @@ const Content = ()=>{
                                                     fontWeight: "600",
                                                     color: "#000000"
                                                 },
-                                                children: "Generate Your Best Image"
+                                                children: "Rewriter Your Content Over Here"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 405,
+                                                lineNumber: 407,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                sx: {
+                                                    textAlign: "center",
+                                                    fontFamily: "Quicksand",
+                                                    fontSize: {
+                                                        sm: "19.62px",
+                                                        xs: "18px"
+                                                    },
+                                                    lineHeight: "28px",
+                                                    fontWeight: "400",
+                                                    color: "#000000",
+                                                    paddingTop: "10px"
+                                                },
+                                                children: "AI to rewrite the current content and generate fresh, captivating content that stands out."
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                lineNumber: 410,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
                                                     paddingTop: "50px"
+                                                }
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                lineNumber: 413,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    paddingTop: "20px",
+                                                    display: "flex",
+                                                    justifyContent: "center",
+                                                    alignItems: "center"
                                                 },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        sx: {
-                                                            fontSize: "22.95px",
-                                                            fontFamily: "Quicksand",
-                                                            fontWeight: "600",
-                                                            lineHeight: "28.69px",
-                                                            color: "#515151"
-                                                        },
-                                                        children: "Write image description here..."
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 409,
-                                                        columnNumber: 37
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        container: true,
-                                                        sx: {
-                                                            display: "flex",
-                                                            justifyContent: "center",
-                                                            alignItems: "center"
-                                                        },
-                                                        spacing: 2,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                    container: true,
+                                                    sx: {
+                                                        display: "flex",
+                                                        justifyContent: "center",
+                                                        alignItems: "center"
+                                                    },
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                        md: 10,
+                                                        sm: 10,
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                md: 10,
-                                                                sm: 12,
-                                                                xs: 12,
-                                                                item: true,
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    padding: "10px 0px"
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                    id: "outlined-select-currency",
+                                                                    select: true,
+                                                                    label: "select your Language",
+                                                                    placeholder: "select your Language",
+                                                                    fullWidth: true,
                                                                     sx: {
-                                                                        padding: "10px 0px"
+                                                                        '& .MuiInputBase-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222",
+                                                                            borderRadius: "10px"
+                                                                        },
+                                                                        '& .MuiSelect-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        },
+                                                                        '& .MuiInputLabel-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        }
                                                                     },
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                        id: "outlined-select-currency",
+                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                                                                            value: option.value,
+                                                                            children: option.label
+                                                                        }, option.value, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                            lineNumber: 455,
+                                                                            columnNumber: 57
+                                                                        }, this))
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                    lineNumber: 423,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                lineNumber: 422,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    padding: "10px 0px"
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                    id: "outlined-select-currency",
+                                                                    select: true,
+                                                                    label: "Industry Specific",
+                                                                    placeholder: "Industry Specific",
+                                                                    fullWidth: true,
+                                                                    sx: {
+                                                                        fontFamily: "Quicksand",
+                                                                        '& .MuiInputBase-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222",
+                                                                            borderRadius: "10px"
+                                                                        },
+                                                                        '& .MuiSelect-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        },
+                                                                        '& .MuiInputLabel-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        }
+                                                                    },
+                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                                                                            value: option.value,
+                                                                            children: option.label
+                                                                        }, option.value, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                            lineNumber: 495,
+                                                                            columnNumber: 57
+                                                                        }, this))
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                    lineNumber: 462,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                lineNumber: 461,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    padding: "10px 0px"
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                    id: "outlined-required",
+                                                                    label: "Focus keywords separated with a comma (optional)",
+                                                                    fullWidth: true,
+                                                                    sx: {
+                                                                        fontFamily: "Quicksand",
+                                                                        '& .MuiInputBase-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222",
+                                                                            borderRadius: "10px"
+                                                                        },
+                                                                        '& .MuiSelect-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        },
+                                                                        '& .MuiInputLabel-root': {
+                                                                            fontFamily: 'Quicksand',
+                                                                            fontWeight: "600",
+                                                                            fontSize: "19px",
+                                                                            lineHeight: "23px",
+                                                                            color: "#222222"
+                                                                        }
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                    lineNumber: 502,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                lineNumber: 501,
+                                                                columnNumber: 45
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    padding: "10px 0px"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                                        htmlFor: "",
+                                                                        style: {
+                                                                            fontFamily: "Quicksand",
+                                                                            fontSize: "19.18px",
+                                                                            lineHeight: "23px",
+                                                                            fontWeight: "600",
+                                                                            color: "#515151",
+                                                                            padding: "20px 10px",
+                                                                            paddingBottom: "10px!important"
+                                                                        },
+                                                                        children: "What would you like to rewrite? (Paste the content here)"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
+                                                                        lineNumber: 537,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                        id: "outlined-multiline-static",
+                                                                        multiline: true,
                                                                         fullWidth: true,
+                                                                        rows: 5,
                                                                         sx: {
+                                                                            fontFamily: "Quicksand",
                                                                             '& .MuiInputBase-root': {
                                                                                 fontFamily: 'Quicksand',
                                                                                 fontWeight: "600",
                                                                                 fontSize: "19px",
                                                                                 lineHeight: "23px",
                                                                                 color: "#222222",
-                                                                                borderRadius: "10px"
+                                                                                borderRadius: "10px",
+                                                                                marginTop: "10px"
                                                                             },
                                                                             '& .MuiSelect-root': {
                                                                                 fontFamily: 'Quicksand',
@@ -2993,369 +3185,41 @@ const Content = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                        lineNumber: 416,
-                                                                        columnNumber: 45
+                                                                        lineNumber: 538,
+                                                                        columnNumber: 49
                                                                     }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 415,
-                                                                    columnNumber: 41
-                                                                }, this)
-                                                            }, void 0, false, {
+                                                                ]
+                                                            }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 413,
-                                                                columnNumber: 37
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                md: 2,
-                                                                item: true,
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                    sx: {
-                                                                        paddingTop: "0px",
-                                                                        display: "flex",
-                                                                        justifyContent: "center"
-                                                                    },
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                                        variant: "contained",
-                                                                        sx: {
-                                                                            backgroundColor: "#D7F200",
-                                                                            color: "#000000",
-                                                                            fontWeight: "700",
-                                                                            fontFamily: "Quicksand",
-                                                                            fontSize: {
-                                                                                sm: "23.16px",
-                                                                                xs: "20px"
-                                                                            },
-                                                                            lineHeight: "28.95px",
-                                                                            textTransform: "capitalize",
-                                                                            padding: "15px 20px",
-                                                                            borderRadius: "14px",
-                                                                            boxShadow: "none",
-                                                                            display: "flex",
-                                                                            justifyContent: "center",
-                                                                            alignItems: "center"
-                                                                        },
-                                                                        children: [
-                                                                            "Generate ",
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowRightAlt$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                sx: {
-                                                                                    marginLeft: "10px",
-                                                                                    fontSize: "28px"
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                                lineNumber: 453,
-                                                                                columnNumber: 46
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                        lineNumber: 452,
-                                                                        columnNumber: 37
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 451,
-                                                                    columnNumber: 37
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 450,
-                                                                columnNumber: 37
+                                                                lineNumber: 536,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                        lineNumber: 412,
-                                                        columnNumber: 37
+                                                        lineNumber: 420,
+                                                        columnNumber: 41
                                                     }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 408,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    paddingTop: "30px"
-                                                },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                    container: true,
-                                                    sx: {
-                                                        display: "flex",
-                                                        justifyContent: "center",
-                                                        alignItems: "center"
-                                                    },
-                                                    spacing: 1,
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                            md: 3,
-                                                            sm: 12,
-                                                            xs: 12,
-                                                            item: true,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                sx: {
-                                                                    padding: "10px 0px"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                    id: "outlined-select-currency",
-                                                                    select: true,
-                                                                    label: "Style",
-                                                                    fullWidth: true,
-                                                                    sx: {
-                                                                        '& .MuiInputBase-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222",
-                                                                            borderRadius: "10px"
-                                                                        },
-                                                                        '& .MuiSelect-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        },
-                                                                        '& .MuiInputLabel-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        }
-                                                                    },
-                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                            value: option.value,
-                                                                            children: option.label
-                                                                        }, option.value, false, {
-                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                            lineNumber: 497,
-                                                                            columnNumber: 57
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 465,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 464,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 462,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                            md: 3,
-                                                            sm: 12,
-                                                            xs: 12,
-                                                            item: true,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                sx: {
-                                                                    padding: "10px 0px"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                    id: "outlined-select-currency",
-                                                                    select: true,
-                                                                    label: "Lighting",
-                                                                    fullWidth: true,
-                                                                    sx: {
-                                                                        fontFamily: "Quicksand",
-                                                                        '& .MuiInputBase-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222",
-                                                                            borderRadius: "10px"
-                                                                        },
-                                                                        '& .MuiSelect-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        },
-                                                                        '& .MuiInputLabel-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        }
-                                                                    },
-                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                            value: option.value,
-                                                                            children: option.label
-                                                                        }, option.value, false, {
-                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                            lineNumber: 539,
-                                                                            columnNumber: 57
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 506,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 505,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 504,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                            md: 3,
-                                                            sm: 12,
-                                                            xs: 12,
-                                                            item: true,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                sx: {
-                                                                    padding: "10px 0px"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                    id: "outlined-select-currency",
-                                                                    select: true,
-                                                                    label: "Medium",
-                                                                    fullWidth: true,
-                                                                    sx: {
-                                                                        fontFamily: "Quicksand",
-                                                                        '& .MuiInputBase-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222",
-                                                                            borderRadius: "10px"
-                                                                        },
-                                                                        '& .MuiSelect-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        },
-                                                                        '& .MuiInputLabel-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        }
-                                                                    },
-                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                            value: option.value,
-                                                                            children: option.label
-                                                                        }, option.value, false, {
-                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                            lineNumber: 581,
-                                                                            columnNumber: 57
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 548,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 547,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 546,
-                                                            columnNumber: 41
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                            md: 3,
-                                                            sm: 12,
-                                                            xs: 12,
-                                                            item: true,
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                sx: {
-                                                                    padding: "10px 0px"
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                    id: "outlined-select-currency",
-                                                                    select: true,
-                                                                    label: "Mode",
-                                                                    fullWidth: true,
-                                                                    sx: {
-                                                                        fontFamily: "Quicksand",
-                                                                        '& .MuiInputBase-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222",
-                                                                            borderRadius: "10px"
-                                                                        },
-                                                                        '& .MuiSelect-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        },
-                                                                        '& .MuiInputLabel-root': {
-                                                                            fontFamily: 'Quicksand',
-                                                                            fontWeight: "600",
-                                                                            fontSize: "19px",
-                                                                            lineHeight: "23px",
-                                                                            color: "#222222"
-                                                                        }
-                                                                    },
-                                                                    children: currencies.map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                            value: option.value,
-                                                                            children: option.label
-                                                                        }, option.value, false, {
-                                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                            lineNumber: 623,
-                                                                            columnNumber: 57
-                                                                        }, this))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                    lineNumber: 590,
-                                                                    columnNumber: 49
-                                                                }, this)
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                                lineNumber: 589,
-                                                                columnNumber: 45
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                            lineNumber: 588,
-                                                            columnNumber: 41
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                    lineNumber: 461,
+                                                    lineNumber: 419,
                                                     columnNumber: 37
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                                lineNumber: 460,
+                                                lineNumber: 418,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                        lineNumber: 403,
+                                        lineNumber: 405,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/contentwriter/index.tsx",
-                                lineNumber: 388,
+                                lineNumber: 390,
                                 columnNumber: 25
                             }, this)
                         ]

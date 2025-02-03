@@ -7,5 +7,6 @@
   "/dashboard/analyst": "pages/dashboard/analyst.js",
   "/dashboard/article": "pages/dashboard/article.js",
   "/dashboard/image": "pages/dashboard/image.js",
-  "/dashboard/contentwriter": "pages/dashboard/contentwriter.js"
+  "/dashboard/contentwriter": "pages/dashboard/contentwriter.js",
+  "/dashboard/document": "pages/dashboard/document.js"
 }
