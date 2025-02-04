@@ -49,9 +49,12 @@ const Content = () => {
     };
 
     const menuItems = (
-        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "60px 10px", sm: "60px 30px" } }}>
+        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "15px 10px", sm: "20px 30px" } }}>
             {/* Credits Section */}
-            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" }}>
+            <Box>
+                <Image src={logoImage} alt='logo' style={{margin:"auto",width:"180px",paddingLeft:"30px"}} className={Hero.navLogo}/>
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" ,marginTop:"20px"}}>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>Credits</Typography>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>5000 words left</Typography>
             </Box>
@@ -219,23 +222,24 @@ const Content = () => {
 
 
                                     <Box sx={{ padding: "0px 45px", width: "150px" }}>
-                                        <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "12px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
+                                        <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "15px 10px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
                                             create content
                                         </Button>
                                     </Box>
                                     <Box sx={{ height: "48px", width: "48px", backgroundColor: "#FFFAF1", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "8px", color: "#FFA412", cursor: "pointer", marginLeft: "5px", }}>
                                         <ChatIcon sx={{ color: "#000" }} />
                                     </Box>
-                                    <Box sx={{ paddingLeft: "45px", display: "flex", cursor: "pointer" }}>
+                                    <Box sx={{ paddingLeft: "45px", display: "flex", cursor: "pointer", justifyContent: "center" }}>
                                         <Image src={dashboardman} alt='dashboardman' style={{ width: "60px", height: "60px" }} />
-                                        <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px" }}>
+                                        <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px", paddingLeft: "20px" }}>
                                             <Typography sx={{ paddingLeft: "12px", fontSize: "18px", fontFamily: "Poppins", color: "#374557", lineHeight: "24px", fontWeight: "600" }}>
                                                 surya
 
                                             </Typography>
-                                            <Typography sx={{ paddingLeft: "12px", fontSize: "16px", color: "#374557", lineHeight: "20px", fontWeight: "600", fontFamily: "Poppins", paddingTop: "10px", display: "flex", alignItems: "center" }} onClick={handleClickk}>
-                                                Admin  <KeyboardArrowDownIcon sx={{ color: "#151D48" }} />
+                                            <Typography sx={{ paddingLeft: "12px", fontSize: "16px", color: "#737791", lineHeight: "20px", fontWeight: "400", fontFamily: "Poppins", paddingTop: "10px", display: "flex", alignItems: "flex-start" }} >
+                                                Admin
                                             </Typography>
+
                                             <Menu
                                                 anchorEl={anchorEll}
                                                 open={Boolean(anchorEll)}
@@ -265,6 +269,10 @@ const Content = () => {
                                                 <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Log Out
                                                 </MenuItem>
                                             </Menu>
+
+                                        </Box>
+                                        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", paddingLeft: "15px" }} onClick={handleClickk}>
+                                            <KeyboardArrowDownIcon />
                                         </Box>
 
                                     </Box>
@@ -344,9 +352,9 @@ const Content = () => {
                                         </Link>
                                     </li>
                                     <Link href='/dashboard/document' passHref style={{ textDecoration: "none" }}>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                                        <DocumentScannerIcon sx={{ paddingRight: "20px" }} />   Documents
-                                    </Typography>
+                                        <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
+                                            <DocumentScannerIcon sx={{ paddingRight: "20px" }} />   Documents
+                                        </Typography>
                                     </Link>
                                 </ul>
                                 <Box sx={{ position: "absolute", top: "-20px", left: "55px", }}>

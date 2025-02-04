@@ -55,100 +55,103 @@ const Analyst = () => {
   };
 
   const menuItems = (
-    <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "60px 10px", sm: "60px 30px" } }}>
-      {/* Credits Section */}
-      <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" }}>
-        <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>Credits</Typography>
-        <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>5000 words left</Typography>
-      </Box>
+    <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "15px 10px", sm: "20px 30px" } }}>
+        {/* Credits Section */}
+        <Box>
+            <Image src={logoImage} alt='logo' style={{margin:"auto",width:"180px",paddingLeft:"30px"}} className={Hero.navLogo}/>
+        </Box>
+        <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" ,marginTop:"20px"}}>
+            <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>Credits</Typography>
+            <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>5000 words left</Typography>
+        </Box>
 
-      {/* Dashboard Section */}
+        {/* Dashboard Section */}
 
-      <Box sx={{ height: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: { sm: "30px", xs: "none" }, padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", borderBottom: { xs: "1px solid #0000001A" } }}>
-        <ul style={{ padding: "0px", margin: "0px" }}>
+        <Box sx={{ height: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: { sm: "30px", xs: "none" }, padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", borderBottom: { xs: "1px solid #0000001A" } }}>
+            <ul style={{ padding: "0px", margin: "0px" }}>
 
-          <li style={{ textDecoration: "none", listStyle: "none" }}> <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
-            <DashboardIcon sx={{ marginRight: "20px" }} /> Dashboard</Typography>
-          </li>
+                <li style={{ textDecoration: "none", listStyle: "none" }}> <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
+                    <DashboardIcon sx={{ marginRight: "20px" }} /> Dashboard</Typography>
+                </li>
 
-          <li style={{ textDecoration: "none", listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
-              <DashboardIcon sx={{ marginRight: "20px" }} /> Templates
-            </Typography>
-          </li>
-          <li style={{ textDecoration: "none", listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-              <DashboardIcon sx={{ paddingRight: "20px" }} /> Assistant
-            </Typography>
-          </li>
+                <li style={{ textDecoration: "none", listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
+                        <DashboardIcon sx={{ marginRight: "20px" }} /> Templates
+                    </Typography>
+                </li>
+                <li style={{ textDecoration: "none", listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: { xs: "20px", sm: "27px" }, fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                        <DashboardIcon sx={{ paddingRight: "20px" }} /> Assistant
+                    </Typography>
+                </li>
 
-        </ul>
-      </Box>
+            </ul>
+        </Box>
 
-      {/* Workflows Section */}
-      <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: { sm: "30px", xs: "none" }, padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px", borderBottom: { xs: "1px solid #0000001A" } }}>
-        <ul style={{ padding: "0px", margin: "0px" }}>
-          <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
-            <DashboardIcon sx={{ marginRight: "20px" }} />  Workflows
-          </Typography>
-          <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
-            <DashboardIcon sx={{ marginRight: "20px" }} /> Data Analyst
-          </Typography>
-          <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-            <DashboardIcon sx={{ paddingRight: "20px" }} /> Article Generator
-          </Typography>
-          <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-            <DashboardIcon sx={{ paddingRight: "20px" }} /> Image Generator
-          </Typography>
-          <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-            <DashboardIcon sx={{ paddingRight: "20px" }} /> Content Rewriter
-          </Typography>
-          <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-            <DashboardIcon sx={{ paddingRight: "20px" }} /> Documents
-          </Typography>
-        </ul>
+        {/* Workflows Section */}
+        <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: { sm: "30px", xs: "none" }, padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px", borderBottom: { xs: "1px solid #0000001A" } }}>
+            <ul style={{ padding: "0px", margin: "0px" }}>
+                <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
+                    <DashboardIcon sx={{ marginRight: "20px" }} />  Workflows
+                </Typography>
+                <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
+                    <DashboardIcon sx={{ marginRight: "20px" }} /> Data Analyst
+                </Typography>
+                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                    <DashboardIcon sx={{ paddingRight: "20px" }} /> Article Generator
+                </Typography>
+                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                    <DashboardIcon sx={{ paddingRight: "20px" }} /> Image Generator
+                </Typography>
+                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                    <DashboardIcon sx={{ paddingRight: "20px" }} /> Content Rewriter
+                </Typography>
+                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                    <DashboardIcon sx={{ paddingRight: "20px" }} /> Documents
+                </Typography>
+            </ul>
 
 
 
-      </Box>
+        </Box>
 
-      {/* Account Section */}
-      <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: "30px", padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px" }}>
-        <ul style={{ padding: "0px", margin: "0px" }}>
-          <li style={{ listStyle: "none" }}> <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
-            <DashboardIcon sx={{ marginRight: "20px" }} /> Account
-          </Typography> </li>
+        {/* Account Section */}
+        <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: '1px solid #0000001A' }, borderRadius: "30px", padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px" }}>
+            <ul style={{ padding: "0px", margin: "0px" }}>
+                <li style={{ listStyle: "none" }}> <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791" }}>
+                    <DashboardIcon sx={{ marginRight: "20px" }} /> Account
+                </Typography> </li>
 
-          <li style={{ listStyle: "none" }} >
-            <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
-              <DashboardIcon sx={{ marginRight: "20px" }} /> My History
-            </Typography>
-          </li>
-          <li style={{ listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-              <DashboardIcon sx={{ paddingRight: "20px" }} /> Usage History
-            </Typography>
-          </li>
-          <li style={{ listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-              <DashboardIcon sx={{ paddingRight: "20px" }} /> Image Generator
-            </Typography>
-          </li>
-          <li style={{ listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-              <DashboardIcon sx={{ paddingRight: "20px" }} /> Plans and Billing
-            </Typography>
-          </li>
-          <li style={{ listStyle: "none" }}>
-            <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
-              <DashboardIcon sx={{ paddingRight: "20px" }} /> Profile Details
-            </Typography>
-          </li>
-        </ul>
+                <li style={{ listStyle: "none" }} >
+                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
+                        <DashboardIcon sx={{ marginRight: "20px" }} /> My History
+                    </Typography>
+                </li>
+                <li style={{ listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                        <DashboardIcon sx={{ paddingRight: "20px" }} /> Usage History
+                    </Typography>
+                </li>
+                <li style={{ listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                        <DashboardIcon sx={{ paddingRight: "20px" }} /> Image Generator
+                    </Typography>
+                </li>
+                <li style={{ listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                        <DashboardIcon sx={{ paddingRight: "20px" }} /> Plans and Billing
+                    </Typography>
+                </li>
+                <li style={{ listStyle: "none" }}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                        <DashboardIcon sx={{ paddingRight: "20px" }} /> Profile Details
+                    </Typography>
+                </li>
+            </ul>
 
-      </Box>
+        </Box>
     </Box>
-  );
+);;
  
 
  

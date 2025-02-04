@@ -51,9 +51,12 @@ const Imagegenertor = () => {
     };
 
     const menuItems = (
-        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "60px 10px", sm: "60px 30px" } }}>
+        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "15px 10px", sm: "20px 30px" } }}>
             {/* Credits Section */}
-            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" }}>
+            <Box>
+                <Image src={logoImage} alt='logo' style={{margin:"auto",width:"180px",paddingLeft:"30px"}} className={Hero.navLogo}/>
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" ,marginTop:"20px"}}>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>Credits</Typography>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>5000 words left</Typography>
             </Box>

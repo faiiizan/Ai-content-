@@ -24,7 +24,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import { SiGoogleassistant } from "react-icons/si";
 import { PiChartPieSliceFill } from "react-icons/pi";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import { IoSearchCircleOutline } from 'react-icons/io5'
+import SearchIcon from '@mui/icons-material/Search';
 
 
 
@@ -50,9 +50,12 @@ const Content = () => {
     };
 
     const menuItems = (
-        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "60px 10px", sm: "60px 30px" } }}>
+        <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "15px 10px", sm: "20px 30px" } }}>
             {/* Credits Section */}
-            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" }}>
+            <Box>
+                <Image src={logoImage} alt='logo' style={{margin:"auto",width:"180px",paddingLeft:"30px"}} className={Hero.navLogo}/>
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "space-between", borderBottom: { xs: "4px solid #4AB58E", sm: "8px solid #4AB58E" }, borderRadius: { xs: "2px", sm: "4px" }, marginBottom: "40px" ,marginTop:"20px"}}>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>Credits</Typography>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "15px", sm: "18px" }, lineHeight: "22.5px", fontWeight: { xs: "400", sm: "700" } }}>5000 words left</Typography>
             </Box>
@@ -220,23 +223,24 @@ const Content = () => {
 
 
                                     <Box sx={{ padding: "0px 45px", width: "150px" }}>
-                                        <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "12px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
+                                        <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "15px 10px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
                                             create content
                                         </Button>
                                     </Box>
                                     <Box sx={{ height: "48px", width: "48px", backgroundColor: "#FFFAF1", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "8px", color: "#FFA412", cursor: "pointer", marginLeft: "5px", }}>
                                         <ChatIcon sx={{ color: "#000" }} />
                                     </Box>
-                                    <Box sx={{ paddingLeft: "45px", display: "flex", cursor: "pointer" }}>
+                                    <Box sx={{ paddingLeft: "45px", display: "flex", cursor: "pointer",justifyContent:"center" }}>
                                         <Image src={dashboardman} alt='dashboardman' style={{ width: "60px", height: "60px" }} />
-                                        <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px" }}>
+                                        <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px",paddingLeft:"20px" }}>
                                             <Typography sx={{ paddingLeft: "12px", fontSize: "18px", fontFamily: "Poppins", color: "#374557", lineHeight: "24px", fontWeight: "600" }}>
                                                 surya
 
                                             </Typography>
-                                            <Typography sx={{ paddingLeft: "12px", fontSize: "16px", color: "#374557", lineHeight: "20px", fontWeight: "600", fontFamily: "Poppins", paddingTop: "10px", display: "flex", alignItems: "center" }} onClick={handleClickk}>
-                                                Admin  <KeyboardArrowDownIcon sx={{ color: "#151D48" }} />
+                                            <Typography sx={{ paddingLeft: "12px", fontSize: "16px", color: "#737791", lineHeight: "20px", fontWeight: "400", fontFamily: "Poppins", paddingTop: "10px", display: "flex", alignItems: "flex-start" }} >
+                                                Admin  
                                             </Typography>
+                                           
                                             <Menu
                                                 anchorEl={anchorEll}
                                                 open={Boolean(anchorEll)}
@@ -266,7 +270,11 @@ const Content = () => {
                                                 <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Log Out
                                                 </MenuItem>
                                             </Menu>
+                                            
                                         </Box>
+                                        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",paddingLeft:"15px"}} onClick={handleClickk}>
+                                                <KeyboardArrowDownIcon/>
+                                            </Box>
 
                                     </Box>
                                 </Box>
@@ -359,9 +367,11 @@ const Content = () => {
                             <Box sx={{ minHeight: "100px", width: "100%", border: '1px solid #0000001A', borderRadius: "30px", padding: "50px 0px 20px 0px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", marginTop: "40px" }}>
                                 <ul style={{ margin: "0px", padding: "0px" }}>
                                     <li style={{ listStyle: "none" }}>
+                                        <Link href='/dashboard/history' passHref style={{ textDecoration: "none" }}>
                                         <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
                                             <HistoryIcon sx={{ marginRight: "20px" }} />   My History
                                         </Typography>
+                                        </Link>
                                     </li>
                                     <li style={{ listStyle: "none" }}>
                                         <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
@@ -405,40 +415,16 @@ const Content = () => {
 
                             <Box sx={{ background: "#fff", padding: "20px", minHeight: "100vh" }}>
 
-                                <Typography sx={{ textAlign: "left", fontFamily: "Quicksand", fontSize: { xs: "32px", sm: "44.14px" }, lineHeight: { sm: "65.13px", xs: "30px" }, fontWeight: "600", color: "#000000" }}>
+                                <Typography sx={{ textAlign: "left", fontFamily: "Quicksand", fontSize: { xs: "32px", sm: "44.14px" }, lineHeight: { sm: "65.13px", xs: "30px" }, fontWeight: "600", color: "#000000",paddingBottom:{xs:"30px",sm:"5px"} }}>
                                     Documents
                                 </Typography>
-                                <Box sx={{display:"flex",justifyContent:"flex-end"}}>
-                                    <TextField
-                                    placeholder='Search....'
-                                     sx={{
-                                        
-                                        padding: '10px',
-                                        borderRadius: '8px',
-                                        '& .MuiOutlinedInput-root': {
-                                          borderColor: 'gray',
-                                          borderRadius:"10px",
-                                          fontSize:"20px",
-                                          fontFamily:"Quicksand",
-                                          color:"#595E64",
-                                          lineHeight:"25px",
-                                          padding:"0px"
-                                
-                                    
-                                        },
-                                        
-                                      }}
-                                      InputProps={{
-                                        startAdornment: (
-                                          <InputAdornment position="end" sx={{ height: '100%', display: 'flex', alignItems: 'center' }}>
-                                            <IoSearchCircleOutline style={{ color: '#595E64', fontSize: '34px',height:"100%",width:"30px" }} />
-                                          </InputAdornment>
-                                        ),
-                                      }}
-                                    
-                                    />
+                                <Box sx={{display:"flex",justifyContent:{sm:"flex-end",xs:"flex-start"}}}>
+                                   <input placeholder='search....' type='text' style={{padding:"20px",borderRadius:"10px 0px 0px 10px",fontSize:"20px",lineHeight:"25px",fontFamily:"Quicksand",fontWeight:"400",border:"1px solid #0000001A",outline:"none"}} className={Hero.inputField}/>
+                                   <Box sx={{height:{sm:"70px",xs:"60px"},width:{sm:"64px",xs:"45px"},backgroundColor:"#D7F200",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"0px 10px 10px 0px"}}>
+                                   <SearchIcon sx={{fontSize:"28px",fontWeight:"600"}} />
+                                   </Box>
                                 </Box>
-                                <Typography sx={{ textAlign: "left", fontFamily: "Quicksand", fontSize: { xs: "16px", sm: "20.14px" }, lineHeight: { sm: "25px", xs: "25px" }, fontWeight: "400", color: "#000000",paddingTop:"10px" }}>
+                                <Typography sx={{ textAlign: "left", fontFamily: "Quicksand", fontSize: { xs: "16px", sm: "20.14px" }, lineHeight: { sm: "25px", xs: "25px" }, fontWeight: "400", color: "#000000",paddingTop:{sm:"10px",xs:"30px"} }}>
                                 You haven’t saved any document yet.
                                 </Typography>
                                 

@@ -588,6 +588,10 @@ __turbopack_export_value__({
   "clipIcon": "dashboard-module__JsKwpa__clipIcon",
   "css-hhdjsd-MuiContainer-root": "dashboard-module__JsKwpa__css-hhdjsd-MuiContainer-root",
   "css-uitvrg": "dashboard-module__JsKwpa__css-uitvrg",
+  "inputField": "dashboard-module__JsKwpa__inputField",
+  "navLogo": "dashboard-module__JsKwpa__navLogo",
+  "plansImage": "dashboard-module__JsKwpa__plansImage",
+  "profilelable": "dashboard-module__JsKwpa__profilelable",
   "templateCardGrid": "dashboard-module__JsKwpa__templateCardGrid",
   "worldmapImage": "dashboard-module__JsKwpa__worldmapImage",
 });
@@ -715,11 +719,31 @@ const Dashboard = ()=>{
                 sm: "500px"
             },
             padding: {
-                xs: "60px 10px",
-                sm: "60px 30px"
+                xs: "15px 10px",
+                sm: "20px 30px"
             }
         },
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$logo$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$logo$2e$svg__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                    alt: "logo",
+                    style: {
+                        margin: "auto",
+                        width: "180px",
+                        paddingLeft: "30px"
+                    },
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].navLogo
+                }, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/dashboard/index.tsx",
+                lineNumber: 46,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
                     display: "flex",
@@ -732,7 +756,8 @@ const Dashboard = ()=>{
                         xs: "2px",
                         sm: "4px"
                     },
-                    marginBottom: "40px"
+                    marginBottom: "40px",
+                    marginTop: "20px"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -751,7 +776,7 @@ const Dashboard = ()=>{
                         children: "Credits"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                        lineNumber: 47,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -770,13 +795,13 @@ const Dashboard = ()=>{
                         children: "5000 words left"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                        lineNumber: 48,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                lineNumber: 46,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -788,15 +813,15 @@ const Dashboard = ()=>{
                     },
                     border: {
                         xs: "none",
-                        sm: '1px solid #0000001A'
+                        sm: 'none'
                     },
                     borderRadius: {
-                        sm: "30px",
+                        sm: "none",
                         xs: "none"
                     },
                     padding: {
-                        xs: "0px 0px 30px 10px",
-                        sm: "30px 0px 50px 30px"
+                        xs: "0px 0px 60px 10px",
+                        sm: "30px 0px 60px 30px"
                     },
                     display: "flex",
                     flexDirection: "column",
@@ -804,7 +829,8 @@ const Dashboard = ()=>{
                     alignItems: "flex-start",
                     position: "relative",
                     borderBottom: {
-                        xs: "1px solid #0000001A"
+                        xs: "1px solid #0000001A",
+                        sm: "1px solid #0000001A"
                     }
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -818,9 +844,13 @@ const Dashboard = ()=>{
                                 textDecoration: "none",
                                 listStyle: "none"
                             },
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard",
+                                style: {
+                                    textDecoration: "none"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {
                                         display: "flex",
                                         alignItems: "center",
@@ -846,20 +876,24 @@ const Dashboard = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 57,
-                                            columnNumber: 13
+                                            lineNumber: 62,
+                                            columnNumber: 17
                                         }, this),
                                         " Dashboard"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 56,
-                                    columnNumber: 70
+                                    lineNumber: 61,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 56,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -867,46 +901,57 @@ const Dashboard = ()=>{
                                 textDecoration: "none",
                                 listStyle: "none"
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "center",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "16px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: {
-                                        xs: "20px",
-                                        sm: "27px"
-                                    },
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/templates",
+                                style: {
+                                    textDecoration: "none"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            marginRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 62,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Templates"
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        display: "flex",
+                                        alignItems: "center",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "16px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: {
+                                            xs: "20px",
+                                            sm: "27px"
+                                        },
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                marginRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 17
+                                        }, this),
+                                        " Templates"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 61,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -914,58 +959,69 @@ const Dashboard = ()=>{
                                 textDecoration: "none",
                                 listStyle: "none"
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "flex-start",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "16px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: {
-                                        xs: "20px",
-                                        sm: "27px"
-                                    },
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px",
-                                    textAlign: "left"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/assistant",
+                                style: {
+                                    textDecoration: "none"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            paddingRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Assistant"
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        display: "flex",
+                                        alignItems: "flex-start",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "16px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: {
+                                            xs: "20px",
+                                            sm: "27px"
+                                        },
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px",
+                                        textAlign: "left"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                paddingRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 77,
+                                            columnNumber: 17
+                                        }, this),
+                                        " Assistant"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                                    lineNumber: 76,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 66,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 65,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                    lineNumber: 54,
+                    lineNumber: 57,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                lineNumber: 53,
+                lineNumber: 56,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -977,10 +1033,10 @@ const Dashboard = ()=>{
                     },
                     border: {
                         xs: "none",
-                        sm: '1px solid #0000001A'
+                        sm: "none"
                     },
                     borderRadius: {
-                        sm: "30px",
+                        sm: "none",
                         xs: "none"
                     },
                     padding: {
@@ -992,9 +1048,9 @@ const Dashboard = ()=>{
                     justifyContent: "flex-start",
                     alignItems: "flex-start",
                     position: "relative",
-                    marginTop: "40px",
+                    marginTop: "10px",
                     borderBottom: {
-                        xs: "1px solid #0000001A"
+                        sm: "1px solid #0000001A"
                     }
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1017,208 +1073,269 @@ const Dashboard = ()=>{
                                     xs: "400",
                                     sm: "700"
                                 },
-                                color: "#737791"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        marginRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 78,
-                                    columnNumber: 13
-                                }, this),
-                                "  Workflows"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 77,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "center",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
                                 color: "#737791",
-                                paddingTop: "20px"
+                                position: "absolute",
+                                top: "-30px",
+                                left: {
+                                    sm: "16px",
+                                    xs: "0px"
+                                },
+                                padding: "5px 15px 5px 10px",
+                                backgroundColor: "#fff"
                             },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        marginRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 81,
-                                    columnNumber: 13
-                                }, this),
-                                " Data Analyst"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 80,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "flex-start",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
-                                color: "#737791",
-                                paddingTop: "20px",
-                                textAlign: "left"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        paddingRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 84,
-                                    columnNumber: 13
-                                }, this),
-                                " Article Generator"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 83,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "flex-start",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
-                                color: "#737791",
-                                paddingTop: "20px",
-                                textAlign: "left"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        paddingRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 87,
-                                    columnNumber: 13
-                                }, this),
-                                " Image Generator"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 86,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "flex-start",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
-                                color: "#737791",
-                                paddingTop: "20px",
-                                textAlign: "left"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        paddingRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 90,
-                                    columnNumber: 13
-                                }, this),
-                                " Content Rewriter"
-                            ]
-                        }, void 0, true, {
+                            children: "Workflows"
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
                             lineNumber: 89,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "flex-start",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
-                                color: "#737791",
-                                paddingTop: "20px",
-                                textAlign: "left"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            style: {
+                                listStyle: "none"
                             },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/analyst",
+                                style: {
+                                    textDecoration: "none"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {
-                                        paddingRight: "20px"
-                                    }
-                                }, void 0, false, {
+                                        display: "flex",
+                                        alignItems: "center",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "16px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: "27px",
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                marginRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 95,
+                                            columnNumber: 13
+                                        }, this),
+                                        " Data Analyst"
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 13
-                                }, this),
-                                " Documents"
-                            ]
-                        }, void 0, true, {
+                                    lineNumber: 94,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 93,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
                             lineNumber: 92,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            passHref: true,
+                            href: "/dashboard/article",
+                            style: {
+                                textDecoration: "none"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                sx: {
+                                    display: "flex",
+                                    alignItems: "flex-start",
+                                    fontFamily: "Poppins",
+                                    fontSize: {
+                                        xs: "16px",
+                                        sm: "22px"
+                                    },
+                                    lineHeight: "27px",
+                                    fontWeight: {
+                                        xs: "400",
+                                        sm: "700"
+                                    },
+                                    color: "#737791",
+                                    paddingTop: "20px",
+                                    textAlign: "left"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: {
+                                            paddingRight: "20px"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/pages/dashboard/index.tsx",
+                                        lineNumber: 101,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Article Generator"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 100,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                            lineNumber: 99,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            passHref: true,
+                            href: "/dashboard/image",
+                            style: {
+                                textDecoration: "none"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                sx: {
+                                    display: "flex",
+                                    alignItems: "flex-start",
+                                    fontFamily: "Poppins",
+                                    fontSize: {
+                                        xs: "16px",
+                                        sm: "22px"
+                                    },
+                                    lineHeight: "27px",
+                                    fontWeight: {
+                                        xs: "400",
+                                        sm: "700"
+                                    },
+                                    color: "#737791",
+                                    paddingTop: "20px",
+                                    textAlign: "left"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: {
+                                            paddingRight: "20px"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/pages/dashboard/index.tsx",
+                                        lineNumber: 106,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Image Generator"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 105,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                            lineNumber: 104,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            passHref: true,
+                            href: "/dashboard/contentwriter",
+                            style: {
+                                textDecoration: "none"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                sx: {
+                                    display: "flex",
+                                    alignItems: "flex-start",
+                                    fontFamily: "Poppins",
+                                    fontSize: {
+                                        xs: "16px",
+                                        sm: "22px"
+                                    },
+                                    lineHeight: "27px",
+                                    fontWeight: {
+                                        xs: "400",
+                                        sm: "700"
+                                    },
+                                    color: "#737791",
+                                    paddingTop: "20px",
+                                    textAlign: "left"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: {
+                                            paddingRight: "20px"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/pages/dashboard/index.tsx",
+                                        lineNumber: 111,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Content Rewriter"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 110,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                            lineNumber: 109,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            passHref: true,
+                            href: "/dashboard/document",
+                            style: {
+                                textDecoration: "none"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                sx: {
+                                    display: "flex",
+                                    alignItems: "flex-start",
+                                    fontFamily: "Poppins",
+                                    fontSize: {
+                                        xs: "16px",
+                                        sm: "22px"
+                                    },
+                                    lineHeight: "27px",
+                                    fontWeight: {
+                                        xs: "400",
+                                        sm: "700"
+                                    },
+                                    color: "#737791",
+                                    paddingTop: "20px",
+                                    textAlign: "left"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: {
+                                            paddingRight: "20px"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/pages/dashboard/index.tsx",
+                                        lineNumber: 116,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Documents"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 115,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                    lineNumber: 76,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                lineNumber: 75,
+                lineNumber: 86,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1230,7 +1347,7 @@ const Dashboard = ()=>{
                     },
                     border: {
                         xs: "none",
-                        sm: '1px solid #0000001A'
+                        sm: 'none'
                     },
                     borderRadius: "30px",
                     padding: {
@@ -1242,7 +1359,7 @@ const Dashboard = ()=>{
                     justifyContent: "flex-start",
                     alignItems: "flex-start",
                     position: "relative",
-                    marginTop: "40px"
+                    marginTop: "20px"
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                     style: {
@@ -1254,9 +1371,52 @@ const Dashboard = ()=>{
                             style: {
                                 listStyle: "none"
                             },
-                            children: [
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                sx: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    fontFamily: "Poppins",
+                                    fontSize: {
+                                        xs: "16px",
+                                        sm: "22px"
+                                    },
+                                    lineHeight: "27px",
+                                    fontWeight: {
+                                        xs: "400",
+                                        sm: "700"
+                                    },
+                                    color: "#737791",
+                                    position: "absolute",
+                                    top: "-40px",
+                                    left: {
+                                        sm: "16px",
+                                        xs: "0px"
+                                    },
+                                    padding: "5px 15px 5px 10px",
+                                    backgroundColor: "#fff"
+                                },
+                                children: "Accounts"
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 130,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                            lineNumber: 128,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            style: {
+                                listStyle: "none"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/history",
+                                style: {
+                                    textDecoration: "none"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                     sx: {
                                         display: "flex",
                                         alignItems: "center",
@@ -1270,7 +1430,8 @@ const Dashboard = ()=>{
                                             xs: "400",
                                             sm: "700"
                                         },
-                                        color: "#737791"
+                                        color: "#737791",
+                                        paddingTop: "20px"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1279,251 +1440,200 @@ const Dashboard = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 105,
-                                            columnNumber: 13
+                                            lineNumber: 138,
+                                            columnNumber: 15
                                         }, this),
-                                        " Account"
+                                        " My History"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 104,
-                                    columnNumber: 46
-                                }, this),
-                                " "
-                            ]
-                        }, void 0, true, {
+                                    lineNumber: 137,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/dashboard/index.tsx",
+                                lineNumber: 136,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 104,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
                                 listStyle: "none"
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "center",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "18px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: "27px",
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/usage",
+                                style: {
+                                    textDecoration: "none"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            marginRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 110,
-                                        columnNumber: 15
-                                    }, this),
-                                    " My History"
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        display: "flex",
+                                        alignItems: "flex-start",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "18px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: "27px",
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px",
+                                        textAlign: "left"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                paddingRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 145,
+                                            columnNumber: 15
+                                        }, this),
+                                        " Usage History"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                                    lineNumber: 144,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 109,
+                                lineNumber: 143,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 108,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
                                 listStyle: "none"
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "flex-start",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "18px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: "27px",
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px",
-                                    textAlign: "left"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/plans",
+                                style: {
+                                    textDecoration: "none"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            paddingRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 115,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Usage History"
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        display: "flex",
+                                        alignItems: "flex-start",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "18px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: "27px",
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px",
+                                        textAlign: "left"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                paddingRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 153,
+                                            columnNumber: 15
+                                        }, this),
+                                        " Plans and Billing"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                                    lineNumber: 152,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 114,
+                                lineNumber: 151,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 113,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
                                 listStyle: "none"
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "flex-start",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "18px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: "27px",
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px",
-                                    textAlign: "left"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                passHref: true,
+                                href: "/dashboard/profile",
+                                style: {
+                                    textDecoration: "none"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            paddingRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 120,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Image Generator"
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        display: "flex",
+                                        alignItems: "flex-start",
+                                        fontFamily: "Poppins",
+                                        fontSize: {
+                                            xs: "18px",
+                                            sm: "22px"
+                                        },
+                                        lineHeight: "27px",
+                                        fontWeight: {
+                                            xs: "400",
+                                            sm: "700"
+                                        },
+                                        color: "#737791",
+                                        paddingTop: "20px",
+                                        textAlign: "left"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            sx: {
+                                                paddingRight: "20px"
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/dashboard/index.tsx",
+                                            lineNumber: 160,
+                                            columnNumber: 15
+                                        }, this),
+                                        " Profile Details"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/dashboard/index.tsx",
+                                    lineNumber: 159,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 119,
+                                lineNumber: 158,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 118,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                            style: {
-                                listStyle: "none"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "flex-start",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "18px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: "27px",
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px",
-                                    textAlign: "left"
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            paddingRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 125,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Plans and Billing"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 124,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 123,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                            style: {
-                                listStyle: "none"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                sx: {
-                                    display: "flex",
-                                    alignItems: "flex-start",
-                                    fontFamily: "Poppins",
-                                    fontSize: {
-                                        xs: "18px",
-                                        sm: "22px"
-                                    },
-                                    lineHeight: "27px",
-                                    fontWeight: {
-                                        xs: "400",
-                                        sm: "700"
-                                    },
-                                    color: "#737791",
-                                    paddingTop: "20px",
-                                    textAlign: "left"
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        sx: {
-                                            paddingRight: "20px"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 130,
-                                        columnNumber: 15
-                                    }, this),
-                                    " Profile Details"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 129,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 128,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                    lineNumber: 103,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                lineNumber: 102,
+                lineNumber: 126,
                 columnNumber: 7
             }, this)
         ]
@@ -1590,22 +1700,22 @@ const Dashboard = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 164,
+                                                                lineNumber: 195,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 163,
+                                                            lineNumber: 194,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 193,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 191,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Drawer$2f$Drawer$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Drawer$3e$__["Drawer"], {
@@ -1627,13 +1737,13 @@ const Dashboard = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 199,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 190,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1651,18 +1761,18 @@ const Dashboard = ()=>{
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].LogoImage
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 215,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 214,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 188,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1704,12 +1814,12 @@ const Dashboard = ()=>{
                                                     children: "create content"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 224,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 192,
+                                                lineNumber: 223,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1731,12 +1841,12 @@ const Dashboard = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 198,
+                                                    lineNumber: 229,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 197,
+                                                lineNumber: 228,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1756,7 +1866,7 @@ const Dashboard = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 201,
+                                                        lineNumber: 232,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1781,7 +1891,7 @@ const Dashboard = ()=>{
                                                                 children: "surya"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 203,
+                                                                lineNumber: 234,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1799,7 +1909,7 @@ const Dashboard = ()=>{
                                                                 children: "Admin"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 207,
+                                                                lineNumber: 238,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Menu$2f$Menu$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
@@ -1832,20 +1942,20 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 224,
+                                                                                lineNumber: 255,
                                                                                 columnNumber: 174
                                                                             }, this),
                                                                             " User1 ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 224,
+                                                                                lineNumber: 255,
                                                                                 columnNumber: 246
                                                                             }, this),
                                                                             "faizan@gmail"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 224,
+                                                                        lineNumber: 255,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Divider$2f$Divider$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
@@ -1856,7 +1966,7 @@ const Dashboard = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 227,
+                                                                        lineNumber: 258,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -1878,14 +1988,14 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 228,
+                                                                                lineNumber: 259,
                                                                                 columnNumber: 215
                                                                             }, this),
                                                                             "Dark"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 228,
+                                                                        lineNumber: 259,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -1907,14 +2017,14 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 230,
+                                                                                lineNumber: 261,
                                                                                 columnNumber: 215
                                                                             }, this),
                                                                             "Auto"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 230,
+                                                                        lineNumber: 261,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -1936,14 +2046,14 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 232,
+                                                                                lineNumber: 263,
                                                                                 columnNumber: 215
                                                                             }, this),
                                                                             "Dark"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 232,
+                                                                        lineNumber: 263,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -1965,14 +2075,14 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 234,
+                                                                                lineNumber: 265,
                                                                                 columnNumber: 215
                                                                             }, this),
                                                                             "Auto"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 234,
+                                                                        lineNumber: 265,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Divider$2f$Divider$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
@@ -1983,7 +2093,7 @@ const Dashboard = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 236,
+                                                                        lineNumber: 267,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -2004,26 +2114,26 @@ const Dashboard = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                                lineNumber: 237,
+                                                                                lineNumber: 268,
                                                                                 columnNumber: 194
                                                                             }, this),
                                                                             "Log Out"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 237,
+                                                                        lineNumber: 268,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 211,
+                                                                lineNumber: 242,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 202,
+                                                        lineNumber: 233,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2036,45 +2146,45 @@ const Dashboard = ()=>{
                                                         onClick: handleClickk,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$KeyboardArrowDown$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 243,
+                                                            lineNumber: 274,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 242,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 200,
+                                                lineNumber: 231,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 220,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                    lineNumber: 187,
+                                    lineNumber: 218,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                            lineNumber: 155,
+                            lineNumber: 186,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                        lineNumber: 154,
+                        lineNumber: 185,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                    lineNumber: 153,
+                    lineNumber: 184,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2118,7 +2228,7 @@ const Dashboard = ()=>{
                                                 children: "Credits"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 289,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2131,13 +2241,13 @@ const Dashboard = ()=>{
                                                 children: "5000 words left"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 292,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 257,
+                                        lineNumber: 288,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2187,24 +2297,24 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 271,
+                                                                    lineNumber: 302,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "Dashoard"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 270,
+                                                            lineNumber: 301,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 300,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 268,
+                                                    lineNumber: 299,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2236,25 +2346,25 @@ const Dashboard = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 279,
+                                                                        lineNumber: 310,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     "   Templates"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 278,
+                                                                lineNumber: 309,
                                                                 columnNumber: 91
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 278,
+                                                        lineNumber: 309,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 308,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2285,35 +2395,35 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 285,
+                                                                    lineNumber: 316,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "   Assistant"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 315,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 283,
+                                                        lineNumber: 314,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 313,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 267,
+                                            lineNumber: 298,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 266,
+                                        lineNumber: 297,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2358,19 +2468,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 298,
+                                                                    lineNumber: 329,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Data Analyst"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 328,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 296,
+                                                        lineNumber: 327,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2396,19 +2506,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 303,
+                                                                    lineNumber: 334,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Article Generator"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 302,
+                                                            lineNumber: 333,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 332,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2434,19 +2544,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 308,
+                                                                    lineNumber: 339,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Image Generator"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 307,
+                                                            lineNumber: 338,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 306,
+                                                        lineNumber: 337,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2472,19 +2582,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 313,
+                                                                    lineNumber: 344,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Content Rewriter"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 343,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 311,
+                                                        lineNumber: 342,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2506,20 +2616,20 @@ const Dashboard = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 317,
+                                                                lineNumber: 348,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "   Documents"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 316,
+                                                        lineNumber: 347,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 294,
+                                                lineNumber: 325,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2543,18 +2653,18 @@ const Dashboard = ()=>{
                                                     children: "Workflows"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 321,
+                                                    lineNumber: 352,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 320,
+                                                lineNumber: 351,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 293,
+                                        lineNumber: 324,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2599,19 +2709,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 330,
+                                                                    lineNumber: 361,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   My History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 329,
+                                                            lineNumber: 360,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 328,
+                                                        lineNumber: 359,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2637,19 +2747,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 335,
+                                                                    lineNumber: 366,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Usage History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 334,
+                                                            lineNumber: 365,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 333,
+                                                        lineNumber: 364,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2675,19 +2785,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 340,
+                                                                    lineNumber: 371,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Image Generator"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 339,
+                                                            lineNumber: 370,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 338,
+                                                        lineNumber: 369,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2713,19 +2823,19 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 345,
+                                                                    lineNumber: 376,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Plans and Billing"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 344,
+                                                            lineNumber: 375,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 343,
+                                                        lineNumber: 374,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2751,25 +2861,25 @@ const Dashboard = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 350,
+                                                                    lineNumber: 381,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Profile Details"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 349,
+                                                            lineNumber: 380,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 348,
+                                                        lineNumber: 379,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 327,
+                                                lineNumber: 358,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2793,24 +2903,24 @@ const Dashboard = ()=>{
                                                     children: "Accounts"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 355,
+                                                    lineNumber: 386,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 354,
+                                                lineNumber: 385,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 326,
+                                        lineNumber: 357,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 256,
+                                lineNumber: 287,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -2850,7 +2960,7 @@ const Dashboard = ()=>{
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 365,
+                                                    lineNumber: 396,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__["Link"], {
@@ -2869,18 +2979,18 @@ const Dashboard = ()=>{
                                                     children: "Dashboard"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 369,
+                                                    lineNumber: 400,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 364,
+                                            lineNumber: 395,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 394,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2902,7 +3012,7 @@ const Dashboard = ()=>{
                                                 children: "Hello, Surya"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 378,
+                                                lineNumber: 409,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Divider$2f$Divider$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
@@ -2911,7 +3021,7 @@ const Dashboard = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 381,
+                                                lineNumber: 412,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -2952,12 +3062,12 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$TextSnippet$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 386,
+                                                                        lineNumber: 417,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 385,
+                                                                    lineNumber: 416,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2981,7 +3091,7 @@ const Dashboard = ()=>{
                                                                     children: "0 Words"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 388,
+                                                                    lineNumber: 419,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3002,18 +3112,18 @@ const Dashboard = ()=>{
                                                                     children: "Words Generated"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 391,
+                                                                    lineNumber: 422,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 384,
+                                                            lineNumber: 415,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 414,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3044,12 +3154,12 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Collections$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 399,
+                                                                        lineNumber: 430,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 398,
+                                                                    lineNumber: 429,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3073,7 +3183,7 @@ const Dashboard = ()=>{
                                                                     children: "0 Image"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 401,
+                                                                    lineNumber: 432,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3094,18 +3204,18 @@ const Dashboard = ()=>{
                                                                     children: "Images Generated"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 404,
+                                                                    lineNumber: 435,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 397,
+                                                            lineNumber: 428,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 396,
+                                                        lineNumber: 427,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3136,12 +3246,12 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$JoinLeft$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 412,
+                                                                        lineNumber: 443,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 411,
+                                                                    lineNumber: 442,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3165,7 +3275,7 @@ const Dashboard = ()=>{
                                                                     children: "5 Words"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 414,
+                                                                    lineNumber: 445,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3189,25 +3299,25 @@ const Dashboard = ()=>{
                                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].break
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                            lineNumber: 418,
+                                                                            lineNumber: 449,
                                                                             columnNumber: 33
                                                                         }, this),
                                                                         " Left"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 417,
+                                                                    lineNumber: 448,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 410,
+                                                            lineNumber: 441,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 409,
+                                                        lineNumber: 440,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3238,12 +3348,12 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Update$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 425,
+                                                                        lineNumber: 456,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 424,
+                                                                    lineNumber: 455,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3267,7 +3377,7 @@ const Dashboard = ()=>{
                                                                     children: "0 Hours"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 427,
+                                                                    lineNumber: 458,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3291,37 +3401,37 @@ const Dashboard = ()=>{
                                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].break
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                            lineNumber: 432,
+                                                                            lineNumber: 463,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         " Saved"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 430,
+                                                                    lineNumber: 461,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 423,
+                                                            lineNumber: 454,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 422,
+                                                        lineNumber: 453,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 382,
+                                                lineNumber: 413,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 377,
+                                        lineNumber: 408,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3348,7 +3458,7 @@ const Dashboard = ()=>{
                                                 children: "For you"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 442,
+                                                lineNumber: 473,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3370,18 +3480,18 @@ const Dashboard = ()=>{
                                                     children: "All Tools"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 446,
+                                                    lineNumber: 477,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 445,
+                                                lineNumber: 476,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 441,
+                                        lineNumber: 472,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3429,12 +3539,12 @@ const Dashboard = ()=>{
                                                                 },
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$List$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 457,
+                                                                    lineNumber: 488,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 456,
+                                                                lineNumber: 487,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3454,7 +3564,7 @@ const Dashboard = ()=>{
                                                                 children: "Artical Generator"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 459,
+                                                                lineNumber: 490,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3476,18 +3586,18 @@ const Dashboard = ()=>{
                                                                 children: "Assists with homework writing by providing suggestions for grammar, style, and content improvements."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 462,
+                                                                lineNumber: 493,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 455,
+                                                        lineNumber: 486,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 454,
+                                                    lineNumber: 485,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3525,12 +3635,12 @@ const Dashboard = ()=>{
                                                                 },
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$SpaceDashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 470,
+                                                                    lineNumber: 501,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 469,
+                                                                lineNumber: 500,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3547,7 +3657,7 @@ const Dashboard = ()=>{
                                                                 children: "Headline Generator"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 472,
+                                                                lineNumber: 503,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3569,29 +3679,29 @@ const Dashboard = ()=>{
                                                                 children: "Assists with homework writing by providing suggestions for grammar, style, and content improvements."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 475,
+                                                                lineNumber: 506,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 468,
+                                                        lineNumber: 499,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 467,
+                                                    lineNumber: 498,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 453,
+                                            lineNumber: 484,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 452,
+                                        lineNumber: 483,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3637,12 +3747,12 @@ const Dashboard = ()=>{
                                                                 },
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$SignalCellularAlt$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 488,
+                                                                    lineNumber: 519,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 487,
+                                                                lineNumber: 518,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3662,7 +3772,7 @@ const Dashboard = ()=>{
                                                                 children: "Blog Conclusion"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 490,
+                                                                lineNumber: 521,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3684,18 +3794,18 @@ const Dashboard = ()=>{
                                                                 children: "Assists with homework writing by providing suggestions for grammar, style, and content improvements."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 493,
+                                                                lineNumber: 524,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 486,
+                                                        lineNumber: 517,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 485,
+                                                    lineNumber: 516,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3730,12 +3840,12 @@ const Dashboard = ()=>{
                                                                 },
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$List$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 501,
+                                                                    lineNumber: 532,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 500,
+                                                                lineNumber: 531,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3755,7 +3865,7 @@ const Dashboard = ()=>{
                                                                 children: "English Correction"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 503,
+                                                                lineNumber: 534,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3777,35 +3887,35 @@ const Dashboard = ()=>{
                                                                 children: "Assists with homework writing by providing suggestions for grammar, style, and content improvements."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                lineNumber: 507,
+                                                                lineNumber: 538,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                        lineNumber: 499,
+                                                        lineNumber: 530,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 498,
+                                                    lineNumber: 529,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                            lineNumber: 484,
+                                            lineNumber: 515,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 483,
+                                        lineNumber: 514,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 361,
+                                lineNumber: 392,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3835,7 +3945,7 @@ const Dashboard = ()=>{
                                         children: "Most Popular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 518,
+                                        lineNumber: 549,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3896,7 +4006,7 @@ const Dashboard = ()=>{
                                                                     children: "Tweet Generator"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 525,
+                                                                    lineNumber: 556,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3917,18 +4027,18 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$QuestionMark$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 529,
+                                                                        lineNumber: 560,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 528,
+                                                                    lineNumber: 559,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 524,
+                                                            lineNumber: 555,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3952,18 +4062,18 @@ const Dashboard = ()=>{
                                                             children: "AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 532,
+                                                            lineNumber: 563,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 523,
+                                                    lineNumber: 554,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 522,
+                                                lineNumber: 553,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4018,7 +4128,7 @@ const Dashboard = ()=>{
                                                                     children: "Youtube Video Description"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 540,
+                                                                    lineNumber: 571,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4039,18 +4149,18 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$List$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 544,
+                                                                        lineNumber: 575,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 543,
+                                                                    lineNumber: 574,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 539,
+                                                            lineNumber: 570,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4071,18 +4181,18 @@ const Dashboard = ()=>{
                                                             children: "AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 547,
+                                                            lineNumber: 578,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 538,
+                                                    lineNumber: 569,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 537,
+                                                lineNumber: 568,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4134,7 +4244,7 @@ const Dashboard = ()=>{
                                                                     children: "Speeches Writing"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 555,
+                                                                    lineNumber: 586,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4155,18 +4265,18 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$PermIdentity$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 559,
+                                                                        lineNumber: 590,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 558,
+                                                                    lineNumber: 589,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 554,
+                                                            lineNumber: 585,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4187,18 +4297,18 @@ const Dashboard = ()=>{
                                                             children: "AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 562,
+                                                            lineNumber: 593,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 553,
+                                                    lineNumber: 584,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 552,
+                                                lineNumber: 583,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4250,7 +4360,7 @@ const Dashboard = ()=>{
                                                                     children: "Summarize Text"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 570,
+                                                                    lineNumber: 601,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4271,18 +4381,18 @@ const Dashboard = ()=>{
                                                                     },
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FileCopy$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                        lineNumber: 574,
+                                                                        lineNumber: 605,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                                    lineNumber: 573,
+                                                                    lineNumber: 604,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 569,
+                                                            lineNumber: 600,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4303,47 +4413,47 @@ const Dashboard = ()=>{
                                                             children: "AI-powered tool that uses natural language processing algorithms to generate high-quality questions for any given topic or document."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                            lineNumber: 577,
+                                                            lineNumber: 608,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                    lineNumber: 568,
+                                                    lineNumber: 599,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                                lineNumber: 567,
+                                                lineNumber: 598,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                                        lineNumber: 521,
+                                        lineNumber: 552,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/index.tsx",
-                                lineNumber: 517,
+                                lineNumber: 548,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/dashboard/index.tsx",
-                        lineNumber: 255,
+                        lineNumber: 286,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/index.tsx",
-                    lineNumber: 254,
+                    lineNumber: 285,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/dashboard/index.tsx",
-            lineNumber: 152,
+            lineNumber: 183,
             columnNumber: 7
         }, this)
     }, void 0, false);

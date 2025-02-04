@@ -588,6 +588,10 @@ __turbopack_export_value__({
   "clipIcon": "dashboard-module__JsKwpa__clipIcon",
   "css-hhdjsd-MuiContainer-root": "dashboard-module__JsKwpa__css-hhdjsd-MuiContainer-root",
   "css-uitvrg": "dashboard-module__JsKwpa__css-uitvrg",
+  "inputField": "dashboard-module__JsKwpa__inputField",
+  "navLogo": "dashboard-module__JsKwpa__navLogo",
+  "plansImage": "dashboard-module__JsKwpa__plansImage",
+  "profilelable": "dashboard-module__JsKwpa__profilelable",
   "templateCardGrid": "dashboard-module__JsKwpa__templateCardGrid",
   "worldmapImage": "dashboard-module__JsKwpa__worldmapImage",
 });
@@ -802,11 +806,31 @@ const Analyst = ()=>{
                 sm: "500px"
             },
             padding: {
-                xs: "60px 10px",
-                sm: "60px 30px"
+                xs: "15px 10px",
+                sm: "20px 30px"
             }
         },
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$logo$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$logo$2e$svg__$5b$client$5d$__$28$static$2922$__$7d$__$5b$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                    alt: "logo",
+                    style: {
+                        margin: "auto",
+                        width: "180px",
+                        paddingLeft: "30px"
+                    },
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].navLogo
+                }, void 0, false, {
+                    fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                    lineNumber: 61,
+                    columnNumber: 13
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                lineNumber: 60,
+                columnNumber: 9
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
                     display: "flex",
@@ -819,7 +843,8 @@ const Analyst = ()=>{
                         xs: "2px",
                         sm: "4px"
                     },
-                    marginBottom: "40px"
+                    marginBottom: "40px",
+                    marginTop: "20px"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -838,8 +863,8 @@ const Analyst = ()=>{
                         children: "Credits"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                        lineNumber: 61,
-                        columnNumber: 9
+                        lineNumber: 64,
+                        columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                         sx: {
@@ -857,14 +882,14 @@ const Analyst = ()=>{
                         children: "5000 words left"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                        lineNumber: 62,
-                        columnNumber: 9
+                        lineNumber: 65,
+                        columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                lineNumber: 60,
-                columnNumber: 7
+                lineNumber: 63,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
@@ -933,21 +958,21 @@ const Analyst = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 71,
-                                            columnNumber: 13
+                                            lineNumber: 74,
+                                            columnNumber: 21
                                         }, this),
                                         " Dashboard"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 70
+                                    lineNumber: 73,
+                                    columnNumber: 76
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 70,
-                            columnNumber: 11
+                            lineNumber: 73,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -981,20 +1006,20 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 76,
-                                        columnNumber: 15
+                                        lineNumber: 79,
+                                        columnNumber: 25
                                     }, this),
                                     " Templates"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 75,
-                                columnNumber: 13
+                                lineNumber: 78,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 74,
-                            columnNumber: 11
+                            lineNumber: 77,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1029,31 +1054,31 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 81,
-                                        columnNumber: 15
+                                        lineNumber: 84,
+                                        columnNumber: 25
                                     }, this),
                                     " Assistant"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 80,
-                                columnNumber: 13
+                                lineNumber: 83,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 79,
-                            columnNumber: 11
+                            lineNumber: 82,
+                            columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                    lineNumber: 68,
-                    columnNumber: 9
+                    lineNumber: 71,
+                    columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                lineNumber: 67,
-                columnNumber: 7
+                lineNumber: 70,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
@@ -1113,15 +1138,15 @@ const Analyst = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 92,
-                                    columnNumber: 13
+                                    lineNumber: 95,
+                                    columnNumber: 21
                                 }, this),
                                 "  Workflows"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 91,
-                            columnNumber: 11
+                            lineNumber: 94,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                             sx: {
@@ -1147,50 +1172,15 @@ const Analyst = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 95,
-                                    columnNumber: 13
+                                    lineNumber: 98,
+                                    columnNumber: 21
                                 }, this),
                                 " Data Analyst"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 94,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            sx: {
-                                display: "flex",
-                                alignItems: "flex-start",
-                                fontFamily: "Poppins",
-                                fontSize: {
-                                    xs: "16px",
-                                    sm: "22px"
-                                },
-                                lineHeight: "27px",
-                                fontWeight: {
-                                    xs: "400",
-                                    sm: "700"
-                                },
-                                color: "#737791",
-                                paddingTop: "20px",
-                                textAlign: "left"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    sx: {
-                                        paddingRight: "20px"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 98,
-                                    columnNumber: 13
-                                }, this),
-                                " Article Generator"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                             lineNumber: 97,
-                            columnNumber: 11
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                             sx: {
@@ -1218,14 +1208,14 @@ const Analyst = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                                     lineNumber: 101,
-                                    columnNumber: 13
+                                    columnNumber: 21
                                 }, this),
-                                " Image Generator"
+                                " Article Generator"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                             lineNumber: 100,
-                            columnNumber: 11
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                             sx: {
@@ -1253,14 +1243,14 @@ const Analyst = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                                     lineNumber: 104,
-                                    columnNumber: 13
+                                    columnNumber: 21
                                 }, this),
-                                " Content Rewriter"
+                                " Image Generator"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                             lineNumber: 103,
-                            columnNumber: 11
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                             sx: {
@@ -1288,25 +1278,60 @@ const Analyst = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                                     lineNumber: 107,
-                                    columnNumber: 13
+                                    columnNumber: 21
+                                }, this),
+                                " Content Rewriter"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                            lineNumber: 106,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                display: "flex",
+                                alignItems: "flex-start",
+                                fontFamily: "Poppins",
+                                fontSize: {
+                                    xs: "16px",
+                                    sm: "22px"
+                                },
+                                lineHeight: "27px",
+                                fontWeight: {
+                                    xs: "400",
+                                    sm: "700"
+                                },
+                                color: "#737791",
+                                paddingTop: "20px",
+                                textAlign: "left"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                    sx: {
+                                        paddingRight: "20px"
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                                    lineNumber: 110,
+                                    columnNumber: 21
                                 }, this),
                                 " Documents"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 106,
-                            columnNumber: 11
+                            lineNumber: 109,
+                            columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                    lineNumber: 90,
-                    columnNumber: 9
+                    lineNumber: 93,
+                    columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                lineNumber: 89,
-                columnNumber: 7
+                lineNumber: 92,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: {
@@ -1366,22 +1391,22 @@ const Analyst = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 119,
-                                            columnNumber: 13
+                                            lineNumber: 122,
+                                            columnNumber: 21
                                         }, this),
                                         " Account"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 118,
-                                    columnNumber: 46
+                                    lineNumber: 121,
+                                    columnNumber: 52
                                 }, this),
                                 " "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 118,
-                            columnNumber: 11
+                            lineNumber: 121,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1411,20 +1436,20 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 124,
-                                        columnNumber: 15
+                                        lineNumber: 127,
+                                        columnNumber: 25
                                     }, this),
                                     " My History"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 123,
-                                columnNumber: 13
+                                lineNumber: 126,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 122,
-                            columnNumber: 11
+                            lineNumber: 125,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1455,20 +1480,20 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 129,
-                                        columnNumber: 15
+                                        lineNumber: 132,
+                                        columnNumber: 25
                                     }, this),
                                     " Usage History"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 128,
-                                columnNumber: 13
+                                lineNumber: 131,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 127,
-                            columnNumber: 11
+                            lineNumber: 130,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1499,20 +1524,20 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 134,
-                                        columnNumber: 15
+                                        lineNumber: 137,
+                                        columnNumber: 25
                                     }, this),
                                     " Image Generator"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 133,
-                                columnNumber: 13
+                                lineNumber: 136,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 132,
-                            columnNumber: 11
+                            lineNumber: 135,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1543,20 +1568,20 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 139,
-                                        columnNumber: 15
+                                        lineNumber: 142,
+                                        columnNumber: 25
                                     }, this),
                                     " Plans and Billing"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 138,
-                                columnNumber: 13
+                                lineNumber: 141,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 137,
-                            columnNumber: 11
+                            lineNumber: 140,
+                            columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                             style: {
@@ -1587,31 +1612,31 @@ const Analyst = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 144,
-                                        columnNumber: 15
+                                        lineNumber: 147,
+                                        columnNumber: 25
                                     }, this),
                                     " Profile Details"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 143,
-                                columnNumber: 13
+                                lineNumber: 146,
+                                columnNumber: 21
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 142,
-                            columnNumber: 11
+                            lineNumber: 145,
+                            columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                    lineNumber: 117,
-                    columnNumber: 9
+                    lineNumber: 120,
+                    columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                lineNumber: 116,
-                columnNumber: 7
+                lineNumber: 119,
+                columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
@@ -1619,6 +1644,7 @@ const Analyst = ()=>{
         lineNumber: 58,
         columnNumber: 5
     }, this);
+    ;
     const [anchorEll, setAnchorEll] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const handleClickk = (event)=>{
         setAnchorEll(event.currentTarget);
@@ -1681,22 +1707,22 @@ const Analyst = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 181,
+                                                                lineNumber: 184,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 183,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 182,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 180,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Drawer$2f$Drawer$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Drawer$3e$__["Drawer"], {
@@ -1718,13 +1744,13 @@ const Analyst = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 185,
+                                                    lineNumber: 188,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 179,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1742,18 +1768,18 @@ const Analyst = ()=>{
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].LogoImage
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 201,
+                                                lineNumber: 204,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 200,
+                                            lineNumber: 203,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 177,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1795,12 +1821,12 @@ const Analyst = ()=>{
                                                     children: "create content"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 210,
+                                                    lineNumber: 213,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 209,
+                                                lineNumber: 212,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1822,12 +1848,12 @@ const Analyst = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 218,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 214,
+                                                lineNumber: 217,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1847,7 +1873,7 @@ const Analyst = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 218,
+                                                        lineNumber: 221,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1872,7 +1898,7 @@ const Analyst = ()=>{
                                                                 children: "surya"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 220,
+                                                                lineNumber: 223,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1890,7 +1916,7 @@ const Analyst = ()=>{
                                                                 children: "Admin"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 224,
+                                                                lineNumber: 227,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Menu$2f$Menu$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
@@ -1923,20 +1949,20 @@ const Analyst = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 241,
+                                                                                lineNumber: 244,
                                                                                 columnNumber: 198
                                                                             }, this),
                                                                             " User1 ",
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 241,
+                                                                                lineNumber: 244,
                                                                                 columnNumber: 270
                                                                             }, this),
                                                                             "faizan@gmail"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 241,
+                                                                        lineNumber: 244,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Divider$2f$Divider$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
@@ -1946,64 +1972,6 @@ const Analyst = ()=>{
                                                                             borderWidth: '1px'
                                                                         }
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 244,
-                                                                        columnNumber: 49
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                        onClick: handleClosee,
-                                                                        sx: {
-                                                                            fontFamily: "Poppins",
-                                                                            fontWeight: "500",
-                                                                            letterSpacing: "1px",
-                                                                            paddingTop: "10px",
-                                                                            display: "flex",
-                                                                            alignItems: "flex-start",
-                                                                            paddingLeft: "15px"
-                                                                        },
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DarkMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                sx: {
-                                                                                    marginRight: "25px",
-                                                                                    paddingLeft: "15px"
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 245,
-                                                                                columnNumber: 239
-                                                                            }, this),
-                                                                            "Dark"
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 245,
-                                                                        columnNumber: 49
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
-                                                                        onClick: handleClosee,
-                                                                        sx: {
-                                                                            fontFamily: "Poppins",
-                                                                            fontWeight: "500",
-                                                                            letterSpacing: "1px",
-                                                                            paddingTop: "10px",
-                                                                            display: "flex",
-                                                                            alignItems: "flex-start",
-                                                                            paddingLeft: "15px"
-                                                                        },
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$MotionPhotosAuto$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                sx: {
-                                                                                    marginRight: "25px",
-                                                                                    paddingLeft: "15px"
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 247,
-                                                                                columnNumber: 239
-                                                                            }, this),
-                                                                            "Auto"
-                                                                        ]
-                                                                    }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
                                                                         lineNumber: 247,
                                                                         columnNumber: 49
@@ -2027,14 +1995,14 @@ const Analyst = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 249,
+                                                                                lineNumber: 248,
                                                                                 columnNumber: 239
                                                                             }, this),
                                                                             "Dark"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 249,
+                                                                        lineNumber: 248,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -2056,14 +2024,72 @@ const Analyst = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 251,
+                                                                                lineNumber: 250,
                                                                                 columnNumber: 239
                                                                             }, this),
                                                                             "Auto"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 251,
+                                                                        lineNumber: 250,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                                                                        onClick: handleClosee,
+                                                                        sx: {
+                                                                            fontFamily: "Poppins",
+                                                                            fontWeight: "500",
+                                                                            letterSpacing: "1px",
+                                                                            paddingTop: "10px",
+                                                                            display: "flex",
+                                                                            alignItems: "flex-start",
+                                                                            paddingLeft: "15px"
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DarkMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                sx: {
+                                                                                    marginRight: "25px",
+                                                                                    paddingLeft: "15px"
+                                                                                }
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                                                                                lineNumber: 252,
+                                                                                columnNumber: 239
+                                                                            }, this),
+                                                                            "Dark"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                                                                        lineNumber: 252,
+                                                                        columnNumber: 49
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
+                                                                        onClick: handleClosee,
+                                                                        sx: {
+                                                                            fontFamily: "Poppins",
+                                                                            fontWeight: "500",
+                                                                            letterSpacing: "1px",
+                                                                            paddingTop: "10px",
+                                                                            display: "flex",
+                                                                            alignItems: "flex-start",
+                                                                            paddingLeft: "15px"
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$MotionPhotosAuto$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                                sx: {
+                                                                                    marginRight: "25px",
+                                                                                    paddingLeft: "15px"
+                                                                                }
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                                                                                lineNumber: 254,
+                                                                                columnNumber: 239
+                                                                            }, this),
+                                                                            "Auto"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
+                                                                        lineNumber: 254,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Divider$2f$Divider$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
@@ -2074,7 +2100,7 @@ const Analyst = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 253,
+                                                                        lineNumber: 256,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$MenuItem$2f$MenuItem$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuItem$3e$__["MenuItem"], {
@@ -2095,26 +2121,26 @@ const Analyst = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                                lineNumber: 254,
+                                                                                lineNumber: 257,
                                                                                 columnNumber: 218
                                                                             }, this),
                                                                             "Log Out"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 254,
+                                                                        lineNumber: 257,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 228,
+                                                                lineNumber: 231,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 219,
+                                                        lineNumber: 222,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2127,45 +2153,45 @@ const Analyst = ()=>{
                                                         onClick: handleClickk,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$KeyboardArrowDown$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 263,
                                                             columnNumber: 49
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 262,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 217,
+                                                lineNumber: 220,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 206,
+                                        lineNumber: 209,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                    lineNumber: 204,
+                                    lineNumber: 207,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                            lineNumber: 172,
+                            lineNumber: 175,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                        lineNumber: 171,
+                        lineNumber: 174,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                    lineNumber: 170,
+                    lineNumber: 173,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2212,7 +2238,7 @@ const Analyst = ()=>{
                                                 children: "Credits"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 275,
+                                                lineNumber: 278,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2225,13 +2251,13 @@ const Analyst = ()=>{
                                                 children: "5000 words left"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 278,
+                                                lineNumber: 281,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 274,
+                                        lineNumber: 277,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2281,24 +2307,24 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 288,
+                                                                    lineNumber: 291,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "Dashoard"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 287,
+                                                            lineNumber: 290,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 286,
+                                                        lineNumber: 289,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 285,
+                                                    lineNumber: 288,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2330,25 +2356,25 @@ const Analyst = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 296,
+                                                                        lineNumber: 299,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     "   Templates"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 295,
+                                                                lineNumber: 298,
                                                                 columnNumber: 91
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 295,
+                                                        lineNumber: 298,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 297,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2379,35 +2405,35 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 302,
+                                                                    lineNumber: 305,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 "   Assistant"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 301,
+                                                            lineNumber: 304,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 300,
+                                                        lineNumber: 303,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 299,
+                                                    lineNumber: 302,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 284,
+                                            lineNumber: 287,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 283,
+                                        lineNumber: 286,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2452,19 +2478,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 315,
+                                                                    lineNumber: 318,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Data Analyst"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 314,
+                                                            lineNumber: 317,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 313,
+                                                        lineNumber: 316,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2496,24 +2522,24 @@ const Analyst = ()=>{
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                        lineNumber: 321,
+                                                                        lineNumber: 324,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     "   Article Generator"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 320,
+                                                                lineNumber: 323,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 319,
+                                                            lineNumber: 322,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 318,
+                                                        lineNumber: 321,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2539,19 +2565,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 327,
+                                                                    lineNumber: 330,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Image Generator"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 326,
+                                                            lineNumber: 329,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 325,
+                                                        lineNumber: 328,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2577,19 +2603,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 332,
+                                                                    lineNumber: 335,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Content Rewriter"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 331,
+                                                            lineNumber: 334,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 330,
+                                                        lineNumber: 333,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2611,20 +2637,20 @@ const Analyst = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 336,
+                                                                lineNumber: 339,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "   Documents"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 335,
+                                                        lineNumber: 338,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 311,
+                                                lineNumber: 314,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2648,18 +2674,18 @@ const Analyst = ()=>{
                                                     children: "Workflows"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 340,
+                                                    lineNumber: 343,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 339,
+                                                lineNumber: 342,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 310,
+                                        lineNumber: 313,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2704,19 +2730,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 349,
+                                                                    lineNumber: 352,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   My History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 348,
+                                                            lineNumber: 351,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 350,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2742,19 +2768,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 354,
+                                                                    lineNumber: 357,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Usage History"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 353,
+                                                            lineNumber: 356,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 355,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2780,19 +2806,19 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 360,
+                                                                    lineNumber: 363,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Plans and Billing"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 359,
+                                                            lineNumber: 362,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 358,
+                                                        lineNumber: 361,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2818,25 +2844,25 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 365,
+                                                                    lineNumber: 368,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "   Profile Details"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 364,
+                                                            lineNumber: 367,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 363,
+                                                        lineNumber: 366,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 349,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2860,24 +2886,24 @@ const Analyst = ()=>{
                                                     children: "Accounts"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 370,
+                                                    lineNumber: 373,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 369,
+                                                lineNumber: 372,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 348,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 273,
+                                lineNumber: 276,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -2920,7 +2946,7 @@ const Analyst = ()=>{
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 380,
+                                                    lineNumber: 383,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__["Link"], {
@@ -2939,18 +2965,18 @@ const Analyst = ()=>{
                                                     children: "Assistant"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                    lineNumber: 384,
+                                                    lineNumber: 387,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                            lineNumber: 379,
+                                            lineNumber: 382,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 378,
+                                        lineNumber: 381,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2975,7 +3001,7 @@ const Analyst = ()=>{
                                                 children: "Analyze Your Data"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 394,
+                                                lineNumber: 397,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2994,7 +3020,7 @@ const Analyst = ()=>{
                                                 children: "Upload your file for data analysis, summarization, and more."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 397,
+                                                lineNumber: 400,
                                                 columnNumber: 18
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3018,7 +3044,7 @@ const Analyst = ()=>{
                                                         children: "You can add multiple PDF, DOC, TXT, and other files together."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 401,
+                                                        lineNumber: 404,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3032,7 +3058,7 @@ const Analyst = ()=>{
                                                                 alt: "image1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 405,
+                                                                lineNumber: 408,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3040,7 +3066,7 @@ const Analyst = ()=>{
                                                                 alt: "image2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 406,
+                                                                lineNumber: 409,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3048,13 +3074,13 @@ const Analyst = ()=>{
                                                                 alt: "image3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                lineNumber: 407,
+                                                                lineNumber: 410,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 404,
+                                                        lineNumber: 407,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3088,54 +3114,54 @@ const Analyst = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                                    lineNumber: 411,
+                                                                    lineNumber: 414,
                                                                     columnNumber: 20
                                                                 }, this),
                                                                 " Upload File"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                            lineNumber: 410,
+                                                            lineNumber: 413,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                        lineNumber: 409,
+                                                        lineNumber: 412,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                                lineNumber: 400,
+                                                lineNumber: 403,
                                                 columnNumber: 18
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                        lineNumber: 392,
+                                        lineNumber: 395,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                                lineNumber: 377,
+                                lineNumber: 380,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                        lineNumber: 272,
+                        lineNumber: 275,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-                    lineNumber: 271,
+                    lineNumber: 274,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/dashboard/analyst/index.tsx",
-            lineNumber: 169,
+            lineNumber: 172,
             columnNumber: 7
         }, this)
     }, void 0, false);
