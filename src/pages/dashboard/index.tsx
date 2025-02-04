@@ -284,7 +284,7 @@ const Dashboard = () => {
         {/* body part started */}
         <Box sx={{ paddingTop: "15px", backgroundColor: "" }}>
           <Grid container>
-            <Grid xs={12} md={2.4} sx={{ padding: "20px", display: { xs: "none", md: "block", sm: "none" } }}>
+            <Grid xs={12} md={2.5} sx={{ padding: "20px", display: { xs: "none", md: "block", sm: "none" } }}>
               <Box sx={{ display: { sm: "flex" }, justifyContent: "space-between", borderBottom: "4px solid #4AB58E", borderRadius: "2px", marginBottom: "40px" }}>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: "15px", lineHeight: "22.5px", fontWeight: "400" }}>
                   Credits
@@ -389,7 +389,7 @@ const Dashboard = () => {
             </Grid>
 
 
-            <Grid xs={12} md={6.2} sm={12} sx={{ backgroundColor: "#F8F9FA", padding: { xs: "20px", sm: "5px 10px" } }}>
+            <Grid xs={12} md={6.1} sm={12} sx={{ backgroundColor: "#F8F9FA", padding: { xs: "20px", sm: "5px 10px" } }}>
 
               <Box sx={{ padding: "10px 10px", paddingBottom: "15px" }}>
                 <Breadcrumbs maxItems={2} aria-label="breadcrumb">
