@@ -1,5 +1,5 @@
 "use Client"
-import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink, TextField, InputAdornment, } from '@mui/material'
+import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink} from '@mui/material'
 import React, { useState } from 'react'
 import logoImage from '../../../app/Assets/Imges/logo.svg'
 import Image from 'next/image'
@@ -23,7 +23,6 @@ import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import { SiGoogleassistant } from "react-icons/si";
 import { PiChartPieSliceFill } from "react-icons/pi";
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import SearchIcon from '@mui/icons-material/Search';
 
 
@@ -160,24 +159,7 @@ const History = () => {
         setAnchorEll(null);
     };
 
-    const currencies = [
-        {
-            value: 'Hindi',
-            label: 'Hindi',
-        },
-        {
-            value: 'English',
-            label: 'English',
-        },
-        {
-            value: 'Bengali',
-            label: 'Bengali',
-        },
-        {
-            value: 'Urdu',
-            label: 'Urdu',
-        },
-    ];
+   
 
 
     return (
