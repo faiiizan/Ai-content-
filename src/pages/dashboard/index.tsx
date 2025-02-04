@@ -182,7 +182,7 @@ const Dashboard = () => {
     <>
       <Box >
         <Container maxWidth='xl' sx={{ paddingLeft: "0px", paddingRight: "0px" }}>
-          <Box sx={{ height: "70px", width: "100%" }}>
+          <Box sx={{ height: "60px", width: "100%" }}>
             <Grid container>
 
               <Grid xs={12} sm={2.5} sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -211,8 +211,8 @@ const Dashboard = () => {
                   </Drawer>
                 </Box>
                 {/* hamburger part end */}
-                <Box sx={{ display: "flex", justifyContent: "flex-start", marginRight: { md: "50px", xs: "0px" } }}>
-                  <Image src={logoImage} alt='logo image' className={Hero.LogoImage} />
+                <Box sx={{ display: "flex", justifyContent: "flex-start", marginRight: { md: "60px", xs: "0px" } }}>
+                  <Image src={logoImage} alt='logo image' className={Hero.LogoImage} style={{height:"78px"}} />
                 </Box>
               </Grid>
               <Grid xs={0} sm={9.5} sx={{ display: { xs: "none", md: "flex" }, justifyContent: "flex-end", alignItems: "center" }}>
@@ -325,31 +325,41 @@ const Dashboard = () => {
                 <ul style={{ margin: "0px", padding: "0px" }}>
 
                   <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/analyst' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
                       <DashboardIcon sx={{ marginRight: "20px" }} />   Data Analyst
                     </Typography>
+                    </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/article' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Article Generator
                     </Typography>
+                    </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/image' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Image Generator
                     </Typography>
+                    </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/contentwriter' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
                     </Typography>
+                    </Link>
                   </li>
+                  <Link passHref href='/dashboard/document' style={{textDecoration:"none"}}>
                   <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                     <DashboardIcon sx={{ paddingRight: "20px" }} />   Documents
                   </Typography>
+                  </Link>
                 </ul>
-                <Box sx={{ position: "absolute", top: "-16px", left: "35px", }}>
-                  <Typography sx={{ background: "#D7F200", borderRadius: "16px", color: "#000", padding: "8px 35px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Workflows</Typography>
+                <Box sx={{ position: "absolute", top: "-18px", left: "59px", }}>
+                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#000", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Workflows</Typography>
                 </Box>
               </Box>
               {/* end wokflows */}
@@ -357,33 +367,37 @@ const Dashboard = () => {
               <Box sx={{ minHeight: "100px", width: "100%", border: '1px solid #0000001A', borderRadius: "30px", padding: "50px 0px 20px 0px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", marginTop: "40px" }}>
                 <ul style={{ margin: "0px", padding: "0px" }}>
                   <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/history' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
                       <DashboardIcon sx={{ marginRight: "20px" }} />   My History
                     </Typography>
+                    </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
+                    <Link  passHref href='/dashboard/usage' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Usage History
                     </Typography>
+                    </Link>
                   </li>
+                  
                   <li style={{ listStyle: "none" }}>
-                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Image Generator
-                    </Typography>
-                  </li>
-                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/plans' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Plans and Billing
                     </Typography>
+                    </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
+                    <Link  passHref href='/dashboard/profile' style={{textDecoration:"none"}}>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Profile Details
                     </Typography>
+                    </Link>
                   </li>
                 </ul>
-                <Box sx={{ position: "absolute", top: "-16px", left: "40px", }}>
-                  <Typography sx={{ background: "#D7F200", borderRadius: "16px", color: "#000", padding: "8px 35px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Accounts</Typography>
+                <Box sx={{ position: "absolute", top: "-19px", left: "65px", }}>
+                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#000", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Accounts</Typography>
                 </Box>
               </Box>
             </Grid>
