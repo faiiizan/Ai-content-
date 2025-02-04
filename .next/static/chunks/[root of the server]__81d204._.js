@@ -3042,7 +3042,10 @@ const Dashboard = ()=>{
                                                                     sm: "20px"
                                                                 },
                                                                 backgroundColor: "#FFE2E5",
-                                                                borderRadius: "16px"
+                                                                borderRadius: "16px",
+                                                                minHeight: {
+                                                                    sm: "176px"
+                                                                }
                                                             },
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3137,7 +3140,10 @@ const Dashboard = ()=>{
                                                                     sm: "20px"
                                                                 },
                                                                 backgroundColor: "#FFF4DE",
-                                                                borderRadius: "16px"
+                                                                borderRadius: "16px",
+                                                                minHeight: {
+                                                                    sm: "176px"
+                                                                }
                                                             },
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3229,7 +3235,10 @@ const Dashboard = ()=>{
                                                                     xs: "12px 20px"
                                                                 },
                                                                 backgroundColor: "#DCFCE7",
-                                                                borderRadius: "16px"
+                                                                borderRadius: "16px",
+                                                                minHeight: {
+                                                                    sm: "176px"
+                                                                }
                                                             },
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3331,7 +3340,10 @@ const Dashboard = ()=>{
                                                                     sm: "20px"
                                                                 },
                                                                 backgroundColor: "#F3E8FF",
-                                                                borderRadius: "16px"
+                                                                borderRadius: "16px",
+                                                                minHeight: {
+                                                                    sm: "176px"
+                                                                }
                                                             },
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {

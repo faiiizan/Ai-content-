@@ -412,7 +412,7 @@ const Dashboard = () => {
                 <Divider sx={{ color: "#D4E1E9" }} />
                 <Grid container spacing={1} sx={{ paddingTop: "25px" }}>
                   <Grid xs={12} sm={3} item>
-                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#FFE2E5", borderRadius: "16px" }}>
+                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#FFE2E5", borderRadius: "16px",minHeight:{sm:"176px"} }}>
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#FA5A7D", borderRadius: "50%", color: "#fff", marginBottom: { xs: "10px", sm: "20px" } }}>
                         <TextSnippetIcon />
                       </Box>
@@ -425,7 +425,7 @@ const Dashboard = () => {
                     </Box>
                   </Grid>
                   <Grid xs={12} sm={3} item>
-                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#FFF4DE", borderRadius: "16px" }}>
+                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#FFF4DE", borderRadius: "16px",minHeight:{sm:"176px"} }}>
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#FF947A", borderRadius: "50%", color: "#fff", marginBottom: "20px" }}>
                         <CollectionsIcon />
                       </Box>
@@ -438,7 +438,7 @@ const Dashboard = () => {
                     </Box>
                   </Grid>
                   <Grid xs={12} sm={3} item>
-                    <Box sx={{ padding: { sm: "20px", xs: "12px 20px" }, backgroundColor: "#DCFCE7", borderRadius: "16px" }}>
+                    <Box sx={{ padding: { sm: "20px", xs: "12px 20px" }, backgroundColor: "#DCFCE7", borderRadius: "16px",minHeight:{sm:"176px"} }}>
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#3CD856", borderRadius: "50%", color: "#fff", marginBottom: "20px" }}>
                         <JoinLeftIcon />
                       </Box>
@@ -451,7 +451,7 @@ const Dashboard = () => {
                     </Box>
                   </Grid>
                   <Grid xs={12} sm={3} item>
-                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#F3E8FF", borderRadius: "16px" }}>
+                    <Box sx={{ padding: { xs: "12px 20px", sm: "20px" }, backgroundColor: "#F3E8FF", borderRadius: "16px",minHeight:{sm:"176px"} }}>
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#BF83FF", borderRadius: "50%", color: "#fff", marginBottom: "20px" }}>
                         <UpdateIcon />
                       </Box>
