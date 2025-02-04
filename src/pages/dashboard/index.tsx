@@ -284,7 +284,7 @@ const Dashboard = () => {
         {/* body part started */}
         <Box sx={{ paddingTop: "15px", backgroundColor: "" }}>
           <Grid container>
-            <Grid xs={12} md={2.3} sx={{ padding: "20px", display: { xs: "none", md: "block", sm: "none" } }}>
+            <Grid xs={12} md={2.4} sx={{ padding: "20px", display: { xs: "none", md: "block", sm: "none" } }}>
               <Box sx={{ display: { sm: "flex" }, justifyContent: "space-between", borderBottom: "4px solid #4AB58E", borderRadius: "2px", marginBottom: "40px" }}>
                 <Typography sx={{ fontFamily: "Poppins", fontSize: "15px", lineHeight: "22.5px", fontWeight: "400" }}>
                   Credits
@@ -545,7 +545,7 @@ const Dashboard = () => {
             </Grid>
             {/* enn main part */}
             {/* start popular part  */}
-            <Grid xs={12} md={3.5} sx={{ padding: "60px 15px", backgroundColor: "#F8F9FA" }}>
+            <Grid xs={12} md={3.4} sx={{ padding: "60px 15px", backgroundColor: "#F8F9FA" }}>
               <Typography sx={{ fontSize: { xs: "18px", sm: "32px" }, fontFamily: "Poppins", color: "#05004E", lineHeight: "32px", fontWeight: "500", paddingBottom: "20px", paddingLeft: { xs: "20px", sm: "0px" } }}>
                 Most Popular
               </Typography>
