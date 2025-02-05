@@ -34,7 +34,6 @@ import ReceiptIcon from '@mui/icons-material/Receipt';
 import PersonIcon from '@mui/icons-material/Person';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import FeedIcon from '@mui/icons-material/Feed';
-import { FaPaperclip } from 'react-icons/fa';
 import { SiGoogleassistant } from "react-icons/si";
 import { PiChartPieSliceFill } from "react-icons/pi";
 

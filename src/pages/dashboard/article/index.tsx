@@ -9,8 +9,6 @@ import dashboardman from '../../../app/Assets/Imges/dasboardman.png'
 import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import MotionPhotosAutoIcon from '@mui/icons-material/MotionPhotosAuto';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
