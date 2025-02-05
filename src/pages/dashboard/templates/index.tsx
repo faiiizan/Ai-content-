@@ -12,8 +12,6 @@ import { useRouter } from 'next/router'
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import MotionPhotosAutoIcon from '@mui/icons-material/MotionPhotosAuto';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
