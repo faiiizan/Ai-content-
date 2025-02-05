@@ -247,19 +247,19 @@ const Dashnav = () => {
                         <ShowChartIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Upgarde Plan
                         </MenuItem>
                         </Link>
-                        <Link href='dashboard/history' style={{textDecoration:"none",color:"#000"}}>
+                        <Link href='/dashboard/history' style={{textDecoration:"none",color:"#000"}}>
                         <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><RestoreIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />My History
                         </MenuItem>
                         </Link>
-                        <Link href='dashboard/usage' style={{textDecoration:"none",color:"#000"}}>
+                        <Link href='/dashboard/usage' style={{textDecoration:"none",color:"#000"}}>
                         <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><AutoGraphIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Usage History
                         </MenuItem>
                         </Link>
-                        <Link href='dashboard/plans' style={{textDecoration:"none",color:"#000"}}>
+                        <Link href='/dashboard/plans' style={{textDecoration:"none",color:"#000"}}>
                         <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><PaidIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Plans and Billings
                         </MenuItem>
                         </Link>
-                        <Link href='dashboard/profile' style={{textDecoration:"none",color:"#000"}}>
+                        <Link href='/dashboard/profile' style={{textDecoration:"none",color:"#000"}}>
                         <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><PortraitIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Profile Details
                         </MenuItem>
                         </Link>
