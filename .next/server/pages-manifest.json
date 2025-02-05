@@ -1,27 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/dashboard": "pages/dashboard.js",
-  "/dashboard/templates": "pages/dashboard/templates.js",
-  "/dashboard/assistant": "pages/dashboard/assistant.js",
-  "/dashboard/analyst": "pages/dashboard/analyst.js",
-  "/dashboard/article": "pages/dashboard/article.js",
-  "/dashboard/image": "pages/dashboard/image.js",
-  "/dashboard/contentwriter": "pages/dashboard/contentwriter.js",
-  "/dashboard/document": "pages/dashboard/document.js",
-  "/dashboard/history": "pages/dashboard/history.js",
-  "/dashboard/usage": "pages/dashboard/usage.js",
-  "/dashboard/plans": "pages/dashboard/plans.js",
-  "/dashboard/profile": "pages/dashboard/profile.js",
-  "/blogs": "pages/blogs.js",
-  "/blogdetails": "pages/blogdetails.js",
-  "/_error": "pages/_error.js",
-  "/contact": "pages/contact.js",
-  "/faq": "pages/faq.js",
-  "/login": "pages/login.js",
-  "/forgetpass": "pages/forgetpass.js",
-  "/signup": "pages/signup.js",
-  "/privacypolicy": "pages/privacypolicy.js",
-  "/refundpolicy": "pages/refundpolicy.js",
-  "/aboutus": "pages/aboutus.js"
+  "/dashboard": "pages/dashboard.js"
 }
