@@ -2998,7 +2998,7 @@ const Dashsidebar = ()=>{
     const getLinkStyle = (path)=>{
         return router.pathname === path ? {
             backgroundColor: "#D7F200",
-            padding: "10px 15px",
+            padding: "10px 10px",
             color: "#000",
             borderRadius: "16px"
         } // active style

@@ -19,7 +19,7 @@ const Dashsidebar = () => {
       const router = useRouter();
     const getLinkStyle = (path: string) => {
         return router.pathname === path
-          ? { backgroundColor: "#D7F200",padding:"10px 15px",color:"#000",borderRadius:"16px", } // active style
+          ? { backgroundColor: "#D7F200",padding:"10px 10px",color:"#000",borderRadius:"16px", } // active style
           : {};
       };
     return (
