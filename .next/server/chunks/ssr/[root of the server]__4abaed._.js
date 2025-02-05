@@ -1479,7 +1479,7 @@ const Analyst = ()=>{
             padding: "10px 15px",
             color: "#000",
             borderRadius: "16px",
-            marginTop: "20px"
+            marginTop: "0px"
         } // active style
          : {};
     };

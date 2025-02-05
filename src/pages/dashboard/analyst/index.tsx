@@ -53,7 +53,7 @@ const Analyst = () => {
 
   const getLinkStyle = (path: string) => {
     return router.pathname === path
-      ? { backgroundColor: "#D7F200",padding:"10px 15px",color:"#000",borderRadius:"16px",marginTop:"20px" } // active style
+      ? { backgroundColor: "#D7F200",padding:"10px 15px",color:"#000",borderRadius:"16px",marginTop:"0px" } // active style
       : {};
   };
 
