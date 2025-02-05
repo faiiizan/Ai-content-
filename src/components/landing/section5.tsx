@@ -44,7 +44,7 @@ const Section5 = () => {
     <>
       <Box 
         sx={{
-          padding: { sm: '50px 0!important', xs: '10px 0!important' },
+          padding: { sm: '50px 0px!important', xs: '10px 0px!important' },
           backgroundImage: `url(${bgImage})`,  // Set background image
           backgroundSize: 'cover',             // Make the image cover the whole box
           backgroundPosition: 'center',        // Center the background image
@@ -54,6 +54,7 @@ const Section5 = () => {
         className ={Hero.ParentDiv}
         id='section5'
       >
+        
         <Box className = {Hero.background}>
 
         </Box>
@@ -83,7 +84,7 @@ const Section5 = () => {
           </Typography>
         </Box>
 
-        <Container>
+        <Container >
            <Grid container>
            <Box sx={{ width: '100%' }}>
       <Box sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
@@ -426,6 +427,7 @@ const Section5 = () => {
     </Box>
            </Grid>
         </Container>
+     
       </Box>
     </>
   )

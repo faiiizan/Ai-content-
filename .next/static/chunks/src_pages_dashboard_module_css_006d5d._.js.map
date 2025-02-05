@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/pages/dashboard.module.css [client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"Input\": \"dashboard-module__JsKwpa__Input\",\n  \"LogoImage\": \"dashboard-module__JsKwpa__LogoImage\",\n  \"barchart\": \"dashboard-module__JsKwpa__barchart\",\n  \"break\": \"dashboard-module__JsKwpa__break\",\n  \"clipIcon\": \"dashboard-module__JsKwpa__clipIcon\",\n  \"css-hhdjsd-MuiContainer-root\": \"dashboard-module__JsKwpa__css-hhdjsd-MuiContainer-root\",\n  \"css-uitvrg\": \"dashboard-module__JsKwpa__css-uitvrg\",\n  \"inputField\": \"dashboard-module__JsKwpa__inputField\",\n  \"navLogo\": \"dashboard-module__JsKwpa__navLogo\",\n  \"plansImage\": \"dashboard-module__JsKwpa__plansImage\",\n  \"profilelable\": \"dashboard-module__JsKwpa__profilelable\",\n  \"templateCardGrid\": \"dashboard-module__JsKwpa__templateCardGrid\",\n  \"worldmapImage\": \"dashboard-module__JsKwpa__worldmapImage\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

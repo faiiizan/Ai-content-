@@ -1,5 +1,5 @@
 "use Client"
-import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink, } from '@mui/material'
+import { Box, Button, Container, Drawer, Grid, IconButton, Typography, Menu, MenuItem, Divider, Breadcrumbs, Link as MUILink, colors, } from '@mui/material'
 import React, { useState } from 'react'
 import logoImage from '../../app/Assets/Imges/logo.svg'
 import Image from 'next/image'
@@ -19,11 +19,25 @@ import UpdateIcon from '@mui/icons-material/Update';
 import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import MotionPhotosAutoIcon from '@mui/icons-material/MotionPhotosAuto';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import ChatIcon from '@mui/icons-material/Chat';
+import RestoreIcon from '@mui/icons-material/Restore';
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
+import PaidIcon from '@mui/icons-material/Paid';
+import PortraitIcon from '@mui/icons-material/Portrait';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
+import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import HistoryIcon from '@mui/icons-material/History';
+import ReceiptIcon from '@mui/icons-material/Receipt';
+import PersonIcon from '@mui/icons-material/Person';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
+import FeedIcon from '@mui/icons-material/Feed';
+import { FaPaperclip } from 'react-icons/fa';
+import { SiGoogleassistant } from "react-icons/si";
+import { PiChartPieSliceFill } from "react-icons/pi";
+
 const Dashboard = () => {
 
   const [open, setOpen] = useState(false); // State to control drawer visibility
@@ -36,7 +50,7 @@ const Dashboard = () => {
   const router = useRouter();
   const getLinkStyle = (path: string) => {
     return router.pathname === path
-      ? { color: "red" } // active style
+      ? { backgroundColor: "#D7F200",padding:"10px 30px",color:"#000",borderRadius:"16px" } // active style
       : {};
   };
 
@@ -221,13 +235,17 @@ const Dashboard = () => {
 
 
                   <Box sx={{ padding: "0px 45px", width: "150px" }}>
+                    <Link href='/dashboard/templates'>
                     <Button variant='contained' sx={{ width: "100%", fontSize: "14px", fontWeight: "600", fontFamily: "Poppins", textTransform: "capitalize", padding: "15px 10px", boxShadow: "none", backgroundColor: "#D7F200", color: "#000000", borderRadius: "12px" }}>
                       create content
                     </Button>
+                    </Link>
                   </Box>
+                  <Link href='/dashboard/assistant'>
                   <Box sx={{ height: "48px", width: "48px", backgroundColor: "#FFFAF1", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "8px", color: "#FFA412", cursor: "pointer", marginLeft: "5px", }}>
                     <ChatIcon sx={{ color: "#000" }} />
                   </Box>
+                  </Link>
                   <Box sx={{ paddingLeft: "45px", display: "flex", cursor: "pointer", justifyContent: "center" }}>
                     <Image src={dashboardman} alt='dashboardman' style={{ width: "60px", height: "60px" }} />
                     <Box sx={{ display: "flex", justifyContent: "flex-start", alignItems: "space-between", flexDirection: "column", height: "60px", paddingLeft: "20px" }}>
@@ -245,7 +263,7 @@ const Dashboard = () => {
                         onClose={handleClosee}
                         PaperProps={{
                           style: {
-                            width: "220px",// You can adjust this width
+                            width: "240px",// You can adjust this width
                             fontFamily: "Poppins",
                             border: "1px solid #0000002B",
                             padding: "10px"
@@ -256,16 +274,29 @@ const Dashboard = () => {
                           faizan@gmail
                         </MenuItem>
                         <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><DarkModeIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Dark
+                        <Link href='/section5' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} >
+                        <ShowChartIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Upgarde Plan
                         </MenuItem>
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><MotionPhotosAutoIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Auto
+                        </Link>
+                        <Link href='dashboard/history' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><RestoreIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />My History
                         </MenuItem>
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><DarkModeIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Dark
+                        </Link>
+                        <Link href='dashboard/usage' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><AutoGraphIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Usage History
                         </MenuItem>
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><MotionPhotosAutoIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Auto
+                        </Link>
+                        <Link href='dashboard/plans' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><PaidIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Plans and Billings
                         </MenuItem>
+                        </Link>
+                        <Link href='dashboard/profile' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} ><PortraitIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Profile Details
+                        </MenuItem>
+                        </Link>
                         <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "10px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Log Out
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Log Out
                         </MenuItem>
                       </Menu>
 
@@ -294,12 +325,12 @@ const Dashboard = () => {
                 </Typography>
               </Box>
               {/* start dashboard part */}
-              <Box sx={{ height: "100px", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "25px 0px 40px 20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative" }}>
+              <Box sx={{ height: "100px", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "40px 0px 60px 20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative" }}>
                 <ul style={{ margin: "0px", padding: "0px" }}>
                   <li style={{ listStyle: "none" }}>
                     <Link href='/dashboard' passHref style={{ textDecoration: "none" }}>
                       <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", ...getLinkStyle('/dashboard') }}>
-                        <DashboardIcon sx={{ marginRight: "20px" }} />Dashoard
+                        <PiChartPieSliceFill style={{ marginRight: "20px" }} />Dashoard
 
                       </Typography>
                     </Link>
@@ -313,7 +344,7 @@ const Dashboard = () => {
                   <li style={{ listStyle: "none" }}>
                     <Link href='/dashboard/assistant' style={{ textDecoration: "none" }}>
                       <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                        <DashboardIcon sx={{ paddingRight: "20px" }} />   Assistant
+                        <SiGoogleassistant style={{ paddingRight: "20px" }} />   Assistant
                       </Typography>
                     </Link>
                   </li>
@@ -325,41 +356,41 @@ const Dashboard = () => {
                 <ul style={{ margin: "0px", padding: "0px" }}>
 
                   <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/analyst' style={{textDecoration:"none"}}>
-                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
-                      <DashboardIcon sx={{ marginRight: "20px" }} />   Data Analyst
+                    <Link href='/dashboard/analyst' style={{ textDecoration: "none" }} passHref>
+                      <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
+                        <DashboardIcon sx={{ marginRight: "20px" }} />   Data Analyst
+                      </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link href='/dashboard/article' style={{ textDecoration: "none" }} passHref>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
+                      <FeedIcon sx={{ paddingRight: "20px" }} />   Article Generator
                     </Typography>
                     </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/article' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/image' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Article Generator
+                      <InsertPhotoIcon sx={{ paddingRight: "20px" }} />   Image Generator
                     </Typography>
                     </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/image' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/contentwriter' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Image Generator
+                      <ContentCopyIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
                     </Typography>
                     </Link>
                   </li>
-                  <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/contentwriter' style={{textDecoration:"none"}}>
-                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
-                    </Typography>
-                    </Link>
-                  </li>
-                  <Link passHref href='/dashboard/document' style={{textDecoration:"none"}}>
+                  <Link href='/dashboard/document' style={{ textDecoration: "none" }} passHref>
                   <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                    <DashboardIcon sx={{ paddingRight: "20px" }} />   Documents
+                    <DocumentScannerIcon sx={{ paddingRight: "20px" }} />   Documents
                   </Typography>
                   </Link>
                 </ul>
-                <Box sx={{ position: "absolute", top: "-18px", left: "59px", }}>
-                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#000", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Workflows</Typography>
+                <Box sx={{ position: "absolute", top: "-20px", left: "55px", }}>
+                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#403F3F", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Workflows</Typography>
                 </Box>
               </Box>
               {/* end wokflows */}
@@ -367,37 +398,39 @@ const Dashboard = () => {
               <Box sx={{ minHeight: "100px", width: "100%", border: '1px solid #0000001A', borderRadius: "30px", padding: "50px 0px 20px 0px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", marginTop: "40px" }}>
                 <ul style={{ margin: "0px", padding: "0px" }}>
                   <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/history' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/history' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791" }}>
-                      <DashboardIcon sx={{ marginRight: "20px" }} />   My History
+                      <HistoryIcon sx={{ marginRight: "20px" }} />   My History
                     </Typography>
                     </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link  passHref href='/dashboard/usage' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/usage' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
                       <DashboardIcon sx={{ paddingRight: "20px" }} />   Usage History
                     </Typography>
                     </Link>
                   </li>
-                  
+
                   <li style={{ listStyle: "none" }}>
-                    <Link passHref href='/dashboard/plans' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/plans' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Plans and Billing
+                      <ReceiptIcon sx={{ paddingRight: "20px" }} />   Plans and Billing
                     </Typography>
                     </Link>
                   </li>
                   <li style={{ listStyle: "none" }}>
-                    <Link  passHref href='/dashboard/profile' style={{textDecoration:"none"}}>
+                    <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
                     <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left", }}>
-                      <DashboardIcon sx={{ paddingRight: "20px" }} />   Profile Details
+                      < PersonIcon sx={{ paddingRight: "20px" }} />   Profile Details
                     </Typography>
                     </Link>
                   </li>
                 </ul>
-                <Box sx={{ position: "absolute", top: "-19px", left: "65px", }}>
-                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#000", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Accounts</Typography>
+                <Box sx={{ position: "absolute", top: "-20px", left: "60px", }}>
+                  <Typography sx={{ background: "#fff", borderRadius: "16px", color: "#403F3F", padding: "8px 25px", boxShadow: "none", textTransform: "capitalize", fontSize: "18px", fontFamily: "Poppins", fontWeight: "600" }}>Accounts
+
+                  </Typography>
                 </Box>
               </Box>
             </Grid>
@@ -501,12 +534,16 @@ const Dashboard = () => {
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#789FFE", borderRadius: "50%", color: "#fff", marginBottom: { sm: "20px", xs: "10px" } }}>
                         <ListIcon />
                       </Box>
+                      <Link href='/article generator' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { sm: "24px", xs: "18px" }, color: "#151D48", lineHeight: { xs: "22px", sm: "32px" }, fontWeight: "600" }}>
-                        Artical Generator
+                        Artical Generator 
                       </Typography>
+                      </Link>
+                      
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "14px", sm: "16px" }, color: "#151D48", lineHeight: "24px", fontWeight: "400", textAlign: "center", paddingTop: { xs: "10px", sm: "15px" } }}>
                         Assists with homework writing by providing suggestions for grammar, style, and content improvements.
                       </Typography>
+                     
                     </Box>
                   </Grid>
                   <Grid xs={12} md={6} item>
@@ -514,9 +551,11 @@ const Dashboard = () => {
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#DDA840", borderRadius: "50%", color: "#fff", marginBottom: { sm: "20px", xs: "10px" } }}>
                         <SpaceDashboardIcon />
                       </Box>
+                      <Link href='/hedline_generator' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "16px", sm: "24px" }, color: "#151D48", lineHeight: "32px", fontWeight: "600" }}>
                         Headline Generator
                       </Typography>
+                      </Link>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "14px", sm: "16px" }, color: "#151D48", lineHeight: "24px", fontWeight: "400", textAlign: "center", paddingTop: { xs: "8px", sm: "15px" } }}>
                         Assists with homework writing by providing suggestions for grammar, style, and content improvements.
                       </Typography>
@@ -532,9 +571,11 @@ const Dashboard = () => {
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#41D7A5", borderRadius: "50%", color: "#fff", marginBottom: "20px" }}>
                         <SignalCellularAltIcon />
                       </Box>
+                      <Link href='/blog_conclusion' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "16px", sm: "24px" }, color: "#151D48", lineHeight: { xs: "22px", sm: "32px" }, fontWeight: "600" }}>
                         Blog Conclusion
                       </Typography>
+                      </Link>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "14px", sm: "16px" }, color: "#151D48", lineHeight: "24px", fontWeight: "400", textAlign: "center", paddingTop: { xs: "8px", sm: "15px" } }}>
                         Assists with homework writing by providing suggestions for grammar, style, and content improvements.
                       </Typography>
@@ -545,10 +586,12 @@ const Dashboard = () => {
                       <Box sx={{ height: "40px", width: "40px", display: 'flex', justifyContent: "center", alignItems: "center", backgroundColor: "#9B69FF", borderRadius: "50%", color: "#fff", marginBottom: { xs: "10px", sm: "20px" } }}>
                         <ListIcon />
                       </Box>
+                      <Link href='/english_correction' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "16px", sm: "24px" }, color: "#151D48", lineHeight: { xs: "22px", sm: "32px" }, fontWeight: "600" }}>
                         English Correction
 
                       </Typography>
+                      </Link>
                       <Typography sx={{ fontFamily: "Poppins", fontSize: { xs: "14px", sm: "16px" }, color: "#151D48", lineHeight: "24px", fontWeight: "400", textAlign: "center", paddingTop: { xs: "10px", sm: "15px" } }}>
                         Assists with homework writing by providing suggestions for grammar, style, and content improvements.
                       </Typography>
@@ -567,9 +610,11 @@ const Dashboard = () => {
                 <Grid xs={10} sm={12} sx={{ display: "flex", justifyContent: "center" }}>
                   <Box sx={{ backgroundColor: "#fff", padding: { sm: "20px", xs: "15px" }, width: { xs: "95%", sm: "100%" }, borderRadius: "20px", border: "1px solid #F8F9FA" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #D4E1E9", paddingBottom: { xs: "12px", sm: "20px" } }}>
+                      <Link href='/teweet_generator' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontSize: { xs: "16px", sm: "18px" }, fontFamily: "Poppins", fontWeight: "600", lineHeight: { sm: "32px", xs: "22px" }, color: "#05004E" }}>
                         Tweet Generator
                       </Typography>
+                      </Link>
                       <Box sx={{ height: { xs: "25px", sm: "29px" }, width: { sm: "29px", xs: "23px" }, borderRadius: "8px", border: "2px solid #1C274C", display: "flex", justifyContent: "center", alignItems: "center" }}>
                         <QuestionMarkIcon />
                       </Box>
@@ -582,9 +627,11 @@ const Dashboard = () => {
                 <Grid xs={10} sm={12} sx={{ marginTop: "10px", display: "flex", justifyContent: "center" }}>
                   <Box sx={{ backgroundColor: "#fff", padding: { sm: "20px", xs: "15px" }, width: { xs: "95%", sm: "100%" }, borderRadius: "20px", border: "1px solid #F8F9FA" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #D4E1E9", paddingBottom: { xs: "12px", sm: "20px" } }}>
+                      <Link href='youtube_video_description' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontSize: { xs: "16px", sm: "18px" }, fontFamily: "Poppins", fontWeight: "600", lineHeight: { sm: "32px", xs: "22px" }, color: "#05004E" }}>
                         Youtube Video Description
                       </Typography>
+                      </Link>
                       <Box sx={{ height: { xs: "25px", sm: "29px" }, width: { sm: "29px", xs: "23px" }, borderRadius: "8px", border: "2px solid #1C274C", display: "flex", justifyContent: "center", alignItems: "center" }}>
                         <ListIcon />
                       </Box>
@@ -597,9 +644,11 @@ const Dashboard = () => {
                 <Grid xs={10} sm={12} sx={{ marginTop: "10px", display: "flex", justifyContent: "center" }}>
                   <Box sx={{ backgroundColor: "#fff", padding: { sm: "20px", xs: "15px" }, width: { xs: "95%", sm: "100%" }, borderRadius: "20px", border: "1px solid #F8F9FA" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #D4E1E9", paddingBottom: "20px" }}>
+                      <Link href='speeches_writing' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontSize: { xs: "16px", sm: "18px" }, fontFamily: "Poppins", fontWeight: "600", lineHeight: { sm: "32px", xs: "22px" }, color: "#05004E" }}>
                         Speeches Writing
                       </Typography>
+                      </Link>
                       <Box sx={{ height: { xs: "25px", sm: "29px" }, width: { sm: "29px", xs: "23px" }, borderRadius: "8px", border: "2px solid #1C274C", display: "flex", justifyContent: "center", alignItems: "center" }}>
                         <PermIdentityIcon />
                       </Box>
@@ -612,9 +661,11 @@ const Dashboard = () => {
                 <Grid xs={10} sm={12} sx={{ marginTop: "10px", display: "flex", justifyContent: "center" }}>
                   <Box sx={{ backgroundColor: "#fff", padding: { sm: "20px", xs: "15px" }, width: { xs: "95%", sm: "100%" }, borderRadius: "20px", border: "1px solid #F8F9FA" }}>
                     <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #D4E1E9", paddingBottom: "20px" }}>
+                      <Link href='summarize_text' style={{textDecoration:"none"}}>
                       <Typography sx={{ fontSize: { xs: "16px", sm: "18px" }, fontFamily: "Poppins", fontWeight: "600", lineHeight: { sm: "32px", xs: "22px" }, color: "#05004E" }}>
                         Summarize Text
                       </Typography>
+                      </Link>
                       <Box sx={{ height: { xs: "25px", sm: "29px" }, width: { sm: "29px", xs: "23px" }, borderRadius: "8px", border: "2px solid #1C274C", display: "flex", justifyContent: "center", alignItems: "center" }}>
                         <FileCopyIcon />
                       </Box>

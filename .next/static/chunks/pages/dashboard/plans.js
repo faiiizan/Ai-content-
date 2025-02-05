@@ -7,8 +7,8 @@ __turbopack_load_page_chunks__("/dashboard/plans", [
   "static/chunks/node_modules_react-icons_pi_index_mjs_df545e._.js",
   "static/chunks/node_modules_react-icons_si_index_mjs_a94695._.js",
   "static/chunks/node_modules_react-icons_lib_75a63d._.js",
-  "static/chunks/node_modules_d564e8._.js",
+  "static/chunks/node_modules_9eda14._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_plans_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_plans_index_tsx_633eae._.js"
+  "static/chunks/src_pages_dashboard_plans_index_tsx_3dc7b2._.js"
 ])

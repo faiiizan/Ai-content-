@@ -99,8 +99,8 @@ const Section5 = ()=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
             sx: {
                 padding: {
-                    sm: '50px 0!important',
-                    xs: '10px 0!important'
+                    sm: '50px 0px!important',
+                    xs: '10px 0px!important'
                 },
                 backgroundImage: `url(${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$16359108_v904$2d$nunny$2d$026__1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$16359108_v904$2d$nunny$2d$026__1$2e$png__$5b$app$2d$ssr$5d$__$28$static$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"]})`,
                 backgroundSize: 'cover',
@@ -114,7 +114,7 @@ const Section5 = ()=>{
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$landing$2f$section5$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].background
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/section5.tsx",
-                    lineNumber: 57,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -146,13 +146,13 @@ const Section5 = ()=>{
                                     children: "Pricing"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 18
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/section5.tsx",
-                            lineNumber: 61,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -172,13 +172,13 @@ const Section5 = ()=>{
                             children: "Our plans are simple and clear, they are based on the total credits used in each month."
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/section5.tsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/section5.tsx",
-                    lineNumber: 60,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
@@ -222,7 +222,7 @@ const Section5 = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 92,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Tab$2f$Tab$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tab$3e$__["Tab"], {
@@ -241,7 +241,7 @@ const Section5 = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 93,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Tab$2f$Tab$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tab$3e$__["Tab"], {
@@ -260,18 +260,18 @@ const Section5 = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 94,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/section5.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 91,
                                         columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 90,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CustomTabPanel, {
@@ -312,7 +312,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 101,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -328,7 +328,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 101,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -349,13 +349,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 104,
+                                                                    lineNumber: 105,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 103,
+                                                            lineNumber: 104,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -380,12 +380,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 108,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 106,
+                                                            lineNumber: 107,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -414,38 +414,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 113,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 113,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 114,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -473,7 +445,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 115,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -501,7 +473,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 116,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -529,7 +501,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 117,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -557,7 +529,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 118,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -585,28 +557,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 119,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 119,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 120,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 120,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 112,
+                                                            lineNumber: 113,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 100,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 99,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -636,7 +636,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 126,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -652,7 +652,7 @@ const Section5 = ()=>{
                                                             children: "Basic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 126,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -673,13 +673,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 129,
+                                                                    lineNumber: 130,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 129,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -704,12 +704,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 132,
+                                                                lineNumber: 133,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 132,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -738,38 +738,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 138,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 200K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 138,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 139,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 10 Images Generate"
+                                                                        " 200K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -797,7 +769,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 140,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 10 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -825,7 +797,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 141,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -853,7 +825,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 142,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Premium Templates"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -881,7 +853,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 143,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " Premium Templates"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -909,28 +881,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 144,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 144,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 145,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 145,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 138,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 125,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 123,
+                                                lineNumber: 124,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -962,7 +962,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 151,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -978,7 +978,7 @@ const Section5 = ()=>{
                                                             children: "Standard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 151,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -999,13 +999,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 154,
+                                                                    lineNumber: 155,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 153,
+                                                            lineNumber: 154,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1030,12 +1030,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 157,
+                                                                lineNumber: 158,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 156,
+                                                            lineNumber: 157,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1064,38 +1064,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 163,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 163,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 164,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 50 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1123,7 +1095,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 165,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 50 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1151,7 +1123,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 166,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1179,7 +1151,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 167,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        "Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1207,7 +1179,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 168,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1235,17 +1207,45 @@ const Section5 = ()=>{
                                                                             lineNumber: 169,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 169,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 170,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 170,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 162,
+                                                            lineNumber: 163,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1271,23 +1271,23 @@ const Section5 = ()=>{
                                                                 children: "Most Popular"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 174,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 172,
+                                                            lineNumber: 173,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 150,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 149,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1317,7 +1317,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 181,
+                                                            lineNumber: 182,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -1333,7 +1333,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 181,
+                                                            lineNumber: 182,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1354,13 +1354,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 185,
+                                                                    lineNumber: 186,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 184,
+                                                            lineNumber: 185,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1385,12 +1385,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 188,
+                                                                lineNumber: 189,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 187,
+                                                            lineNumber: 188,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1419,38 +1419,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 194,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 194,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 195,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1478,7 +1450,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 196,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1506,7 +1478,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 197,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1534,7 +1506,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 198,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1562,7 +1534,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 199,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1590,39 +1562,67 @@ const Section5 = ()=>{
                                                                             lineNumber: 200,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 200,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 201,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 201,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 193,
+                                                            lineNumber: 194,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 181,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 180,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/section5.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 98,
                                         columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 97,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CustomTabPanel, {
@@ -1663,7 +1663,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 210,
+                                                            lineNumber: 211,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -1679,7 +1679,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 210,
+                                                            lineNumber: 211,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1700,13 +1700,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 214,
+                                                                    lineNumber: 215,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 214,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1731,12 +1731,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 217,
+                                                                lineNumber: 218,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 216,
+                                                            lineNumber: 217,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1765,38 +1765,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 223,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 223,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 224,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1824,7 +1796,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 225,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1852,7 +1824,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 226,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1880,7 +1852,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 227,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1908,7 +1880,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 228,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -1936,28 +1908,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 229,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 229,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 230,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 230,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 223,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 210,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 208,
+                                                lineNumber: 209,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -1987,7 +1987,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 236,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -2003,7 +2003,7 @@ const Section5 = ()=>{
                                                             children: "Basic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 236,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2024,13 +2024,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 239,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 239,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2055,12 +2055,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 242,
+                                                                lineNumber: 243,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 242,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2089,38 +2089,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 248,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 200K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 248,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 249,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 10 Images Generate"
+                                                                        " 200K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2148,7 +2120,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 250,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 10 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2176,7 +2148,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 251,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2204,7 +2176,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 252,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Premium Templates"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2232,7 +2204,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 253,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " Premium Templates"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2260,28 +2232,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 254,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 254,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 255,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 255,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 247,
+                                                            lineNumber: 248,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 235,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 234,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -2313,7 +2313,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 261,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -2329,7 +2329,7 @@ const Section5 = ()=>{
                                                             children: "Standard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 261,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2350,13 +2350,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 264,
+                                                                    lineNumber: 265,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 264,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2381,12 +2381,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 267,
+                                                                lineNumber: 268,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 266,
+                                                            lineNumber: 267,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2415,38 +2415,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 273,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 273,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 274,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 50 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2474,7 +2446,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 275,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 50 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2502,7 +2474,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 276,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2530,7 +2502,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 277,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        "Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2558,7 +2530,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 278,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2586,17 +2558,45 @@ const Section5 = ()=>{
                                                                             lineNumber: 279,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 279,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 280,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 280,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 272,
+                                                            lineNumber: 273,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2622,23 +2622,23 @@ const Section5 = ()=>{
                                                                 children: "Most Popular"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 283,
+                                                                lineNumber: 284,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 282,
+                                                            lineNumber: 283,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 259,
+                                                    lineNumber: 260,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 259,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -2668,7 +2668,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 292,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -2684,7 +2684,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 292,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -2705,13 +2705,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 295,
+                                                                    lineNumber: 296,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 295,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -2736,12 +2736,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 298,
+                                                                lineNumber: 299,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 298,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2770,38 +2770,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 304,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 304,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 305,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2829,7 +2801,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 306,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2857,7 +2829,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 307,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2885,7 +2857,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 308,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2913,7 +2885,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 309,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -2941,39 +2913,67 @@ const Section5 = ()=>{
                                                                             lineNumber: 310,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 310,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 311,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 311,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 303,
+                                                            lineNumber: 304,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 291,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 290,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/section5.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 208,
                                         columnNumber: 7
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 207,
                                     columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CustomTabPanel, {
@@ -3014,7 +3014,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 321,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -3030,7 +3030,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 321,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3051,13 +3051,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 324,
+                                                                    lineNumber: 325,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 323,
+                                                            lineNumber: 324,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3082,12 +3082,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 327,
+                                                                lineNumber: 328,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 326,
+                                                            lineNumber: 327,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3116,38 +3116,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 333,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 333,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 334,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3175,7 +3147,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 335,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3203,7 +3175,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 336,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3231,7 +3203,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 337,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3259,7 +3231,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 338,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3287,28 +3259,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 339,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 339,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 340,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 340,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 332,
+                                                            lineNumber: 333,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 319,
+                                                    lineNumber: 320,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 318,
+                                                lineNumber: 319,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3338,7 +3338,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 345,
+                                                            lineNumber: 346,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -3354,7 +3354,7 @@ const Section5 = ()=>{
                                                             children: "Basic"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 345,
+                                                            lineNumber: 346,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3375,13 +3375,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 349,
+                                                                    lineNumber: 350,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 348,
+                                                            lineNumber: 349,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3406,12 +3406,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 352,
+                                                                lineNumber: 353,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 351,
+                                                            lineNumber: 352,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3440,38 +3440,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 358,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 200K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 358,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 359,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 10 Images Generate"
+                                                                        " 200K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3499,7 +3471,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 360,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 10 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3527,7 +3499,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 361,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3555,7 +3527,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 362,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Premium Templates"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3583,7 +3555,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 363,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " Premium Templates"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3611,28 +3583,56 @@ const Section5 = ()=>{
                                                                             lineNumber: 364,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 364,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 365,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 365,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 357,
+                                                            lineNumber: 358,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 344,
+                                                    lineNumber: 345,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 343,
+                                                lineNumber: 344,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -3664,7 +3664,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 370,
+                                                            lineNumber: 371,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -3680,7 +3680,7 @@ const Section5 = ()=>{
                                                             children: "Standard"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 370,
+                                                            lineNumber: 371,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3701,13 +3701,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 374,
+                                                                    lineNumber: 375,
                                                                     columnNumber: 18
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 373,
+                                                            lineNumber: 374,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3732,12 +3732,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 377,
+                                                                lineNumber: 378,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 376,
+                                                            lineNumber: 377,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3766,38 +3766,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 383,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 383,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 384,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 50 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3825,7 +3797,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 385,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 50 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3853,7 +3825,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 386,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3881,7 +3853,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 387,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        "Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3909,7 +3881,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 388,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -3937,17 +3909,45 @@ const Section5 = ()=>{
                                                                             lineNumber: 389,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 389,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 390,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 390,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 382,
+                                                            lineNumber: 383,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3973,23 +3973,23 @@ const Section5 = ()=>{
                                                                 children: "Most Popular"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 393,
+                                                                lineNumber: 394,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 392,
+                                                            lineNumber: 393,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 369,
+                                                    lineNumber: 370,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 368,
+                                                lineNumber: 369,
                                                 columnNumber: 11
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4019,7 +4019,7 @@ const Section5 = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 402,
                                                             columnNumber: 13
                                                         }, this),
                                                         " ",
@@ -4035,7 +4035,7 @@ const Section5 = ()=>{
                                                             children: "Free"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 402,
                                                             columnNumber: 115
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4056,13 +4056,13 @@ const Section5 = ()=>{
                                                                     children: "/Month"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 405,
+                                                                    lineNumber: 406,
                                                                     columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 404,
+                                                            lineNumber: 405,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4087,12 +4087,12 @@ const Section5 = ()=>{
                                                                 children: "Subscribe"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                                lineNumber: 408,
+                                                                lineNumber: 409,
                                                                 columnNumber: 17
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 407,
+                                                            lineNumber: 408,
                                                             columnNumber: 15
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4121,38 +4121,10 @@ const Section5 = ()=>{
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                                            lineNumber: 414,
-                                                                            columnNumber: 146
-                                                                        }, this),
-                                                                        " 5K Words Generate"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/landing/section5.tsx",
-                                                                    lineNumber: 414,
-                                                                    columnNumber: 17
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    style: {
-                                                                        fontFamily: "Montserrat",
-                                                                        fontWeight: "500",
-                                                                        fontSize: "16px",
-                                                                        lineHeight: "19.5px",
-                                                                        color: "#000000",
-                                                                        paddingBottom: "15px"
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                            sx: {
-                                                                                marginRight: "12px",
-                                                                                fontSize: "25px",
-                                                                                color: "#65C95E"
-                                                                            }
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/landing/section5.tsx",
                                                                             lineNumber: 415,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 4 Images Generate"
+                                                                        " 5K Words Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -4180,7 +4152,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 416,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " 70+ Templates Access"
+                                                                        " 4 Images Generate"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -4208,7 +4180,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 417,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Assistant Access"
+                                                                        " 70+ Templates Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -4236,7 +4208,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 418,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Article Generator"
+                                                                        " Assistant Access"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -4264,7 +4236,7 @@ const Section5 = ()=>{
                                                                             lineNumber: 419,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        " Content Rewriter"
+                                                                        " Article Generator"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
@@ -4292,55 +4264,83 @@ const Section5 = ()=>{
                                                                             lineNumber: 420,
                                                                             columnNumber: 146
                                                                         }, this),
-                                                                        "Smart Editor"
+                                                                        " Content Rewriter"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/landing/section5.tsx",
                                                                     lineNumber: 420,
                                                                     columnNumber: 17
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                    style: {
+                                                                        fontFamily: "Montserrat",
+                                                                        fontWeight: "500",
+                                                                        fontSize: "16px",
+                                                                        lineHeight: "19.5px",
+                                                                        color: "#000000",
+                                                                        paddingBottom: "15px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Done$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                marginRight: "12px",
+                                                                                fontSize: "25px",
+                                                                                color: "#65C95E"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/landing/section5.tsx",
+                                                                            lineNumber: 421,
+                                                                            columnNumber: 146
+                                                                        }, this),
+                                                                        "Smart Editor"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/landing/section5.tsx",
+                                                                    lineNumber: 421,
+                                                                    columnNumber: 17
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/landing/section5.tsx",
-                                                            lineNumber: 413,
+                                                            lineNumber: 414,
                                                             columnNumber: 15
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                                    lineNumber: 400,
+                                                    lineNumber: 401,
                                                     columnNumber: 13
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/section5.tsx",
-                                                lineNumber: 399,
+                                                lineNumber: 400,
                                                 columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/section5.tsx",
-                                        lineNumber: 317,
+                                        lineNumber: 318,
                                         columnNumber: 7
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/section5.tsx",
-                                    lineNumber: 316,
+                                    lineNumber: 317,
                                     columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/section5.tsx",
-                            lineNumber: 88,
+                            lineNumber: 89,
                             columnNumber: 12
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/section5.tsx",
-                        lineNumber: 87,
+                        lineNumber: 88,
                         columnNumber: 12
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/section5.tsx",
-                    lineNumber: 86,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)
             ]

@@ -2919,7 +2919,7 @@ const Templates = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
                                 xs: 12,
-                                md: 2.3,
+                                md: 2.5,
                                 sx: {
                                     padding: "20px",
                                     display: {
@@ -3611,7 +3611,7 @@ const Templates = ()=>{
                                 container: true,
                                 xs: 12,
                                 sm: 12,
-                                md: 9.7,
+                                md: 9.5,
                                 sx: {
                                     backgroundColor: "#F8F9FA",
                                     padding: {
@@ -3885,21 +3885,31 @@ const Templates = ()=>{
                                                                                 minHeight: ""
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "article_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Article Generator"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Article Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 462,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
                                                                                     lineNumber: 461,
@@ -3921,12 +3931,12 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 465,
+                                                                                        lineNumber: 467,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 464,
+                                                                                    lineNumber: 466,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
@@ -3947,7 +3957,7 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 469,
+                                                                            lineNumber: 471,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
@@ -3982,24 +3992,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_conclusion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Blog Conclusion"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Conclusion"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 480,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 477,
+                                                                                    lineNumber: 479,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4018,18 +4038,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 481,
+                                                                                        lineNumber: 485,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 480,
+                                                                                    lineNumber: 484,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 476,
+                                                                            lineNumber: 478,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4044,18 +4064,18 @@ const Templates = ()=>{
                                                                             children: "TGenerates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 485,
+                                                                            lineNumber: 489,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 475,
+                                                                    lineNumber: 477,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 474,
+                                                                lineNumber: 476,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4079,24 +4099,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_idea_and_outlet",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Blog Idea & Outline"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Idea & Outline"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 498,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 493,
+                                                                                    lineNumber: 497,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4115,18 +4145,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 497,
+                                                                                        lineNumber: 503,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 496,
+                                                                                    lineNumber: 502,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 492,
+                                                                            lineNumber: 496,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4141,18 +4171,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 501,
+                                                                            lineNumber: 507,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 491,
+                                                                    lineNumber: 495,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 490,
+                                                                lineNumber: 494,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4176,24 +4206,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_intros",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Blog Intros"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Intros"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 516,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 509,
+                                                                                    lineNumber: 515,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4212,18 +4252,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 513,
+                                                                                        lineNumber: 521,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 512,
+                                                                                    lineNumber: 520,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 508,
+                                                                            lineNumber: 514,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4238,18 +4278,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 517,
+                                                                            lineNumber: 525,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 507,
+                                                                    lineNumber: 513,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 506,
+                                                                lineNumber: 512,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4273,24 +4313,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_secion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Blog Section"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Section"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 534,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 525,
+                                                                                    lineNumber: 533,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4309,18 +4359,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 529,
+                                                                                        lineNumber: 539,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 528,
+                                                                                    lineNumber: 538,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 524,
+                                                                            lineNumber: 532,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4335,18 +4385,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 533,
+                                                                            lineNumber: 543,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 523,
+                                                                    lineNumber: 531,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 522,
+                                                                lineNumber: 530,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4370,24 +4420,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Blog Title"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 552,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 541,
+                                                                                    lineNumber: 551,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4406,18 +4466,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 546,
+                                                                                        lineNumber: 558,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 545,
+                                                                                    lineNumber: 557,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 540,
+                                                                            lineNumber: 550,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4432,18 +4492,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 550,
+                                                                            lineNumber: 562,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 539,
+                                                                    lineNumber: 549,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 538,
+                                                                lineNumber: 548,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4467,24 +4527,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Content Generator"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 571,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 558,
+                                                                                    lineNumber: 570,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4503,18 +4573,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 563,
+                                                                                        lineNumber: 577,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 562,
+                                                                                    lineNumber: 576,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 557,
+                                                                            lineNumber: 569,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4529,18 +4599,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 567,
+                                                                            lineNumber: 581,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 556,
+                                                                    lineNumber: 568,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 555,
+                                                                lineNumber: 567,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4564,24 +4634,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_writer",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Content Rewriter"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Rewriter"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 590,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 575,
+                                                                                    lineNumber: 589,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4600,18 +4680,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 580,
+                                                                                        lineNumber: 596,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 579,
+                                                                                    lineNumber: 595,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 574,
+                                                                            lineNumber: 588,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4626,18 +4706,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 584,
+                                                                            lineNumber: 600,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 573,
+                                                                    lineNumber: 587,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 572,
+                                                                lineNumber: 586,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4661,24 +4741,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/copy_ad_variants",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Copy Ad Variants"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Copy Ad Variants"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 609,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 592,
+                                                                                    lineNumber: 608,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4697,18 +4787,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 597,
+                                                                                        lineNumber: 615,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 596,
+                                                                                    lineNumber: 614,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 591,
+                                                                            lineNumber: 607,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4723,18 +4813,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 601,
+                                                                            lineNumber: 619,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 590,
+                                                                    lineNumber: 606,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 589,
+                                                                lineNumber: 605,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4758,24 +4848,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "email_and_messages",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Email and Message"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Email and Message"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 628,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 609,
+                                                                                    lineNumber: 627,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4794,18 +4894,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 614,
+                                                                                        lineNumber: 634,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 613,
+                                                                                    lineNumber: 633,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 608,
+                                                                            lineNumber: 626,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4820,18 +4920,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 618,
+                                                                            lineNumber: 638,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 607,
+                                                                    lineNumber: 625,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 606,
+                                                                lineNumber: 624,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4855,24 +4955,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/faq_geerator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "FAQ Generator"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "FAQ Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 647,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 626,
+                                                                                    lineNumber: 646,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4891,18 +5001,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 630,
+                                                                                        lineNumber: 652,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 629,
+                                                                                    lineNumber: 651,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 625,
+                                                                            lineNumber: 645,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -4917,18 +5027,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 634,
+                                                                            lineNumber: 656,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 624,
+                                                                    lineNumber: 644,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 623,
+                                                                lineNumber: 643,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4952,24 +5062,34 @@ const Templates = ()=>{
                                                                                 alignItems: "center"
                                                                             },
                                                                             children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    sx: {
-                                                                                        fontSize: {
-                                                                                            xs: "20px",
-                                                                                            md: "24px"
-                                                                                        },
-                                                                                        lineHeight: {
-                                                                                            xs: "28px",
-                                                                                            md: "32px"
-                                                                                        },
-                                                                                        fontFamily: "Poppins",
-                                                                                        fontWeight: "600",
-                                                                                        color: "#151D48"
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "meta_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
                                                                                     },
-                                                                                    children: "Meta Title"
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Meta Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 665,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 642,
+                                                                                    lineNumber: 664,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4988,18 +5108,18 @@ const Templates = ()=>{
                                                                                         }
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                        lineNumber: 646,
+                                                                                        lineNumber: 670,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                                    lineNumber: 645,
+                                                                                    lineNumber: 669,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 641,
+                                                                            lineNumber: 663,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -5014,18 +5134,18 @@ const Templates = ()=>{
                                                                             children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                            lineNumber: 650,
+                                                                            lineNumber: 674,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                    lineNumber: 640,
+                                                                    lineNumber: 662,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                                lineNumber: 639,
+                                                                lineNumber: 661,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
@@ -5042,19 +5162,5241 @@ const Templates = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(CustomTabPanel, {
                                                     value: value,
                                                     index: 1,
-                                                    children: "Item Two"
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                        container: true,
+                                                        spacing: 1,
+                                                        sx: {
+                                                            padding: {
+                                                                xs: "10px",
+                                                                md: "0px"
+                                                            }
+                                                        },
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].templateCardGrid,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center",
+                                                                                minHeight: ""
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "article_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Article Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 687,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 686,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 692,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 691,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 685,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 696,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 684,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 683,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_conclusion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Conclusion"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 705,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 704,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 710,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 709,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 703,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "TGenerates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 714,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 702,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 701,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_idea_and_outlet",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Idea & Outline"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 723,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 722,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#D59AED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 728,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 727,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 721,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 732,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 720,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 719,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_intros",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Intros"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 741,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 740,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE9C78",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 746,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 745,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 739,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 750,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 738,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 737,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_secion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Section"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 759,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 758,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#61DFED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 764,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 763,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 757,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 768,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 756,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 755,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 777,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 776,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 783,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 782,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 775,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 787,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 774,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 773,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 796,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 795,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE78D6",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 802,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 801,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 794,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 806,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 793,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 792,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_writer",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Rewriter"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 815,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 814,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 821,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 820,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 813,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 825,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 812,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 811,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/copy_ad_variants",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Copy Ad Variants"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 834,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 833,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 840,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 839,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 832,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 844,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 831,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 830,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "email_and_messages",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Email and Message"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 853,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 852,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 859,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 858,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 851,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 863,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 850,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 849,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/faq_geerator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "FAQ Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 872,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 871,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 877,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 876,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 870,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 881,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 869,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 868,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "meta_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Meta Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 890,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 889,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 895,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 894,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 888,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 899,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 887,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 886,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                        lineNumber: 682,
+                                                        columnNumber: 19
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                    lineNumber: 657,
+                                                    lineNumber: 681,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(CustomTabPanel, {
                                                     value: value,
                                                     index: 2,
-                                                    children: "Item Three"
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                        container: true,
+                                                        spacing: 1,
+                                                        sx: {
+                                                            padding: {
+                                                                xs: "10px",
+                                                                md: "0px"
+                                                            }
+                                                        },
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].templateCardGrid,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center",
+                                                                                minHeight: ""
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "article_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Article Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 912,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 911,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 917,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 916,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 910,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 921,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 909,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 908,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_conclusion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Conclusion"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 930,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 929,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 935,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 934,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 928,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "TGenerates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 939,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 927,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 926,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_idea_and_outlet",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Idea & Outline"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 948,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 947,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#D59AED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 953,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 952,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 946,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 957,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 945,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 944,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_intros",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Intros"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 966,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 965,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE9C78",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 971,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 970,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 964,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 975,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 963,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 962,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_secion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Section"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 984,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 983,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#61DFED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 989,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 988,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 982,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 993,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 981,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 980,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1002,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1001,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1008,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1007,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1000,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1012,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 999,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 998,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1021,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1020,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE78D6",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1027,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1026,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1019,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1031,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1018,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1017,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_writer",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Rewriter"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1040,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1039,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1046,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1045,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1038,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1050,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1037,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1036,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/copy_ad_variants",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Copy Ad Variants"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1059,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1058,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1065,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1064,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1057,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1069,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1056,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1055,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "email_and_messages",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Email and Message"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1078,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1077,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1084,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1083,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1076,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1088,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1075,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1074,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/faq_geerator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "FAQ Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1097,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1096,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1102,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1101,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1095,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1106,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1094,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1093,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "meta_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Meta Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1115,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1114,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1120,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1119,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1113,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1124,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1112,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1111,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                        lineNumber: 907,
+                                                        columnNumber: 19
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/templates/index.tsx",
-                                                    lineNumber: 660,
+                                                    lineNumber: 906,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(CustomTabPanel, {
+                                                    value: value,
+                                                    index: 3,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                        container: true,
+                                                        spacing: 1,
+                                                        sx: {
+                                                            padding: {
+                                                                xs: "10px",
+                                                                md: "0px"
+                                                            }
+                                                        },
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].templateCardGrid,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center",
+                                                                                minHeight: ""
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "article_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Article Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1137,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1136,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1142,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1141,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1135,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1146,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1134,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1133,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_conclusion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Conclusion"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1155,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1154,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1160,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1159,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1153,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "TGenerates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1164,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1152,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1151,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_idea_and_outlet",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Idea & Outline"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1173,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1172,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#D59AED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1178,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1177,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1171,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1182,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1170,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1169,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_intros",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Intros"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1191,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1190,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE9C78",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1196,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1195,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1189,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1200,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1188,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1187,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_secion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Section"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1209,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1208,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#61DFED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1214,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1213,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1207,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1218,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1206,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1205,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1227,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1226,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1233,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1232,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1225,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1237,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1224,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1223,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1246,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1245,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE78D6",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1252,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1251,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1244,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1256,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1243,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1242,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_writer",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Rewriter"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1265,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1264,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1271,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1270,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1263,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1275,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1262,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1261,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/copy_ad_variants",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Copy Ad Variants"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1284,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1283,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1290,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1289,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1282,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1294,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1281,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1280,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "email_and_messages",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Email and Message"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1303,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1302,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1309,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1308,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1301,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1313,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1300,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1299,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/faq_geerator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "FAQ Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1322,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1321,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1327,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1326,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1320,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1331,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1319,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1318,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "meta_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Meta Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1340,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1339,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1345,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1344,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1338,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1349,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1337,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1336,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                        lineNumber: 1132,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                    lineNumber: 1131,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(CustomTabPanel, {
+                                                    value: value,
+                                                    index: 4,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                        container: true,
+                                                        spacing: 1,
+                                                        sx: {
+                                                            padding: {
+                                                                xs: "10px",
+                                                                md: "0px"
+                                                            }
+                                                        },
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].templateCardGrid,
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center",
+                                                                                minHeight: ""
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "article_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Article Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1362,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1361,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1367,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1366,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1360,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1371,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1359,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1358,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_conclusion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Conclusion"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1380,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1379,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1385,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1384,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1378,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "TGenerates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1389,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1377,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1376,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_idea_and_outlet",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Idea & Outline"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1398,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1397,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#D59AED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1403,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1402,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1396,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1407,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1395,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1394,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "blog_intros",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Intros"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1416,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1415,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE9C78",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1421,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1420,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1414,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1425,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1413,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1412,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_secion",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Section"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1434,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1433,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#61DFED",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1439,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1438,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1432,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1443,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1431,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1430,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/blog_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Blog Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1452,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1451,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1458,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1457,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1450,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1462,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1449,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1448,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_generator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1471,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1470,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#FE78D6",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1477,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1476,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1469,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1481,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1468,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1467,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/content_writer",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Content Rewriter"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1490,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1489,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1496,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1495,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1488,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1500,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1487,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1486,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/copy_ad_variants",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Copy Ad Variants"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1509,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1508,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#DFB915",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1515,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1514,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1507,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1519,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1506,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1505,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "email_and_messages",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Email and Message"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1528,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1527,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#95CF29",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1534,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1533,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1526,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1538,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1525,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1524,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "/faq_geerator",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "FAQ Generator"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1547,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1546,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1552,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1551,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1545,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1556,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1544,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1543,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                                                xs: 12,
+                                                                sm: 4,
+                                                                item: true,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        border: "1px solid #E4E4E4",
+                                                                        padding: {
+                                                                            md: "40px 20px",
+                                                                            xs: "10px"
+                                                                        },
+                                                                        borderRadius: "16px"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                            sx: {
+                                                                                display: "flex",
+                                                                                justifyContent: "space-between",
+                                                                                alignItems: "center"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                    href: "meta_title",
+                                                                                    style: {
+                                                                                        textDecoration: "none"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                                        sx: {
+                                                                                            fontSize: {
+                                                                                                xs: "20px",
+                                                                                                md: "24px"
+                                                                                            },
+                                                                                            lineHeight: {
+                                                                                                xs: "28px",
+                                                                                                md: "32px"
+                                                                                            },
+                                                                                            fontFamily: "Poppins",
+                                                                                            fontWeight: "600",
+                                                                                            color: "#151D48"
+                                                                                        },
+                                                                                        children: "Meta Title"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1565,
+                                                                                        columnNumber: 29
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1564,
+                                                                                    columnNumber: 29
+                                                                                }, this),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                                    sx: {
+                                                                                        width: "40px",
+                                                                                        height: "40px",
+                                                                                        backgroundColor: "#789FFE",
+                                                                                        borderRadius: "50%",
+                                                                                        display: "flex",
+                                                                                        justifyContent: "center",
+                                                                                        alignItems: "center"
+                                                                                    },
+                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$FormatListBulleted$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                                        sx: {
+                                                                                            color: "#fff"
+                                                                                        }
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                        lineNumber: 1570,
+                                                                                        columnNumber: 31
+                                                                                    }, this)
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                                    lineNumber: 1569,
+                                                                                    columnNumber: 29
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1563,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                            sx: {
+                                                                                fontSize: "14px",
+                                                                                color: "#000",
+                                                                                lineHeight: "24px",
+                                                                                fontFamily: "Poppins",
+                                                                                fontWeight: "400",
+                                                                                paddingTop: "25px"
+                                                                            },
+                                                                            children: "Generates captivating and engaging blog introductions to hook readers and drive traffic"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                            lineNumber: 1574,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                    lineNumber: 1562,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                                lineNumber: 1561,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                        lineNumber: 1357,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/dashboard/templates/index.tsx",
+                                                    lineNumber: 1356,
                                                     columnNumber: 19
                                                 }, this)
                                             ]

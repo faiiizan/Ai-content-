@@ -14,7 +14,7 @@
     "static/chunks/node_modules_react-icons_si_index_mjs_a94695._.js",
     "static/chunks/node_modules_react-icons_fa_index_mjs_bad01e._.js",
     "static/chunks/node_modules_react-icons_lib_75a63d._.js",
-    "static/chunks/node_modules_d564e8._.js",
+    "static/chunks/node_modules_9eda14._.js",
     "static/chunks/src_pages_dashboard_module_7fa464.css"
   ],
   "source": "entry"

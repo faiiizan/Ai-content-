@@ -7,8 +7,8 @@ __turbopack_load_page_chunks__("/dashboard/article", [
   "static/chunks/node_modules_react-icons_pi_index_mjs_df545e._.js",
   "static/chunks/node_modules_react-icons_si_index_mjs_a94695._.js",
   "static/chunks/node_modules_react-icons_lib_75a63d._.js",
-  "static/chunks/node_modules_6045ea._.js",
+  "static/chunks/node_modules_ace748._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_article_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_article_index_tsx_481ecf._.js"
+  "static/chunks/src_pages_dashboard_article_index_tsx_f03860._.js"
 ])
