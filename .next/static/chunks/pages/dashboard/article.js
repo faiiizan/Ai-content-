@@ -1,6 +1,6 @@
 __turbopack_load_page_chunks__("/dashboard/article", [
-  "static/chunks/[root of the server]__fd4a07._.js",
-  "static/chunks/node_modules_next_619abf._.js",
+  "static/chunks/[root of the server]__049d9f._.js",
+  "static/chunks/node_modules_next_c8c8d9._.js",
   "static/chunks/node_modules_react-dom_82bb97._.js",
   "static/chunks/node_modules_@mui_material_bec84d._.js",
   "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
@@ -10,5 +10,5 @@ __turbopack_load_page_chunks__("/dashboard/article", [
   "static/chunks/node_modules_ace748._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_article_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_article_index_tsx_f03860._.js"
+  "static/chunks/src_pages_dashboard_article_index_tsx_f1622a._.js"
 ])

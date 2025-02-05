@@ -3015,7 +3015,7 @@ const Imagegenertor = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
                                 xs: 12,
-                                md: 2.3,
+                                md: 2.5,
                                 sx: {
                                     padding: "20px",
                                     display: {
@@ -3803,7 +3803,7 @@ const Imagegenertor = ()=>{
                                 container: true,
                                 xs: 12,
                                 sm: 12,
-                                md: 9.7,
+                                md: 9.5,
                                 sx: {
                                     backgroundColor: "#F8F9FA",
                                     padding: {

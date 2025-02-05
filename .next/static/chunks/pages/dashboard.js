@@ -1,6 +1,6 @@
 __turbopack_load_page_chunks__("/dashboard", [
-  "static/chunks/[root of the server]__81d204._.js",
-  "static/chunks/node_modules_next_619abf._.js",
+  "static/chunks/[root of the server]__e2e862._.js",
+  "static/chunks/node_modules_next_f9aa23._.js",
   "static/chunks/node_modules_react-dom_82bb97._.js",
   "static/chunks/node_modules_@mui_material_0e8c06._.js",
   "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
@@ -10,5 +10,5 @@ __turbopack_load_page_chunks__("/dashboard", [
   "static/chunks/node_modules_ba5e20._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_index_tsx_32f501._.js"
+  "static/chunks/src_pages_dashboard_index_tsx_4c4018._.js"
 ])

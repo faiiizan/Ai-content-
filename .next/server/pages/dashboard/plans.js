@@ -1,6 +1,6 @@
 const CHUNK_PUBLIC_PATH = "server/pages/dashboard/plans.js";
 const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__b04008._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__dda337._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_941fb0._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@mui_material_753fc9._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_@mui_system_esm_3ff81f._.js");

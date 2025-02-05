@@ -1,6 +1,8 @@
 const CHUNK_PUBLIC_PATH = "server/pages/dashboard/templates.js";
 const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/src_pages_dashboard_dashnav_index_tsx_de84d2._.js");
 runtime.loadChunk("server/chunks/ssr/src_pages_dashboard_templates_index_tsx_369276._.js");
+runtime.loadChunk("server/chunks/ssr/src_pages_dashboard_dashsidebar_index_tsx_d2ed3c._.js");
 runtime.loadChunk("server/chunks/ssr/src_pages_1007f5._.js");
 runtime.loadChunk("server/chunks/ssr/src_e2368b._.js");
 runtime.loadChunk("server/chunks/ssr/[root of the server]__a98f90._.js");

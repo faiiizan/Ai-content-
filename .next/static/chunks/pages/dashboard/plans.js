@@ -1,6 +1,6 @@
 __turbopack_load_page_chunks__("/dashboard/plans", [
-  "static/chunks/[root of the server]__1ee608._.js",
-  "static/chunks/node_modules_next_619abf._.js",
+  "static/chunks/[root of the server]__cc4b68._.js",
+  "static/chunks/node_modules_next_c8c8d9._.js",
   "static/chunks/node_modules_react-dom_82bb97._.js",
   "static/chunks/node_modules_@mui_material_0e8c06._.js",
   "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
@@ -10,5 +10,5 @@ __turbopack_load_page_chunks__("/dashboard/plans", [
   "static/chunks/node_modules_9eda14._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_plans_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_plans_index_tsx_3dc7b2._.js"
+  "static/chunks/src_pages_dashboard_plans_index_tsx_52e8b0._.js"
 ])
