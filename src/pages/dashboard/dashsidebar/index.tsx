@@ -19,7 +19,7 @@ const Dashsidebar = () => {
       const router = useRouter();
     const getLinkStyle = (path: string) => {
         return router.pathname === path
-          ? { backgroundColor: "#D7F200",padding:"10px 10px",color:"#000",borderRadius:"16px", } // active style
+          ? { backgroundColor: "#D7F200",color:"#000",borderRadius:"16px",width:"100%" } // active style
           : {};
       };
     return (
@@ -35,12 +35,12 @@ const Dashsidebar = () => {
                         </Typography>
                     </Box>
                     {/* start dashboard part */}
-                    <Box sx={{ height: "100px", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "40px 0px 60px 20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative" }}>
-                        <ul style={{ margin: "0px", padding: "0px" }}>
+                    <Box sx={{ height: "auto", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: " 20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative" }}>
+                        <ul style={{ margin: "0px", padding: "0px",width:"100%" }}>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard' passHref style={{ textDecoration: "none" }}>
-                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791",padding:"10px 20px", ...getLinkStyle('/dashboard') }}>
-                                        <PiChartPieSliceFill style={{ marginRight: "20px" }} />Dashoard
+                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791",width:"100%", ...getLinkStyle('/dashboard') }}>
+                                        <PiChartPieSliceFill style={{ marginRight: "20px",paddingLeft:"10px" }} />Dashoard
 
                                     </Typography>
                                 </Link>
@@ -48,14 +48,14 @@ const Dashsidebar = () => {
 
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/templates' style={{ textDecoration: "none" }}> 
-                                <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", padding:"10px 20px",...getLinkStyle('/dashboard/templates')  }}>
-                                    <DashboardIcon sx={{ marginRight: "20px" }} />   Templates
+                                <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791",...getLinkStyle('/dashboard/templates')  }}>
+                                    <DashboardIcon sx={{ marginRight: "20px",paddingLeft:"10px" }} />   Templates
                                 </Typography></Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/assistant' style={{ textDecoration: "none" }}>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791",padding:"10px 20px", textAlign: "left",...getLinkStyle('/dashboard/assistant') }}>
-                                        <SiGoogleassistant style={{ paddingRight: "20px" }} />   Assistant
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/assistant') }}>
+                                        <SiGoogleassistant style={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"15px" }} />   Assistant
                                     </Typography>
                                 </Link>
                             </li>
@@ -63,40 +63,40 @@ const Dashsidebar = () => {
                     </Box>
                     {/* end dashboard part */}
                     {/* start workflows */}
-                    <Box sx={{ minHeight: "100px", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "50px 0px 20px 20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px" }}>
-                        <ul style={{ margin: "0px", padding: "0px" }}>
+                    <Box sx={{ minHeight: "100px", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "20px", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "40px" }}>
+                        <ul style={{ margin: "0px", padding: "0px",width:"100%" }}>
 
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/analyst' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791",padding:"10px 20px",...getLinkStyle('/dashboard/analyst') }}>
-                                        <DashboardIcon sx={{ marginRight: "20px" }} />   Data Analyst
+                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791",...getLinkStyle('/dashboard/analyst'),zIndex:"99",position:"relative" }}>
+                                        <DashboardIcon sx={{ marginRight: "20px",paddingLeft:"10px" }} />   Data Analyst
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/article' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/article')}}>
-                                        <FeedIcon sx={{ paddingRight: "20px" }} />   Article Generator
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/article')}}>
+                                        <FeedIcon sx={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   Article Generator
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/image' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791",padding:"10px 20px",...getLinkStyle('/dashboard/image'), textAlign: "left", }}>
-                                        <InsertPhotoIcon sx={{ paddingRight: "20px" }} />   Image Generator
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791",...getLinkStyle('/dashboard/image'), textAlign: "left", }}>
+                                        <InsertPhotoIcon sx={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   Image Generator
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/contentwriter' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/contentwriter') }}>
-                                        <ContentCopyIcon sx={{ paddingRight: "20px" }} />   Content Rewriter
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/contentwriter') }}>
+                                        <ContentCopyIcon sx={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   Content Rewriter
                                     </Typography>
                                 </Link>
                             </li>
                             <Link href='/dashboard/document' style={{ textDecoration: "none" }} passHref>
-                                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/document') }}>
-                                    <DocumentScannerIcon sx={{ paddingRight: "20px" }} />   Documents
+                                <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/document') }}>
+                                    <DocumentScannerIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   Documents
                                 </Typography>
                             </Link>
                         </ul>
@@ -106,34 +106,34 @@ const Dashsidebar = () => {
                     </Box>
                     {/* end wokflows */}
                     {/* start account parts */}
-                    <Box sx={{ minHeight: "100px", width: "100%", border: '1px solid #0000001A', borderRadius: "30px", padding: "50px 0px 20px 0px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", marginTop: "40px" }}>
-                        <ul style={{ margin: "0px", padding: "0px" }}>
+                    <Box sx={{ minHeight: "auto", width: "90%", border: '1px solid #0000001A', borderRadius: "30px", padding: "20px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", marginTop: "40px" }}>
+                        <ul style={{ margin: "0px", padding: "0px",width:"100%" }}>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/history' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791",padding:"10px 20px",...getLinkStyle('/dashboard/history') }}>
-                                        <HistoryIcon sx={{ marginRight: "20px" }} />   My History
+                                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791",...getLinkStyle('/dashboard/history'),position:"relative",zIndex:"99" }}>
+                                        <HistoryIcon sx={{ marginRight: "20px",paddingLeft:"10px" }} />   My History
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/usage' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/usage') }}>
-                                        <DashboardIcon sx={{ paddingRight: "20px" }} />   Usage History
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/usage') }}>
+                                        <DashboardIcon sx={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   Usage History
                                     </Typography>
                                 </Link>
                             </li>
 
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/plans' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/plans') }}>
-                                        <ReceiptIcon sx={{ paddingRight: "20px" }} />   Plans and Billing
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/plans') }}>
+                                        <ReceiptIcon sx={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   Plans and Billing
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
                                 <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "27px", fontWeight: "400", color: "#737791", paddingTop: "20px", textAlign: "left",padding:"10px 20px",...getLinkStyle('/dashboard/profile') }}>
-                                        < PersonIcon sx={{ paddingRight: "20px" }} />   Profile Details
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                        < PersonIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   Profile Details
                                     </Typography>
                                 </Link>
                             </li>

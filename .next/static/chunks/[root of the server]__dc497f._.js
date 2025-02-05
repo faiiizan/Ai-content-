@@ -2324,9 +2324,9 @@ const Dashsidebar = ()=>{
     const getLinkStyle = (path)=>{
         return router.pathname === path ? {
             backgroundColor: "#D7F200",
-            padding: "10px 15px",
             color: "#000",
-            borderRadius: "16px"
+            borderRadius: "16px",
+            width: "100%"
         } // active style
          : {};
     };
@@ -2388,11 +2388,11 @@ const Dashsidebar = ()=>{
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                     sx: {
-                        height: "100px",
+                        height: "auto",
                         width: "90%",
                         border: '1px solid #0000001A',
                         borderRadius: "30px",
-                        padding: "40px 0px 60px 20px",
+                        padding: " 20px",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "flex-start",
@@ -2402,7 +2402,8 @@ const Dashsidebar = ()=>{
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                         style: {
                             margin: "0px",
-                            padding: "0px"
+                            padding: "0px",
+                            width: "100%"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2421,16 +2422,17 @@ const Dashsidebar = ()=>{
                                             alignItems: "center",
                                             fontFamily: "Poppins",
                                             fontSize: "18px",
-                                            lineHeight: "27px",
+                                            lineHeight: "50px",
                                             fontWeight: "400",
                                             color: "#737791",
-                                            padding: "10px 20px",
+                                            width: "100%",
                                             ...getLinkStyle('/dashboard')
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$pi$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["PiChartPieSliceFill"], {
                                                 style: {
-                                                    marginRight: "20px"
+                                                    marginRight: "20px",
+                                                    paddingLeft: "10px"
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2469,16 +2471,16 @@ const Dashsidebar = ()=>{
                                             alignItems: "center",
                                             fontFamily: "Poppins",
                                             fontSize: "18px",
-                                            lineHeight: "27px",
+                                            lineHeight: "50px",
                                             fontWeight: "400",
                                             color: "#737791",
-                                            padding: "10px 20px",
                                             ...getLinkStyle('/dashboard/templates')
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 sx: {
-                                                    marginRight: "20px"
+                                                    marginRight: "20px",
+                                                    paddingLeft: "10px"
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2517,17 +2519,18 @@ const Dashsidebar = ()=>{
                                             alignItems: "flex-start",
                                             fontFamily: "Poppins",
                                             fontSize: "18px",
-                                            lineHeight: "27px",
+                                            lineHeight: "50px",
                                             fontWeight: "400",
                                             color: "#737791",
-                                            padding: "10px 20px",
                                             textAlign: "left",
                                             ...getLinkStyle('/dashboard/assistant')
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["SiGoogleassistant"], {
                                                 style: {
-                                                    paddingRight: "20px"
+                                                    paddingRight: "20px",
+                                                    paddingLeft: "10px",
+                                                    paddingTop: "15px"
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2568,7 +2571,7 @@ const Dashsidebar = ()=>{
                         width: "90%",
                         border: '1px solid #0000001A',
                         borderRadius: "30px",
-                        padding: "50px 0px 20px 20px",
+                        padding: "20px",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "flex-start",
@@ -2580,7 +2583,8 @@ const Dashsidebar = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             style: {
                                 margin: "0px",
-                                padding: "0px"
+                                padding: "0px",
+                                width: "100%"
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2599,16 +2603,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "center",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                padding: "10px 20px",
-                                                ...getLinkStyle('/dashboard/analyst')
+                                                ...getLinkStyle('/dashboard/analyst'),
+                                                zIndex: "99",
+                                                position: "relative"
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        marginRight: "20px"
+                                                        marginRight: "20px",
+                                                        paddingLeft: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2648,17 +2654,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/article')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Feed$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingLeft: "10px",
+                                                        paddingTop: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2698,17 +2705,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/image'),
                                                 textAlign: "left"
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$InsertPhoto$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingLeft: "10px",
+                                                        paddingTop: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2748,17 +2756,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/contentwriter')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ContentCopy$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingLeft: "10px",
+                                                        paddingTop: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2794,17 +2803,18 @@ const Dashsidebar = ()=>{
                                             alignItems: "flex-start",
                                             fontFamily: "Poppins",
                                             fontSize: "18px",
-                                            lineHeight: "27px",
+                                            lineHeight: "50px",
                                             fontWeight: "400",
                                             color: "#737791",
                                             textAlign: "left",
-                                            padding: "10px 20px",
                                             ...getLinkStyle('/dashboard/document')
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$DocumentScanner$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 sx: {
-                                                    paddingRight: "20px"
+                                                    paddingRight: "20px",
+                                                    paddingTop: "10px",
+                                                    paddingLeft: "10px"
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2866,11 +2876,11 @@ const Dashsidebar = ()=>{
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                     sx: {
-                        minHeight: "100px",
-                        width: "100%",
+                        minHeight: "auto",
+                        width: "90%",
                         border: '1px solid #0000001A',
                         borderRadius: "30px",
-                        padding: "50px 0px 20px 0px",
+                        padding: "20px",
                         display: "flex",
                         flexDirection: "column",
                         justifyContent: "center",
@@ -2882,7 +2892,8 @@ const Dashsidebar = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             style: {
                                 margin: "0px",
-                                padding: "0px"
+                                padding: "0px",
+                                width: "100%"
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -2901,16 +2912,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "center",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                padding: "10px 20px",
-                                                ...getLinkStyle('/dashboard/history')
+                                                ...getLinkStyle('/dashboard/history'),
+                                                position: "relative",
+                                                zIndex: "99"
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$History$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        marginRight: "20px"
+                                                        marginRight: "20px",
+                                                        paddingLeft: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -2950,18 +2963,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                paddingTop: "20px",
                                                 textAlign: "left",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/usage')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Dashboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingLeft: "10px",
+                                                        paddingTop: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -3001,18 +3014,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                paddingTop: "20px",
                                                 textAlign: "left",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/plans')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Receipt$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingLeft: "10px",
+                                                        paddingTop: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
@@ -3052,18 +3065,18 @@ const Dashsidebar = ()=>{
                                                 alignItems: "flex-start",
                                                 fontFamily: "Poppins",
                                                 fontSize: "18px",
-                                                lineHeight: "27px",
+                                                lineHeight: "50px",
                                                 fontWeight: "400",
                                                 color: "#737791",
-                                                paddingTop: "20px",
                                                 textAlign: "left",
-                                                padding: "10px 20px",
                                                 ...getLinkStyle('/dashboard/profile')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                     sx: {
-                                                        paddingRight: "20px"
+                                                        paddingRight: "20px",
+                                                        paddingTop: "10px",
+                                                        paddingLeft: "10px"
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/dashsidebar/index.tsx",
