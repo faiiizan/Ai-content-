@@ -11,7 +11,7 @@ import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import FeedIcon from '@mui/icons-material/Feed';
 import { SiGoogleassistant } from "react-icons/si"; 
 import { PiChartPieSliceFill } from "react-icons/pi";
-
+import DashboardIcon from '@mui/icons-material/Dashboard';
 
 import {  useRouter } from 'next/router'
 
