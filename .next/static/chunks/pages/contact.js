@@ -1,11 +1,11 @@
 __turbopack_load_page_chunks__("/contact", [
-  "static/chunks/node_modules_next_dist_b8496e._.js",
+  "static/chunks/node_modules_next_74a9e5._.js",
   "static/chunks/node_modules_react-dom_82bb97._.js",
-  "static/chunks/node_modules_@mui_material_885956._.js",
-  "static/chunks/node_modules_@mui_system_esm_f60502._.js",
-  "static/chunks/node_modules_f89bca._.js",
-  "static/chunks/[root of the server]__f967e9._.js",
-  "static/chunks/src_pages_aboutus_module_e2b4d9.css",
+  "static/chunks/node_modules_@mui_material_00aeec._.js",
+  "static/chunks/node_modules_@mui_system_esm_81abf6._.js",
+  "static/chunks/node_modules_0d58cf._.js",
+  "static/chunks/[root of the server]__eeffd3._.js",
+  "static/chunks/src_0ad2d3._.css",
   "static/chunks/src_pages_contact_5771e1._.js",
-  "static/chunks/src_pages_contact_16311b._.js"
+  "static/chunks/src_pages_contact_20e6a3._.js"
 ])

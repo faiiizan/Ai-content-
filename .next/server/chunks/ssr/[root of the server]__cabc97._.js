@@ -1234,8 +1234,10 @@ const MyApp = ({ Component, pageProps })=>{
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const checkRoutes = ()=>{
         let hide = false;
-        if (router.pathname === "/dashboard") {
+        if (router.pathname === "/dashboard/**" || router.pathname !== "/dashoard/templates") {
             hide = true;
+        } else {
+            hide = false;
         }
         return hide;
     };
@@ -1246,17 +1248,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 25,
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 };
@@ -1357,6 +1359,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imge
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog2$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/blog2.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/blog2.png [ssr] (static)" } [ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$blog3$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/app/Assets/Imges/blog3.png.mjs { IMAGE => "[project]/src/app/Assets/Imges/blog3.png [ssr] (static)" } [ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Header.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Footer.tsx [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [ssr] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Typography/Typography.js [ssr] (ecmascript) <export default as Typography>");
@@ -1368,6 +1372,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Button/Button.js [ssr] (ecmascript) <export default as Button>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/East.js [ssr] (ecmascript)");
 "use client";
+;
+;
 ;
 ;
 ;
@@ -1431,220 +1437,232 @@ const Blogs = ()=>{
     // Check if we are showing more than the initial 3 blogs for View Less
     const isShowingMoreThanInitial = visibleBlogs > 3;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-            sx: {
-                padding: {
-                    sm: '50px 0px',
-                    xs: '10px 0px'
-                }
-            },
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$blogs$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].background,
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
-                maxWidth: "lg",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            textAlign: 'center',
-                            fontSize: '50.75px',
-                            fontFamily: 'Inter',
-                            fontWeight: '600',
-                            paddingBottom: '30px',
-                            lineHeight: '63.51px',
-                            letterSpacing: '-1.72px',
-                            paddingTop: '0px'
-                        },
-                        children: [
-                            "Our",
-                            ' ',
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$blogs$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].blog,
-                                style: {
-                                    backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
-                                    WebkitBackgroundClip: 'text',
-                                    color: 'transparent'
-                                },
-                                children: "Blogs"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/blogs.tsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 47,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                        container: true,
-                        spacing: 3,
-                        children: blogData.slice(0, visibleBlogs).map((blog, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                item: true,
-                                xs: 12,
-                                sm: 6,
-                                md: 4,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-                                    sx: {
-                                        maxWidth: 345,
-                                        padding: '10px'
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/blogs.tsx",
+                lineNumber: 47,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    padding: {
+                        sm: '50px 0px',
+                        xs: '10px 0px'
+                    }
+                },
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$blogs$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].background,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "lg",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                textAlign: 'center',
+                                fontSize: '50.75px',
+                                fontFamily: 'Inter',
+                                fontWeight: '600',
+                                paddingBottom: '30px',
+                                lineHeight: '63.51px',
+                                letterSpacing: '-1.72px',
+                                paddingTop: '0px'
+                            },
+                            children: [
+                                "Our",
+                                ' ',
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$blogs$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].blog,
+                                    style: {
+                                        backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                                        WebkitBackgroundClip: 'text',
+                                        color: 'transparent'
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardMedia$2f$CardMedia$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardMedia$3e$__["CardMedia"], {
-                                            sx: {
-                                                height: 200,
-                                                backgroundSize: 'cover',
-                                                backgroundPosition: 'center'
-                                            },
-                                            image: blog.image,
-                                            title: blog.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 76,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardContent$2f$CardContent$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                            sx: {
-                                                padding: '15px 0px 0px 0px'
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                gutterBottom: true,
-                                                variant: "h5",
-                                                component: "div",
+                                    children: "Blogs"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/blogs.tsx",
+                                    lineNumber: 63,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/blogs.tsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                            container: true,
+                            spacing: 3,
+                            children: blogData.slice(0, visibleBlogs).map((blog, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                    item: true,
+                                    xs: 12,
+                                    sm: 6,
+                                    md: 4,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
+                                        sx: {
+                                            maxWidth: 345,
+                                            padding: '10px'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardMedia$2f$CardMedia$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardMedia$3e$__["CardMedia"], {
                                                 sx: {
-                                                    color: '#414141',
-                                                    textAlign: 'left',
-                                                    padding: '0px 0px',
-                                                    fontSize: '13.88px',
-                                                    fontFamily: 'Poppins',
-                                                    lineHeight: '17.73px',
-                                                    fontWeight: '500'
+                                                    height: 200,
+                                                    backgroundSize: 'cover',
+                                                    backgroundPosition: 'center'
                                                 },
-                                                children: blog.title
+                                                image: blog.image,
+                                                title: blog.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/blogs.tsx",
-                                                lineNumber: 82,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 81,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardActions$2f$CardActions$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardActions$3e$__["CardActions"], {
-                                            sx: {
-                                                padding: '5px 0px',
-                                                display: "flex",
-                                                justifyContent: "center"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                size: "small",
+                                                lineNumber: 79,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardContent$2f$CardContent$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
                                                 sx: {
-                                                    color: '#D7F200',
-                                                    fontSize: '12.33px',
-                                                    lineHeight: '21.58px',
-                                                    textDecoration: 'underline',
-                                                    textTransform: 'capitalize',
-                                                    fontWeight: '500',
-                                                    fontFamily: 'Poppins'
+                                                    padding: '15px 0px 0px 0px'
                                                 },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/blogdetails",
-                                                    children: [
-                                                        " Learn More ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                            sx: {
-                                                                fontSize: '14px',
-                                                                marginLeft: '8px',
-                                                                marginBottom: "-2px"
-                                                            }
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/pages/blogs.tsx",
-                                                            lineNumber: 115,
-                                                            columnNumber: 59
-                                                        }, this),
-                                                        " "
-                                                    ]
-                                                }, void 0, true, {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                    gutterBottom: true,
+                                                    variant: "h5",
+                                                    component: "div",
+                                                    sx: {
+                                                        color: '#414141',
+                                                        textAlign: 'left',
+                                                        padding: '0px 0px',
+                                                        fontSize: '13.88px',
+                                                        fontFamily: 'Poppins',
+                                                        lineHeight: '17.73px',
+                                                        fontWeight: '500'
+                                                    },
+                                                    children: blog.title
+                                                }, void 0, false, {
                                                     fileName: "[project]/src/pages/blogs.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 85,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/blogs.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 21
+                                                lineNumber: 84,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$CardActions$2f$CardActions$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CardActions$3e$__["CardActions"], {
+                                                sx: {
+                                                    padding: '5px 0px',
+                                                    display: "flex",
+                                                    justifyContent: "center"
+                                                },
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                    size: "small",
+                                                    sx: {
+                                                        color: '#D7F200',
+                                                        fontSize: '12.33px',
+                                                        lineHeight: '21.58px',
+                                                        textDecoration: 'underline',
+                                                        textTransform: 'capitalize',
+                                                        fontWeight: '500',
+                                                        fontFamily: 'Poppins'
+                                                    },
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/blogdetails",
+                                                        children: [
+                                                            " Learn More ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$East$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                                sx: {
+                                                                    fontSize: '14px',
+                                                                    marginLeft: '8px',
+                                                                    marginBottom: "-2px"
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/pages/blogs.tsx",
+                                                                lineNumber: 118,
+                                                                columnNumber: 59
+                                                            }, this),
+                                                            " "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/pages/blogs.tsx",
+                                                        lineNumber: 118,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/blogs.tsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/blogs.tsx",
+                                                lineNumber: 102,
+                                                columnNumber: 19
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/blogs.tsx",
-                                            lineNumber: 99,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/pages/blogs.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 17
+                                    }, this)
+                                }, index, false, {
                                     fileName: "[project]/src/pages/blogs.tsx",
-                                    lineNumber: 75,
-                                    columnNumber: 17
-                                }, this)
-                            }, index, false, {
-                                fileName: "[project]/src/pages/blogs.tsx",
-                                lineNumber: 74,
-                                columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 72,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            padding: '40px 0px',
-                            margin: 'auto',
-                            display: 'flex',
-                            justifyContent: 'center'
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                            variant: "contained",
-                            sx: {
-                                backgroundColor: '#D7F200',
-                                borderRadius: '70px',
-                                color: '#000',
-                                boxShadow: 'none',
-                                fontSize: {
-                                    sm: '16px',
-                                    xs: '12px'
-                                },
-                                padding: {
-                                    sm: '18px 35px',
-                                    xs: '15px 28px'
-                                },
-                                fontWeight: '600',
-                                lineHeight: '19.5px',
-                                fontFamily: 'Montserrat'
-                            },
-                            onClick: hasMoreBlogs ? handleViewMore : handleViewLess,
-                            children: hasMoreBlogs ? 'View More' : isShowingMoreThanInitial ? 'View Less' : ''
+                                    lineNumber: 77,
+                                    columnNumber: 15
+                                }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/pages/blogs.tsx",
-                            lineNumber: 126,
-                            columnNumber: 13
+                            lineNumber: 75,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                            sx: {
+                                padding: '40px 0px',
+                                margin: 'auto',
+                                display: 'flex',
+                                justifyContent: 'center'
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                variant: "contained",
+                                sx: {
+                                    backgroundColor: '#D7F200',
+                                    borderRadius: '70px',
+                                    color: '#000',
+                                    boxShadow: 'none',
+                                    fontSize: {
+                                        sm: '16px',
+                                        xs: '12px'
+                                    },
+                                    padding: {
+                                        sm: '18px 35px',
+                                        xs: '15px 28px'
+                                    },
+                                    fontWeight: '600',
+                                    lineHeight: '19.5px',
+                                    fontFamily: 'Montserrat'
+                                },
+                                onClick: hasMoreBlogs ? handleViewMore : handleViewLess,
+                                children: hasMoreBlogs ? 'View More' : isShowingMoreThanInitial ? 'View Less' : ''
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/blogs.tsx",
+                                lineNumber: 129,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/blogs.tsx",
+                            lineNumber: 128,
+                            columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/blogs.tsx",
-                        lineNumber: 125,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/pages/blogs.tsx",
+                    lineNumber: 49,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/pages/blogs.tsx",
-                lineNumber: 46,
-                columnNumber: 9
+                lineNumber: 48,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/blogs.tsx",
+                lineNumber: 149,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/pages/blogs.tsx",
-            lineNumber: 45,
-            columnNumber: 7
-        }, this)
-    }, void 0, false);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = Blogs;
 }}),

@@ -9,6 +9,8 @@ import '../pages/login.module.css'
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import Hero from '../pages/signup.module.css'
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Signup = () => {
@@ -24,6 +26,7 @@ const Signup = () => {
    
   return (
    <>
+   <Header/>
      <Box sx={{padding:{xs:"20px 0px", md:"40px 0px 150px 0px",backgroundImage:`${backgoundImage}`}}}>
      <Container maxWidth='lg'>
        <Grid container sx={{display:"flex",justifyContent:"space-between"}}>
@@ -179,6 +182,7 @@ const Signup = () => {
        </Grid>
      </Container>
      </Box>
+     <Footer/>
    </>
   )
 }

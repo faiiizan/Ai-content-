@@ -7,6 +7,8 @@ import img2 from '../app/Assets/Imges/blog2.png';
 import img3 from '../app/Assets/Imges/blog3.png';
 import EastIcon from '@mui/icons-material/East';
 import Link from 'next/link';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 // Sample blog data (can be dynamic in a real app)
 const blogData = [
@@ -42,6 +44,7 @@ const Blogs = () => {
 
   return (
     <>
+    <Header/>
       <Box sx={{ padding: { sm: '50px 0px', xs: '10px 0px' } }} className={Hero.background}>
         <Container maxWidth="lg">
           <Typography
@@ -143,6 +146,7 @@ const Blogs = () => {
           </Box>
         </Container>
       </Box>
+      <Footer/>
     </>
   );
 };

@@ -1,9 +1,12 @@
 import { Box, Container, Typography } from '@mui/material'
 import React from 'react'
 import '../pages/aboutus.module.css'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 const aboutus = () => {
   return (
     <>
+    <Header/>
       <Box sx={{ paddingBottom: {sm:'70px',xs:"25px"},}}>
         <Container maxWidth='lg'>
              <Typography
@@ -40,8 +43,10 @@ const aboutus = () => {
                     
                     </Typography>
                     
+                    
         </Container>
       </Box>
+      <Footer/>
     </>
   )
 }

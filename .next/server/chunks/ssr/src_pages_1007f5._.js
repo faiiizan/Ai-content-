@@ -20,8 +20,10 @@ const MyApp = ({ Component, pageProps })=>{
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const checkRoutes = ()=>{
         let hide = false;
-        if (router.pathname === "/dashboard" || "/dashoard/templates") {
+        if (router.pathname === "/dashboard/**" || router.pathname !== "/dashoard/templates") {
             hide = true;
+        } else {
+            hide = false;
         }
         return hide;
     };
@@ -32,17 +34,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 25,
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 };

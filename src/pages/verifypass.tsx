@@ -8,6 +8,8 @@ import backgoundImage from '../app/Assets/Imges/bg.png'
 import hero from '../pages/login.module.css'
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Login = () => {
@@ -22,6 +24,7 @@ const Login = () => {
    
   return (
    <>
+   <Header/>
      <Box sx={{padding:{xs:"20px 0px", md:"40px 0px 150px 0px",backgroundImage:`${backgoundImage}`}}} className={hero.background}>
      <Container maxWidth='lg'>
        <Grid container sx={{display:"flex",justifyContent:"space-between"}}>
@@ -124,6 +127,7 @@ const Login = () => {
        </Grid>
      </Container>
      </Box>
+     <Footer/>
    </>
   )
 }

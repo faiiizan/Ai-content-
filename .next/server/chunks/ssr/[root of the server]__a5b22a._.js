@@ -939,7 +939,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "",
+                                                href: "/contact",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
@@ -1042,7 +1042,7 @@ const Footer = ()=>{
                                                 fontFamily: "Inter"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "privacypolicy",
+                                                href: "/privacypolicy",
                                                 style: {
                                                     textDecoration: "none",
                                                     color: "#4F4F4F"
@@ -1234,8 +1234,10 @@ const MyApp = ({ Component, pageProps })=>{
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const checkRoutes = ()=>{
         let hide = false;
-        if (router.pathname === "/dashboard") {
+        if (router.pathname === "/dashboard/**" || router.pathname !== "/dashoard/templates") {
             hide = true;
+        } else {
+            hide = false;
         }
         return hide;
     };
@@ -1246,17 +1248,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 25,
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 };
@@ -1377,6 +1379,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$login$2e$mod
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hook$2d$form__$5b$external$5d$__$28$react$2d$hook$2d$form$2c$__esm_import$29$__ = __turbopack_import__("[externals]/react-hook-form [external] (react-hook-form, esm_import)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$signup$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/pages/signup.module.css [ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Header.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Footer.tsx [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [ssr] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Grid/Grid.js [ssr] (ecmascript) <export default as Grid>");
@@ -1390,6 +1394,8 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
     __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hook$2d$form__$5b$external$5d$__$28$react$2d$hook$2d$form$2c$__esm_import$29$__
 ]);
 ([__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hook$2d$form__$5b$external$5d$__$28$react$2d$hook$2d$form$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__);
+;
+;
 ;
 ;
 ;
@@ -1415,692 +1421,704 @@ const Signup = ()=>{
     //    formdata.append('password',data.password);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-            sx: {
-                padding: {
-                    xs: "20px 0px",
-                    md: "40px 0px 150px 0px",
-                    backgroundImage: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"]}`
-                }
-            },
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
-                maxWidth: "lg",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                    container: true,
-                    sx: {
-                        display: "flex",
-                        justifyContent: "space-between"
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                            xs: 12,
-                            md: 6,
-                            sx: {
-                                paddingBottom: {
-                                    xs: "20px",
-                                    md: "0px"
-                                }
-                            },
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$signup$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].background,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/signup.tsx",
+                lineNumber: 29,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    padding: {
+                        xs: "20px 0px",
+                        md: "40px 0px 150px 0px",
+                        backgroundImage: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$bg$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"]}`
+                    }
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "lg",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                        container: true,
+                        sx: {
+                            display: "flex",
+                            justifyContent: "space-between"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                xs: 12,
+                                md: 6,
                                 sx: {
-                                    paddingLeft: {
-                                        sm: "43px",
-                                        xs: "0px"
+                                    paddingBottom: {
+                                        xs: "20px",
+                                        md: "0px"
                                     }
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        sx: {
-                                            fontSize: {
-                                                sm: "50.75px",
-                                                xs: "24px"
-                                            },
-                                            fontFamily: "Inter",
-                                            fontWeight: "600",
-                                            lineHeight: {
-                                                sm: "63.51px",
-                                                xs: "28px"
-                                            },
-                                            letterSpacing: "-1.72px",
-                                            textAlign: {
-                                                xs: "center",
-                                                md: "left"
-                                            }
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    backgroundImage: "linear-gradient(to right, #603BFC , #FF6835 )",
-                                                    WebkitBackgroundClip: "text",
-                                                    color: "transparent"
-                                                },
-                                                children: "Welcome"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 33,
-                                                columnNumber: 16
-                                            }, this),
-                                            "  ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 33,
-                                                columnNumber: 160
-                                            }, this),
-                                            "Back to Verbilab"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 32,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        sx: {
-                                            paddingTop: {
-                                                sm: "20px",
-                                                xs: "12px"
-                                            },
-                                            display: "flex",
-                                            justifyContent: "flex-start",
-                                            alignItems: "flex-start",
-                                            color: "#3A3A40",
-                                            fontFamily: "Inter",
-                                            lineHeight: "24.14px",
-                                            fontSize: "15.7px",
-                                            letterSpacing: "-0.17px",
-                                            fontWeight: "500",
-                                            textAlign: "center",
-                                            paddingLeft: {
-                                                xs: "20px",
-                                                md: "0px",
-                                                sm: "200px"
-                                            },
-                                            textAlignLast: {
-                                                xs: "center",
-                                                md: "left"
-                                            }
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                sx: {
-                                                    marginRight: "15px",
-                                                    color: "#D7F200"
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 37,
-                                                columnNumber: 17
-                                            }, this),
-                                            " Register your account with your ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 37,
-                                                columnNumber: 110
-                                            }, this),
-                                            " details."
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingTop: "20px",
-                                            paddingLeft: {
-                                                xs: "20px",
-                                                md: "0px",
-                                                sm: "160px"
-                                            }
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            variant: "contained",
-                                            sx: {
-                                                background: "transparent",
-                                                color: "#000000D4",
-                                                boxShadow: "none",
-                                                border: "1px solid #CBC8C8",
-                                                borderRadius: "128px",
-                                                padding: {
-                                                    sm: "10px 32px",
-                                                    xs: "10px 24px"
-                                                },
-                                                fontSize: {
-                                                    sm: "20px",
-                                                    xs: "16px"
-                                                },
-                                                lineHeight: {
-                                                    sm: "21.18px",
-                                                    xs: "18px"
-                                                },
-                                                fontWeight: "400",
-                                                fontFamily: "Inter"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__3$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                                                    alt: "googlepicture",
-                                                    style: {
-                                                        marginRight: "15px"
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/signup.tsx",
-                                                    lineNumber: 41,
-                                                    columnNumber: 21
-                                                }, this),
-                                                "  Continue with Google"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/pages/signup.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 18
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 16
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            padding: "20px 0px 25px 0px",
-                                            paddingLeft: {
-                                                xs: "18px",
-                                                md: "0px",
-                                                sm: "160px"
-                                            }
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            variant: "contained",
-                                            sx: {
-                                                background: "#4267B2",
-                                                color: "#FFFFFF",
-                                                boxShadow: "none",
-                                                border: "1px solid #CBC8C8",
-                                                borderRadius: "128px",
-                                                padding: {
-                                                    md: "10px 24px",
-                                                    xs: "10px 16px",
-                                                    sm: "10px 20px"
-                                                },
-                                                fontSize: {
-                                                    sm: "20px",
-                                                    xs: "16px"
-                                                },
-                                                lineHeight: {
-                                                    sm: "21.18px",
-                                                    xs: "18px"
-                                                },
-                                                fontWeight: "400",
-                                                fontFamily: "Inter"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__5$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__5$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                                                    alt: "googlepicture",
-                                                    style: {
-                                                        marginRight: "15px"
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/pages/signup.tsx",
-                                                    lineNumber: 46,
-                                                    columnNumber: 21
-                                                }, this),
-                                                "  Continue with Facebook"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/pages/signup.tsx",
-                                            lineNumber: 45,
-                                            columnNumber: 18
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 44,
-                                        columnNumber: 16
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/pages/signup.tsx",
-                                lineNumber: 31,
-                                columnNumber: 14
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/pages/signup.tsx",
-                            lineNumber: 30,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                            xs: 12,
-                            md: 6,
-                            sx: {
-                                display: "flex",
-                                justifyContent: {
-                                    md: "flex-end",
-                                    xs: "center"
-                                }
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-                                sx: {
-                                    minWidth: {
-                                        sm: "470px",
-                                        xs: "335px"
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$signup$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].background,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        paddingLeft: {
+                                            sm: "43px",
+                                            xs: "0px"
+                                        }
                                     },
-                                    padding: "40px 20px",
-                                    border: "1.72px solid #DBD9FB",
-                                    borderRadius: "17.24px",
-                                    marginRight: "10px",
-                                    marginLeft: {
-                                        xs: "15px",
-                                        sm: "0px"
-                                    }
-                                },
-                                component: "form",
-                                onSubmit: handleSubmit(onHandleSubmit),
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingBottom: "15px"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                htmlFor: "",
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontWeight: "700",
-                                                    fontFamily: "Inter",
-                                                    color: "#000",
-                                                    paddingBottom: "18px!important",
-                                                    marginLeft: "10px"
-                                                },
-                                                children: "Your Name"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 54,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                fullWidth: true,
-                                                sx: {
-                                                    borderRadius: "40px",
-                                                    border: "1px solid #ccc",
-                                                    "& .MuiInputBase-root": {
-                                                        borderRadius: "56.3px"
-                                                    },
-                                                    "& .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&:hover .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "& .MuiInputBase-input": {
-                                                        outline: "none"
-                                                    }
-                                                },
-                                                type: "text",
-                                                ...register("Your_name", {
-                                                    required: true
-                                                })
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 55,
-                                                columnNumber: 17
-                                            }, this),
-                                            errors?.Your_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    fontFamily: "Inter",
-                                                    fontWeight: "400",
-                                                    color: "#F32013",
-                                                    paddingLeft: "15px",
-                                                    paddingTop: "12px",
-                                                    fontSize: "14px"
-                                                },
-                                                children: "This Field is Required*"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 80,
-                                                columnNumber: 39
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 53,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingBottom: "20px"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                htmlFor: "",
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontWeight: "700",
-                                                    fontFamily: "Inter",
-                                                    color: "#000",
-                                                    paddingBottom: "18px!important",
-                                                    marginLeft: "10px"
-                                                },
-                                                children: "Email Address"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 83,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                fullWidth: true,
-                                                sx: {
-                                                    borderRadius: "40px",
-                                                    border: "1px solid #ccc",
-                                                    "& .MuiInputBase-root": {
-                                                        borderRadius: "56.3px"
-                                                    },
-                                                    "& .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&:hover .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "& .MuiInputBase-input": {
-                                                        outline: "none"
-                                                    }
-                                                },
-                                                type: "password",
-                                                ...register("Email_Address", {
-                                                    required: true
-                                                })
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 84,
-                                                columnNumber: 17
-                                            }, this),
-                                            errors?.Email_Address && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontFamily: "Inter",
-                                                    fontWeight: "400",
-                                                    color: "#F32013",
-                                                    paddingLeft: "15px",
-                                                    paddingTop: "12px"
-                                                },
-                                                children: "This Field is Required*"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 108,
-                                                columnNumber: 43
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 82,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingBottom: "20px"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                htmlFor: "",
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontWeight: "700",
-                                                    fontFamily: "Inter",
-                                                    color: "#000",
-                                                    paddingBottom: "18px!important",
-                                                    marginLeft: "10px"
-                                                },
-                                                children: "Password"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 111,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                fullWidth: true,
-                                                sx: {
-                                                    borderRadius: "40px",
-                                                    border: "1px solid #ccc",
-                                                    "& .MuiInputBase-root": {
-                                                        borderRadius: "56.3px"
-                                                    },
-                                                    "& .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&:hover .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "& .MuiInputBase-input": {
-                                                        outline: "none"
-                                                    }
-                                                },
-                                                type: "password",
-                                                ...register("Password", {
-                                                    required: true
-                                                })
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 112,
-                                                columnNumber: 17
-                                            }, this),
-                                            errors?.Password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontFamily: "Inter",
-                                                    fontWeight: "400",
-                                                    color: "#F32013",
-                                                    paddingLeft: "15px",
-                                                    paddingTop: "12px"
-                                                },
-                                                children: "This Field is Required*"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 136,
-                                                columnNumber: 38
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 110,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingBottom: "20px"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
-                                                htmlFor: "",
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontWeight: "700",
-                                                    fontFamily: "Inter",
-                                                    color: "#000",
-                                                    paddingBottom: "18px!important",
-                                                    marginLeft: "10px"
-                                                },
-                                                children: "Confirm Password"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 139,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                fullWidth: true,
-                                                sx: {
-                                                    borderRadius: "40px",
-                                                    border: "1px solid #ccc",
-                                                    "& .MuiInputBase-root": {
-                                                        borderRadius: "56.3px"
-                                                    },
-                                                    "& .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&:hover .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                                                        border: "1px solid #ccc"
-                                                    },
-                                                    "& .MuiInputBase-input": {
-                                                        outline: "none"
-                                                    }
-                                                },
-                                                type: "password",
-                                                ...register("Confirm_Password", {
-                                                    required: true
-                                                })
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 140,
-                                                columnNumber: 17
-                                            }, this),
-                                            errors?.Confirm_Password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    fontSize: "14px",
-                                                    fontFamily: "Inter",
-                                                    fontWeight: "400",
-                                                    color: "#F32013",
-                                                    paddingLeft: "15px",
-                                                    paddingTop: "12px"
-                                                },
-                                                children: "This Field is Required*"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 164,
-                                                columnNumber: 46
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 138,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            fontSize: "14px",
-                                            fontFamily: "Inter",
-                                            fontWeight: "400",
-                                            lineHeight: "24px"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Checkbox$2f$Checkbox$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__["Checkbox"], {
-                                                ...label,
-                                                defaultChecked: true
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 167,
-                                                columnNumber: 15
-                                            }, this),
-                                            " I agree to the ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/login",
-                                                style: {
-                                                    textDecoration: "none",
-                                                    color: "#2E95FB"
-                                                },
-                                                children: " Terms &  Conditions "
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 167,
-                                                columnNumber: 69
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 166,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            paddingTop: "15px"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            variant: "contained",
-                                            fullWidth: true,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                             sx: {
-                                                borderRadius: "100px",
-                                                padding: "12px 140px",
-                                                backgroundColor: "#D7F200",
-                                                color: "#000",
-                                                boxShadow: "none"
+                                                fontSize: {
+                                                    sm: "50.75px",
+                                                    xs: "24px"
+                                                },
+                                                fontFamily: "Inter",
+                                                fontWeight: "600",
+                                                lineHeight: {
+                                                    sm: "63.51px",
+                                                    xs: "28px"
+                                                },
+                                                letterSpacing: "-1.72px",
+                                                textAlign: {
+                                                    xs: "center",
+                                                    md: "left"
+                                                }
                                             },
-                                            type: "submit",
-                                            children: "Continue"
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        backgroundImage: "linear-gradient(to right, #603BFC , #FF6835 )",
+                                                        WebkitBackgroundClip: "text",
+                                                        color: "transparent"
+                                                    },
+                                                    children: "Welcome"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 36,
+                                                    columnNumber: 16
+                                                }, this),
+                                                "  ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 36,
+                                                    columnNumber: 160
+                                                }, this),
+                                                "Back to Verbilab"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 35,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            sx: {
+                                                paddingTop: {
+                                                    sm: "20px",
+                                                    xs: "12px"
+                                                },
+                                                display: "flex",
+                                                justifyContent: "flex-start",
+                                                alignItems: "flex-start",
+                                                color: "#3A3A40",
+                                                fontFamily: "Inter",
+                                                lineHeight: "24.14px",
+                                                fontSize: "15.7px",
+                                                letterSpacing: "-0.17px",
+                                                fontWeight: "500",
+                                                textAlign: "center",
+                                                paddingLeft: {
+                                                    xs: "20px",
+                                                    md: "0px",
+                                                    sm: "200px"
+                                                },
+                                                textAlignLast: {
+                                                    xs: "center",
+                                                    md: "left"
+                                                }
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    sx: {
+                                                        marginRight: "15px",
+                                                        color: "#D7F200"
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 40,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Register your account with your ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 40,
+                                                    columnNumber: 110
+                                                }, this),
+                                                " details."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 39,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingTop: "20px",
+                                                paddingLeft: {
+                                                    xs: "20px",
+                                                    md: "0px",
+                                                    sm: "160px"
+                                                }
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                variant: "contained",
+                                                sx: {
+                                                    background: "transparent",
+                                                    color: "#000000D4",
+                                                    boxShadow: "none",
+                                                    border: "1px solid #CBC8C8",
+                                                    borderRadius: "128px",
+                                                    padding: {
+                                                        sm: "10px 32px",
+                                                        xs: "10px 24px"
+                                                    },
+                                                    fontSize: {
+                                                        sm: "20px",
+                                                        xs: "16px"
+                                                    },
+                                                    lineHeight: {
+                                                        sm: "21.18px",
+                                                        xs: "18px"
+                                                    },
+                                                    fontWeight: "400",
+                                                    fontFamily: "Inter"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__3$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                                        alt: "googlepicture",
+                                                        style: {
+                                                            marginRight: "15px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/pages/signup.tsx",
+                                                        lineNumber: 44,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    "  Continue with Google"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/pages/signup.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 18
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/signup.tsx",
-                                            lineNumber: 170,
+                                            lineNumber: 42,
+                                            columnNumber: 16
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                padding: "20px 0px 25px 0px",
+                                                paddingLeft: {
+                                                    xs: "18px",
+                                                    md: "0px",
+                                                    sm: "160px"
+                                                }
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                variant: "contained",
+                                                sx: {
+                                                    background: "#4267B2",
+                                                    color: "#FFFFFF",
+                                                    boxShadow: "none",
+                                                    border: "1px solid #CBC8C8",
+                                                    borderRadius: "128px",
+                                                    padding: {
+                                                        md: "10px 24px",
+                                                        xs: "10px 16px",
+                                                        sm: "10px 20px"
+                                                    },
+                                                    fontSize: {
+                                                        sm: "20px",
+                                                        xs: "16px"
+                                                    },
+                                                    lineHeight: {
+                                                        sm: "21.18px",
+                                                        xs: "18px"
+                                                    },
+                                                    fontWeight: "400",
+                                                    fontFamily: "Inter"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__5$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$app$2f$Assets$2f$Imges$2f$image__5$2e$png__$5b$ssr$5d$__$28$static$2922$__$7d$__$5b$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                                        alt: "googlepicture",
+                                                        style: {
+                                                            marginRight: "15px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/pages/signup.tsx",
+                                                        lineNumber: 49,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    "  Continue with Facebook"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/pages/signup.tsx",
+                                                lineNumber: 48,
+                                                columnNumber: 18
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 47,
                                             columnNumber: 16
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 169,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        sx: {
-                                            paddingTop: "18px",
-                                            textAlign: "center",
-                                            fontFamily: "Inter",
-                                            fontSize: "13.79px",
-                                            fontWeight: "400"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/signup.tsx",
+                                    lineNumber: 34,
+                                    columnNumber: 14
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/signup.tsx",
+                                lineNumber: 33,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
+                                xs: 12,
+                                md: 6,
+                                sx: {
+                                    display: "flex",
+                                    justifyContent: {
+                                        md: "flex-end",
+                                        xs: "center"
+                                    }
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Card$2f$Card$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
+                                    sx: {
+                                        minWidth: {
+                                            sm: "470px",
+                                            xs: "335px"
                                         },
-                                        children: [
-                                            "Already have an account? ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/login",
-                                                style: {
-                                                    textDecoration: "none",
-                                                    color: "#2E95FB"
+                                        padding: "40px 20px",
+                                        border: "1.72px solid #DBD9FB",
+                                        borderRadius: "17.24px",
+                                        marginRight: "10px",
+                                        marginLeft: {
+                                            xs: "15px",
+                                            sm: "0px"
+                                        }
+                                    },
+                                    component: "form",
+                                    onSubmit: handleSubmit(onHandleSubmit),
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingBottom: "15px"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                    htmlFor: "",
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontWeight: "700",
+                                                        fontFamily: "Inter",
+                                                        color: "#000",
+                                                        paddingBottom: "18px!important",
+                                                        marginLeft: "10px"
+                                                    },
+                                                    children: "Your Name"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 57,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                    fullWidth: true,
+                                                    sx: {
+                                                        borderRadius: "40px",
+                                                        border: "1px solid #ccc",
+                                                        "& .MuiInputBase-root": {
+                                                            borderRadius: "56.3px"
+                                                        },
+                                                        "& .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&:hover .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "& .MuiInputBase-input": {
+                                                            outline: "none"
+                                                        }
+                                                    },
+                                                    type: "text",
+                                                    ...register("Your_name", {
+                                                        required: true
+                                                    })
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 58,
+                                                    columnNumber: 17
+                                                }, this),
+                                                errors?.Your_name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontFamily: "Inter",
+                                                        fontWeight: "400",
+                                                        color: "#F32013",
+                                                        paddingLeft: "15px",
+                                                        paddingTop: "12px",
+                                                        fontSize: "14px"
+                                                    },
+                                                    children: "This Field is Required*"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 83,
+                                                    columnNumber: 39
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 56,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingBottom: "20px"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                    htmlFor: "",
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontWeight: "700",
+                                                        fontFamily: "Inter",
+                                                        color: "#000",
+                                                        paddingBottom: "18px!important",
+                                                        marginLeft: "10px"
+                                                    },
+                                                    children: "Email Address"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 86,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                    fullWidth: true,
+                                                    sx: {
+                                                        borderRadius: "40px",
+                                                        border: "1px solid #ccc",
+                                                        "& .MuiInputBase-root": {
+                                                            borderRadius: "56.3px"
+                                                        },
+                                                        "& .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&:hover .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "& .MuiInputBase-input": {
+                                                            outline: "none"
+                                                        }
+                                                    },
+                                                    type: "password",
+                                                    ...register("Email_Address", {
+                                                        required: true
+                                                    })
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 87,
+                                                    columnNumber: 17
+                                                }, this),
+                                                errors?.Email_Address && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontFamily: "Inter",
+                                                        fontWeight: "400",
+                                                        color: "#F32013",
+                                                        paddingLeft: "15px",
+                                                        paddingTop: "12px"
+                                                    },
+                                                    children: "This Field is Required*"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 111,
+                                                    columnNumber: 43
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 85,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingBottom: "20px"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                    htmlFor: "",
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontWeight: "700",
+                                                        fontFamily: "Inter",
+                                                        color: "#000",
+                                                        paddingBottom: "18px!important",
+                                                        marginLeft: "10px"
+                                                    },
+                                                    children: "Password"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 114,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                    fullWidth: true,
+                                                    sx: {
+                                                        borderRadius: "40px",
+                                                        border: "1px solid #ccc",
+                                                        "& .MuiInputBase-root": {
+                                                            borderRadius: "56.3px"
+                                                        },
+                                                        "& .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&:hover .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "& .MuiInputBase-input": {
+                                                            outline: "none"
+                                                        }
+                                                    },
+                                                    type: "password",
+                                                    ...register("Password", {
+                                                        required: true
+                                                    })
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 115,
+                                                    columnNumber: 17
+                                                }, this),
+                                                errors?.Password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontFamily: "Inter",
+                                                        fontWeight: "400",
+                                                        color: "#F32013",
+                                                        paddingLeft: "15px",
+                                                        paddingTop: "12px"
+                                                    },
+                                                    children: "This Field is Required*"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 139,
+                                                    columnNumber: 38
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingBottom: "20px"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("label", {
+                                                    htmlFor: "",
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontWeight: "700",
+                                                        fontFamily: "Inter",
+                                                        color: "#000",
+                                                        paddingBottom: "18px!important",
+                                                        marginLeft: "10px"
+                                                    },
+                                                    children: "Confirm Password"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 142,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                    fullWidth: true,
+                                                    sx: {
+                                                        borderRadius: "40px",
+                                                        border: "1px solid #ccc",
+                                                        "& .MuiInputBase-root": {
+                                                            borderRadius: "56.3px"
+                                                        },
+                                                        "& .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&:hover .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                                                            border: "1px solid #ccc"
+                                                        },
+                                                        "& .MuiInputBase-input": {
+                                                            outline: "none"
+                                                        }
+                                                    },
+                                                    type: "password",
+                                                    ...register("Confirm_Password", {
+                                                        required: true
+                                                    })
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 143,
+                                                    columnNumber: 17
+                                                }, this),
+                                                errors?.Confirm_Password && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: "14px",
+                                                        fontFamily: "Inter",
+                                                        fontWeight: "400",
+                                                        color: "#F32013",
+                                                        paddingLeft: "15px",
+                                                        paddingTop: "12px"
+                                                    },
+                                                    children: "This Field is Required*"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 167,
+                                                    columnNumber: 46
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 141,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                fontSize: "14px",
+                                                fontFamily: "Inter",
+                                                fontWeight: "400",
+                                                lineHeight: "24px"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Checkbox$2f$Checkbox$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__["Checkbox"], {
+                                                    ...label,
+                                                    defaultChecked: true
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 170,
+                                                    columnNumber: 15
+                                                }, this),
+                                                " I agree to the ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/login",
+                                                    style: {
+                                                        textDecoration: "none",
+                                                        color: "#2E95FB"
+                                                    },
+                                                    children: " Terms &  Conditions "
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 170,
+                                                    columnNumber: 69
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 169,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                paddingTop: "15px"
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                variant: "contained",
+                                                fullWidth: true,
+                                                sx: {
+                                                    borderRadius: "100px",
+                                                    padding: "12px 140px",
+                                                    backgroundColor: "#D7F200",
+                                                    color: "#000",
+                                                    boxShadow: "none"
                                                 },
-                                                children: "Log in"
+                                                type: "submit",
+                                                children: "Continue"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/signup.tsx",
-                                                lineNumber: 175,
-                                                columnNumber: 41
+                                                lineNumber: 173,
+                                                columnNumber: 16
                                             }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/pages/signup.tsx",
-                                        lineNumber: 174,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 172,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            sx: {
+                                                paddingTop: "18px",
+                                                textAlign: "center",
+                                                fontFamily: "Inter",
+                                                fontSize: "13.79px",
+                                                fontWeight: "400"
+                                            },
+                                            children: [
+                                                "Already have an account? ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/login",
+                                                    style: {
+                                                        textDecoration: "none",
+                                                        color: "#2E95FB"
+                                                    },
+                                                    children: "Log in"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/signup.tsx",
+                                                    lineNumber: 178,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/pages/signup.tsx",
+                                            lineNumber: 177,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/pages/signup.tsx",
+                                    lineNumber: 55,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/pages/signup.tsx",
-                                lineNumber: 52,
-                                columnNumber: 13
+                                lineNumber: 54,
+                                columnNumber: 11
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/pages/signup.tsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/pages/signup.tsx",
+                        lineNumber: 32,
+                        columnNumber: 8
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/src/pages/signup.tsx",
-                    lineNumber: 29,
-                    columnNumber: 8
+                    lineNumber: 31,
+                    columnNumber: 6
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/pages/signup.tsx",
-                lineNumber: 28,
+                lineNumber: 30,
+                columnNumber: 6
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/signup.tsx",
+                lineNumber: 185,
                 columnNumber: 6
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/pages/signup.tsx",
-            lineNumber: 27,
-            columnNumber: 6
-        }, this)
-    }, void 0, false);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = Signup;
 __turbopack_async_result__();

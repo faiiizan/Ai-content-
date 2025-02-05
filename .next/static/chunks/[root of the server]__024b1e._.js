@@ -558,13 +558,254 @@ __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '../../pages/aboutus.module.css'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [client] (ecmascript) <export default as Box>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [client] (ecmascript) <export default as Container>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Typography/Typography.js [client] (ecmascript) <export default as Typography>");
 ;
-const blogdetails = ()=>{
+;
+;
+const Blogdetails = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: "blog details"
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+            sx: {
+                paddingBottom: {
+                    sm: '70px',
+                    xs: "25px"
+                }
+            },
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                maxWidth: "lg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            textAlign: "center",
+                            paddingTop: {
+                                sm: "30px",
+                                xs: "0px"
+                            },
+                            fontFamily: "Poppins",
+                            fontWeight: "400"
+                        },
+                        children: "Jul 03, 2024"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            fontSize: {
+                                sm: '50px',
+                                xs: '30px'
+                            },
+                            lineHeight: '60px',
+                            fontWeight: '600',
+                            fontFamily: 'Montserrat',
+                            textAlign: 'center',
+                            color: '#000',
+                            paddingBottom: {
+                                sm: '80px',
+                                xs: "25px"
+                            },
+                            paddingLeft: {
+                                xs: "0px",
+                                sm: "0px"
+                            },
+                            paddingTop: {
+                                sm: "20px",
+                                xs: "0px"
+                            }
+                        },
+                        children: [
+                            "OpenAI acquires ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                style: {
+                                    fontWeight: '600',
+                                    backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                                    WebkitBackgroundClip: 'text',
+                                    color: 'transparent'
+                                },
+                                children: " Rockset"
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/blogdetails.tsx",
+                                lineNumber: 25,
+                                columnNumber: 38
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 12,
+                        columnNumber: 14
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "700"
+                        },
+                        children: "Enhancing our retrieval infrastructure to make AI more helpful"
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 29,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "AI has the opportunity to transform how people and organizations leverage their own data. That’s why we’ve acquired Rockset, a leading real-time analytics database that provides world-class data indexing and querying capabilities."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 32,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "Rockset enables users, developers, and enterprises to better leverage their own data and access real-time information as they use AI products and build more intelligent applications."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 35,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "We will integrate Rockset’s technology to power our retrieval infrastructure across products, and members of Rockset’s world-class team will join OpenAI."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 38,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "“Rockset’s infrastructure empowers companies to transform their data into actionable intelligence. We’re excited to bring these benefits to our customers by integrating Rockset’s foundation into OpenAI products,” said Brad Lightcap, OpenAI COO."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 41,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "“We’re excited to be joining OpenAI to empower users, enterprises and developers to fully leverage their data by bringing powerful retrieval to AI,” said Venkat Venkataramani, CEO of Rockset."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 44,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            paddingLeft: {
+                                sm: "50px!important",
+                                xs: "none"
+                            },
+                            fontSize: {
+                                sm: "18px",
+                                xs: "16px"
+                            },
+                            fontFamily: "Montserrat",
+                            lineHeight: "24px",
+                            paddingBottom: "30px",
+                            fontWeight: "400"
+                        },
+                        children: "Stay tuned for more updates as we get to work integrating Rockset’s capabilities."
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/blogdetails.tsx",
+                        lineNumber: 48,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/pages/blogdetails.tsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/pages/blogdetails.tsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
     }, void 0, false);
 };
-const __TURBOPACK__default__export__ = blogdetails;
+_c = Blogdetails;
+const __TURBOPACK__default__export__ = Blogdetails;
+var _c;
+__turbopack_refresh__.register(_c, "Blogdetails");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }

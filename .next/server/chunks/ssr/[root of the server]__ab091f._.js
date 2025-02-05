@@ -1234,8 +1234,10 @@ const MyApp = ({ Component, pageProps })=>{
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const checkRoutes = ()=>{
         let hide = false;
-        if (router.pathname === "/dashboard") {
+        if (router.pathname === "/dashboard/**" || router.pathname !== "/dashoard/templates") {
             hide = true;
+        } else {
+            hide = false;
         }
         return hide;
     };
@@ -1246,17 +1248,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 25,
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 };
@@ -1280,231 +1282,247 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_import__("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$aboutus$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/pages/aboutus.module.css [ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Header.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Footer.tsx [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [ssr] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Typography/Typography.js [ssr] (ecmascript) <export default as Typography>");
 ;
 ;
 ;
+;
+;
 const aboutus = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-            sx: {
-                paddingBottom: {
-                    sm: '70px',
-                    xs: "25px"
-                }
-            },
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
-                maxWidth: "lg",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            fontSize: {
-                                sm: '50px',
-                                xs: '30px'
-                            },
-                            lineHeight: '60px',
-                            fontWeight: '600',
-                            fontFamily: 'Montserrat',
-                            textAlign: 'center',
-                            color: '#000',
-                            paddingBottom: {
-                                sm: '120px',
-                                xs: "25px"
-                            },
-                            paddingLeft: {
-                                xs: "0px",
-                                sm: "0px"
-                            },
-                            paddingTop: {
-                                sm: "60px",
-                                xs: "0px"
-                            }
-                        },
-                        children: [
-                            "Contact",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    fontWeight: '600',
-                                    backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
-                                    WebkitBackgroundClip: 'text',
-                                    color: 'transparent'
-                                },
-                                children: " Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 23,
-                                columnNumber: 23
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/contact.tsx",
-                        lineNumber: 9,
-                        columnNumber: 14
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    marginBottom: "15px!important",
-                                    fontSize: "22px",
-                                    fontWeight: "600"
-                                },
-                                children: " Helpline"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 28,
-                                columnNumber: 21
-                            }, this),
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 28,
-                                columnNumber: 117
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    paddingTop: "10px"
-                                },
-                                children: " Our helpline is open on all days from 10:00 AM to 6:00 PM."
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 29,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/contact.tsx",
-                        lineNumber: 27,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    marginBottom: "15px!important",
-                                    fontSize: "22px",
-                                    fontWeight: "600"
-                                },
-                                children: " Call us: 01234 556789"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 33,
-                                columnNumber: 21
-                            }, this),
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 33,
-                                columnNumber: 130
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    paddingTop: "10px"
-                                },
-                                children: " Mail us: support@example.com"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 34,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/contact.tsx",
-                        lineNumber: 32,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    marginBottom: "15px!important",
-                                    fontSize: "22px",
-                                    fontWeight: "600"
-                                },
-                                children: " Contact us please"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 38,
-                                columnNumber: 21
-                            }, this),
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 38,
-                                columnNumber: 126
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    paddingTop: "10px"
-                                },
-                                children: " If you did not find the answer to your question or problem, please get in touch with us via email and we will respond to your message as soon as possible."
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/contact.tsx",
-                                lineNumber: 39,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/contact.tsx",
-                        lineNumber: 37,
-                        columnNumber: 21
-                    }, this)
-                ]
-            }, void 0, true, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/contact.tsx",
-                lineNumber: 8,
-                columnNumber: 9
+                lineNumber: 9,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    paddingBottom: {
+                        sm: '70px',
+                        xs: "25px"
+                    }
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "lg",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                fontSize: {
+                                    sm: '50px',
+                                    xs: '30px'
+                                },
+                                lineHeight: '60px',
+                                fontWeight: '600',
+                                fontFamily: 'Montserrat',
+                                textAlign: 'center',
+                                color: '#000',
+                                paddingBottom: {
+                                    sm: '120px',
+                                    xs: "25px"
+                                },
+                                paddingLeft: {
+                                    xs: "0px",
+                                    sm: "0px"
+                                },
+                                paddingTop: {
+                                    sm: "60px",
+                                    xs: "0px"
+                                }
+                            },
+                            children: [
+                                "Contact",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        fontWeight: '600',
+                                        backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                                        WebkitBackgroundClip: 'text',
+                                        color: 'transparent'
+                                    },
+                                    children: " Us"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 26,
+                                    columnNumber: 23
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/contact.tsx",
+                            lineNumber: 12,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        marginBottom: "15px!important",
+                                        fontSize: "22px",
+                                        fontWeight: "600"
+                                    },
+                                    children: " Helpline"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 21
+                                }, this),
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 117
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        paddingTop: "10px"
+                                    },
+                                    children: " Our helpline is open on all days from 10:00 AM to 6:00 PM."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/contact.tsx",
+                            lineNumber: 30,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        marginBottom: "15px!important",
+                                        fontSize: "22px",
+                                        fontWeight: "600"
+                                    },
+                                    children: " Call us: 01234 556789"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 21
+                                }, this),
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 130
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        paddingTop: "10px"
+                                    },
+                                    children: " Mail us: support@example.com"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 37,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/contact.tsx",
+                            lineNumber: 35,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        marginBottom: "15px!important",
+                                        fontSize: "22px",
+                                        fontWeight: "600"
+                                    },
+                                    children: " Contact us please"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 41,
+                                    columnNumber: 21
+                                }, this),
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 41,
+                                    columnNumber: 126
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        paddingTop: "10px"
+                                    },
+                                    children: " If you did not find the answer to your question or problem, please get in touch with us via email and we will respond to your message as soon as possible."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/contact.tsx",
+                                    lineNumber: 42,
+                                    columnNumber: 21
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/contact.tsx",
+                            lineNumber: 40,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/pages/contact.tsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/contact.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/contact.tsx",
+                lineNumber: 49,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/pages/contact.tsx",
-            lineNumber: 7,
-            columnNumber: 7
-        }, this)
-    }, void 0, false);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = aboutus;
 }}),

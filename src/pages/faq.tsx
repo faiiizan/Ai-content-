@@ -3,10 +3,13 @@ import React from 'react'
 
 import '../pages/faq.module.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const section6 = () => {
   return (
     <div id='section6'>
+      <Header/>
      <Box sx={{ padding: { sm: '50px 0', xs: '20px 0 50px 0px' } }}>
        <Container maxWidth='lg'>
           <Typography sx={{textAlign:"center",fontFamily:"Montserrat",fontSize:"60px",fontWeight:"700",lineHeight:"55px",paddingBottom:{xs:"90px",sm:"70px"},backgroundImage: 'linear-gradient(to right, #603BFC  , #FF6835  )',
@@ -76,6 +79,7 @@ const section6 = () => {
           </Grid>
        </Container>
      </Box>
+     <Footer/>
     </div>
   )
 }

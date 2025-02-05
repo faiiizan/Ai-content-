@@ -1234,8 +1234,10 @@ const MyApp = ({ Component, pageProps })=>{
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const checkRoutes = ()=>{
         let hide = false;
-        if (router.pathname === "/dashboard") {
+        if (router.pathname === "/dashboard/**" || router.pathname !== "/dashoard/templates") {
             hide = true;
+        } else {
+            hide = false;
         }
         return hide;
     };
@@ -1246,17 +1248,17 @@ const MyApp = ({ Component, pageProps })=>{
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/src/pages/_app.tsx",
-                lineNumber: 25,
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/pages/_app.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.tsx",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 };
@@ -1280,438 +1282,454 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_import__("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$aboutus$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/pages/aboutus.module.css [ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Header.tsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/layout/Footer.tsx [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Container/Container.js [ssr] (ecmascript) <export default as Container>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Typography/Typography.js [ssr] (ecmascript) <export default as Typography>");
 ;
 ;
 ;
+;
+;
 const Terms = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-            sx: {
-                paddingBottom: {
-                    sm: '70px',
-                    xs: "25px"
-                }
-            },
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
-                maxWidth: "lg",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            fontSize: {
-                                sm: '50px',
-                                xs: '30px'
-                            },
-                            lineHeight: '60px',
-                            fontWeight: '600',
-                            fontFamily: 'Montserrat',
-                            textAlign: 'center',
-                            color: '#000',
-                            paddingBottom: {
-                                sm: '80px',
-                                xs: "25px"
-                            },
-                            paddingLeft: {
-                                xs: "0px",
-                                sm: "0px"
-                            },
-                            paddingTop: {
-                                sm: "60px",
-                                xs: "0px"
-                            }
-                        },
-                        children: [
-                            "Refund  ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                style: {
-                                    fontWeight: '600',
-                                    backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
-                                    WebkitBackgroundClip: 'text',
-                                    color: 'transparent'
-                                },
-                                children: "Policy"
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/refundpolicy.tsx",
-                                lineNumber: 22,
-                                columnNumber: 31
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 9,
-                        columnNumber: 14
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "Welcome to our content writing subscription service website (the “Service”). The following terms and conditions (the “Terms of Use”) govern your access to, and use of, the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 26,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "By using the Service, you agree to be bound by these Terms of Use. If you do not agree with any of these Terms of Use, you are prohibited from using or accessing the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 30,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "The Service is provided “as is” without warranty of any kind, either expressed or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose, and non-infringement.r your website."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 33,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "We may terminate or suspend your access to the Service at any time, without notice, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms of Use."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 36,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "You are solely responsible for all content that you publish or display (hereinafter, “post”) on the Service or transmit to other users of the Service, and you agree not to post any content that is unlawful, harassing, libelous, privacy invading, abusive, threatening, harmful, vulgar, obscene, tortious, or otherwise objectionable."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 39,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "Our Service does not guarantee the accuracy, completeness, or usefulness of any content, and you acknowledge and agree that you bear all risks associated with using or relying on such content."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 43,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "We are not responsible for any loss or damage incurred due to content posted on the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 47,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, or use of the Service, or access to the Service, without the express written permission by us."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 52,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "We reserve the right, at our sole discretion, to modify or replace these Terms of Use at any time. If a revision is material, we will try to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 57,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "By continuing to access or use the Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 62,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "These Terms of Use are governed by the laws of the jurisdiction in which the Service is hosted. Any dispute arising out of or related to these Terms of Use shall be adjudicated in the courts located in the jurisdiction in which the Service is host"
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 65,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "If any part of these Terms of Use is found to be invalid or unenforceable, that part shall be severed from the remaining Terms of Use, which shall remain in full force and effect."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 68,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "We reserve the right to modify or discontinue the Service, or any part thereof, with or without notice, at any time. We shall not be liable to you or any third party should we exercise such right."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 71,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "These Terms of Use constitute the entire agreement between you and us and supersede all prior agreements and understandings, whether written or oral, or whether established by custom, practice, policy, or precedent, with respect to the subject matter of these Terms of Use."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 74,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "No joint venture, partnership, employment, or agency relationship exists between you and us as a result of these Terms of Use or your use of the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 77,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "We may provide you with notices, including those regarding changes to the Terms of Use, by email, regular mail, or postings on the Service."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 80,
-                        columnNumber: 22
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        sx: {
-                            paddingLeft: {
-                                sm: "50px!important",
-                                xs: "none"
-                            },
-                            fontSize: {
-                                sm: "18px",
-                                xs: "16px"
-                            },
-                            fontFamily: "Montserrat",
-                            lineHeight: "24px",
-                            paddingBottom: "30px",
-                            fontWeight: "400"
-                        },
-                        children: "If you have any questions or concerns regarding these Terms of Use, please contact us at [insert contact information]."
-                    }, void 0, false, {
-                        fileName: "[project]/src/pages/refundpolicy.tsx",
-                        lineNumber: 84,
-                        columnNumber: 22
-                    }, this)
-                ]
-            }, void 0, true, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Header$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/refundpolicy.tsx",
-                lineNumber: 8,
-                columnNumber: 9
+                lineNumber: 9,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    paddingBottom: {
+                        sm: '70px',
+                        xs: "25px"
+                    }
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "lg",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                fontSize: {
+                                    sm: '50px',
+                                    xs: '30px'
+                                },
+                                lineHeight: '60px',
+                                fontWeight: '600',
+                                fontFamily: 'Montserrat',
+                                textAlign: 'center',
+                                color: '#000',
+                                paddingBottom: {
+                                    sm: '80px',
+                                    xs: "25px"
+                                },
+                                paddingLeft: {
+                                    xs: "0px",
+                                    sm: "0px"
+                                },
+                                paddingTop: {
+                                    sm: "60px",
+                                    xs: "0px"
+                                }
+                            },
+                            children: [
+                                "Refund  ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        fontWeight: '600',
+                                        backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                                        WebkitBackgroundClip: 'text',
+                                        color: 'transparent'
+                                    },
+                                    children: "Policy"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/pages/refundpolicy.tsx",
+                                    lineNumber: 25,
+                                    columnNumber: 31
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 12,
+                            columnNumber: 14
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "Welcome to our content writing subscription service website (the “Service”). The following terms and conditions (the “Terms of Use”) govern your access to, and use of, the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 29,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "By using the Service, you agree to be bound by these Terms of Use. If you do not agree with any of these Terms of Use, you are prohibited from using or accessing the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 33,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "The Service is provided “as is” without warranty of any kind, either expressed or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose, and non-infringement.r your website."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 36,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "We may terminate or suspend your access to the Service at any time, without notice, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms of Use."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 39,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "You are solely responsible for all content that you publish or display (hereinafter, “post”) on the Service or transmit to other users of the Service, and you agree not to post any content that is unlawful, harassing, libelous, privacy invading, abusive, threatening, harmful, vulgar, obscene, tortious, or otherwise objectionable."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 42,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "Our Service does not guarantee the accuracy, completeness, or usefulness of any content, and you acknowledge and agree that you bear all risks associated with using or relying on such content."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 46,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "We are not responsible for any loss or damage incurred due to content posted on the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 50,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, or use of the Service, or access to the Service, without the express written permission by us."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 55,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "We reserve the right, at our sole discretion, to modify or replace these Terms of Use at any time. If a revision is material, we will try to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 60,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "By continuing to access or use the Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 65,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "These Terms of Use are governed by the laws of the jurisdiction in which the Service is hosted. Any dispute arising out of or related to these Terms of Use shall be adjudicated in the courts located in the jurisdiction in which the Service is host"
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 68,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "If any part of these Terms of Use is found to be invalid or unenforceable, that part shall be severed from the remaining Terms of Use, which shall remain in full force and effect."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 71,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "We reserve the right to modify or discontinue the Service, or any part thereof, with or without notice, at any time. We shall not be liable to you or any third party should we exercise such right."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 74,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "These Terms of Use constitute the entire agreement between you and us and supersede all prior agreements and understandings, whether written or oral, or whether established by custom, practice, policy, or precedent, with respect to the subject matter of these Terms of Use."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 77,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "No joint venture, partnership, employment, or agency relationship exists between you and us as a result of these Terms of Use or your use of the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 80,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "We may provide you with notices, including those regarding changes to the Terms of Use, by email, regular mail, or postings on the Service."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 83,
+                            columnNumber: 22
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            sx: {
+                                paddingLeft: {
+                                    sm: "50px!important",
+                                    xs: "none"
+                                },
+                                fontSize: {
+                                    sm: "18px",
+                                    xs: "16px"
+                                },
+                                fontFamily: "Montserrat",
+                                lineHeight: "24px",
+                                paddingBottom: "30px",
+                                fontWeight: "400"
+                            },
+                            children: "If you have any questions or concerns regarding these Terms of Use, please contact us at [insert contact information]."
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/refundpolicy.tsx",
+                            lineNumber: 87,
+                            columnNumber: 22
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/pages/refundpolicy.tsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/pages/refundpolicy.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$2f$Footer$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/pages/refundpolicy.tsx",
+                lineNumber: 93,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/pages/refundpolicy.tsx",
-            lineNumber: 7,
-            columnNumber: 7
-        }, this)
-    }, void 0, false);
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = Terms;
 }}),
