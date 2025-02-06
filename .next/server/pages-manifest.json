@@ -1,12 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/dashboard": "pages/dashboard.js",
-  "/login": "pages/login.js",
-  "/dashboard/templates": "pages/dashboard/templates.js",
-  "/dashboard/assistant": "pages/dashboard/assistant.js",
-  "/dashboard/analyst": "pages/dashboard/analyst.js",
-  "/dashboard/upgradeplan": "pages/dashboard/upgradeplan.js",
-  "/_error": "pages/_error.js",
-  "/dashboard/plans": "pages/dashboard/plans.js"
+  "/dashboard/document": "pages/dashboard/document.js",
+  "/dashboard": "pages/dashboard.js"
 }
