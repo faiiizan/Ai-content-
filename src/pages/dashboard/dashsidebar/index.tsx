@@ -167,8 +167,8 @@ const Dashsidebar = () => {
                             </li>
 
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/plans' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/plans') }}>
+                                <Link href='/dashboard/adminAssistant' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminAssistant') }}>
                                         <SiGoogleassistant style={{ paddingRight: "20px",paddingLeft:"10px",paddingTop:"10px" }} />   
                                         Assistant
                                     </Typography>
