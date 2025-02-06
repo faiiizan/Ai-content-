@@ -2,7 +2,6 @@
 import { Box, Button, Container, Divider, Drawer, Grid, IconButton, Menu, MenuItem, Typography } from '@mui/material'
 import Image from 'next/image';
 import React, { useState } from 'react'
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import ChatIcon from '@mui/icons-material/Chat';
 import RestoreIcon from '@mui/icons-material/Restore';
