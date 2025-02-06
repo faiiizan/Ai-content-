@@ -11,7 +11,7 @@ import Image from 'next/image'
 const Section4 = () => {
   return (
     <>
-      <Box sx={{ padding: { sm: '40px 0', xs: '20px 0' } }}>
+      <Box sx={{ padding: { sm: '40px 0', xs: '20px 0' } }}  id='section4'>
         <Container maxWidth="lg">
           <Box sx={{ paddingBottom: '60px' }}>
             <Typography
