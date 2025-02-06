@@ -12,7 +12,6 @@ import image4 from '../../../app/Assets/Imges/Group.png'
 
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
-import { Navigate } from 'react-router-dom'
 import { useRouter } from 'next/router'
 
 
