@@ -14,7 +14,7 @@ import Hero from '../../../pages/dashboard.module.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import dashboardman from '../../../app/Assets/Imges/dasboardman.png'
 import Link from 'next/link'
-import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';\
+import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
 import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import HistoryIcon from '@mui/icons-material/History';
