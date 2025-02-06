@@ -1,6 +1,8 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/dashboard": "pages/dashboard.js",
   "/dashboard/document": "pages/dashboard/document.js",
-  "/dashboard": "pages/dashboard.js"
+  "/dashboard/history": "pages/dashboard/history.js",
+  "/dashboard/templates": "pages/dashboard/templates.js"
 }

@@ -36,14 +36,14 @@ import DialogTitle from '@mui/material/DialogTitle';
 const Content = () => {
 
     const rows = [
-        { name: 'Test Document', calories: "Nov 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%" }} />, carbs: <DeleteIcon /> },
-        { name: 'Ai startup ideas for Ai trading', calories: "june 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Unveilig the Future', calories: "july 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Test Document', calories: "june 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Test Document', calories: "Nov 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Ai startup ideas for Ai trading', calories: "june 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Unveilig the Future', calories: "july 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
-        { name: 'Test Document', calories: "june 8, 2024", fat: <BorderColorIcon />, carbs: <DeleteIcon /> },
+        { name: 'Test Document', calories: "Nov 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }} />, carbs: <DeleteIcon /> },
+        { name: 'Ai startup ideas for Ai trading', calories: "june 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Unveilig the Future', calories: "july 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Test Document', calories: "june 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Test Document', calories: "Nov 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Ai startup ideas for Ai trading', calories: "june 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Unveilig the Future', calories: "july 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
+        { name: 'Test Document', calories: "june 8, 2024", fat: <BorderColorIcon sx={{ color: "#000000", opacity: "87%",fontSize:"20px" }}  />, carbs: <DeleteIcon /> },
     ];
 
 
@@ -123,7 +123,7 @@ const Content = () => {
                                                                 <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingLeft: "35px" }}>{row.calories}
 
                                                                 </TableCell>
-                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE" }} onClick={handleClickOpen}>{row.fat}
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE",cursor:"pointer" }} onClick={handleClickOpen} >{row.fat}
 
                                                                 </TableCell>
 

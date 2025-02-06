@@ -3886,7 +3886,8 @@ const Content = ()=>{
             fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 sx: {
                     color: "#000000",
-                    opacity: "87%"
+                    opacity: "87%",
+                    fontSize: "20px"
                 }
             }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
@@ -3896,13 +3897,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 39,
-                columnNumber: 134
+                columnNumber: 150
             }, this)
         },
         {
             name: 'Ai startup ideas for Ai trading',
             calories: "june 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 40,
                 columnNumber: 83
@@ -3910,13 +3917,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 40,
-                columnNumber: 111
+                columnNumber: 170
             }, this)
         },
         {
             name: 'Unveilig the Future',
             calories: "july 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 41,
                 columnNumber: 71
@@ -3924,13 +3937,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 41,
-                columnNumber: 99
+                columnNumber: 158
             }, this)
         },
         {
             name: 'Test Document',
             calories: "june 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 42,
                 columnNumber: 65
@@ -3938,13 +3957,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 42,
-                columnNumber: 93
+                columnNumber: 152
             }, this)
         },
         {
             name: 'Test Document',
             calories: "Nov 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 43,
                 columnNumber: 64
@@ -3952,13 +3977,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 43,
-                columnNumber: 92
+                columnNumber: 151
             }, this)
         },
         {
             name: 'Ai startup ideas for Ai trading',
             calories: "june 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 44,
                 columnNumber: 83
@@ -3966,13 +3997,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 44,
-                columnNumber: 111
+                columnNumber: 170
             }, this)
         },
         {
             name: 'Unveilig the Future',
             calories: "july 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 45,
                 columnNumber: 71
@@ -3980,13 +4017,19 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 45,
-                columnNumber: 99
+                columnNumber: 158
             }, this)
         },
         {
             name: 'Test Document',
             calories: "june 8, 2024",
-            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fat: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$BorderColor$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                sx: {
+                    color: "#000000",
+                    opacity: "87%",
+                    fontSize: "20px"
+                }
+            }, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 46,
                 columnNumber: 65
@@ -3994,7 +4037,7 @@ const Content = ()=>{
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/document/index.tsx",
                 lineNumber: 46,
-                columnNumber: 93
+                columnNumber: 152
             }, this)
         }
     ];
@@ -4324,7 +4367,8 @@ const Content = ()=>{
                                                                                                 fontSize: "16px",
                                                                                                 fontWeight: "400",
                                                                                                 paddingRight: "38px",
-                                                                                                color: "#000000DE"
+                                                                                                color: "#000000DE",
+                                                                                                cursor: "pointer"
                                                                                             },
                                                                                             onClick: handleClickOpen,
                                                                                             children: row.fat
