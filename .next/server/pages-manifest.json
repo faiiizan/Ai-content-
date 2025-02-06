@@ -2,16 +2,11 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/dashboard": "pages/dashboard.js",
-  "/dashboard/analyst": "pages/dashboard/analyst.js",
+  "/login": "pages/login.js",
   "/dashboard/templates": "pages/dashboard/templates.js",
   "/dashboard/assistant": "pages/dashboard/assistant.js",
-  "/dashboard/article": "pages/dashboard/article.js",
-  "/dashboard/image": "pages/dashboard/image.js",
-  "/dashboard/contentwriter": "pages/dashboard/contentwriter.js",
-  "/dashboard/document": "pages/dashboard/document.js",
-  "/dashboard/history": "pages/dashboard/history.js",
-  "/dashboard/usage": "pages/dashboard/usage.js",
-  "/dashboard/profile": "pages/dashboard/profile.js",
-  "/dashboard/plans": "pages/dashboard/plans.js",
-  "/_error": "pages/_error.js"
+  "/dashboard/analyst": "pages/dashboard/analyst.js",
+  "/dashboard/upgradeplan": "pages/dashboard/upgradeplan.js",
+  "/_error": "pages/_error.js",
+  "/dashboard/plans": "pages/dashboard/plans.js"
 }

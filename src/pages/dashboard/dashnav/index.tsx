@@ -238,11 +238,9 @@ const Dashnav = () => {
                           },
                         }}
                       >
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", display: "flex", alignItems: "flex-start" }} ><AccountBoxIcon sx={{ marginRight: "10px", fontSize: "40px" }} /> User1 <br />
-                          faizan@gmail
-                        </MenuItem>
-                        <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
-                        <Link href='/section5' style={{textDecoration:"none",color:"#000"}}>
+                        
+                        
+                      <Link href='/dashboard/upgradeplan' style={{textDecoration:"none",color:"#000"}}>
                         <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start", paddingLeft: "15px" }} >
                         <ShowChartIcon sx={{ marginRight: "15px", paddingLeft: "5px" }} />Upgarde Plan
                         </MenuItem>
@@ -264,8 +262,10 @@ const Dashnav = () => {
                         </MenuItem>
                         </Link>
                         <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "25px", paddingLeft: "15px" }} />Log Out
+                        <Link href='/login' style={{textDecoration:"none",color:"#000"}}>
+                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "15px", paddingLeft: "8px" }} />Log Out
                         </MenuItem>
+                        </Link>
                       </Menu>
 
                     </Box>

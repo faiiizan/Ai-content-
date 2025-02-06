@@ -12,6 +12,8 @@ import image4 from '../../../app/Assets/Imges/Group.png'
 
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import { Navigate } from 'react-router-dom'
+import { useRouter } from 'next/router'
 
 
 
@@ -19,6 +21,11 @@ import Dashsidebar from '../dashsidebar'
 const History = () => {
 
 
+ const router = useRouter()
+
+ const handleclick = ()=>{
+    router.push('/dashboard/upgradeplan')
+ }
 
   
 
@@ -57,7 +64,7 @@ const History = () => {
                     </Typography>
                   </Link>
                   <Box sx={{ paddingTop: { xs: "20px", sm: "0px" } }}>
-                    <Button variant='contained' sx={{ backgroundColor: "#D7F200", borderRadius: "15.6px", textTransform: "capitalize", color: "#515151", fontFamily: "Inter", boxShadow: "none", padding: { sm: "15px 25px", xs: "10px 20px" }, fontSize: { sm: "21px", xs: "18px" }, lineHeight: "27px" }}>
+                    <Button variant='contained' sx={{ backgroundColor: "#D7F200", borderRadius: "15.6px", textTransform: "capitalize", color: "#515151", fontFamily: "Inter", boxShadow: "none", padding: { sm: "15px 25px", xs: "10px 20px" }, fontSize: { sm: "21px", xs: "18px" }, lineHeight: "27px" }} onClick={handleclick}>
                       Upgrade plan
                     </Button>
                   </Box>
