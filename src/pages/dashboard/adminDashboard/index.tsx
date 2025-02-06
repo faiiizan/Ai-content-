@@ -37,11 +37,7 @@ const Dashboard = () => {
   ];
 
 
-  const options = [
-    { value: 'Active', label: 'Active' },
-    { value: 'Non-Active', label: 'Non-Active' },
-
-  ];
+ 
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
