@@ -94,13 +94,17 @@ export default function Header() {
             </Typography>
 
             {/* Logo on the left for desktop and tablet */}
+           
             <Typography
               variant="h6"
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' }, justifyContent: 'flex-start', alignItems: 'center' }}
             >
+               <Link href='/dashboard'>
               <Image src={logo} alt="logo" style={{ width: '197px', height: '81px' }} />
+              </Link>
             </Typography>
+            
 
             {/* Desktop navigation links */}
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', color: '#000', paddingTop: '12px' }}>
