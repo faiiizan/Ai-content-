@@ -4104,7 +4104,7 @@ const AdminAssistant = ()=>{
             expiry: 'Marketing',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 96
             }, this)
         },
@@ -4116,7 +4116,7 @@ const AdminAssistant = ()=>{
             expiry: 'Sales',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 49,
+                lineNumber: 48,
                 columnNumber: 91
             }, this)
         },
@@ -4128,7 +4128,7 @@ const AdminAssistant = ()=>{
             expiry: 'Health',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 50,
+                lineNumber: 49,
                 columnNumber: 94
             }, this)
         },
@@ -4140,7 +4140,7 @@ const AdminAssistant = ()=>{
             expiry: 'Job',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 51,
+                lineNumber: 50,
                 columnNumber: 87
             }, this)
         },
@@ -4152,7 +4152,7 @@ const AdminAssistant = ()=>{
             expiry: 'Business',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 52,
+                lineNumber: 51,
                 columnNumber: 96
             }, this)
         },
@@ -4164,7 +4164,7 @@ const AdminAssistant = ()=>{
             expiry: 'Website',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 53,
+                lineNumber: 52,
                 columnNumber: 95
             }, this)
         },
@@ -4176,7 +4176,7 @@ const AdminAssistant = ()=>{
             expiry: 'Writing',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 54,
+                lineNumber: 53,
                 columnNumber: 93
             }, this)
         },
@@ -4188,7 +4188,7 @@ const AdminAssistant = ()=>{
             expiry: 'Marketing',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 94
             }, this)
         },
@@ -4200,7 +4200,7 @@ const AdminAssistant = ()=>{
             expiry: 'Social',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 56,
+                lineNumber: 55,
                 columnNumber: 93
             }, this)
         },
@@ -4212,7 +4212,7 @@ const AdminAssistant = ()=>{
             expiry: 'Website',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 57,
+                lineNumber: 56,
                 columnNumber: 94
             }, this)
         },
@@ -4224,7 +4224,7 @@ const AdminAssistant = ()=>{
             expiry: 'Writing',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 58,
+                lineNumber: 57,
                 columnNumber: 94
             }, this)
         },
@@ -4236,7 +4236,7 @@ const AdminAssistant = ()=>{
             expiry: 'Marketing',
             carbs: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                lineNumber: 59,
+                lineNumber: 58,
                 columnNumber: 96
             }, this)
         }
@@ -4246,7 +4246,7 @@ const AdminAssistant = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2f$dashnav$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                    lineNumber: 66,
+                    lineNumber: 65,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4262,7 +4262,7 @@ const AdminAssistant = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2f$dashsidebar$2f$index$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                lineNumber: 71,
+                                lineNumber: 70,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Grid$2f$Grid$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
@@ -4305,7 +4305,7 @@ const AdminAssistant = ()=>{
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 75,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__["Link"], {
@@ -4324,18 +4324,18 @@ const AdminAssistant = ()=>{
                                                     children: "Assistant"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 79,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 74,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 73,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4366,7 +4366,7 @@ const AdminAssistant = ()=>{
                                                         children: "Buy Property List"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 89,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4396,7 +4396,7 @@ const AdminAssistant = ()=>{
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$dashboard$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].inputField
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                lineNumber: 94,
+                                                                lineNumber: 93,
                                                                 columnNumber: 41
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4424,24 +4424,24 @@ const AdminAssistant = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                    lineNumber: 96,
+                                                                    lineNumber: 95,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                lineNumber: 95,
+                                                                lineNumber: 94,
                                                                 columnNumber: 41
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 92,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 88,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableContainer$2f$TableContainer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4468,7 +4468,7 @@ const AdminAssistant = ()=>{
                                                                         children: "Sl.No"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 105,
+                                                                        lineNumber: 104,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4482,7 +4482,7 @@ const AdminAssistant = ()=>{
                                                                         children: "Image"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 106,
+                                                                        lineNumber: 105,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4496,7 +4496,7 @@ const AdminAssistant = ()=>{
                                                                         children: "User Name"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 107,
+                                                                        lineNumber: 106,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4510,7 +4510,7 @@ const AdminAssistant = ()=>{
                                                                         children: "Role"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 108,
+                                                                        lineNumber: 107,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4524,7 +4524,7 @@ const AdminAssistant = ()=>{
                                                                         children: "Group"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 109,
+                                                                        lineNumber: 108,
                                                                         columnNumber: 53
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4538,18 +4538,18 @@ const AdminAssistant = ()=>{
                                                                         children: "Action"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                        lineNumber: 110,
+                                                                        lineNumber: 109,
                                                                         columnNumber: 53
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 103,
                                                                 columnNumber: 49
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                            lineNumber: 103,
+                                                            lineNumber: 102,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableBody$2f$TableBody$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4571,7 +4571,7 @@ const AdminAssistant = ()=>{
                                                                             children: row.slNo
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 121,
+                                                                            lineNumber: 120,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4596,12 +4596,12 @@ const AdminAssistant = ()=>{
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                lineNumber: 125,
+                                                                                lineNumber: 124,
                                                                                 columnNumber: 61
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 124,
+                                                                            lineNumber: 123,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4618,7 +4618,7 @@ const AdminAssistant = ()=>{
                                                                             children: row.planName
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 128,
+                                                                            lineNumber: 127,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4635,7 +4635,7 @@ const AdminAssistant = ()=>{
                                                                             children: row.fat
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 131,
+                                                                            lineNumber: 130,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4652,7 +4652,7 @@ const AdminAssistant = ()=>{
                                                                             children: row.expiry
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 134,
+                                                                            lineNumber: 133,
                                                                             columnNumber: 57
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TableCell$2f$TableCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4688,12 +4688,12 @@ const AdminAssistant = ()=>{
                                                                                             }
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                            lineNumber: 142,
+                                                                                            lineNumber: 141,
                                                                                             columnNumber: 65
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                        lineNumber: 141,
+                                                                                        lineNumber: 140,
                                                                                         columnNumber: 62
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4714,12 +4714,12 @@ const AdminAssistant = ()=>{
                                                                                             }
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                            lineNumber: 145,
+                                                                                            lineNumber: 144,
                                                                                             columnNumber: 65
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                        lineNumber: 144,
+                                                                                        lineNumber: 143,
                                                                                         columnNumber: 62
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -4740,74 +4740,74 @@ const AdminAssistant = ()=>{
                                                                                             }
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                            lineNumber: 148,
+                                                                                            lineNumber: 147,
                                                                                             columnNumber: 65
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                        lineNumber: 147,
+                                                                                        lineNumber: 146,
                                                                                         columnNumber: 62
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                                lineNumber: 140,
+                                                                                lineNumber: 139,
                                                                                 columnNumber: 59
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                            lineNumber: 138,
+                                                                            lineNumber: 137,
                                                                             columnNumber: 57
                                                                         }, this)
                                                                     ]
                                                                 }, row.slNo, true, {
                                                                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                                    lineNumber: 117,
+                                                                    lineNumber: 116,
                                                                     columnNumber: 53
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                            lineNumber: 115,
+                                                            lineNumber: 114,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                    lineNumber: 102,
+                                                    lineNumber: 101,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 100,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 87,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                                lineNumber: 73,
+                                lineNumber: 72,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                        lineNumber: 70,
+                        lineNumber: 69,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-                    lineNumber: 69,
+                    lineNumber: 68,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/pages/dashboard/adminAssistant/index.tsx",
-            lineNumber: 65,
+            lineNumber: 64,
             columnNumber: 13
         }, this)
     }, void 0, false);
