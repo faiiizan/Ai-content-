@@ -13,8 +13,8 @@ __turbopack_load_page_chunks__("/dashboard/templates", [
   "static/chunks/node_modules_react-icons_pi_index_mjs_df545e._.js",
   "static/chunks/node_modules_react-icons_si_index_mjs_a94695._.js",
   "static/chunks/node_modules_react-icons_lib_75a63d._.js",
-  "static/chunks/node_modules_921060._.js",
+  "static/chunks/node_modules_8a0c54._.js",
   "static/chunks/src_pages_dashboard_module_7fa464.css",
   "static/chunks/src_pages_dashboard_templates_index_tsx_5771e1._.js",
-  "static/chunks/src_pages_dashboard_templates_index_tsx_62d812._.js"
+  "static/chunks/src_pages_dashboard_templates_index_tsx_fc3c18._.js"
 ])
