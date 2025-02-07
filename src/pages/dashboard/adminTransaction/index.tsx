@@ -1,10 +1,6 @@
 "use Client"
-import { Box, Button, Grid, Typography, Divider, Breadcrumbs, Link as MUILink, } from '@mui/material'
-import React, { useState, PureComponent, SVGProps } from 'react'
-import TextSnippetIcon from '@mui/icons-material/TextSnippet';
-import CollectionsIcon from '@mui/icons-material/Collections';
-import JoinLeftIcon from '@mui/icons-material/JoinLeft';
-import UpdateIcon from '@mui/icons-material/Update';
+import { Box, Button, Grid, Typography,  Breadcrumbs, Link as MUILink, } from '@mui/material'
+import React, { useState,  SVGProps } from 'react'
 import Dashnav from '../dashnav';
 import Dashsidebar from '../dashsidebar';
 import Table from '@mui/material/Table';
@@ -19,7 +15,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Menu, MenuItem } from "@mui/material";
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar,  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 const CustomRectangle = (props: SVGProps<SVGRectElement>) => (

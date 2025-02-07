@@ -1,19 +1,7 @@
 "use Client"
-import { Box, Grid, Typography, Breadcrumbs, Link as MUILink, Button, Menu, MenuItem, } from '@mui/material'
-import React, { useState } from 'react'
-import Image from 'next/image'
+import { Box, Grid, Typography, Breadcrumbs, Link as MUILink,  } from '@mui/material'
+import React  from 'react'
 import Hero from '../../../pages/dashboard.module.css'
-import image1 from '../../../app/Assets/Imges/Ellipse 1.png'
-import image2 from '../../../app/Assets/Imges/Ellipse 1 (1).png'
-import image3 from '../../../app/Assets/Imges/Ellipse 1 (2).png'
-import image4 from '../../../app/Assets/Imges/Ellipse 1 (3).png'
-import image5 from '../../../app/Assets/Imges/Ellipse 1 (4).png'
-import image6 from '../../../app/Assets/Imges/Ellipse 1 (5).png'
-import image8 from '../../../app/Assets/Imges/Ellipse 1 (7).png'
-import image9 from '../../../app/Assets/Imges/Ellipse 1 (8).png'
-import image10 from '../../../app/Assets/Imges/Ellipse 1 (9).png'
-import image11 from '../../../app/Assets/Imges/Ellipse 1 (10).png'
-import image12 from '../../../app/Assets/Imges/Ellipse 1 (11).png'
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
 import SearchIcon from '@mui/icons-material/Search';
@@ -27,7 +15,7 @@ import Paper from '@mui/material/Paper';
 import DeleteIcon from '@mui/icons-material/Delete';
 import RateReviewIcon from '@mui/icons-material/RateReview';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 
 
 
@@ -38,17 +26,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 const AdminUser = () => {
 
 
-   const [anchorEll, setAnchorEll] = useState<null | HTMLElement>(null);
    
-       // Open the menu when button is clicked
-       const handleClickk = (event: React.MouseEvent<HTMLButtonElement>) => {
-           setAnchorEll(event.currentTarget);
-       };
-   
-       // Close the menu
-       const handleClosee = () => {
-           setAnchorEll(null);
-       };
    
        //
 
