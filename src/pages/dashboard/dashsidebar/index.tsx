@@ -175,56 +175,56 @@ const Dashsidebar = () => {
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminSubscription' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminSubscription') }}>
                                         < PaidIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Subscription
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminTransaction' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminTransaction') }}>
                                         < PersonIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Transaction
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminplan' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminplan') }}>
                                         < TextSnippetIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Plans
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminBlog' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminBlog') }}>
                                         < PersonIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Blog
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminPages' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminPages') }}>
                                         < LayersIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Pages
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminUser' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminUser') }}>
                                         < GroupIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Users
                                     </Typography>
                                 </Link>
                             </li>
                             <li style={{ listStyle: "none" }}>
-                                <Link href='/dashboard/profile' style={{ textDecoration: "none" }} passHref>
-                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/profile') }}>
+                                <Link href='/dashboard/adminSetting' style={{ textDecoration: "none" }} passHref>
+                                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: "18px", lineHeight: "50px", fontWeight: "400", color: "#737791", textAlign: "left",...getLinkStyle('/dashboard/adminSetting') }}>
                                         < SettingsIcon sx={{ paddingRight: "20px",paddingTop:"10px",paddingLeft:"10px" }} />   
                                         Setting
                                     </Typography>

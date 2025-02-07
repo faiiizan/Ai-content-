@@ -3959,7 +3959,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/plans')
+                                                ...getLinkStyle('/dashboard/adminAssistant')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$ssr$5d$__$28$ecmascript$29$__["SiGoogleassistant"], {
@@ -3995,7 +3995,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminSubscription",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -4010,7 +4010,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminSubscription')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Paid$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4046,7 +4046,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminTransaction",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -4061,7 +4061,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminTransaction')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4097,7 +4097,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminplan",
                                         style: {
                                             textDecoration: "none"
                                         },

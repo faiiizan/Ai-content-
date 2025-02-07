@@ -137,13 +137,13 @@ const AdminAssistant = () => {
                                                         <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", textAlign: "center" }}>
 
                                                           <Box sx={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
-                                                             <Box sx={{width:"50px",height:"50px",backgroundColor:"#3498DB",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
+                                                             <Box sx={{width:"37px",height:"37px",backgroundColor:"#3498DB",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
                                                                 <RateReviewIcon sx={{color:"#fff",cursor:"pointer"}}/>
                                                              </Box>
-                                                             <Box sx={{width:"50px",height:"50px",backgroundColor:"#E74C3C",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
+                                                             <Box sx={{width:"37px",height:"37px",backgroundColor:"#E74C3C",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
                                                                 <DeleteIcon sx={{color:"#fff",cursor:"pointer"}}/>
                                                              </Box>
-                                                             <Box sx={{width:"50px",height:"50px",backgroundColor:"#2ECC71",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
+                                                             <Box sx={{width:"37px",height:"37px",backgroundColor:"#2ECC71",display:"flex",justifyContent:"center",alignItems:"center",borderRadius:"50%",cursor:"pointer"}}>
                                                                 <RemoveRedEyeIcon sx={{color:"#fff",cursor:"pointer"}}/>
                                                              </Box>
                                                           </Box>

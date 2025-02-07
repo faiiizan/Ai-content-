@@ -3611,7 +3611,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminSubscription",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -3626,7 +3626,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminSubscription')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Paid$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3662,7 +3662,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminTransaction",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -3677,7 +3677,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminTransaction')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3713,7 +3713,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminplan",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -3728,7 +3728,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminplan')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$TextSnippet$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3764,7 +3764,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminBlog",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -3779,7 +3779,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminBlog')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3815,7 +3815,7 @@ const Dashsidebar = ()=>{
                                         listStyle: "none"
                                     },
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/dashboard/profile",
+                                        href: "/dashboard/adminPages",
                                         style: {
                                             textDecoration: "none"
                                         },
@@ -3830,7 +3830,7 @@ const Dashsidebar = ()=>{
                                                 fontWeight: "400",
                                                 color: "#737791",
                                                 textAlign: "left",
-                                                ...getLinkStyle('/dashboard/profile')
+                                                ...getLinkStyle('/dashboard/adminPages')
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Layers$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4672,8 +4672,8 @@ const AdminAssistant = ()=>{
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                                                         sx: {
-                                                                                            width: "50px",
-                                                                                            height: "50px",
+                                                                                            width: "37px",
+                                                                                            height: "37px",
                                                                                             backgroundColor: "#3498DB",
                                                                                             display: "flex",
                                                                                             justifyContent: "center",
@@ -4698,8 +4698,8 @@ const AdminAssistant = ()=>{
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                                                         sx: {
-                                                                                            width: "50px",
-                                                                                            height: "50px",
+                                                                                            width: "37px",
+                                                                                            height: "37px",
                                                                                             backgroundColor: "#E74C3C",
                                                                                             display: "flex",
                                                                                             justifyContent: "center",
@@ -4724,8 +4724,8 @@ const AdminAssistant = ()=>{
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                                                         sx: {
-                                                                                            width: "50px",
-                                                                                            height: "50px",
+                                                                                            width: "37px",
+                                                                                            height: "37px",
                                                                                             backgroundColor: "#2ECC71",
                                                                                             display: "flex",
                                                                                             justifyContent: "center",
@@ -4824,7 +4824,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-const PAGE_PATH = "/dashboard/adminAssistant";
+const PAGE_PATH = "/dashboard/adminBlog";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{
