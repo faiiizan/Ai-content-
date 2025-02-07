@@ -11,17 +11,21 @@ import { useForm } from 'react-hook-form';
 import Hero from '../pages/signup.module.css'
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import axiosInstance from '@/utils/axios';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Signup = () => {
    
-   const {register,handleSubmit,formState:{errors}} = useForm()
+   const {register,handleSubmit, watch, formState:{errors}} = useForm()
 
-    const onHandleSubmit = ()=>{
-    //    const formdata =  new FormData()
-    //    formdata.append('user_name',data.user_name);
-    //    formdata.append('Email_Address',data.Email_Address)
-    //    formdata.append('password',data.password);
+   const password = watch("password")
+
+    const onHandleSubmit = async (data: any)=>{
+      const reqbody = {"name": data.Your_name, "email": data.Email_Address, "pass": data.Confirm_Password}
+      const res = await axiosInstance.post("/ai/auth/signup", reqbody);
+      if(res && res.status === 200) {
+        alert("Registration Successful")  
+      }
     }
    
   return (
@@ -105,7 +109,7 @@ const Signup = () => {
                       },
                      
                     }}
-                    type='password'
+                    type='text'
                     {...register("Email_Address",{required:true})}
                 />
                 {errors?.Email_Address && <span style={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",color:"#F32013",paddingLeft:"15px",paddingTop:"12px"}}>This Field is Required*</span>}
@@ -134,7 +138,7 @@ const Signup = () => {
                      
                     }}
                     type='password'
-                    {...register("Password",{required:true})}
+                    {...register("password",{required:true})}
                 />
                 {errors?.Password && <span style={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",color:"#F32013",paddingLeft:"15px",paddingTop:"12px"}}>This Field is Required*</span>}
               </Box>
@@ -162,9 +166,9 @@ const Signup = () => {
                      
                     }}
                     type='password'
-                    {...register("Confirm_Password",{required:true})}
+                    {...register("Confirm_Password",{required: "This Field is Required*", validate: value => value === password || "Password Mismatch"})}
                 />
-                {errors?.Confirm_Password && <span style={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",color:"#F32013",paddingLeft:"15px",paddingTop:"12px"}}>This Field is Required*</span>}
+                {errors?.Confirm_Password && <span style={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",color:"#F32013",paddingLeft:"15px",paddingTop:"12px"}}>{errors?.Confirm_Password?.message}</span>}
               </Box>
               <Box sx={{fontSize:"14px",fontFamily:"Inter",fontWeight:"400",lineHeight:"24px"}}>
               <Checkbox {...label} defaultChecked /> I agree to the <Link href='/login' style={{textDecoration:"none",color:"#2E95FB"}}> Terms &  Conditions </Link>

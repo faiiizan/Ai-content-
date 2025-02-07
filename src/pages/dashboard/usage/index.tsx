@@ -4,6 +4,7 @@ import React from 'react'
 
 import Dashsidebar from '../dashsidebar'
 import Dashnav from '../dashnav'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 
 
@@ -19,6 +20,7 @@ const History = () => {
 
     return (
         <>
+        <DashboardLayout>
             <Box>
                 <Dashnav/>
                 {/* top header completed */}
@@ -144,6 +146,7 @@ const History = () => {
 
 
             </Box>
+        </DashboardLayout>
         </>
     )
 }

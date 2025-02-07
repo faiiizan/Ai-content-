@@ -4,6 +4,7 @@ import React from 'react'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout';
 
 
 
@@ -39,6 +40,7 @@ const Article = () => {
 
   return (
     <>
+    <DashboardLayout>
       <Box>
         <Dashnav/>
         {/* top header completed */}
@@ -248,6 +250,7 @@ const Article = () => {
 
 
       </Box>
+      </DashboardLayout>
     </>
   )
 }

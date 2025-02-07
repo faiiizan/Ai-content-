@@ -9,6 +9,7 @@ import { MdOutlineFileUpload } from "react-icons/md";
 
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 
 
@@ -27,6 +28,7 @@ const Analyst = () => {
 
   return (
     <>
+    <DashboardLayout>
       <Box>
         <Dashnav/>
         {/* top header completed */}
@@ -87,6 +89,7 @@ const Analyst = () => {
 
 
       </Box>
+    </DashboardLayout>
     </>
   )
 }

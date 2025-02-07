@@ -1,5 +1,5 @@
 import { Box, Button, Card, Checkbox, Container, Grid, TextField, Typography } from '@mui/material'
-import React from 'react'
+import React, {useEffect} from 'react'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import googlePic from '../app/Assets/Imges/image 3.png'
 import Image from 'next/image';
@@ -10,17 +10,38 @@ import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import axiosInstance from '@/utils/axios';
+import sha256 from 'sha256';
+import Cookies from 'js-cookie'
+import { useRouter } from 'next/router';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Login = () => {
-   
-   const {register,handleSubmit,formState:{errors}} = useForm()
+    const router = useRouter();
+    const {register,handleSubmit,formState:{errors}} = useForm()
 
-    const onHandleSubmit = ()=>{
-      //  const formdata =  new FormData()
-      //  formdata.append('user_name',data.user_name);
-      //  formdata.append('password',data.password)
+    const onHandleSubmit = async (data: any) => {
+      const reqbody = {"email": data.user_name, "pass": sha256(data.password)}
+      const res = await axiosInstance.post("/ai/auth/signin", reqbody)
+
+      if(res) {
+        //Setting up cookie
+        const user = JSON.stringify(res.data.user);
+        Cookies.set('token', res.data.token, { expires: 1, path: '/' })
+        Cookies.set('user', user, { expires: 1, path: '/' })
+        //redirect to DB
+        router.push('/dashboard')
+      }
     }
+
+    useEffect(() => {
+      const token = Cookies.get('token')
+      const user = Cookies.get('user')
+      if(user && token) {
+        router.push('/dashboard')
+      }
+    }, [])
+    
    
   return (
    <>

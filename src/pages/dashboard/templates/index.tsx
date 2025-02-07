@@ -8,6 +8,7 @@ import Tab from '@mui/material/Tab';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -49,6 +50,7 @@ const Templates = () => {
 
   return (
     <>
+    <DashboardLayout>
       <Box>
         <Dashnav />
         {/* top header completed */}
@@ -2257,6 +2259,7 @@ const Templates = () => {
 
 
       </Box>
+    </DashboardLayout>
     </>
   )
 }

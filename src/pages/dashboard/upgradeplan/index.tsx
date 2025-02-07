@@ -9,6 +9,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DoneIcon from '@mui/icons-material/Done'
 import { Tab, Tabs, } from '@mui/material'
 import bgImage from '../../../app/Assets/Imges/16359108_v904-nunny-026 1.png'
+import DashboardLayout from '@/components/layout/DashboardLayout';
 
 
 interface TabPanelProps {
@@ -58,6 +59,7 @@ const UpgradePlan = () => {
 
     return (
         <>
+        <DashboardLayout>
             <Box >
                 <Dashnav />
 
@@ -547,6 +549,7 @@ const UpgradePlan = () => {
 
 
             </Box>
+        </DashboardLayout>
         </>
     )
 }

@@ -24,6 +24,7 @@ import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import FeedIcon from '@mui/icons-material/Feed';
 import { SiGoogleassistant } from "react-icons/si"; 
 import { PiChartPieSliceFill } from "react-icons/pi";
+import Cookies from 'js-cookie'
 
 
 const Dashnav = () => {
@@ -43,6 +44,12 @@ const Dashnav = () => {
         const handleClosee = () => {
           setAnchorEll(null);
         };
+
+        const handleLogout = () => {
+          Cookies.remove('user');
+          Cookies.remove('token');
+        }
+
         const menuItems = (
             <Box sx={{ width: { xs: 250, sm: "500px" }, padding: { xs: "15px 10px", sm: "20px 30px" } }}>
               {/* Credits Section */}
@@ -272,7 +279,7 @@ const Dashnav = () => {
                         </Link>
                         <Divider sx={{ my: 1, borderColor: '#e0e0e0', borderWidth: '1px' }} />
                         <Link href='/login' style={{textDecoration:"none",color:"#000"}}>
-                        <MenuItem onClick={handleClosee} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "15px", paddingLeft: "8px" }} />Log Out
+                        <MenuItem onClick={handleLogout} sx={{ fontFamily: "Poppins", fontWeight: "500", letterSpacing: "1px", paddingTop: "20px", display: "flex", alignItems: "flex-start" }} ><LogoutIcon sx={{ marginRight: "15px", paddingLeft: "8px" }} />Log Out
                         </MenuItem>
                         </Link>
                       </Menu>

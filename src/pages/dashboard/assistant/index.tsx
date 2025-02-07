@@ -18,6 +18,7 @@ import image12 from '../../../app/Assets/Imges/Ellipse 1 (11).png'
 import { FaPaperclip } from 'react-icons/fa';
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 
 
@@ -53,6 +54,7 @@ const Templates = () => {
 
   return (
     <>
+    <DashboardLayout>
       <Box>
         <Dashnav/>
         {/* top header completed */}
@@ -132,6 +134,7 @@ const Templates = () => {
 
 
       </Box>
+    </DashboardLayout>
     </>
   )
 }

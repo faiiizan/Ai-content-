@@ -4,6 +4,7 @@ import React from 'react'
 import Hero from '../../../pages/dashboard.module.css'
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 
 
@@ -19,6 +20,7 @@ const Profile = () => {
 
   return (
     <>
+    <DashboardLayout>
       <Box>
         <Dashnav/>
         {/* top header completed */}
@@ -193,6 +195,7 @@ const Profile = () => {
 
 
       </Box>
+    </DashboardLayout>
     </>
   )
 }

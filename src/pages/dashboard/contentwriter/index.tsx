@@ -3,6 +3,7 @@ import { Box, Grid, Typography,  MenuItem,Breadcrumbs, Link as MUILink, TextFiel
 import React from 'react'
 import Dashnav from '../dashnav'
 import Dashsidebar from '../dashsidebar'
+import DashboardLayout from '@/components/layout/DashboardLayout'
 
 
 
@@ -38,6 +39,7 @@ const Contentwriter = () => {
 
     return (
         <>
+        <DashboardLayout>
             <Box>
                <Dashnav/>
                 {/* top header completed */}
@@ -249,6 +251,7 @@ const Contentwriter = () => {
 
 
             </Box>
+        </DashboardLayout>
         </>
     )
 }
