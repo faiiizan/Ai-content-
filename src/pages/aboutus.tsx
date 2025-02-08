@@ -22,7 +22,7 @@ const aboutus = () => {
                         paddingTop:{sm:"60px",xs:"0px"}
                       }}
                     >
-                      About  <span style={{ fontWeight: '600', backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
+                      About US  <span style={{ fontWeight: '600', backgroundImage: 'linear-gradient(to right, #603BFC , #FF6835 )',
                 WebkitBackgroundClip: 'text',
                 color: 'transparent', }}>Us</span>
                     </Typography>
