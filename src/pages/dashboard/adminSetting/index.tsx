@@ -1,6 +1,6 @@
 "use Client"
-import { Box, Grid, Typography, Breadcrumbs, Link as MUILink, TextField, Button, Checkbox, } from '@mui/material'
-import React from 'react'
+import { Box, Grid, Typography, Breadcrumbs, Link as MUILink, TextField, Button, Checkbox, Divider, Menu, } from '@mui/material'
+import React, { useState } from 'react'
 import Hero from '../../../pages/dashboard.module.css'
 import Link from 'next/link'
 import Tabs from '@mui/material/Tabs';
@@ -11,6 +11,21 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../../../app/Assets/Imges/logo.svg'
 import RateReviewIcon from '@mui/icons-material/RateReview';
 import Image from 'next/image'
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+import DeleteIcon from '@mui/icons-material/Delete';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -196,7 +211,7 @@ const Templates = () => {
         },
     ]
 
-    const Imagearr=[
+    const Imagearr = [
         {
             value: 'DALL-E-3',
             label: 'DALL-E-3',
@@ -207,7 +222,64 @@ const Templates = () => {
         },
     ]
 
+    const rows = [
 
+        { slNo: 1, Name: "GPT-4", Model: "gpt-4", Type: "GPT" },
+        { slNo: 2, Name: "GPT-4 Turbo", Model: "gpt-4-1106-preview", Type: "GPT" },
+        { slNo: 3, Name: "DALL-E-2", Model: "dall-e-2", Type: "GPT" },
+        { slNo: 4, Name: "GPT 4o mini", Model: "gpt-4o", Type: "GPT" },
+        { slNo: 5, Name: "GPT-4o", Model: "gpt-4o-mini", Type: "GPT" },
+
+
+    ];
+
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const rowss = [
+        { slNo: 1, name: 'Arabic', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 2, name: 'English', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 3, name: 'Bengali', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 4, name: 'Russian', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 5, name: 'Hindi', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 6, name: 'Japanese', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 7, name: 'Chinese', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 8, name: 'Bhojpuri', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+    ];
+
+    const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
+    // Open the menu when button is clicked
+    const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    // Close the menu
+    const handleClosee = () => {
+        setAnchorEl(null);
+    };
+
+    const rowssTone = [
+        { slNo: 1, name: 'Appreciative', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 2, name: 'Assertive', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 3, name: 'Awestruck', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 4, name: 'Bold', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 5, name: 'Casual', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 6, name: 'Cautionary', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 7, name: 'Convincing', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 8, name: 'Dramatic', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 9, name: 'Enthusiastic', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 10, name: 'Formal', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 11, name: 'Friendly', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+        { slNo: 12, name: 'Funny', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
+    ];
 
     return (
         <>
@@ -1549,7 +1621,7 @@ const Templates = () => {
                                             <Typography sx={{ fontSize: "35.18px", fontFamily: "Lato", color: "#222222", lineHeight: "42.22px", fontWeight: "600" }}>
                                                 Verbilab
                                             </Typography>
-                                            <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft:"5px" }}>
+                                            <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft: "5px" }}>
                                                 Version: 1.0
                                             </Typography>
                                             <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft: "5px" }}>
@@ -1870,7 +1942,7 @@ const Templates = () => {
                                             <Typography sx={{ paddingTop: "10px", fontFamily: "Poppins", fontSize: "15px", fontWeight: "500", lineHeight: "32px", color: "#686868" }}>
                                                 Brand Manage
                                             </Typography>
-                                            <Typography sx={{ paddingTop: "15px", fontFamily: "Quicksand", fontWeight:"600", color: "#7E7E7E", lineHeight: "25px", fontSize: "16px" }}>
+                                            <Typography sx={{ paddingTop: "15px", fontFamily: "Quicksand", fontWeight: "600", color: "#7E7E7E", lineHeight: "25px", fontSize: "16px" }}>
                                                 {`I find this platform to be extremely useful for marketing purposes. It allows you to input the information and specifications you have, and it generates a result that greatly assists in creating the desired text and tone. The platform's ability to produce tailored content is truly valuable for generating effective marketing materials.`}
                                             </Typography>
                                         </Box>
@@ -1987,7 +2059,7 @@ const Templates = () => {
                             {
                                 value === 10 ?
                                     <>
-                                        <Box sx={{ padding: {sm:"20px 44px",xs:"20px"}, backgroundColor: "#fff", borderRadius: "12px", marginTop: "20px" }}>
+                                        <Box sx={{ padding: { sm: "20px 44px", xs: "20px" }, backgroundColor: "#fff", borderRadius: "12px", marginTop: "20px" }}>
                                             <Typography sx={{ fontSize: "35.18px", fontFamily: "Lato", color: "#222222", lineHeight: "42.22px", fontWeight: "600" }}>
                                                 Default model
                                             </Typography>
@@ -2007,10 +2079,10 @@ const Templates = () => {
                                                             }}
                                                             id="outlined-select-currency"
                                                             placeholder='selectModel'
-                                                           defaultValue='GPT 4 o'
+                                                            defaultValue='GPT 4 o'
                                                             select
-                                                            
-                                                        
+
+
 
 
                                                         >
@@ -2035,10 +2107,10 @@ const Templates = () => {
                                                             }}
                                                             id="outlined-select-currency"
                                                             placeholder='selectModel'
-                                                           defaultValue='GPT 4 Turbo'
+                                                            defaultValue='GPT 4 Turbo'
                                                             select
-                                                            
-                                                        
+
+
 
 
                                                         >
@@ -2050,7 +2122,7 @@ const Templates = () => {
 
                                                         </TextField>
                                                     </Grid>
-                                                    <Grid xs={12} md={6} item sx={{marginTop:"20px"}}>
+                                                    <Grid xs={12} md={6} item sx={{ marginTop: "20px" }}>
                                                         <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Data Analyst</label>
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
@@ -2063,10 +2135,10 @@ const Templates = () => {
                                                             }}
                                                             id="outlined-select-currency"
                                                             placeholder='selectModel'
-                                                           defaultValue='GPT 4 Mini'
+                                                            defaultValue='GPT 4 Mini'
                                                             select
-                                                            
-                                                        
+
+
 
 
                                                         >
@@ -2078,7 +2150,7 @@ const Templates = () => {
 
                                                         </TextField>
                                                     </Grid>
-                                                    <Grid xs={12} md={6} item sx={{marginTop:"20px"}}>
+                                                    <Grid xs={12} md={6} item sx={{ marginTop: "20px" }}>
                                                         <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Article Generator</label>
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
@@ -2091,10 +2163,10 @@ const Templates = () => {
                                                             }}
                                                             id="outlined-select-currency"
                                                             placeholder='selectModel'
-                                                           defaultValue='GPT 4 Turbo'
+                                                            defaultValue='GPT 4 Turbo'
                                                             select
-                                                            
-                                                        
+
+
 
 
                                                         >
@@ -2106,7 +2178,7 @@ const Templates = () => {
 
                                                         </TextField>
                                                     </Grid>
-                                                    <Grid xs={12} md={6} item sx={{marginTop:"20px"}}>
+                                                    <Grid xs={12} md={6} item sx={{ marginTop: "20px" }}>
                                                         <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Image  Generator</label>
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
@@ -2119,10 +2191,10 @@ const Templates = () => {
                                                             }}
                                                             id="outlined-select-currency"
                                                             placeholder='selectModel'
-                                                           defaultValue='DALL-E-2'
+                                                            defaultValue='DALL-E-2'
                                                             select
-                                                            
-                                                        
+
+
 
 
                                                         >
@@ -2134,18 +2206,333 @@ const Templates = () => {
 
                                                         </TextField>
                                                     </Grid>
-                                                    
+
 
 
                                                 </Grid>
                                                 <Box sx={{ padding: "20px 0px" }}>
-                                                <Button variant='contained' sx={{ textTransform: "capitalize", backgroundColor: "#D7F200", padding: { sm: "15px 30px", xs: "8px 22px" }, color: "#000", boxShadow: "none", borderRadius: "12px", fontFamily: "Quicksand", fontSize: { sm: "19.18px", xs: "16px" }, lineHeight: "23.98px" }}>Update Details</Button>
-                                            </Box>
+                                                    <Button variant='contained' sx={{ textTransform: "capitalize", backgroundColor: "#D7F200", padding: { sm: "15px 30px", xs: "8px 22px" }, color: "#000", boxShadow: "none", borderRadius: "12px", fontFamily: "Quicksand", fontSize: { sm: "19.18px", xs: "16px" }, lineHeight: "23.98px" }}>Update Details</Button>
+                                                </Box>
                                             </Box>
                                         </Box>
-                                        <Box sx={{ padding: {sm:"20px 44px",xs:"20px"}, backgroundColor: "#fff", borderRadius: "12px", marginTop: "20px" }}>
+                                        <Box sx={{ padding: { sm: "20px 44px", xs: "20px" }, backgroundColor: "#fff", borderRadius: "12px", marginTop: "20px" }}>
+                                            <Typography sx={{ fontSize: "35.18px", lineHeight: "42.22px", fontWeight: "600", fontFamily: "Lato", color: "#222222" }}>
+                                                Model
+                                            </Typography>
+                                            <TableContainer component={Paper} sx={{ width: "100%", marginTop: "30px" }}>
+                                                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                                                    <TableHead>
+                                                        <TableRow>
+                                                            <TableCell sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px" }}>Sl.No</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }} >Name</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Model</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Type</TableCell>
+
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Action</TableCell>
+
+
+                                                        </TableRow>
+                                                    </TableHead>
+                                                    <TableBody>
+                                                        {rows.map((row) => (
+                                                            <TableRow
+                                                                key={row.slNo}
+                                                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                                            >
+                                                                <TableCell component="th" scope="row" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400" }}>
+                                                                    {row.slNo}
+                                                                </TableCell>
+                                                                <TableCell component="th" scope="row" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", textAlign: "center" }}>
+                                                                    {row.Name}
+                                                                </TableCell>
+
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                                    {row.Model}
+
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                                    {row.Type}
+
+                                                                </TableCell>
+
+
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "right" }}  >
+                                                                    <Box sx={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
+
+                                                                        <Box sx={{ width: "37px", height: "37px", backgroundColor: "#E74C3C", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                            <DeleteIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                        </Box>
+
+                                                                    </Box>
+
+                                                                </TableCell>
+
+
+
+
+
+                                                            </TableRow>
+                                                        ))}
+                                                    </TableBody>
+                                                </Table>
+                                            </TableContainer>
+                                            <Box sx={{ paddingTop: "30px" }}>
+                                                <Button variant='contained' sx={{ backgroundColor: "#D7F200", textTransform: "capitalize", boxShadow: "none", padding: "15px 30px", borderRadius: "12px", color: "#000", fontFamily: "Quicksand", fontWeight: "700", fontSize: "19.18px", lineHeight: "23.98px" }} onClick={handleClickOpen} >
+                                                    Add New Model
+                                                </Button>
+                                                <Dialog
+                                                    open={open}
+                                                    onClose={handleClose}
+                                                    aria-labelledby="alert-dialog-title"
+                                                    aria-describedby="alert-dialog-description"
+                                                >
+                                                    <DialogTitle id="alert-dialog-title" sx={{ textAlign: "center" }}>
+                                                        {"Add New Model"}
+                                                    </DialogTitle>
+                                                    <Divider />
+                                                    <DialogContent>
+                                                        <Grid xs={12} md={12} item>
+                                                            <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "16px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Model type</label>
+                                                            <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                                InputProps={{
+                                                                    style: {
+                                                                        backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                        borderRadius: "10px",
+                                                                        border: "1px solid #000",
+
+                                                                    },
+                                                                }}
+
+                                                                placeholder='selectModel'
+
+
+
+
+
+                                                            >
+
+
+                                                            </TextField>
+                                                        </Grid>
+                                                        <Grid xs={12} md={12} item sx={{ marginTop: "15px" }}>
+                                                            <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "16px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>AI Assistant</label>
+                                                            <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                                InputProps={{
+                                                                    style: {
+                                                                        backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                        borderRadius: "10px",
+                                                                        border: "1px solid #000",
+
+                                                                    },
+                                                                }}
+
+                                                                placeholder='selectModel'
+
+
+
+
+
+                                                            >
+
+
+                                                            </TextField>
+                                                        </Grid>
+                                                        <Grid xs={12} md={12} item sx={{ marginTop: "15px" }}>
+                                                            <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "16px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Model</label>
+                                                            <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                                InputProps={{
+                                                                    style: {
+                                                                        backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                        borderRadius: "10px",
+                                                                        border: "1px solid #000",
+
+                                                                    },
+                                                                }}
+
+                                                                placeholder='selectModel'
+
+
+
+
+
+                                                            >
+
+
+                                                            </TextField>
+                                                        </Grid>
+
+                                                    </DialogContent>
+                                                    <DialogActions sx={{ paddingBottom: "10px" }}>
+
+                                                        <Button onClick={handleClose} autoFocus fullWidth sx={{ backgroundColor: "#D7F200", color: "#000", borderRadius: "12px" }} >
+                                                            Add
+                                                        </Button>
+                                                    </DialogActions>
+                                                </Dialog>
+                                            </Box>
+                                        </Box>
+                                        <Box sx={{ background: "#fff", padding: "25px", borderRadius: "23px ", marginTop: "20px" }}>
+                                            <Typography sx={{ color: "#05004E", fontSize: "24px", fontFamily: "Poppins", fontWeight: "500", lineHeight: "32px", borderBottom: "1px solid #D4E1E9", paddingBottom: "15px" }}>
+                                                Language
+                                            </Typography>
+                                            <TableContainer component={Paper} sx={{ width: "100%", marginTop: "30px" }}>
+                                                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                                                    <TableHead>
+                                                        <TableRow>
+                                                            <TableCell sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px" }}>Sl.No</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }} > Name</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Default</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Status</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Action</TableCell>
+
+
+
+                                                        </TableRow>
+                                                    </TableHead>
+                                                    <TableBody>
+                                                        {rowss.map((row) => (
+                                                            <TableRow
+                                                                key={row.name}
+                                                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                                            >
+                                                                <TableCell component="th" scope="row" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400" }}>
+                                                                    {row.slNo}
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingLeft: "5px", textAlign: "center" }}>{row.name}
+
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                                    <input type="radio" style={{ width: "25px", height: "25px" }} className='radio' />
+
+                                                                </TableCell>
+
+
+
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", textAlign: "center" }}>
+                                                                    <Button variant='contained' sx={{ backgroundColor: "#F5F5F5", color: "#4A4A4ACC", boxShadow: "none", fontFamily: "Poppins" }} onClick={handleClick}>
+                                                                        Active <KeyboardArrowDownIcon sx={{ marginLeft: "10px" }} />
+                                                                    </Button>
+                                                                    <Menu
+                                                                        anchorEl={anchorEl}
+                                                                        open={Boolean(anchorEl)}
+                                                                        onClose={handleClosee}
+                                                                        sx={{ marginTop: "10px" }}
+                                                                    >
+                                                                        <MenuItem onClick={handleClosee} style={{ fontFamily: "Poppins" }}>Active</MenuItem>
+                                                                        <MenuItem onClick={handleClosee} style={{ fontFamily: "Poppins" }}>Non-Active</MenuItem>
+
+                                                                    </Menu>
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                                    <Box sx={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
+
+                                                                        <Box sx={{ width: "37px", height: "37px", backgroundColor: "#E74C3C", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                            <DeleteIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                        </Box>
+
+                                                                    </Box>
+
+                                                                </TableCell>
+
+                                                            </TableRow>
+                                                        ))}
+                                                    </TableBody>
+                                                </Table>
+                                            </TableContainer>
+
+                                            <Box sx={{ paddingTop: "25px", display: "flex", justifyContent: "flex-end" }}>
+                                                <Stack spacing={2}>
+
+                                                    <Pagination count={10} color="primary" />
+
+                                                </Stack>
+                                            </Box>
+                                            <Box sx={{ paddingTop: "50px", display: "flex", justifyContent: "flex-start", alignItems: "center", flexWrap: { sm: "none", xs: "wrap" } }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: { sm: "19.18px", xs: "16px" }, fontWeight: { sm: "700", xs: "600" }, lineHeight: "19.18px", textTransform: "capitalize", padding: { sm: "20px 35px", xs: "15px 30px" }, marginBottom: { xs: "10px", sm: "0px" } }}>Save Changes</Button>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#0CC0DF", color: "#fff", fontFamily: "Quicksand", boxShadow: "none", fontSize: { sm: "19.18px", xs: "16px" }, fontWeight: { sm: "700", xs: "600" }, lineHeight: "19.18px", textTransform: "capitalize", padding: { sm: "20px 35px", xs: "15px 30px" }, marginLeft: { xs: "none", sm: "25px" } }}>Add New Language</Button>
+                                            </Box>
 
                                         </Box>
+                                        <Box sx={{ background: "#fff", padding: "25px", borderRadius: "23px ", marginTop: "20px" }}>
+                                            <Typography sx={{ color: "#05004E", fontSize: "24px", fontFamily: "Poppins", fontWeight: "500", lineHeight: "32px", borderBottom: "1px solid #D4E1E9", paddingBottom: "15px" }}>
+                                                Language
+                                            </Typography>
+                                            <TableContainer component={Paper} sx={{ width: "100%", marginTop: "30px" }}>
+                                                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                                                    <TableHead>
+                                                        <TableRow>
+                                                            <TableCell sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px" }}>Sl.No</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }} > Name</TableCell>
+                                                            
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Status</TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Action</TableCell>
+
+
+
+                                                        </TableRow>
+                                                    </TableHead>
+                                                    <TableBody>
+                                                        {rowssTone.map((row) => (
+                                                            <TableRow
+                                                                key={row.name}
+                                                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                                            >
+                                                                <TableCell component="th" scope="row" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400" }}>
+                                                                    {row.slNo}
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingLeft: "5px", textAlign: "center" }}>{row.name}
+
+                                                                </TableCell>
+                                                              
+
+
+
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", textAlign: "center" }}>
+                                                                    <Button variant='contained' sx={{ backgroundColor: "#F5F5F5", color: "#4A4A4ACC", boxShadow: "none", fontFamily: "Poppins" }} onClick={handleClick}>
+                                                                        Active <KeyboardArrowDownIcon sx={{ marginLeft: "10px" }} />
+                                                                    </Button>
+                                                                    <Menu
+                                                                        anchorEl={anchorEl}
+                                                                        open={Boolean(anchorEl)}
+                                                                        onClose={handleClosee}
+                                                                        sx={{ marginTop: "10px" }}
+                                                                    >
+                                                                        <MenuItem onClick={handleClosee} style={{ fontFamily: "Poppins" }}>Active</MenuItem>
+                                                                        <MenuItem onClick={handleClosee} style={{ fontFamily: "Poppins" }}>Non-Active</MenuItem>
+
+                                                                    </Menu>
+                                                                </TableCell>
+                                                                <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                                    <Box sx={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
+
+                                                                        <Box sx={{ width: "37px", height: "37px", backgroundColor: "#E74C3C", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                            <DeleteIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                        </Box>
+
+                                                                    </Box>
+
+                                                                </TableCell>
+
+                                                            </TableRow>
+                                                        ))}
+                                                    </TableBody>
+                                                </Table>
+                                            </TableContainer>
+
+                                            <Box sx={{ paddingTop: "25px", display: "flex", justifyContent: "flex-end" }}>
+                                                <Stack spacing={2}>
+
+                                                    <Pagination count={10} color="primary" />
+
+                                                </Stack>
+                                            </Box>
+                                            <Box sx={{ paddingTop: "50px", display: "flex", justifyContent: "flex-start", alignItems: "center", flexWrap: { sm: "none", xs: "wrap" } }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: { sm: "19.18px", xs: "16px" }, fontWeight: { sm: "700", xs: "600" }, lineHeight: "19.18px", textTransform: "capitalize", padding: { sm: "20px 35px", xs: "15px 30px" }, marginBottom: { xs: "10px", sm: "0px" } }}>Save Changes</Button>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#0CC0DF", color: "#fff", fontFamily: "Quicksand", boxShadow: "none", fontSize: { sm: "19.18px", xs: "16px" }, fontWeight: { sm: "700", xs: "600" }, lineHeight: "19.18px", textTransform: "capitalize", padding: { sm: "20px 35px", xs: "15px 30px" }, marginLeft: { xs: "none", sm: "25px" } }}>Add Voice Tone</Button>
+                                            </Box>
+
+                                        </Box>
+                                       
                                     </> : null
                             }
                         </Grid>
