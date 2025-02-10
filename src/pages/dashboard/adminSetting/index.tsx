@@ -1548,7 +1548,7 @@ const Templates = () => {
                                             <Typography sx={{ fontSize: "35.18px", fontFamily: "Lato", color: "#222222", lineHeight: "42.22px", fontWeight: "600" }}>
                                                 Verbilab
                                             </Typography>
-                                            <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft: "5px" }}>
+                                            <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft:"5px" }}>
                                                 Version: 1.0
                                             </Typography>
                                             <Typography sx={{ paddingTop: "15px", fontSize: "17.04px", lineHeight: "19.59px", color: '#4A4A4A', fontWeight: "700", fontFamily: "Roboto", paddingLeft: "5px" }}>
@@ -1869,7 +1869,7 @@ const Templates = () => {
                                             <Typography sx={{ paddingTop: "10px", fontFamily: "Poppins", fontSize: "15px", fontWeight: "500", lineHeight: "32px", color: "#686868" }}>
                                                 Brand Manage
                                             </Typography>
-                                            <Typography sx={{ paddingTop: "15px", fontFamily: "Quicksand", fontWeight: "600", color: "#7E7E7E", lineHeight: "25px", fontSize: "16px" }}>
+                                            <Typography sx={{ paddingTop: "15px", fontFamily: "Quicksand", fontWeight:"600", color: "#7E7E7E", lineHeight: "25px", fontSize: "16px" }}>
                                                 I find this platform to be extremely useful for marketing purposes. It allows you to input the information and specifications you have, and it generates a result that greatly assists in creating the desired text and tone. The platform's ability to produce tailored content is truly valuable for generating effective marketing materials.
                                             </Typography>
                                         </Box>
