@@ -773,7 +773,15 @@ const Templates = () => {
                                              <ul style={{padding:"0px",margin:"0px"}}>
                                                 <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
                                                 <Checkbox {...label} /> 
-                                                <Typography sx={{fontSize:"19px",fontFamily:"lato"}}>Carry Forward unused credits on plan renewal (excludes free plans).</Typography>
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>Carry Forward unused credits on plan renewal (excludes free plans).</Typography>
+                                                </li>
+                                                <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>Unused credits reset when the subscription expires.</Typography>
+                                                </li>
+                                                <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>Prepaid plans are available for paid subscribers only.</Typography>
                                                 </li>
                                              </ul>
                                 
@@ -787,229 +795,50 @@ const Templates = () => {
                                         </Box>
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={2}>
-                                        <Grid container spacing={1} sx={{ padding: { xs: "10px", md: "0px" } }} className={Hero.templateCardGrid} >
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", minHeight: "" }}>
-                                                        <Link href='article_generator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Article Generator
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                    <Typography sx={{ fontFamily: "Lato", fontSize: "35px", lineHeight: "42px", fontWeight: "600", paddingBottom: "30px", color: "#222222" }}>
+                                    Security Settings
+                                        </Typography>
+                                        <Box>
+                                            
+                                            
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_conclusion' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Conclusion
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                            <Box sx={{paddingTop:"20px"}}>
+                                                <Grid container>
+                                                   <Grid xs={12} sm={6} item>
+                                                     <ul style={{padding:"0px",margin:"0px"}}>
+                                                     <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>User registration enable</Typography>
+                                                </li>
+                                                     </ul>
+                                                    
+                                                   </Grid>
+                                                   <Grid xs={12} sm={6} item>
+                                                   <ul style={{padding:"0px",margin:"0px"}}>
+                                                     <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>Unused credits reset when the subscription expires.</Typography>
+                                                </li>
+                                                     </ul>
+                                                   </Grid>
+                                                </Grid>
+                                             <ul style={{padding:"0px",margin:"0px"}}>
+                                                
+                                                
+                                                <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato",color:"#222222"}}>Prepaid plans are available for paid subscribers only.</Typography>
+                                                </li>
+                                             </ul>
+                                
+                                            </Box>
+                                           
+                                            <Box sx={{ paddingTop: "50px", display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: "19.18px", fontWeight: "700", lineHeight: "19.18px", textTransform: "capitalize", padding: "20px 35px" }}>Update Details</Button>
+                                            </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        TGenerates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_idea_and_outlet' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Idea & Outline
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#D59AED", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_intros' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Intros
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#FE9C78", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/blog_secion' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Section
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#61DFED", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/blog_title' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Title
-
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#DFB915", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/content_generator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Content Generator
-
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#FE78D6", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/content_writer' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Content Rewriter
-
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/copy_ad_variants' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Copy Ad Variants
-
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#DFB915", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='email_and_messages' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Email and Message
-
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/faq_geerator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                FAQ Generator
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='meta_title' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Meta Title
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
-
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                        </Grid>
+                                        </Box>
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={3}>
                                         <Grid container spacing={1} sx={{ padding: { xs: "10px", md: "0px" } }} className={Hero.templateCardGrid} >

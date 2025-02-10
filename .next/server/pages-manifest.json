@@ -1,6 +1,0 @@
-{
-  "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/dashboard/adminSetting": "pages/dashboard/adminSetting.js",
-  "/dashboard": "pages/dashboard.js"
-}

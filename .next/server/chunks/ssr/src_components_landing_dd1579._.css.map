@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section5.module.css"],"sourcesContent":[".ParentDiv{\n    position: relative;\n    padding: 50px 0px!important;\n}\n\n.background{\n    position: absolute; /* Position the background image absolutely */\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-image: url('../../app/Assets/Imges/16359108_v904-nunny-026 1.png');\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    opacity: 0.6; /* Apply opacity to the background image only */\n    z-index: -1; /* Make sure it stays behind the content */\n    padding: 50px 0px!important;\n}"],"names":[],"mappings":"AAAA;;;;;AAKA"}},
-    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/components/landing/section6.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');"],"names":[],"mappings":""}},
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

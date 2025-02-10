@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/layout/Footer.module.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');\n\n\n@media screen and (max-width:476px) {\n    .Image{\n        margin: auto!important;\n    }\n}"],"names":[],"mappings":"AAGA,iCACI"}},
-    {"offset": {"line": 1, "column": 86}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
