@@ -1,5 +1,5 @@
 "use Client"
-import { Box, Grid, Typography, Breadcrumbs, Link as MUILink, TextField, Button,} from '@mui/material'
+import { Box, Grid, Typography, Breadcrumbs, Link as MUILink, TextField, Button, Checkbox, } from '@mui/material'
 import React from 'react'
 import Hero from '../../../pages/dashboard.module.css'
 import Link from 'next/link'
@@ -46,32 +46,45 @@ const Templates = () => {
         setValue(newValue);
     };
 
+    const Curcurrencies = [
+        {
+            value: 'USD (United States Dollar)',
+            label: 'USD (United States Dollar)',
+        },
+        {
+            value: 'INR (Indian Rupees)',
+            label: 'INR (Indian Rupees)',
+        },
+        
+
+    ];
+
     const currencies = [
         {
-            value: 'English',
-            label: 'English',
+            value: '0',
+            label: '0',
         },
         {
-            value: 'Hindi',
-            label: 'Hindi',
+            value: '1',
+            label: '1',
         },
         {
-            value: 'Bengali',
-            label: 'Bengali',
+            value: '2',
+            label: '2',
         },
-       
+
     ];
     const Theme = [
         {
-            value: 'Dark',
-            label: 'Dark',
+            value: 'Left Side Of Price',
+            label: 'Left Side Of Price',
         },
         {
-            value: 'Light',
-            label: 'Light',
+            value: 'Right Side Of Price',
+            label: 'Right Side Of Price',
         },
-        
-       
+
+
     ];
     const DateFormate = [
         {
@@ -90,26 +103,35 @@ const Templates = () => {
             value: '07 Feb ,2025',
             label: '07 Feb ,2025',
         },
-        
-       
+
+
     ];
     const TimeFormate = [
         {
-            value: '11:27 am',
-            label: '11:27 am',
+            value: 'No Plan',
+            label: 'No Plan',
         },
         {
-            value: '11:27 Am',
-            label: '11:27 Am',
+            value: 'Free',
+            label: 'Free',
         },
         {
-            value: '11:27 ',
-            label: '11:27 ',
+            value: 'Standard ',
+            label: 'Standard  ',
         },
-       
-        
-       
+        {
+            value: 'Premium ',
+            label: 'Premium  ',
+        },
+        {
+            value: 'Lite ',
+            label: 'Lite  ',
+        },
+
+
+
     ];
+    const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
 
@@ -381,13 +403,13 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
                                                             select
-                                                           defaultValue="English"
-                                                          
+                                                            defaultValue="English"
+
 
                                                         >
                                                             {currencies.map((option) => (
@@ -405,13 +427,13 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
                                                             select
-                                                           defaultValue="Light"
-                                                          
+                                                            defaultValue="Light"
+
 
                                                         >
                                                             {Theme.map((option) => (
@@ -433,14 +455,14 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
                                                             select
-                                                           defaultValue="07 Feb ,2025"
-                                                           type='date'
-                                                          
+                                                            defaultValue="07 Feb ,2025"
+                                                            type='date'
+
 
                                                         >
                                                             {DateFormate.map((option) => (
@@ -458,13 +480,13 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
                                                             select
-                                                           defaultValue="11:27 Am"
-                                                          
+                                                            defaultValue="11:27 Am"
+
 
                                                         >
                                                             {TimeFormate.map((option) => (
@@ -486,15 +508,15 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
-                                                           
-                                                          
+
+
 
                                                         >
-                                                            
+
                                                         </TextField>
                                                     </Grid>
                                                     <Grid xs={12} md={6} item>
@@ -505,15 +527,15 @@ const Templates = () => {
                                                                     backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
-                                                                    fontFamily:"Lato"
+                                                                    fontFamily: "Lato"
                                                                 },
                                                             }}
                                                             id="outlined-select-currency"
-                                                        
-                                                          
+
+
 
                                                         >
-                                                           
+
                                                         </TextField>
                                                     </Grid>
                                                 </Grid>
@@ -544,237 +566,225 @@ const Templates = () => {
                                                     multiline
                                                 />
                                             </Box>
-                                            <Box sx={{paddingTop:"50px",display:"flex",justifyContent:"center",alignItems:"center"}}>
-                                              <Button variant='contained' sx={{borderRadius:"12px",backgroundColor:"#D7F200",color:"#000000",fontFamily:"Quicksand",boxShadow:"none",fontSize:"19.18px",fontWeight:"700",lineHeight:"19.18px",textTransform:"capitalize",padding:"20px 35px"}}>Update Details</Button>
+                                            <Box sx={{ paddingTop: "50px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: "19.18px", fontWeight: "700", lineHeight: "19.18px", textTransform: "capitalize", padding: "20px 35px" }}>Update Details</Button>
                                             </Box>
-                                            
-                                            
+
+
                                         </Box>
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={1}>
-                                        <Grid container spacing={1} sx={{ padding: { xs: "10px", md: "0px" } }} className={Hero.templateCardGrid} >
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", minHeight: "" }}>
-                                                        <Link href='article_generator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Article Generator
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                        <Typography sx={{ fontFamily: "Lato", fontSize: "35px", lineHeight: "42px", fontWeight: "600", paddingBottom: "30px", color: "#222222" }}>
+                                        Finance Settings
+                                        </Typography>
+                                        <Box>
+                                            <Grid container spacing={3}>
+                                                <Grid xs={12} md={12} item>
+                                                    <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Currency</label>
+                                                    <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                        InputProps={{
+                                                            style: {
+                                                                backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                borderRadius: "10px",
+                                                                border: "1px solid #000"
+                                                            },
+                                                        }}
+                                                        id="outlined-select-currency"
+                                                            select
+                                                            defaultValue="USD (United States Dollar)"
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
+                                                    > 
+                                                     {Curcurrencies.map((option) => (
+                                                                <MenuItem key={option.value} value={option.value}>
+                                                                    {option.label}
+                                                                </MenuItem>
+                                                            ))}
+                                                    
+                                                    </TextField>
+                                                </Grid>
+                                                
                                             </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_conclusion' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Conclusion
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                            
+                                            <Box>
+                                                <Grid container spacing={3} sx={{ paddingTop: "30px" }}>
+                                                    <Grid xs={12} md={3} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Symbol</label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
+                                                  
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        TGenerates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_idea_and_outlet' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Idea & Outline
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#D59AED", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='blog_intros' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Intros
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#FE9C78", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                                        >
+                                                            
+                                                        </TextField>
+                                                    </Grid>
+                                                    <Grid xs={12} md={3} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Decimal</label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
+                                                            select
+                                                            defaultValue="0"
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/blog_secion' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Section
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#61DFED", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/blog_title' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Blog Title
+                                                        >
+                                                            {currencies.map((option) => (
+                                                                <MenuItem key={option.value} value={option.value}>
+                                                                    {option.label}
+                                                                </MenuItem>
+                                                            ))}
+                                                        </TextField>
+                                                    </Grid>
+                                                    <Grid xs={12} md={6} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Symbol Position</label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
+                                                            select
+                                                            defaultValue="Left Side Of Price"
 
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#DFB915", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/content_generator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Content Generator
+                                                        >
+                                                            {Theme.map((option) => (
+                                                                <MenuItem key={option.value} value={option.value}>
+                                                                    {option.label}
+                                                                </MenuItem>
+                                                            ))}
+                                                        </TextField>
+                                                    </Grid>
+                                                </Grid>
+                                            </Box>
+                                            <Box>
+                                                <Grid container spacing={3} sx={{ paddingTop: "30px" }}>
+                                                    <Grid xs={12} md={6} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Tax Rate(%)
+                                                        </label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            
+                                                        defaultValue="07 Feb ,2025"
+                                                            
 
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#FE78D6", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/content_writer' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Content Rewriter
+                                                        >
+                                                        </TextField>
+                                                    </Grid>
+                                                    <Grid xs={12} md={6} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Free Plan
 
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                                        </label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
+                                                            select
+                                                            defaultValue="Free"
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/copy_ad_variants' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Copy Ad Variants
 
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#DFB915", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                                        >
+                                                            {TimeFormate.map((option) => (
+                                                                <MenuItem key={option.value} value={option.value}>
+                                                                    {option.label}
+                                                                </MenuItem>
+                                                            ))}
+                                                        </TextField>
+                                                    </Grid>
+                                                </Grid>
+                                            </Box>
+                                            <Box>
+                                                <Grid container spacing={3} sx={{ paddingTop: "30px" }}>
+                                                    <Grid xs={12} md={6} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Welcome Credits - Words</label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='email_and_messages' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Email and Message
 
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#95CF29", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='/faq_geerator' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                FAQ Generator
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                                        >
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                            <Grid xs={12} sm={4} item>
-                                                <Box sx={{ border: "1px solid #E4E4E4", padding: { md: "40px 20px", xs: "10px" }, borderRadius: "16px" }}>
-                                                    <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                                        <Link href='meta_title' style={{ textDecoration: "none" }}>
-                                                            <Typography sx={{ fontSize: { xs: "20px", md: "24px" }, lineHeight: { xs: "28px", md: "32px" }, fontFamily: "Poppins", fontWeight: "600", color: "#151D48" }}>
-                                                                Meta Title
-                                                            </Typography>
-                                                        </Link>
-                                                        <Box sx={{ width: "40px", height: "40px", backgroundColor: "#789FFE", borderRadius: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                                            <FormatListBulletedIcon sx={{ color: "#fff" }} />
-                                                        </Box>
+                                                        </TextField>
+                                                    </Grid>
+                                                    <Grid xs={12} md={6} item>
+                                                        <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Welcome Credit Images</label>
+                                                        <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                            InputProps={{
+                                                                style: {
+                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    borderRadius: "10px",
+                                                                    border: "1px solid #000",
+                                                                    fontFamily: "Lato"
+                                                                },
+                                                            }}
+                                                            id="outlined-select-currency"
 
-                                                    </Box>
-                                                    <Typography sx={{ fontSize: "14px", color: "#000", lineHeight: "24px", fontFamily: "Poppins", fontWeight: "400", paddingTop: "25px" }}>
-                                                        Generates captivating and engaging blog introductions to hook readers and drive traffic
-                                                    </Typography>
-                                                </Box>
-                                            </Grid>
-                                        </Grid>
+
+
+                                                        >
+
+                                                        </TextField>
+                                                    </Grid>
+                                                </Grid>
+                                            </Box>
+
+                                            <Box sx={{paddingTop:"20px"}}>
+                                             <ul style={{padding:"0px",margin:"0px"}}>
+                                                <li style={{listStyle:"none",display:"flex",justifyContent:"flex-start",alignItems:"center"}}>
+                                                <Checkbox {...label} /> 
+                                                <Typography sx={{fontSize:"19px",fontFamily:"lato"}}>Carry Forward unused credits on plan renewal (excludes free plans).</Typography>
+                                                </li>
+                                             </ul>
+                                
+                                            </Box>
+                                           
+                                            <Box sx={{ paddingTop: "50px", display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: "19.18px", fontWeight: "700", lineHeight: "19.18px", textTransform: "capitalize", padding: "20px 35px" }}>Update Details</Button>
+                                            </Box>
+
+
+                                        </Box>
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={2}>
                                         <Grid container spacing={1} sx={{ padding: { xs: "10px", md: "0px" } }} className={Hero.templateCardGrid} >
