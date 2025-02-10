@@ -1448,7 +1448,7 @@ const Templates = () => {
                                                 Last updated: 10:10 AM
                                             </Typography>
                                             <Typography sx={{ paddingTop: "20px", fontFamily: "Quicksand", fontWeight: "600", fontSize: "16px", color: "#7E7E7E", lineHeight: "25px" }}>
-                                                Reload this page five minutes later. If last updated time changed, that's mean cron job schedule working. Otherwise manually set cron job schedule every 5 minutes by the following command. Cron job schedule will automatically update user subscription and other task.
+                                                {`Reload this page five minutes later. If last updated time changed, that's mean cron job schedule working. Otherwise manually set cron job schedule every 5 minutes by the following command. Cron job schedule will automatically update user subscription and other task.`}
                                             </Typography>
                                             <Box sx={{ paddingTop: "15px" }}>
                                                 <label htmlFor="" style={{ fontFamily: "Roboto", fontSize: "17.04px", lineHeight: "19px", fontWeight: "700", color: "#4A4A4A" }}>Command:</label>
@@ -1870,7 +1870,7 @@ const Templates = () => {
                                                 Brand Manage
                                             </Typography>
                                             <Typography sx={{ paddingTop: "15px", fontFamily: "Quicksand", fontWeight:"600", color: "#7E7E7E", lineHeight: "25px", fontSize: "16px" }}>
-                                                I find this platform to be extremely useful for marketing purposes. It allows you to input the information and specifications you have, and it generates a result that greatly assists in creating the desired text and tone. The platform's ability to produce tailored content is truly valuable for generating effective marketing materials.
+                                                {`I find this platform to be extremely useful for marketing purposes. It allows you to input the information and specifications you have, and it generates a result that greatly assists in creating the desired text and tone. The platform's ability to produce tailored content is truly valuable for generating effective marketing materials.`}
                                             </Typography>
                                         </Box>
                                         <Box sx={{ padding: { xs: "20px", sm: "20px 44px" }, backgroundColor: "#fff", marginTop: "20px", borderRadius: "20px" }}>
