@@ -14,7 +14,7 @@
     "static/chunks/[root of the server]__38f851._.js",
     "static/chunks/node_modules_next_f9aa23._.js",
     "static/chunks/node_modules_react-dom_82bb97._.js",
-    "static/chunks/node_modules_@mui_material_9cfd10._.js",
+    "static/chunks/node_modules_@mui_material_267de2._.js",
     "static/chunks/node_modules_@mui_system_esm_6b09fb._.js",
     "static/chunks/node_modules_react-icons_pi_index_mjs_df545e._.js",
     "static/chunks/node_modules_react-icons_si_index_mjs_a94695._.js",
