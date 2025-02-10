@@ -10,6 +10,7 @@ import Dashsidebar from '../dashsidebar'
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../../../app/Assets/Imges/logo.svg'
 import RateReviewIcon from '@mui/icons-material/RateReview';
+import Image from 'next/image'
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -195,7 +196,7 @@ const Templates = () => {
         },
     ]
 
-    const Image =[
+    const Imagearr=[
         {
             value: 'DALL-E-3',
             label: 'DALL-E-3',
@@ -2125,7 +2126,7 @@ const Templates = () => {
 
 
                                                         >
-                                                            {Image.map((option) => (
+                                                            {Imagearr.map((option) => (
                                                                 <MenuItem key={option.value} value={option.value}>
                                                                     {option.label}
                                                                 </MenuItem>
