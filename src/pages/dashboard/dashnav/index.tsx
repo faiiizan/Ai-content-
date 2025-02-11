@@ -14,7 +14,7 @@ import Hero from '../../../pages/dashboard.module.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import dashboardman from '../../../app/Assets/Imges/dasboardman.png'
 import Link from 'next/link'
-import { Menu as MenuIcon, Dashboard as DashboardIcon } from '@mui/icons-material';
+import { Menu as MenuIcon, Dashboard as DashboardIcon, TextSnippet, Settings } from '@mui/icons-material';
 import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import HistoryIcon from '@mui/icons-material/History';
@@ -24,6 +24,8 @@ import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import FeedIcon from '@mui/icons-material/Feed';
 import { SiGoogleassistant } from "react-icons/si"; 
 import { PiChartPieSliceFill } from "react-icons/pi";
+import GroupIcon from '@mui/icons-material/Group';
+import LayersIcon from '@mui/icons-material/Layers';
 
 
 const Dashnav = () => {
@@ -126,7 +128,7 @@ const Dashnav = () => {
               </Box>
         
               {/* Account Section */}
-              <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: 'none' }, borderRadius: "30px", padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "20px" }}>
+              <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: 'none' }, borderRadius: "30px", padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "20px", borderBottom: { sm: "1px solid #0000001A" }, }}>
                 <ul style={{ padding: "0px", margin: "0px" }}>
                   <li style={{ listStyle: "none" }}> 
                    
@@ -164,6 +166,91 @@ const Dashnav = () => {
                     </Typography>
                     </Link>
                   </li>
+                </ul>
+        
+              </Box>
+              {/* admin panel */}
+              <Box sx={{ minHeight: "100px", width: { xs: "100%", sm: "90%" }, border: { xs: "none", sm: 'none' }, borderRadius: "30px", padding: { xs: "0px 0px 30px 10px", sm: "30px 0px 50px 30px" }, display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", position: "relative", marginTop: "20px" }}>
+                <ul style={{ padding: "0px", margin: "0px" }}>
+                  <li style={{ listStyle: "none" }}> 
+                   
+                  <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "16px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791",position:"absolute",top:"-40px",left:{sm:"16px",xs:"0px"},padding:"5px 15px 5px 10px",backgroundColor:"#fff", }}>
+                    Admin Panel
+                  </Typography>
+                     </li>
+        
+                  <li style={{ listStyle: "none" }} >
+                  <Link passHref href='/dashboard/adminDashboard' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "center", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px" }}>
+                      <DashboardIcon sx={{ marginRight: "20px" }} /> Dashboard
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminTemplates' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <DashboardIcon sx={{ paddingRight: "20px" }} /> Template
+                    </Typography>
+                    </Link>
+                  </li>
+                  
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminAssistant' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      < SiGoogleassistant style={{ paddingRight: "20px" }} /> Assistant
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminSubscription' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <PaidIcon sx={{ paddingRight: "20px" }} /> Subscription
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminTransaction' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <PersonIcon sx={{ paddingRight: "20px" }} /> Transaction
+                    </Typography>
+                    </Link>
+                    </li>
+                    <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminplan' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <TextSnippet sx={{ paddingRight: "20px" }} /> Plans
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminBlog' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <PersonIcon sx={{ paddingRight: "20px" }} /> Blog
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminPages' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <LayersIcon sx={{ paddingRight: "20px" }} /> Pages
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminUser' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <GroupIcon sx={{ paddingRight: "20px" }} /> Users
+                    </Typography>
+                    </Link>
+                  </li>
+                  <li style={{ listStyle: "none" }}>
+                    <Link passHref href='/dashboard/adminSetting' style={{textDecoration:"none"}}>
+                    <Typography sx={{ display: "flex", alignItems: "flex-start", fontFamily: "Poppins", fontSize: { xs: "18px", sm: "22px" }, lineHeight: "27px", fontWeight: { xs: "400", sm: "700" }, color: "#737791", paddingTop: "20px", textAlign: "left" }}>
+                      <Settings sx={{ paddingRight: "20px" }} /> Setting
+                    </Typography>
+                    </Link>
+                  </li>
+                 
                 </ul>
         
               </Box>

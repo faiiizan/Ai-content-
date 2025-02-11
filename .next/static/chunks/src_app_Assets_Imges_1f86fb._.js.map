@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/app/Assets/Imges/logo.svg.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 197, height: 81, blurDataURL: null, blurWidth: 0, blurHeight: 0 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,8HAAA,CAAA,UAAG;IAAE,OAAO;IAAK,QAAQ;IAAI,aAAa;IAAM,WAAW;IAAG,YAAY;AAAE"}},
-    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///home/desunub12/Downloads/verbilab/src/app/Assets/Imges/dasboardman.png.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 60, height: 60, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR42gEIAff+AFZVU2WopqHkV1NQ/zssJ/9/b2X/uLez/6yrqORZWVdlAKqoo+S2tbH/V0xG/49jTP+6knv/wLy2/7y7uf+trKrkALCuqv+7urf/hHdv/41fSv+3hnL/xsC7/8XEwv/CwsD/AKOfmv+0srD/kYyM/2dIOv+rkYf/zczK/9LR0P/S0dH/AJeSjf+BhY7/VWaI/3Zwff92eo7/gY6m/9DQ0f/f3t7/AIiDfv9DS1z/TmaR/1Nsmv9Rapf/TmaT/6etvf/q6en/AHhybeQ3O0b/TmCG/3eGqf9gcpv/a3KQ/8all//j2NLkADs4NWVLR0rkd19Z/+HBpv+wmY7/xaGK/9ifc+RwWUhlkzOncB1OL54AAAAASUVORK5CYII=\", blurWidth: 8, blurHeight: 8 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,qIAAA,CAAA,UAAG;IAAE,OAAO;IAAI,QAAQ;IAAI,aAAa;IAAsd,WAAW;IAAG,YAAY;AAAE"}},
-    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/landing/section1.module.css"],"sourcesContent":["\n    @media screen and (max-width:376px){\n        .stars{\n            font-size: 12px!important;\n            line-height: 21px!important;\n        }\n        .starsBackground{\n            padding-right: 5px!important;\n        }\n        .break{\n              display: none;\n        }\n        .laptopImage{\n            width: 315px!important;\n        }\n    }\n\n    @media  (min-width:376px) and (max-width:426px) {\n        .break{\n            display: none;\n      }\n      .starsBackground{\n        padding-right: 0px!important;\n    }\n    }\n"],"names":[],"mappings":"AACI;EACI;;;;;EAIA;;;;EAGA;;;;EAGA;;;;;AAKJ;EACI;;;;EAGF"}},
-    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

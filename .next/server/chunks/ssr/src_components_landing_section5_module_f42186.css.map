@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/landing/section5.module.css"],"sourcesContent":[".ParentDiv{\n    position: relative;\n    padding: 50px 0px!important;\n}\n\n.background{\n    position: absolute; /* Position the background image absolutely */\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background-image: url('../../app/Assets/Imges/16359108_v904-nunny-026 1.png');\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    opacity: 0.6; /* Apply opacity to the background image only */\n    z-index: -1; /* Make sure it stays behind the content */\n    padding: 50px 0px!important;\n}"],"names":[],"mappings":"AAAA,+EAKA"}},
-    {"offset": {"line": 1, "column": 368}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
