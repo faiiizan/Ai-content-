@@ -28,6 +28,8 @@ import Link from "next/link";
 import {
   Menu as MenuIcon,
   Dashboard as DashboardIcon,
+  TextSnippet,
+  Settings,
 } from "@mui/icons-material";
 import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
@@ -38,6 +40,8 @@ import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
 import FeedIcon from "@mui/icons-material/Feed";
 import { SiGoogleassistant } from "react-icons/si";
 import { PiChartPieSliceFill } from "react-icons/pi";
+import GroupIcon from "@mui/icons-material/Group";
+import LayersIcon from "@mui/icons-material/Layers";
 //@ts-ignore
 import Cookies from "js-cookie";
 

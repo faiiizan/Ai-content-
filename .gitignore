@@ -43,4 +43,4 @@ yarn-error.log*
 next-env.d.ts
 
 #next folder 
-# .next/
+.next/
