@@ -26,15 +26,18 @@ import toast from "react-hot-toast";
 import sha256 from "sha256";
 // @ts-ignore
 import Cookies from "js-cookie";
+import { useDispatch } from "react-redux";
+import { setUser } from "@/redux/slice/userSlice";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 const Login = () => {
   const router = useRouter();
+  const dispatch = useDispatch();
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({ mode: "onTouched" });
 
   const onHandleSubmit = async (data: any) => {
     const reqbody = { email: data.user_name, pass: sha256(data.password) };
@@ -42,10 +45,16 @@ const Login = () => {
 
     if (res && res.data.status === 200) {
       toast.success("Login Successful");
+
       //Setting up cookie
       const user = JSON.stringify(res.data.user);
       Cookies.set("token", res.data.token, { expires: 1, path: "/" });
       Cookies.set("user", user, { expires: 1, path: "/" });
+
+      //setting up userdata in redux state
+      const user_obj = JSON.parse(user);
+      dispatch(setUser(user_obj));
+
       //redirect to DB
       router.push("/dashboard");
     } else {
@@ -250,7 +259,9 @@ const Login = () => {
                       },
                     }}
                     type="text"
-                    {...register("user_name", { required: true })}
+                    {...register("user_name", {
+                      required: "This Field is Required*",
+                    })}
                   />
                   {errors?.user_name && (
                     <span
@@ -263,7 +274,7 @@ const Login = () => {
                         fontSize: "14px",
                       }}
                     >
-                      This Field is Required*
+                      {errors?.user_name?.message as string}
                     </span>
                   )}
                 </Box>

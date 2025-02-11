@@ -22,15 +22,17 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import axiosInstance from "@/utils/axios";
 import toast from "react-hot-toast";
+import { useRouter } from "next/router";
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 const Signup = () => {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
     watch,
     formState: { errors },
-  } = useForm();
+  } = useForm({ mode: "onTouched" });
 
   const password = watch("password");
 
@@ -43,6 +45,7 @@ const Signup = () => {
     const res = await axiosInstance.post("/ai/auth/signup", reqbody);
     if (res && res.data.status === 200) {
       toast.success("Registration Successful");
+      router.push("/login");
     } else {
       toast.error(res.data.message);
     }
@@ -346,7 +349,7 @@ const Signup = () => {
                     type="password"
                     {...register("password", { required: true })}
                   />
-                  {errors?.Password && (
+                  {errors?.password && (
                     <span
                       style={{
                         fontSize: "14px",
