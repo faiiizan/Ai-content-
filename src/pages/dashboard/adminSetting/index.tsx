@@ -26,6 +26,15 @@ import DialogTitle from '@mui/material/DialogTitle';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
+import image1 from '../../../app/Assets/Imges/group1723.png'
+import image2 from '../../../app/Assets/Imges/Group 1707482403.png'
+import image3 from '../../../app/Assets/Imges/Group 1707482404.png'
+import image4 from '../../../app/Assets/Imges/Group 1707482406.png'
+import image5 from '../../../app/Assets/Imges/Group 1707482407.png'
+import image6 from '../../../app/Assets/Imges/Group 1707482408.png'
+import image8 from '../../../app/Assets/Imges/Group 1707482409.png'
+
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -281,6 +290,30 @@ const Templates = () => {
         { slNo: 12, name: 'Funny', planName: "Free", fat: 'Feb 25,2025', expiry: 'Feb 25,2025', carbs: <DeleteIcon /> },
     ];
 
+    const paymentrows = [
+        { slNo: 1, name: image1, planName: "Flutterwave", fat: '', expiry: 'Marketing', carbs: <DeleteIcon />,provider:"African payment gateway" },
+        { slNo: 2, name: image2, planName: "Instamojo", fat: '', expiry: 'Sales', carbs: <DeleteIcon />,provider:"Indian payment gateway "},
+        { slNo: 3, name: image3, planName: "Mercado Pago", fat: '', expiry: 'Health', carbs: <DeleteIcon />,provider:"Latin american payment gateway " },
+        { slNo: 4, name: image4, planName: "Midtrans", fat: '', expiry: 'Job', carbs: <DeleteIcon />,provider:"Indonesia payment gateway " },
+        { slNo: 5, name: image5, planName: "Mollie", fat: '', expiry: 'Business', carbs: <DeleteIcon />,provider:"European payment gateway " },
+        { slNo: 6, name: image6, planName: "Omise", fat: '', expiry: 'Website', carbs: <DeleteIcon />,provider:"Thailand payment gateway " },
+        { slNo: 7, name: image5, planName: "Mollie", fat: '', expiry: 'Business', carbs: <DeleteIcon />,provider:"Sri Lankan payment gateway" },
+        { slNo: 8, name: image8, planName: "PayPal", fat: '', expiry: 'Website', carbs: <DeleteIcon />,provider:"Global payment gateway " },
+
+
+    ];
+    
+       const [anchorElp, setAnchorElp] = useState<null | HTMLElement>(null);
+    
+        // Open the menu when button is clicked
+        const handleClickp = (event: React.MouseEvent<HTMLButtonElement>) => {
+            setAnchorElp(event.currentTarget);
+        };
+    
+        // Close the menu
+        const handleClosep = () => {
+            setAnchorElp(null);
+        };
     return (
         <>
             <Box>
@@ -512,7 +545,7 @@ const Templates = () => {
                                                     <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                         InputProps={{
                                                             style: {
-                                                                backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                 borderRadius: "10px",
                                                                 border: "1px solid #000"
                                                             },
@@ -524,7 +557,7 @@ const Templates = () => {
                                                     <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Website Media Title</label>
                                                     <TextField fullWidth sx={{ paddingTop: "15px", backgroundColor: "" }} InputProps={{
                                                         style: {
-                                                            backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                            backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                             borderRadius: "10px",
                                                             border: "1px solid #000"
                                                         },
@@ -536,7 +569,7 @@ const Templates = () => {
                                                 <TextField fullWidth sx={{ paddingTop: "20px" }}
                                                     InputProps={{
                                                         style: {
-                                                            backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                            backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                             borderRadius: "10px",
                                                             border: "1px solid #000"
                                                         },
@@ -550,7 +583,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -574,7 +607,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -602,7 +635,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -627,7 +660,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -655,7 +688,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -674,7 +707,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -695,7 +728,7 @@ const Templates = () => {
                                                 <TextField fullWidth sx={{ paddingTop: "20px" }}
                                                     InputProps={{
                                                         style: {
-                                                            backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                            backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                             borderRadius: "10px",
                                                             border: "1px solid #000"
                                                         },
@@ -707,7 +740,7 @@ const Templates = () => {
                                                 <TextField fullWidth sx={{ paddingTop: "20px" }}
                                                     InputProps={{
                                                         style: {
-                                                            backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                            backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                             borderRadius: "10px",
                                                             border: "1px solid #000"
                                                         },
@@ -734,7 +767,7 @@ const Templates = () => {
                                                     <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                         InputProps={{
                                                             style: {
-                                                                backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                 borderRadius: "10px",
                                                                 border: "1px solid #000"
                                                             },
@@ -762,7 +795,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -781,7 +814,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -805,7 +838,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -834,7 +867,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -855,7 +888,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -883,7 +916,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -902,7 +935,7 @@ const Templates = () => {
                                                         <TextField fullWidth sx={{ paddingTop: "15px" }}
                                                             InputProps={{
                                                                 style: {
-                                                                    backgroundColor: "#E7E7E7", // background color for the input area (where the text is typed)
+                                                                    backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
                                                                     borderRadius: "10px",
                                                                     border: "1px solid #000",
                                                                     fontFamily: "Lato"
@@ -1096,7 +1129,7 @@ const Templates = () => {
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={3}>
                                         <Grid container spacing={4} sx={{ padding: "0px!important" }} className={Hero.TabPanel}>
-                                            <Grid xs={12} sm={5} item>
+                                            <Grid xs={12} md={5.5} sm={6} item>
                                                 <Box sx={{ backgroundColor: " #F0F5F8", padding: "20px", borderRadius: "20px", position: "relative" }}>
 
                                                     <Typography sx={{ fontFamily: "Lato", fontSize: "30px", lineHeight: "36px", fontWeight: "600" }}>
@@ -1112,6 +1145,77 @@ const Templates = () => {
                                                     </Box>
                                                     <Box sx={{ padding: "15px 0px", paddingBottom: "10px" }}>
                                                         <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px" }}>Change</Button>
+                                                    </Box>
+
+
+
+
+                                                </Box>
+                                            </Grid>
+                                            <Grid xs={12} md={5.5} sm={6}  item>
+                                                <Box sx={{ backgroundColor: " #F0F5F8", padding: "20px", borderRadius: "20px", position: "relative" }}>
+
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "30px", lineHeight: "36px", fontWeight: "600" }}>
+                                                        Logo
+
+                                                    </Typography>
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "19.18px", lineHeight: "23.02px", fontWeight: "400", padding: '10px 0px', color: "background: #222222" }}>
+                                                    At least 50 px height and .svg/ .png/ .jpg file format.
+
+                                                    </Typography>
+                                                    <Box sx={{ height: "64px", width: "156px", marginLeft: "-18px" }}>
+                                                        <Image src={logo} alt='logoImage' style={{ height: "64px", width: "156px" }} />
+                                                    </Box>
+                                                    <Box sx={{ padding: "15px 0px", paddingBottom: "10px" }}>
+                                                        <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px" }}>Change</Button>
+                                                        <Button variant='contained' sx={{ backgroundColor: "#0CC0DF", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px",marginLeft:{sm:"10px" ,xs:"0px"},marginTop:{sm:"0px" ,xs:"10px"}}}>Delete</Button>
+                                                    </Box>
+
+
+
+
+                                                </Box>
+                                            </Grid>
+                                            <Grid xs={12} md={5.5} sm={6}  item>
+                                                <Box sx={{ backgroundColor: " #F0F5F8", padding: "20px", borderRadius: "20px", position: "relative" }}>
+
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "30px", lineHeight: "36px", fontWeight: "600" }}>
+                                                    Dark logo - for light mode
+
+                                                    </Typography>
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "19.18px", lineHeight: "23.02px", fontWeight: "400", padding: '10px 0px', color: "background: #222222" }}>
+                                                        Image at least 32 X 32 px square and .png file format only.
+
+                                                    </Typography>
+                                                    <Box sx={{ height: "64px", width: "156px", marginLeft: "-18px" }}>
+                                                        <Image src={logo} alt='logoImage' style={{ height: "64px", width: "156px" }} />
+                                                    </Box>
+                                                    <Box sx={{ padding: "15px 0px", paddingBottom: "10px" }}>
+                                                        <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px" }}>Change</Button>
+                                                    </Box>
+
+
+
+
+                                                </Box>
+                                            </Grid>
+                                            <Grid xs={12} md={5.5} sm={6}  item>
+                                                <Box sx={{ backgroundColor: " #F0F5F8", padding: "20px", borderRadius: "20px", position: "relative" }}>
+
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "30px", lineHeight: "36px", fontWeight: "600" }}>
+                                                    Light logo - for dark mode
+
+                                                    </Typography>
+                                                    <Typography sx={{ fontFamily: "Lato", fontSize: "19.18px", lineHeight: "23.02px", fontWeight: "400", padding: '10px 0px', color: "background: #222222" }}>
+                                                    At least 50 px height and .svg/ .png/ .jpg file format.
+
+                                                    </Typography>
+                                                    <Box sx={{ height: "64px", width: "156px", marginLeft: "-18px" }}>
+                                                        <Image src={logo} alt='logoImage' style={{ height: "64px", width: "156px" }} />
+                                                    </Box>
+                                                    <Box sx={{ padding: "15px 0px", paddingBottom: "10px" }}>
+                                                        <Button variant='contained' sx={{ backgroundColor: "#D7F200", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px" }}>Change</Button>
+                                                        <Button variant='contained' sx={{ backgroundColor: "#0CC0DF", color: "#000", boxShadow: "none", textTransform: "capitalize", borderRadius: "12px", fontSize: "19px", fontFamily: "Quicksand", fontWeight: "700", lineHeight: '23.98px', padding: "10px 20px",marginLeft:{sm:"10px" ,xs:"0px"},marginTop:{sm:"0px" ,xs:"10px"}}}>Delete</Button>
                                                     </Box>
 
 
@@ -1510,7 +1614,77 @@ const Templates = () => {
 
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={8}>
+                                        <Typography sx={{ fontSize: "35.18px", fontFamily: "Lato", fontWeight: "600", lineHeight: "42.22px", color: "#222" }}>
+                                            Payment
+                                        </Typography>
+                                        <TableContainer component={Paper} sx={{ width: "100%", marginTop: "30px" }}>
+                                            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                                                <TableHead>
+                                                    <TableRow>
+                                                        <TableCell sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px" }}>Sl.No</TableCell>
+                                                        <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }} >Image</TableCell>
+                                                        <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Provider</TableCell>
+                                                        <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Status</TableCell>
 
+                                                        <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Action</TableCell>
+
+
+                                                    </TableRow>
+                                                </TableHead>
+                                                <TableBody>
+                                                    {paymentrows.map((row) => (
+                                                        <TableRow
+                                                            key={row.slNo}
+                                                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                                        >
+                                                            <TableCell component="th" scope="row" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400" }}>
+                                                                {row.slNo}
+                                                            </TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingLeft: "5px", textAlign: "center", display: "flex", alignItems: "flex-end", justifyContent: "center", paddingTop: "26px" }}>
+                                                                <Image src={row.name} alt='image' style={{ width: "50px", height: "50px", }} />
+
+                                                            </TableCell>
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >{row.planName} <br /> {row.provider}
+
+                                                            </TableCell>
+
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingRight: "38px", color: "#000000DE", cursor: "pointer", textAlign: "center" }}  >
+                                                            <Button variant='contained' sx={{ backgroundColor: "#F5F5F5", color: "#4A4A4ACC", boxShadow: "none", fontFamily: "Poppins" }} onClick={handleClickp}>
+                                                            Active <KeyboardArrowDownIcon sx={{ marginLeft: "10px" }} />
+                                                        </Button>
+                                                        <Menu
+                                                            anchorEl={anchorElp}
+                                                            open={Boolean(anchorElp)}
+                                                            onClose={handleClosep}
+                                                            sx={{ marginTop: "10px" }}
+                                                        >
+                                                            <MenuItem onClick={handleClosep} style={{ fontFamily: "Poppins" }}>Active</MenuItem>
+                                                            <MenuItem onClick={handleClosep} style={{ fontFamily: "Poppins" }}>Non-Active</MenuItem>
+
+                                                        </Menu>
+
+                                                            </TableCell>
+
+                                                            <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", textAlign: "center" }}>
+
+                                                                <Box sx={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
+                                                                    <Box sx={{ width: "37px", height: "37px", backgroundColor: "#3498DB", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                        <RateReviewIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                    </Box>
+                                                                    <Box sx={{ width: "37px", height: "37px", backgroundColor: "#E74C3C", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                        <DeleteIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                    </Box>
+                                                                    <Box sx={{ width: "37px", height: "37px", backgroundColor: "#2ECC71", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "50%", cursor: "pointer" }}>
+                                                                        <RemoveRedEyeIcon sx={{ color: "#fff", cursor: "pointer" }} />
+                                                                    </Box>
+                                                                </Box>
+                                                            </TableCell>
+
+                                                        </TableRow>
+                                                    ))}
+                                                </TableBody>
+                                            </Table>
+                                        </TableContainer>
                                     </CustomTabPanel>
                                     <CustomTabPanel value={value} index={9}>
                                         <Box>
@@ -2463,7 +2637,7 @@ const Templates = () => {
                                                         <TableRow>
                                                             <TableCell sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px" }}>Sl.No</TableCell>
                                                             <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }} > Name</TableCell>
-                                                            
+
                                                             <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Status</TableCell>
                                                             <TableCell align="right" sx={{ fontFamily: "Poppins", fontWeight: "600", fontSize: "18px", textAlign: "center" }}>Action</TableCell>
 
@@ -2483,7 +2657,7 @@ const Templates = () => {
                                                                 <TableCell align="right" sx={{ fontFamily: "Poppins", fontSize: "16px", fontWeight: "400", paddingLeft: "5px", textAlign: "center" }}>{row.name}
 
                                                                 </TableCell>
-                                                              
+
 
 
 
@@ -2532,7 +2706,86 @@ const Templates = () => {
                                             </Box>
 
                                         </Box>
-                                       
+
+                                    </> : null
+                            }
+                            {/* end tab panel 10 */}
+                            {/* start tab panel 7 */}
+                            {
+                                value === 8 ?
+                                    <>
+                                        <Box sx={{ padding: { sm: "20px 44px", xs: "20px" }, backgroundColor: "#fff", borderRadius: "12px", marginTop: "20px" }}>
+                                            <Typography sx={{ fontSize: "35px", fontFamily: "Lato", fontWeight: "600", lineHeight: "42px", color: "#222222" }}>
+                                                Offline Payment
+                                            </Typography>
+                                            <Grid container spacing={3} >
+                                                <Grid xs={12} md={12} item sx={{ marginTop: "20px" }}>
+                                                    <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Payment Title</label>
+                                                    <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                        InputProps={{
+                                                            style: {
+                                                                backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                borderRadius: "10px",
+                                                                border: "1px solid #000"
+                                                            },
+                                                        }}
+                                                        placeholder='Bank Transfer'
+
+                                                    />
+                                                </Grid>
+                                                <Grid xs={12} md={12} item sx={{ marginTop: "20px" }}>
+                                                    <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Payment Guidlines</label>
+                                                    <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                        InputProps={{
+                                                            style: {
+                                                                backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                borderRadius: "10px",
+                                                                border: "1px solid #000"
+                                                            },
+                                                        }}
+                                                        placeholder={`'Direct payment into our bank account and use your invoice number as the payment reference. Your payment won't be allocated until we receive the funds in our bank account.`}
+                                                        multiline
+                                                        rows={5}
+
+                                                    />
+                                                </Grid>
+                                                <Grid xs={12} md={12} item sx={{ marginTop: "20px" }}>
+                                                    <label htmlFor="" style={{ fontFamily: "Lato", fontSize: "19.18px", fontWeight: "600", lineHeight: "23.02px", color: "#222222" }}>Payment Recipient Accounts</label>
+                                                    <TextField fullWidth sx={{ paddingTop: "15px" }}
+                                                        InputProps={{
+                                                            style: {
+                                                                backgroundColor: "rgba(231, 231, 231, 0.2)", // background color for the input area (where the text is typed)
+                                                                borderRadius: "10px",
+                                                                border: "1px solid #000"
+                                                            },
+                                                        }}
+                                                        placeholder={`Bank Name 
+Account Number
+Account Type
+Beneficiary Name`}
+                                                        multiline
+                                                        rows={5}
+
+                                                    />
+                                                </Grid>
+                                             
+                                            </Grid>
+                                            <Box sx={{ paddingTop: "20px" }}>
+                                                <ul style={{ padding: "0px", margin: "0px" }}>
+                                                    <li style={{ listStyle: "none", display: "flex", justifyContent: "flex-start", alignItems: "center" }}>
+                                                        <Checkbox {...label} />
+                                                        <Typography sx={{ fontSize: "19px", fontFamily: "lato", color: "#222222" }}>Offline payment enable</Typography>
+                                                    </li>
+
+                                                </ul>
+
+                                            </Box>
+
+                                            <Box sx={{ paddingTop: "20px",  }}>
+                                                <Button variant='contained' sx={{ borderRadius: "12px", backgroundColor: "#D7F200", color: "#000000", fontFamily: "Quicksand", boxShadow: "none", fontSize: { sm: "19.18px", xs: "16px" }, fontWeight: { sm: "700", xs: "600" }, lineHeight: "19.18px", textTransform: "capitalize", padding: { sm: "20px 35px", xs: "15px 30px" }, marginBottom: { xs: "10px", sm: "0px" } }}>Save Changes</Button>
+                                               
+                                            </Box>
+                                        </Box>
                                     </> : null
                             }
                         </Grid>
