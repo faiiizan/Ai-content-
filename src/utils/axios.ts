@@ -1,12 +1,12 @@
-import axios from 'axios';
+import axios from "axios";
 
 // Axios instance
 const axiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:4000',
-  timeout: 10000, // Timeout if desired
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000",
+  timeout: 30000, // Timeout if desired
   headers: {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*",
   },
 });
 
@@ -14,7 +14,7 @@ const axiosInstance = axios.create({
 axiosInstance.interceptors.request.use(
   (config: any) => {
     // Add token to request headers if available
-    const token = localStorage.getItem('authToken');
+    const token = localStorage.getItem("authToken");
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
@@ -36,7 +36,7 @@ axiosInstance.interceptors.response.use(
       // window.location.href = '/login';
     } else if (error.response && error.response.status === 403) {
       // Handle forbidden errors
-      console.error('Access Denied');
+      console.error("Access Denied");
     }
     return Promise.reject(error);
   }

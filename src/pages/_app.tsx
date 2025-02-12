@@ -1,3 +1,4 @@
+import "../app/Assets/css/custom.css";
 import React from "react";
 import { AppProps } from "next/app"; // Import AppProps type from Next.js
 import ErrorBoundary from "../components/error/ErrorBoundary";

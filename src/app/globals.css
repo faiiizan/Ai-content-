@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   --background: #ffffff;
@@ -16,18 +15,16 @@
   }
 }
 
-
-
 body {
   color: var(--foreground);
   background: var(--background);
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Montserrat-Regular', Helvetica;
+  font-family: "Montserrat-Regular", Helvetica;
 }
 
 /* Apply background image to the main section */
 .bg-main-pattern {
-  background-image: url('/images/bg.png');
+  background-image: url("/images/bg.png");
   /* Path to your image */
   background-repeat: repeat;
   /* Ensures the image repeats both horizontally and vertically */
@@ -40,15 +37,19 @@ body {
 /* globals.css */
 @layer utilities {
   .bg-custom-gradient-text {
-    background: linear-gradient(90deg, rgb(245, 130, 68) 0%, rgb(199, 91, 133) 31%, rgb(60, 49, 116) 62.5%, rgb(92.46, 241.19, 208.33) 100%);
+    background: linear-gradient(
+      90deg,
+      rgb(245, 130, 68) 0%,
+      rgb(199, 91, 133) 31%,
+      rgb(60, 49, 116) 62.5%,
+      rgb(92.46, 241.19, 208.33) 100%
+    );
     background-clip: text;
   }
 }
 
-
 /* Define the default button class */
 .custom-button {
- 
   outline: 2px solid white;
   /* Default outline is white */
   outline-offset: 2px;
@@ -59,7 +60,7 @@ body {
 
 /* Hover effect for outline */
 .custom-button:hover {
-  outline-color: #D7F200;
+  outline-color: #d7f200;
   /* Change outline to custom yellow on hover */
 }
 
@@ -70,4 +71,3 @@ body {
 .custom-button:focus.dark {
   @apply ring-[#B8D400];
 }
-
