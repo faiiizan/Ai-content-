@@ -16,8 +16,13 @@ import Dashsidebar from "../dashsidebar";
 import DashboardLayout from "@/components/layout/DashboardLayout";
 import axiosInstance from "@/utils/axios";
 import ReactMarkdown from "react-markdown";
+import toast from "react-hot-toast";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 const Article = () => {
+  const user = useSelector((state: RootState) => state.userData.user);
+
   const currencies = [
     {
       value: "Hindi",
@@ -77,16 +82,26 @@ const Article = () => {
         wordcount: 100,
         language: formData.language ? formData.language : "English",
       };
-      console.log("🚀 ~ generateArticle ~ reqbody:", reqbody);
       try {
         const res = await axiosInstance.post(
           "/ai/prompt/generate_article",
           reqbody
         );
-        console.log("🚀 ~ generateArticle ~ res:", res);
-        setResponse(res.data.article);
+        if (res && res.data.code === "success") {
+          setResponse(res.data.article);
+          // record log
+          axiosInstance.post("/ai/userhistory/record-log", {
+            userId: user._id,
+            templateName: "Article Generator",
+            userInputData: formData.title,
+            language: formData.language,
+          });
+        } else {
+          toast.error("Something went wrong, please try again");
+        }
       } catch (error) {
         console.error("Error:", error);
+        toast.error("Something went wrong, please try again");
       } finally {
         setLoading(false);
       }

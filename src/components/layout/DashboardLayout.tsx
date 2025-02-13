@@ -8,21 +8,22 @@ import { RootState } from "@/redux/store";
 
 export default function DashboardLayout({ children }: { children: ReactNode }) {
   const router = useRouter();
+  const dispatch = useDispatch();
   const token = Cookies.get("token");
-  const [user, setUser] = useState<User>();
+
   useEffect(() => {
     const storedUser = Cookies.get("user");
     if (storedUser) {
       try {
-        setUser(JSON.parse(storedUser));
+        dispatch(setUser(JSON.parse(storedUser)));
       } catch (error) {
         console.error("Invalid cookie data", error);
       }
     }
   }, []);
 
-  //calling user data from redux state
-  // const user = useSelector((state: RootState) => state.userData);
+  // calling user data from redux state
+  const user = useSelector((state: RootState) => state.userData);
 
   useEffect(() => {
     if (!user && !token) {
@@ -30,7 +31,5 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
     }
   }, [user, token]);
 
-  // console.log("🚀 ~ user:", user);
-  // console.log("🚀 ~ token:", token);
   return <div>{children}</div>;
 }

@@ -6,7 +6,7 @@ import {
   Breadcrumbs,
   Link as MUILink,
 } from "@mui/material";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Hero from "../../../pages/dashboard.module.css";
 import SearchIcon from "@mui/icons-material/Search";
 import Dashnav from "../dashnav";
@@ -22,58 +22,102 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import DashboardLayout from "@/components/layout/DashboardLayout";
+// @ts-ignore
+import Cookies from "js-cookie";
+import axiosInstance from "@/utils/axios";
 
 const History = () => {
-  const rows = [
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-    {
-      name: "Google Ad Description",
-      calories: "English",
-      fat: "Feb 25,2025",
-      carbs: <DeleteIcon />,
-    },
-  ];
+  const [user, setUser] = useState<User>();
+  useEffect(() => {
+    const storedUser = Cookies.get("user");
+    if (storedUser) {
+      try {
+        setUser(JSON.parse(storedUser));
+      } catch (error) {
+        console.error("Invalid cookie data", error);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (user && user._id) {
+      getUserLogs(0);
+    }
+  }, [user]);
+
+  const [userlogs, setUserLogs] = useState([]);
+  const getUserLogs = async (pageIndex: number) => {
+    if (!user || !user._id) return;
+    if (user._id) {
+      const reqbody = {
+        userId: user._id,
+        startIndex: pageIndex ? pageIndex * 10 : 0,
+      };
+      try {
+        const res = await axiosInstance.post(
+          "/ai/userhistory/get-log-by-user",
+          reqbody
+        );
+
+        if (res && res.data) {
+          setUserLogs(res.data.data);
+        }
+      } catch (error) {
+        console.error("Error fetching user logs:", error);
+      }
+    }
+  };
+
+  // const rows = [
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  //   {
+  //     name: "Google Ad Description",
+  //     calories: "English",
+  //     fat: "Feb 25,2025",
+  //     carbs: <DeleteIcon />,
+  //   },
+  // ];
 
   return (
     <>
@@ -242,69 +286,75 @@ const History = () => {
                             </TableRow>
                           </TableHead>
                           <TableBody>
-                            {rows.map((row) => (
-                              <TableRow
-                                key={row.name}
-                                sx={{
-                                  "&:last-child td, &:last-child th": {
-                                    border: 0,
-                                  },
-                                }}
-                              >
-                                <TableCell
-                                  component="th"
-                                  scope="row"
+                            {userlogs && userlogs.length > 0 ? (
+                              userlogs.map((item: any, index) => (
+                                <TableRow
+                                  key={index}
                                   sx={{
-                                    fontFamily: "Poppins",
-                                    fontSize: "16px",
-                                    fontWeight: "400",
+                                    "&:last-child td, &:last-child th": {
+                                      border: 0,
+                                    },
                                   }}
                                 >
-                                  {row.name}
-                                </TableCell>
-                                <TableCell
-                                  align="right"
-                                  sx={{
-                                    fontFamily: "Poppins",
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    paddingLeft: "5px",
-                                    textAlign: "center",
-                                  }}
-                                >
-                                  {row.calories}
-                                </TableCell>
-                                <TableCell
-                                  align="right"
-                                  sx={{
-                                    fontFamily: "Poppins",
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    paddingRight: "38px",
-                                    color: "#000000DE",
-                                    cursor: "pointer",
-                                    textAlign: "center",
-                                  }}
-                                >
-                                  {row.fat}
-                                </TableCell>
+                                  <TableCell
+                                    component="th"
+                                    scope="row"
+                                    sx={{
+                                      fontFamily: "Poppins",
+                                      fontSize: "16px",
+                                      fontWeight: "400",
+                                    }}
+                                  >
+                                    {item.templateName}
+                                  </TableCell>
+                                  <TableCell
+                                    align="right"
+                                    sx={{
+                                      fontFamily: "Poppins",
+                                      fontSize: "16px",
+                                      fontWeight: "400",
+                                      paddingLeft: "5px",
+                                      textAlign: "center",
+                                    }}
+                                  >
+                                    {item.language}
+                                  </TableCell>
+                                  <TableCell
+                                    align="right"
+                                    sx={{
+                                      fontFamily: "Poppins",
+                                      fontSize: "16px",
+                                      fontWeight: "400",
+                                      paddingRight: "38px",
+                                      color: "#000000DE",
+                                      cursor: "pointer",
+                                      textAlign: "center",
+                                    }}
+                                  >
+                                    {new Date(
+                                      item.logDateTime
+                                    ).toLocaleString()}
+                                  </TableCell>
 
-                                <TableCell
-                                  align="right"
-                                  sx={{
-                                    fontFamily: "Poppins",
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                  }}
-                                >
-                                  <Tooltip title="Delete" arrow>
-                                    <IconButton>
-                                      <DeleteIcon />
-                                    </IconButton>
-                                  </Tooltip>
-                                </TableCell>
-                              </TableRow>
-                            ))}
+                                  <TableCell
+                                    align="right"
+                                    sx={{
+                                      fontFamily: "Poppins",
+                                      fontSize: "16px",
+                                      fontWeight: "400",
+                                    }}
+                                  >
+                                    <Tooltip title="Delete" arrow>
+                                      <IconButton>
+                                        <DeleteIcon />
+                                      </IconButton>
+                                    </Tooltip>
+                                  </TableCell>
+                                </TableRow>
+                              ))
+                            ) : (
+                              <>User logs not found</>
+                            )}
                           </TableBody>
                         </Table>
                       </TableContainer>

@@ -16,6 +16,7 @@ import Dashsidebar from "../dashsidebar";
 import DashboardLayout from "@/components/layout/DashboardLayout";
 import axiosInstance from "@/utils/axios";
 import ReactMarkdown from "react-markdown";
+import toast from "react-hot-toast";
 
 const Contentwriter = () => {
   const currencies = [
@@ -48,7 +49,6 @@ const Contentwriter = () => {
     keywords: "",
     content: "",
   });
-  console.log("🚀 ~ Contentwriter ~ formData:", formData);
 
   const handleChange = (event: any) => {
     const { name, value } = event.target;
@@ -75,10 +75,10 @@ const Contentwriter = () => {
           "/ai/prompt/rewrite_content",
           reqbody
         );
-        console.log("🚀 ~ content rewriting ~ res:", res);
         setResponse(res.data.content);
       } catch (error) {
         console.error("Error:", error);
+        toast.error("Something went wrong, please try again");
       } finally {
         setLoading(false);
       }
@@ -111,7 +111,7 @@ const Contentwriter = () => {
                 container
                 xs={12}
                 sm={12}
-                md={9.7}
+                md={9.5}
                 sx={{
                   backgroundColor: "#F8F9FA",
                   padding: { xs: "10px", sm: "5px 25px 20px 25px" },
