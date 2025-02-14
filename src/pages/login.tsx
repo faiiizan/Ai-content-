@@ -40,25 +40,36 @@ const Login = () => {
   } = useForm({ mode: "onTouched" });
 
   const onHandleSubmit = async (data: any) => {
-    const reqbody = { email: data.user_name, pass: sha256(data.password) };
-    const res = await axiosInstance.post("/ai/auth/signin", reqbody);
+    try {
+      const reqBody = {
+        email: data.user_name.trim().toLowerCase(),
+        pass: sha256(data.password), // Ensure correct hash format
+      };
 
-    if (res && res.data.status === 200) {
-      toast.success("Login Successful");
+      const res = await axiosInstance.post("/ai/auth/signin", reqBody);
 
-      //Setting up cookie
-      const user = JSON.stringify(res.data.user);
-      Cookies.set("token", res.data.token, { expires: 1, path: "/" });
-      Cookies.set("user", user, { expires: 1, path: "/" });
+      if (res.status === 200) {
+        toast.success("Login Successful");
 
-      //setting up userdata in redux state
-      const user_obj = JSON.parse(user);
-      dispatch(setUser(user_obj));
+        // Setting cookies
+        Cookies.set("token", res.data.token, { expires: 1, path: "/" });
+        Cookies.set("user", JSON.stringify(res.data.user), {
+          expires: 1,
+          path: "/",
+        });
 
-      //redirect to DB
-      router.push("/dashboard");
-    } else {
-      toast.error(res.data.message);
+        // Updating Redux state
+        dispatch(setUser(res.data.user));
+
+        // Redirecting to Dashboard
+        router.push("/dashboard");
+      } else {
+        toast.error(res.data.message || "Something went wrong");
+      }
+    } catch (error: any) {
+      toast.error(
+        error.response?.data?.message || "Server Error. Please try again."
+      );
     }
   };
 
