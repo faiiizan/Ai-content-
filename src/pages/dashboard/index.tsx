@@ -8,7 +8,7 @@ import {
   Breadcrumbs,
   Link as MUILink,
 } from "@mui/material";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import Hero from "../../pages/dashboard.module.css";
 
@@ -27,21 +27,14 @@ import Link from "next/link";
 import Dashnav from "./dashnav";
 import Dashsidebar from "./dashsidebar";
 import DashboardLayout from "@/components/layout/DashboardLayout";
+import { RootState } from "@/redux/store";
+import { useDispatch, useSelector } from "react-redux";
 // @ts-ignore
 import Cookies from "js-cookie";
 
 const Dashboard = () => {
-  const [user, setUser] = useState<User>();
-  useEffect(() => {
-    const storedUser = Cookies.get("user");
-    if (storedUser) {
-      try {
-        setUser(JSON.parse(storedUser));
-      } catch (error) {
-        console.error("Invalid cookie data", error);
-      }
-    }
-  }, []);
+  // calling user data from redux state
+  const user = useSelector((state: RootState) => state.userData.user);
 
   return (
     <>
@@ -115,7 +108,7 @@ const Dashboard = () => {
                       paddingBottom: "25px",
                     }}
                   >
-                    {`Hello, ${user ? user.name : "Guest"}`}
+                    {`Hello, ${user.name ?? "Guest"}`}
                   </Typography>
                   <Divider sx={{ color: "#D4E1E9" }} />
                   <Grid container spacing={1} sx={{ paddingTop: "25px" }}>

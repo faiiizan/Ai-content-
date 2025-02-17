@@ -57,7 +57,7 @@ const Dashnav = () => {
       }
     }
   }, []);
-  // console.log("🚀 ~ Dashnav ~ user:", user);
+
   const [open, setOpen] = useState(false); // State to control drawer visibility
 
   // Function to toggle the drawer open/close
